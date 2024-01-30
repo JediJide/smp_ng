@@ -91,7 +91,7 @@ Route::prefix('admin')->name('admin.')->middleware('auth')->group(function () {
     Route::resource('audiences', Admin\AudienceController::class);
 
     // Audit Logs
-    Route::resource('audit-logs', Admin\AuditLogsController::class, ['except' => ['create', 'store', 'edit', 'update', 'destroy']]);
+    Route::resource('audit-logs', Admin\AuditLogsController::class)->except('create', 'store', 'edit', 'update', 'destroy');
 });
 Route::prefix('profile')->name('profile.')->middleware('auth')->group(function () {
     // Change password
