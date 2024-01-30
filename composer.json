@@ -13,7 +13,6 @@
         "bugsnag/bugsnag-laravel": "^2.23",
         "darkaonline/l5-swagger": "^8.3",
         "doctrine/dbal": "^3.3",
-        "fruitcake/laravel-cors": "^2.0.5",
         "guzzlehttp/guzzle": "^7.2",
         "laravel/dusk": "^6.22",
         "laravel/framework": "^9.3.1",
@@ -28,8 +27,8 @@
         "staudenmeir/laravel-adjacency-list": "^1.10",
         "yajra/laravel-datatables-oracle": "^9.19",
         "zircote/swagger-php": "^4.2",
-      "ext-zlib": "*",
-      "ext-http": "*"
+        "ext-zlib": "*",
+        "ext-http": "*"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.6",
