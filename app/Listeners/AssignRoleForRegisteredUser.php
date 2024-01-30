@@ -21,8 +21,6 @@ class AssignRoleForRegisteredUser
 
     /**
      * Handle the event.
-     *
-     * @param  object  $event
      */
     public function handle(Registered $event): void
     {
