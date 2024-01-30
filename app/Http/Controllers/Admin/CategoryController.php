@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers\Admin;
 
+use Illuminate\Http\RedirectResponse;
+use Illuminate\View\View;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\MassDestroyCategoryRequest;
 use App\Http\Requests\StoreCategoryRequest;
@@ -13,7 +15,7 @@ use Symfony\Component\HttpFoundation\Response;
 
 class CategoryController extends Controller
 {
-    public function index()
+    public function index(): View
     {
         abort_if(Gate::denies('category_access'), Response::HTTP_FORBIDDEN, '403 Forbidden');
 
@@ -24,7 +26,7 @@ class CategoryController extends Controller
         return view('admin.categories.index', compact('categories', 'therapy_areas'));
     }
 
-    public function create()
+    public function create(): View
     {
         abort_if(Gate::denies('category_create'), Response::HTTP_FORBIDDEN, '403 Forbidden');
 
@@ -33,14 +35,14 @@ class CategoryController extends Controller
         return view('admin.categories.create', compact('therapy_areas'));
     }
 
-    public function store(StoreCategoryRequest $request)
+    public function store(StoreCategoryRequest $request): RedirectResponse
     {
         $category = Category::create($request->all());
 
         return redirect()->route('admin.categories.index');
     }
 
-    public function edit(Category $category)
+    public function edit(Category $category): View
     {
         abort_if(Gate::denies('category_edit'), Response::HTTP_FORBIDDEN, '403 Forbidden');
 
@@ -51,14 +53,14 @@ class CategoryController extends Controller
         return view('admin.categories.edit', compact('category', 'therapy_areas'));
     }
 
-    public function update(UpdateCategoryRequest $request, Category $category)
+    public function update(UpdateCategoryRequest $request, Category $category): RedirectResponse
     {
         $category->update($request->all());
 
         return redirect()->route('admin.categories.index');
     }
 
-    public function show(Category $category)
+    public function show(Category $category): View
     {
         abort_if(Gate::denies('category_show'), Response::HTTP_FORBIDDEN, '403 Forbidden');
 
@@ -76,7 +78,7 @@ class CategoryController extends Controller
         return back();
     }
 
-    public function massDestroy(MassDestroyCategoryRequest $request)
+    public function massDestroy(MassDestroyCategoryRequest $request): \Illuminate\Http\Response
     {
         Category::whereIn('id', request('ids'))->delete();
 

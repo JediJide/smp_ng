@@ -2,6 +2,9 @@
 
 namespace App\Http\Controllers\Admin;
 
+use Illuminate\Http\RedirectResponse;
+use Illuminate\View\View;
+use Illuminate\Http\JsonResponse;
 use App\Http\Controllers\Controller;
 use App\Http\Controllers\Traits\MediaUploadingTrait;
 use App\Http\Requests\MassDestroyGlossaryRequest;
@@ -18,7 +21,7 @@ class GlossaryController extends Controller
 {
     use MediaUploadingTrait;
 
-    public function index()
+    public function index(): View
     {
         abort_if(Gate::denies('glossary_access'), Response::HTTP_FORBIDDEN, '403 Forbidden');
 
@@ -29,7 +32,7 @@ class GlossaryController extends Controller
         return view('admin.glossaries.index', compact('glossaries', 'therapy_areas'));
     }
 
-    public function create()
+    public function create(): View
     {
         abort_if(Gate::denies('glossary_create'), Response::HTTP_FORBIDDEN, '403 Forbidden');
 
@@ -38,7 +41,7 @@ class GlossaryController extends Controller
         return view('admin.glossaries.create', compact('therapy_areas'));
     }
 
-    public function store(StoreGlossaryRequest $request)
+    public function store(StoreGlossaryRequest $request): RedirectResponse
     {
         $glossary = Glossary::create($request->all());
 
@@ -49,7 +52,7 @@ class GlossaryController extends Controller
         return redirect()->route('admin.glossaries.index');
     }
 
-    public function edit(Glossary $glossary)
+    public function edit(Glossary $glossary): View
     {
         abort_if(Gate::denies('glossary_edit'), Response::HTTP_FORBIDDEN, '403 Forbidden');
 
@@ -60,14 +63,14 @@ class GlossaryController extends Controller
         return view('admin.glossaries.edit', compact('glossary', 'therapy_areas'));
     }
 
-    public function update(UpdateGlossaryRequest $request, Glossary $glossary)
+    public function update(UpdateGlossaryRequest $request, Glossary $glossary): RedirectResponse
     {
         $glossary->update($request->all());
 
         return redirect()->route('admin.glossaries.index');
     }
 
-    public function show(Glossary $glossary)
+    public function show(Glossary $glossary): View
     {
         abort_if(Gate::denies('glossary_show'), Response::HTTP_FORBIDDEN, '403 Forbidden');
 
@@ -85,14 +88,14 @@ class GlossaryController extends Controller
         return back();
     }
 
-    public function massDestroy(MassDestroyGlossaryRequest $request)
+    public function massDestroy(MassDestroyGlossaryRequest $request): \Illuminate\Http\Response
     {
         Glossary::whereIn('id', request('ids'))->delete();
 
         return response(null, Response::HTTP_NO_CONTENT);
     }
 
-    public function storeCKEditorImages(Request $request)
+    public function storeCKEditorImages(Request $request): JsonResponse
     {
         abort_if(Gate::denies('glossary_create') && Gate::denies('glossary_edit'), Response::HTTP_FORBIDDEN, '403 Forbidden');
 

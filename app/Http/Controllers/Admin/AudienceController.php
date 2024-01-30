@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers\Admin;
 
+use Illuminate\Http\RedirectResponse;
+use Illuminate\View\View;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\MassDestroyAudienceRequest;
 use App\Http\Requests\StoreAudienceRequest;
@@ -12,7 +14,7 @@ use Symfony\Component\HttpFoundation\Response;
 
 class AudienceController extends Controller
 {
-    public function index()
+    public function index(): View
     {
         abort_if(Gate::denies('audience_access'), Response::HTTP_FORBIDDEN, '403 Forbidden');
 
@@ -21,35 +23,35 @@ class AudienceController extends Controller
         return view('admin.audiences.index', compact('audiences'));
     }
 
-    public function create()
+    public function create(): View
     {
         abort_if(Gate::denies('audience_create'), Response::HTTP_FORBIDDEN, '403 Forbidden');
 
         return view('admin.audiences.create');
     }
 
-    public function store(StoreAudienceRequest $request)
+    public function store(StoreAudienceRequest $request): RedirectResponse
     {
         $audiences = Audience::create($request->all());
 
         return redirect()->route('admin.audiences.index');
     }
 
-    public function edit(Audience $audience)
+    public function edit(Audience $audience): View
     {
         abort_if(Gate::denies('audience_edit'), Response::HTTP_FORBIDDEN, '403 Forbidden');
 
         return view('admin.audiences.edit');
     }
 
-    public function update(UpdateAudienceRequest $request, Audience $audience)
+    public function update(UpdateAudienceRequest $request, Audience $audience): RedirectResponse
     {
         $audience->update($request->all());
 
         return redirect()->route('admin.audiences.index');
     }
 
-    public function show(Audience $audience)
+    public function show(Audience $audience): View
     {
         abort_if(Gate::denies('audience_show'), Response::HTTP_FORBIDDEN, '403 Forbidden');
 
@@ -67,7 +69,7 @@ class AudienceController extends Controller
         return back();
     }
 
-    public function massDestroy(MassDestroyAudienceRequest $request)
+    public function massDestroy(MassDestroyAudienceRequest $request): \Illuminate\Http\Response
     {
         Audience::whereIn('id', request('ids'))->delete();
 

@@ -47,7 +47,7 @@ class LexiconApiController extends Controller
             ->setStatusCode(Response::HTTP_ACCEPTED);
     }
 
-    public function destroy(Lexicon $lexicon)
+    public function destroy(Lexicon $lexicon): \Illuminate\Http\Response
     {
         abort_if(Gate::denies('lexicon_delete'), Response::HTTP_FORBIDDEN, '403 Forbidden');
 

@@ -2,6 +2,9 @@
 
 namespace App\Http\Controllers\Admin;
 
+use Illuminate\Http\RedirectResponse;
+use Illuminate\View\View;
+use Illuminate\Http\JsonResponse;
 use App\Http\Controllers\Controller;
 use App\Http\Controllers\Traits\MediaUploadingTrait;
 use App\Http\Requests\MassDestroyReferenceRequest;
@@ -17,7 +20,7 @@ class ReferenceController extends Controller
 {
     use MediaUploadingTrait;
 
-    public function index()
+    public function index(): View
     {
         abort_if(Gate::denies('reference_access'), Response::HTTP_FORBIDDEN, '403 Forbidden');
 
@@ -26,14 +29,14 @@ class ReferenceController extends Controller
         return view('admin.references.index', compact('references'));
     }
 
-    public function create()
+    public function create(): View
     {
         abort_if(Gate::denies('reference_create'), Response::HTTP_FORBIDDEN, '403 Forbidden');
 
         return view('admin.references.create');
     }
 
-    public function store(StoreReferenceRequest $request)
+    public function store(StoreReferenceRequest $request): RedirectResponse
     {
         $reference = Reference::create($request->all());
 
@@ -48,14 +51,14 @@ class ReferenceController extends Controller
         return redirect()->route('admin.references.index');
     }
 
-    public function edit(Reference $reference)
+    public function edit(Reference $reference): View
     {
         abort_if(Gate::denies('reference_edit'), Response::HTTP_FORBIDDEN, '403 Forbidden');
 
         return view('admin.references.edit', compact('reference'));
     }
 
-    public function update(UpdateReferenceRequest $request, Reference $reference)
+    public function update(UpdateReferenceRequest $request, Reference $reference): RedirectResponse
     {
         $reference->update($request->all());
 
@@ -76,7 +79,7 @@ class ReferenceController extends Controller
         return redirect()->route('admin.references.index');
     }
 
-    public function show(Reference $reference)
+    public function show(Reference $reference): View
     {
         abort_if(Gate::denies('reference_show'), Response::HTTP_FORBIDDEN, '403 Forbidden');
 
@@ -94,14 +97,14 @@ class ReferenceController extends Controller
         return back();
     }
 
-    public function massDestroy(MassDestroyReferenceRequest $request)
+    public function massDestroy(MassDestroyReferenceRequest $request): \Illuminate\Http\Response
     {
         Reference::whereIn('id', request('ids'))->delete();
 
         return response(null, Response::HTTP_NO_CONTENT);
     }
 
-    public function storeCKEditorImages(Request $request)
+    public function storeCKEditorImages(Request $request): JsonResponse
     {
         abort_if(Gate::denies('reference_create') && Gate::denies('reference_edit'), Response::HTTP_FORBIDDEN, '403 Forbidden');
 

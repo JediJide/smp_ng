@@ -2,6 +2,7 @@
 
 namespace App\Notifications;
 
+use Closure;
 use Illuminate\Bus\Queueable;
 use Illuminate\Notifications\Messages\MailMessage;
 use Illuminate\Notifications\Notification;
@@ -44,7 +45,7 @@ class ResetPasswordNotification extends Notification
      * @param  \Closure  $callback
      * @return void
      */
-    public static function createUrlUsing($callback)
+    public static function createUrlUsing(Closure $callback): void
     {
         static::$createUrlCallback = $callback;
     }

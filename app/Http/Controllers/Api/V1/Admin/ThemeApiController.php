@@ -51,7 +51,7 @@ class ThemeApiController extends Controller
             ->setStatusCode(Response::HTTP_ACCEPTED);
     }
 
-    public function destroy(Theme $theme)
+    public function destroy(Theme $theme): \Illuminate\Http\Response
     {
         abort_if(Gate::denies('theme_delete'), Response::HTTP_FORBIDDEN, '403 Forbidden');
 

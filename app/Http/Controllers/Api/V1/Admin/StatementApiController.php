@@ -51,7 +51,7 @@ class StatementApiController extends Controller
             ->setStatusCode(Response::HTTP_ACCEPTED);
     }
 
-    public function destroy(Statement $statement)
+    public function destroy(Statement $statement): \Illuminate\Http\Response
     {
         abort_if(Gate::denies('statement_delete'), Response::HTTP_FORBIDDEN, '403 Forbidden');
 

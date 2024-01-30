@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers\Admin;
 
+use Illuminate\Http\RedirectResponse;
+use Illuminate\View\View;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\MassDestroyTherapyAreaRequest;
 use App\Http\Requests\StoreTherapyAreaRequest;
@@ -12,7 +14,7 @@ use Symfony\Component\HttpFoundation\Response;
 
 class TherapyAreaController extends Controller
 {
-    public function index()
+    public function index(): View
     {
         abort_if(Gate::denies('therapy_area_access'), Response::HTTP_FORBIDDEN, '403 Forbidden');
 
@@ -21,35 +23,35 @@ class TherapyAreaController extends Controller
         return view('admin.therapyAreas.index', compact('therapyAreas'));
     }
 
-    public function create()
+    public function create(): View
     {
         abort_if(Gate::denies('therapy_area_create'), Response::HTTP_FORBIDDEN, '403 Forbidden');
 
         return view('admin.therapyAreas.create');
     }
 
-    public function store(StoreTherapyAreaRequest $request)
+    public function store(StoreTherapyAreaRequest $request): RedirectResponse
     {
         $therapyArea = TherapyArea::create($request->all());
 
         return redirect()->route('admin.therapy-areas.index');
     }
 
-    public function edit(TherapyArea $therapyArea)
+    public function edit(TherapyArea $therapyArea): View
     {
         abort_if(Gate::denies('therapy_area_edit'), Response::HTTP_FORBIDDEN, '403 Forbidden');
 
         return view('admin.therapyAreas.edit', compact('therapyArea'));
     }
 
-    public function update(UpdateTherapyAreaRequest $request, TherapyArea $therapyArea)
+    public function update(UpdateTherapyAreaRequest $request, TherapyArea $therapyArea): RedirectResponse
     {
         $therapyArea->update($request->all());
 
         return redirect()->route('admin.therapy-areas.index');
     }
 
-    public function show(TherapyArea $therapyArea)
+    public function show(TherapyArea $therapyArea): View
     {
         abort_if(Gate::denies('therapy_area_show'), Response::HTTP_FORBIDDEN, '403 Forbidden');
 
@@ -67,7 +69,7 @@ class TherapyAreaController extends Controller
         return back();
     }
 
-    public function massDestroy(MassDestroyTherapyAreaRequest $request)
+    public function massDestroy(MassDestroyTherapyAreaRequest $request): \Illuminate\Http\Response
     {
         TherapyArea::whereIn('id', request('ids'))->delete();
 

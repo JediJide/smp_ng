@@ -65,7 +65,7 @@ class ReferenceApiController extends Controller
             ->setStatusCode(Response::HTTP_ACCEPTED);
     }
 
-    public function destroy(Reference $reference)
+    public function destroy(Reference $reference): \Illuminate\Http\Response
     {
         abort_if(Gate::denies('reference_delete'), Response::HTTP_FORBIDDEN, '403 Forbidden');
 

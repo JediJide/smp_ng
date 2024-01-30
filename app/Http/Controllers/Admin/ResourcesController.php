@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers\Admin;
 
+use Illuminate\View\View;
+use Illuminate\Http\JsonResponse;
 use App\Http\Controllers\Controller;
 use App\Http\Controllers\Traits\MediaUploadingTrait;
 use App\Http\Requests\MassDestroyResourceRequest;
@@ -19,7 +21,7 @@ class ResourcesController extends Controller
 {
     use MediaUploadingTrait;
 
-    public function index()
+    public function index(): View
     {
         abort_if(Gate::denies('resource_access'), Response::HTTP_FORBIDDEN, '403 Forbidden');
 
@@ -30,7 +32,7 @@ class ResourcesController extends Controller
         return view('admin.resources.index', compact('resources', 'users'));
     }
 
-    public function create()
+    public function create(): View
     {
         abort_if(Gate::denies('resource_create'), Response::HTTP_FORBIDDEN, '403 Forbidden');
 
@@ -54,7 +56,7 @@ class ResourcesController extends Controller
         return redirect()->route('admin.resources.index');
     }
 
-    public function edit(Resource $resource)
+    public function edit(Resource $resource): View
     {
         abort_if(Gate::denies('resource_edit'), Response::HTTP_FORBIDDEN, '403 Forbidden');
 
@@ -65,7 +67,7 @@ class ResourcesController extends Controller
         return view('admin.resources.edit', compact('resource', 'users'));
     }
 
-    public function update(UpdateResourceRequest $request, Resource $resource)
+    public function update(UpdateResourceRequest $request, Resource $resource): RedirectResponse
     {
         $resource->update($request->all());
 
@@ -86,7 +88,7 @@ class ResourcesController extends Controller
         return redirect()->route('admin.resources.index');
     }
 
-    public function show(Resource $resource)
+    public function show(Resource $resource): View
     {
         abort_if(Gate::denies('resource_show'), Response::HTTP_FORBIDDEN, '403 Forbidden');
 
@@ -104,14 +106,14 @@ class ResourcesController extends Controller
         return back();
     }
 
-    public function massDestroy(MassDestroyResourceRequest $request)
+    public function massDestroy(MassDestroyResourceRequest $request): \Illuminate\Http\Response
     {
         Resource::whereIn('id', request('ids'))->delete();
 
         return response(null, Response::HTTP_NO_CONTENT);
     }
 
-    public function storeCKEditorImages(Request $request)
+    public function storeCKEditorImages(Request $request): JsonResponse
     {
         abort_if(Gate::denies('resource_create') && Gate::denies('resource_edit'), Response::HTTP_FORBIDDEN, '403 Forbidden');
 

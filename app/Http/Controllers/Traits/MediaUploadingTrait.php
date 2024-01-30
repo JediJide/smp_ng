@@ -2,11 +2,12 @@
 
 namespace App\Http\Controllers\Traits;
 
+use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 
 trait MediaUploadingTrait
 {
-    public function storeMedia(Request $request)
+    public function storeMedia(Request $request): JsonResponse
     {
         // Validates file size
         if (request()->has('size')) {

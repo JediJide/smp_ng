@@ -65,7 +65,7 @@ class ResourcesApiController extends Controller
             ->setStatusCode(Response::HTTP_ACCEPTED);
     }
 
-    public function destroy(Resource $resource)
+    public function destroy(Resource $resource): \Illuminate\Http\Response
     {
         abort_if(Gate::denies('resource_delete'), Response::HTTP_FORBIDDEN, '403 Forbidden');
 

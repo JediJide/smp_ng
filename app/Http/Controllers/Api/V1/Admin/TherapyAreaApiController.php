@@ -44,7 +44,7 @@ class TherapyAreaApiController extends Controller
             ->setStatusCode(Response::HTTP_ACCEPTED);
     }
 
-    public function destroy(TherapyArea $therapyArea)
+    public function destroy(TherapyArea $therapyArea): \Illuminate\Http\Response
     {
         abort_if(Gate::denies('therapy_area_delete'), Response::HTTP_FORBIDDEN, '403 Forbidden');
 
