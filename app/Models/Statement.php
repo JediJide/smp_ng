@@ -52,12 +52,6 @@ class Statement extends Model implements HasMedia
 
     public $table = 'statements';
 
-    protected $dates = [
-        'created_at',
-        'updated_at',
-        'deleted_at',
-    ];
-
     protected $fillable = [
         'therapy_area_id',
         'parent_id',
