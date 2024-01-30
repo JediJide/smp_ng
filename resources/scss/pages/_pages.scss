@@ -1,0 +1,179 @@
+@import "~rfs/scss";
+
+@mixin soft-shadow {
+    box-shadow: -2px 0 7px 0 rgba(37, 37, 37, 0.05),
+        2px 2px 7px 0 rgba(37, 37, 37, 0.05);
+}
+
+// Primary palette
+$img-url: "";
+$footer-link-link-color: #fff;
+$primary-grey: #3a372e;
+
+$body-color: #29261e;
+$link-color: #fc1921;
+$border-style: #e2dfda;
+$table-row: #f1efea;
+$footer-bg: #29261e;
+
+$primary-color:#147296;
+
+// override for top logo url
+
+main {
+    // background: #fff url($img-url + "/img/pillars-bg.png");
+    // background-size: 95%;
+    // background-repeat: no-repeat;
+    // background-position-y: 4rem;
+    // background-position-x: -5rem;
+    position: relative;
+    min-height: calc(100vh - 200px);
+}
+
+.site-wrap section.navbar {
+    .tab-navbar {
+        padding: 1.3em 0 !important;
+        min-height: 70px !important;
+        z-index: 3;
+    }
+
+    &:after {
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        content: "";
+        right: 0px;
+        top: -18px;
+        left: 0px;
+        position: absolute;
+        width: 100%;
+        height: 45px;
+        z-index: 2;
+        background-color: #fcfcfa;
+        transform: skewY(-1deg);
+    }
+}
+
+.header-h1 {
+    font-family: Montserrat, sans-serif;
+    color: #29261e;
+    font-weight: 300;
+    font-size: 2.5em;
+    line-height: 1.4;
+}
+
+.site-wrap,
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner {
+    background-color: transparent;
+}
+
+.navbar,
+.navbar-brand {
+    padding: 0 !important;
+}
+
+#logo {
+    margin-left: 0 !important;
+}
+
+header {
+    h1 {
+        font-weight: 200;
+        font-style: normal;
+        margin-top: 15px;
+    }
+}
+
+.site-wrap.home {
+    position: relative;
+
+    header {
+        background-color: #fff;
+        // background-image: url($img-url + "/img/csl-header-bg.png");
+        background-size: contain;
+        background-position: top right;
+        background-repeat: no-repeat;
+        position: relative;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    section.navbar {
+        background-color: #fcfcfa;
+        z-index: 3;
+
+        &:after {
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            content: "";
+            right: 0px;
+            top: -18px;
+            left: 0px;
+            position: absolute;
+            width: 100%;
+            height: 45px;
+            z-index: 2;
+            background-color: #fcfcfa;
+            transform: skewY(-1deg);
+        }
+
+        .tab-navbar {
+            padding: 1.3em 0 !important;
+            min-height: 70px !important;
+            z-index: 3;
+            display: flex;
+        }
+    }
+}
+
+#submit-btn {
+    background: #147296;
+    color: #ffffff;
+    box-sizing: border-box;
+    position: relative;
+    -webkit-text-size-adjust: none;
+    border-radius: 4px;
+    display: inline-block;
+    overflow: hidden;
+    text-decoration: none;
+    padding: 10px 30px;
+    font-weight: 500;
+}
+
+footer {
+    position: relative;
+    background-color: $footer-bg;
+    color: white;
+    height: 100px;
+    line-height: 100px;
+}
+
+a.footer-link {
+    color: $footer-link-link-color;
+}
+
+
+.login-page{
+    .btn-primary{
+
+        background-color:$primary-color;
+        border-color:$primary-color;
+    }
+    .btn-link{
+        color:$primary-color;
+    }
+}
+.navbar-brand{
+    img{
+        width: 200px;
+        height: auto;
+    }
+}
+
+@import "invite/invite";

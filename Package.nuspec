@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>scientific.messaging.platform.v2</id>
+    <version>1.0.0</version>
+    <authors>Adam Collyer</authors>
+    <description>Nothing to see here</description>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <dependencies>
+      <dependency id="NeededForNugetCLI" version="1.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="**/**" target="" />
+  </files>
+</package>

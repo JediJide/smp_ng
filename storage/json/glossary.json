@@ -1,0 +1,857 @@
+[{
+    "Id": "ed4cfbf6-fbfa-43f9-9c49-9b399e23a015",
+    "Term": "Adeno-associated virus 5 (AAV5) neutralising antibody (NAb)",
+    "Description": "Refers to neutralizing antibodies produced against the AAV5 vector capsid.",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "2f4202ae-2666-4a13-a6c5-7fa1c099f638",
+    "Term": "Adeno-associated virus (AAV) gene therapy",
+    "Description": "Gene therapy is a technique that uses genes to treat or prevent disease. AAV gene therapy uses AAVs as vehicles to transfer genes into patients.",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "abb287c9-5088-4c26-94ea-26138b1bcb40",
+    "Term": "Adeno-associated virus (AAV) neutralizing antibody&nbsp;",
+    "Description": "Refers to neutralizing antibodies produced against the capsid of an AAV vector.",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "e3c98a5c-4ebe-4d25-8b2b-a54e12e3dc37",
+    "Term": "Adeno-associated virus (AAV) vector",
+    "Description": "A non-replicating and non-pathogenic virus-based protein shell that is engineered from the AAVs from the parvovirus family, as a vehicle to deliver a gene cassette to the nucleus of the host cell.",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "a147bf99-9296-4e28-bdc0-e76d34bd1f59",
+    "Term": "Adenovirus",
+    "Description": "Adenoviruses are a family of non-enveloped DNA viruses that can cause diseases in humans, including the common cold.",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "22583a47-6b39-4c01-b61a-c2899563da33",
+    "Term": "Affinity",
+    "Description": "Antibody affinity is defined as the strength of the binding interaction between antigen and antibody and measures the binding strength at a single binding site (epitope) of an antigen.",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "0e642385-7f0e-48a6-858c-f7db625cbe1d",
+    "Term": "Antibody",
+    "Description": "A protein that circulates in the blood and binds to a foreign substance. Antibodies are part of the humoral immune system; they may be neutralizing (i.e. inhibiting function) or non-neutralizing.",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "3caf0a00-9fe5-4860-8963-dc21e86f335d",
+    "Term": "Antigen",
+    "Description": "Any substance, such as bacteria or viruses, that causes the body’s immune system to produce antibodies against that substance.",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "914365fe-839a-472f-a940-59f048292811",
+    "Term": "Arthropathy",
+    "Description": "A collective term for any disease of the joints.",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "7f9b7b78-c9c5-424a-a2e0-55d7fb72ea3b",
+    "Term": "Avidity",
+    "Description": "Measure of the overall strength of an antibody–antigen complex across all the binding sites of an antigen.",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "9fc3e373-e10c-4c3e-a831-f726eaf1e427",
+    "Term": "Bioengineered",
+    "Description": "The application of engineering principles, practices, and technologies to the fields of medicine and biology especially in solving problems and improving care.",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "1be06780-76c9-4476-b71c-1e1d3a032f11",
+    "Term": "CAG trinucleotide repeat",
+    "Description": "A mutation that occurs when the three DNA base pairs, cytosine, adenine and guanine (CAG), appear multiple times in a row. Excessive CAG repeats can lead to disease (e.g. Fragile X syndrome, Huntington’s disease).",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "da482b82-8c2e-4013-be0f-5b5f35401834",
+    "Term": "<span style=\"line-height: 107%;\">Capsid\n(or viral shell or vehicle)</span>",
+    "Description": "The outside protein shell that protects a virus and helps it penetrate a cell membrane. A capsid protects the contents, and helps the virus attach to a targeted cell to penetrate the cell membrane. In gene therapy, the special characteristics of a capsid can enable gene delivery to specific cells.",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "6b8ffa78-27a9-4a53-9294-ad6f6f7da913",
+    "Term": "Capsid-specific T-cell response",
+    "Description": "<span style=\"line-height: 107%;\">AAV\ncapsids can elicit a cellular cytotoxic T-cell response that leads to the\nremoval of transduced cells, limiting the efficacy of gene therapy.</span>",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "57e8cb20-577e-401e-884d-070dae580dfe",
+    "Term": "Cell",
+    "Description": "The building blocks for all living things. The trillions of cells in the body provide structure and function to all parts of the body. Cells contain DNA and are the smallest structural and functional unit of an organism.",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "2a7bf834-7cf4-421f-b375-4f8644195a7c",
+    "Term": "Cellular immune response",
+    "Description": "Immune T cells are activated, enabling them to destroy cells that have been infected with pathogens, e.g. viruses; or produce cytokines, which are small proteins that can influence the behavior of other immune cells nearby. They destroy the pathogens without producing antibodies.",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "a10dcd1c-e3f0-4e88-9bb9-128ee4590a3a",
+    "Term": "Cellular or cell therapy",
+    "Description": "The transfer of viable, purified cells to a patient with the goal of improving disease is known as cell therapy; some cell therapy approaches utilize genetically modified cells (e.g. CAR T cell therapy).",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "3026193f-16b6-4864-9357-ecc478922790",
+    "Term": "Codon",
+    "Description": "A sequence of three DNA or RNA nucleotides that corresponds to a specific amino acid or stop signal during protein synthesis.",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "ecb062db-4029-4053-b556-2860c71a5052",
+    "Term": "Concatamer",
+    "Description": "Multiple copies of the AAV vector genetic material linked together inside the episomes. These structures exist outside the patient's own genetic material (chromosomes).",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "15317218-1b5f-468c-aa52-6709271d0b74",
+    "Term": "Cross-reactivity",
+    "Description": "Antibodies can exist (are prevalent) in people who have been previously or naturally exposed to AAV. Antibodies that react to one type (serotype) of AAV might also be able to cross-react with other types of AAV (cross-reactivity).",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "c959cd6a-3ae5-485a-a325-bf3005fa408c",
+    "Term": "DNA (deoxyribonucleic acid)",
+    "Description": "Genetic material found in the nucleus of cells that contains instructions to direct the cell’s activity. DNA makes each individual unique through a distinctive code that is specific for that person.",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "4b3ace17-2701-403b-8f17-ce696ea929b0",
+    "Term": "Endocytosis",
+    "Description": "The highly conserved process by which external substances are internalized by cells.",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "b8e36941-7e91-4b12-93ab-6179400c99b1",
+    "Term": "Endogenous",
+    "Description": "Produced or synthesized within the organism or system – e.g. endogenous factor IX produced from cells in the liver.",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "4a88a57c-322f-4974-9102-371ee1708d39",
+    "Term": "Entry factors",
+    "Description": "Host factors that effect AAV cellular entry downstream of the cell-surface attachment step.",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "458c30bb-aa56-4197-8b84-8240418872ba",
+    "Term": "Episodic therapy",
+    "Description": "Treatment given in response to a bleed (also known as on-demand therapy).",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "e025ac33-c95e-438c-890d-749f1408bb88",
+    "Term": "Episome",
+    "Description": "Circular DNA found in the nucleus that does not integrate into the chromosome and independently replicates.",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "eadf97fd-0d54-4b8f-b5f5-789c5e77d756",
+    "Term": "<i>Ex vivo</i> gene therapy",
+    "Description": "Gene therapy that is delivered to cells outside a patient’s body and then transferred back into the patient. Ex-vivo gene therapy is a therapeutic technique where some of the patient’s cells are collected, genetically modified outside the body, and then delivered back into the patient for the treatment of disease.",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "9566ed7b-0297-422e-9ad6-c884765af6ba",
+    "Term": "Exogenous",
+    "Description": "Introduced from or produced outside the organism or system.",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "befaa46e-9f42-4dd2-b2ba-83199cf24a7b",
+    "Term": "Expression cassette (or gene expression cassette)",
+    "Description": "The genetic material the gene therapy vector delivers to the target cells. It typically contains the functional gene and other regulatory elements to help direct expression.",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "df60d3b7-5fa0-4b19-82fb-6fc7fd4c96cd",
+    "Term": "Factor IX (FIX)",
+    "Description": "FIX plays a key role in the initiation and propagation of a blood clot. The lack of functional FIX prevents the formation of a stable platelet plug clot in people with hemophilia B.",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "f0b688ad-62d3-4d87-9d77-aebbc6543470",
+    "Term": "Functional cure",
+    "Description": "Normal hemostasis induced by a therapy in an individual who may not have normal coagulation factor levels.",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "380eeecc-8229-43c8-8d72-716a68219465",
+    "Term": "Functional protein (hemophilia only)",
+    "Description": "In hemophilia, gene augmentation delivers a working version of the gene into a cell, allowing production of a working (functional) version of that specific protein (for hemophilia B, FIX).",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "34e06b90-d252-4746-86c5-f61de5464349",
+    "Term": "Gene",
+    "Description": "A sequence of DNA bases (nucleotides) that provides the cell with instructions to make proteins, which carry out specific functions in the body.",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "4df5bb66-09c4-494c-b333-89b06a35e229",
+    "Term": "Gene addition",
+    "Description": "<span style=\"line-height: 107%;\">Adds\na functional version of the dysfunctional/mutated gene back into the cell.</span>",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "3a366a51-ea01-487e-b66e-a3e29785b7df",
+    "Term": "Gene expression",
+    "Description": "The process by which a gene's coded instructions are translated into mRNA and then protein.",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "97b44a7b-da29-4caa-a1f0-83948e1a9819",
+    "Term": "Gene inactivation or gene silencing&nbsp;",
+    "Description": "<div>The process of turning off or suppressing transcription of a gene so that no protein or a reduced amount of protein is expressed.</div><div>Note: This is the underlying mechanism behind approaches such as siRNA and miRNA, where gene transcription is reduced/precluded.</div>",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "be56264a-a95c-4349-bb39-04fa9aa05fc9",
+    "Term": "<span style=\"line-height: 107%;\">Gene\ntherapy</span>",
+    "Description": "Defined as a novel method of treatment that modifies a person’s genes to treat or cure disease. Gene therapy can be administered as <i>ex-vivo</i> or <i>in vivo</i>.",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "9f8437de-65e1-470c-9a4f-cb01af86d9d1",
+    "Term": "Gene therapy platform",
+    "Description": "A platform is the technology used to deliver the gene therapy.",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "faaaf20d-37d4-4546-9569-9c6c53f42bc4",
+    "Term": "Genome",
+    "Description": "The complete set of genes in an organism in humans, the genome is all of the DNA contained in the 23 pairs of chromosomes.",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "2b102b9e-d4b0-44a1-a887-432c8932c169",
+    "Term": "Genome copies (gc)",
+    "Description": "gc are used to describe the amount (dose) of viral gene delivery vehicles (particles) that are given to a patient (in gc/kg). Analytical techniques are used that measure the amount of AAV genetic material (or genomes).",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "5b5ffc55-23d5-4856-a3c9-d5616f75ce62",
+    "Term": "Genotoxicity",
+    "Description": "Damage to or alteration in cellular DNA that can lead to mutations or cancer.",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "d2bcc801-2ea2-49a3-a2d6-f99700678ec4",
+    "Term": "Genotype",
+    "Description": "Refers to the genetic makeup of an organism; describes an organism's complete set of genes. The term can be used to refer to the alleles, or variant forms of a gene, that are carried by an organism.",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "ee261294-0f8e-49e3-a49a-4b45193b9d20",
+    "Term": "Helper virus",
+    "Description": "A virus that allows an otherwise deficient coinfecting virus to replicate.",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "0326cc8b-6b18-4e16-9e44-16820ec94594",
+    "Term": "Hemarthrosis (or articular bleeding)",
+    "Description": "Bleeding into a joint cavity. Its presence can be suspected based on patient history, physical exam, and multiple imaging modalities.",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "cecfb6fb-3137-4251-b0f0-202b6452a6e4",
+    "Term": "Hemophilia",
+    "Description": "Refers to a group of rare, hereditary bleeding disorders, caused by congenital deficiency of certain clotting factors that affects the blood's ability to clot.",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "3455cf7b-ef1d-4bb4-b170-82463f95613a",
+    "Term": "Hemophilia A",
+    "Description": "A rare, hereditary bleeding disorder resulting from a defect in the gene that encodes coagulation factor VIII.",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "d7d60b9e-ddf3-4d08-a19e-ff949dda2aae",
+    "Term": "Hemophilia B",
+    "Description": "A rare, hereditary bleeding disorder resulting from a defect in the gene that encodes coagulation FIX.",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "f1b7f95f-a273-40d8-9e2f-d100f260db95",
+    "Term": "Hepatocytes",
+    "Description": "An epithelial parenchymatous cell of the liver.",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "747bca18-8863-4342-b386-c2ba9ceb106f",
+    "Term": "Homology",
+    "Description": "A similarity of nucleotide or amino acid sequence (as in nucleic acids or proteins).",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "7a520581-0cc8-4eca-8171-0a3f4932f479",
+    "Term": "Host",
+    "Description": "An individual into which a tissue, part, or embryo is transplanted from another.",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "cd883e17-4ee3-422c-8bf8-b481e647512c",
+    "Term": "Humoral immune response",
+    "Description": "Refers to antibody production by specialized immune cells (B cells) in response to a foreign substance (e.g. viruses, bacteria).",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "8ecb930f-b999-4dc5-b6d7-236be3ff118c",
+    "Term": "Immune recognition",
+    "Description": "Effective immunity to infectious agents requires the initial recognition of antigen by specific receptors, which leads to the activation of immunocytes and the elicitation of an immune response.",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "73d1e3e3-0dbd-44f2-b4f0-a23fb5890d72",
+    "Term": "Immune tolerance induction",
+    "Description": "A therapeutic approach to inhibitor eradication whereby the body's immune system begins to tolerate a therapy, most often after daily high doses of factor are administered over time.",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "63d51b75-c2ba-4d21-bd68-1e54e16e101d",
+    "Term": "Immunogenicity",
+    "Description": "The ability of a foreign substance, e.g., an antigen, to provoke an immune response (can be a humoral and/or cell-mediated immune response).",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "1d75d812-cc69-4fbb-828a-fafda7a16c26",
+    "Term": "Immunosuppression",
+    "Description": "<span style=\"line-height: 107%;\">The\ndampening down of the body’s ability to ward off disease and infection. It can\nbe induced deliberately using pharmaceutical drugs, for example in organ transplantation.\nIn AAV gene therapy, immunosuppression is sometimes used to reduce the cellular\nimmune response.</span>",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "95765534-a4ff-4f82-8312-1338d2b0f0d6",
+    "Term": "<i>In vivo</i> gene therapy",
+    "Description": "Gene therapy that modifies cells inside a patient’s body. A new or corrected gene is transferred to cells inside the patient’s body.",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "53c8d2ef-5c24-4c0b-9578-cdce98f7716c",
+    "Term": "Incidence",
+    "Description": "The occurrence, rate, or frequency of a disease.",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "bae23e1b-f380-4ace-884a-cb3c19f1e2a1",
+    "Term": "Infusion-related reactions (IRRs)",
+    "Description": "A response characterized by adverse reaction to the infusion of pharmacological or biological substances.",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "b27f0e39-799c-4926-bf26-95befec6e66b",
+    "Term": "Inherit",
+    "Description": "To receive genetic material from parents.",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "b82d91f5-50e8-4f81-bf5f-e973d80ff0f4",
+    "Term": "Insertional mutagenesis",
+    "Description": "Mutation caused by insertion of new genetic material into a normal gene, particularly of retroviruses into chromosomal DNA.",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "fd2a6b0a-a313-4d5a-80a1-29fe91d8b6e9",
+    "Term": "Intracranial hemorrhage (ICH)",
+    "Description": "Bleeding from a ruptured blood vessel within the cranium.",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "e0f60d58-97fe-4e52-8ee1-b7c22224b7b8",
+    "Term": "Inverted terminal repeats (ITRs)",
+    "Description": "Sequences of genetic code (145-bp) at each end of AAV vector genetic material. These help the therapeutic genetic materials to concatemerize.",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "c1969872-56b9-4ddf-ad6f-16b7d7be3b9f",
+    "Term": "Lentivirus vector",
+    "Description": "Lentivirus vectors use parts of a lentivirus that are made harmless. The lentivirus vector can integrate its genome into both dividing and non-dividing cells in the body, leading to new gene expression that is designed to be stable and durable.",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "9f5dd939-7c78-4aa2-83de-14257ffbcdb1",
+    "Term": "Messenger RNA (mRNA)",
+    "Description": "Carries the instructions for making a protein.",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "a6832dec-ee30-48b1-bd35-2bace74b8f45",
+    "Term": "MicroRNA (miRNA)",
+    "Description": "Binds to mRNA to block mRNA from making protein.",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "8c1967d6-f552-4b49-97af-dd5be37ba7e6",
+    "Term": "Monogenic disease",
+    "Description": "Single gene disorders, where the disease is caused by changes in a single gene in the cells.",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "a5471570-e675-4b9a-a1f0-835a51175190",
+    "Term": "Mutation",
+    "Description": "A change in the composition of a gene and/or its protein product that alters the protein function.",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "551fb997-7de2-4cff-9413-d9fb840e7d1b",
+    "Term": "Nucleus",
+    "Description": "The core of the cell, which contains DNA.",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "a406f1d6-1fa4-4197-b8fb-9cfe45e2dd4d",
+    "Term": "Padua variant",
+    "Description": "A naturally occurring highly active FIX variant (variation from a type or norm), first described in some families in the Padua region of Italy.",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "2968db85-cb84-4739-a16f-fa42d3c0c273",
+    "Term": "People with hemophilia (PWH)",
+    "Description": "Used to define individuals with hemophilia B.",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "8866fd72-cc90-4ba3-9edc-4ea44546cdba",
+    "Term": "Phenotype",
+    "Description": "A person’s observable physical traits, such as eye color, height, and blood type.",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "8315dc59-325c-49c1-ae83-a6d46e98d1df",
+    "Term": "Prevalence",
+    "Description": "The percentage of a population that is affected with a particular disease at a given time.",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "6d3c5c59-d1d2-457a-a5a7-b80972918a89",
+    "Term": "Promoter",
+    "Description": "Short sequences of DNA that instruct the cell when and how often to read the gene that follows. Promoters can contain components that make them more likely to work in specific areas (or tissues) of the body e.g., liver.",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "8d79dfe6-f814-43f5-b251-ed17e1e31d77",
+    "Term": "Prophylaxis",
+    "Description": "In hemophilia, prophylaxis is defined as the administration of clotting factor product at regular intervals in anticipation of or to prevent bleeding.",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "fee2a64f-42cb-4210-8b7d-9a7e4987c9d4",
+    "Term": "Recessive disorder",
+    "Description": "A genetic condition that appears only in individuals who have received two copies of an autosomal gene, one copy from each parent. Produces little or no phenotypic effect when occurring in heterozygous condition with a contrasting allele.",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "fa5599de-7135-4214-a714-6a89a9e5acf2",
+    "Term": "<i>Rep</i> (or <i>cap</i>) gene",
+    "Description": "<div>The AAV virus needs a gene called rep to make copies of itself. When AAV viruses are used as gene delivery vehicles the rep gene has been removed to ensure replication cannot occur.</div><div>Cap genes are structural; their products form the AAV capsid. The cap gene is also omitted from vector constructs.</div><div><br></div>",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "b2e8b327-fac5-4ea4-8e98-9ce5d688af0b",
+    "Term": "Reporter gene",
+    "Description": "A reporter gene contains the genetic code for something that is easy to observe e.g., a colored or glowing protein. Reporter genes are often used in early experiments. They help to show where the AAV vehicle is delivering its genetic payload.",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "fb300639-a6ce-4385-ab12-0c8bd69b22fb",
+    "Term": "Seroprevalence",
+    "Description": "The number of people in a population that test positive for antibody to an antigen, based on exceeding a titer threshold.",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "39532666-471e-473a-841c-71d806ed69ad",
+    "Term": "Serotypes",
+    "Description": "Different subtypes of AAV are called serotypes. The different serotypes have distinct protein shells that influence delivery of the functional gene, activation of the human immune system, and their ability to enter different types of cells (tropism).",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "0d9758a6-ed63-476d-ba71-11f9fbf7b0fb",
+    "Term": "Target joint",
+    "Description": "<div>Bleeding into the joints (or hemarthrosis) is the most common manifestation of severe hemophiliacs. Although it may resolve spontaneously or with treatment, some patients find that one particular joint has recurrent bleeding; this is termed a target joint. Recurrent bleeding prevents the joint from regaining its range of motion, muscle strength and normal appearance.</div><div><br></div><div>The definition of a target joint varies, but most commonly it refers to a joint in which three or more spontaneous bleeds have occurred within a consecutive 6-month period.</div>",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "031823df-a4c1-4792-9166-ddcfdbb045b8",
+    "Term": "Titer",
+    "Description": "<span style=\"line-height: 107%;\">A\nmeasure of how much antibody has been produced.</span>",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "609a74cb-d3b4-4d58-9773-5614b562ea67",
+    "Term": "Transaminitis",
+    "Description": "Refers to high levels of certain liver enzymes, called transaminases. The presence of elevated transaminases, commonly alanine transaminase (ALT) and aspartate transaminase (AST), may be an indicator of liver dysfunction.",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "000b670e-b242-4889-ba06-28968bcb6224",
+    "Term": "Transcription",
+    "Description": "The process of turning DNA into mRNA.",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "bce24015-1f75-4382-92e7-fd86b55efef7",
+    "Term": "Transduction",
+    "Description": "The process of introducing genetic material into another cell by an infectious agent, e.g., a virus.",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "82cbf5c9-15bd-4f46-8c39-3b3a55da533d",
+    "Term": "Transgene (or functional gene)",
+    "Description": "Describes the working gene/genetic material that has been inserted in the gene delivery vehicle (vector).",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "bfb19d67-341b-4e48-b6cd-9a0c446ad673",
+    "Term": "Tropism",
+    "Description": "The natural attraction of a virus or vector to receptors present only on certain cells or tissues. Gene therapy researchers exploit tropisms to help different viruses, lipid particles, or other therapeutic carriers reach their targeted cells.",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "68d60dc9-9272-46dc-8135-7650207cfdc9",
+    "Term": "Variant",
+    "Description": "A variation from a type or norm (e.g., a variant strain of a disease).",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "721ae2e0-8751-4707-a098-17fb5a0011e5",
+    "Term": "Vector",
+    "Description": "Delivery vehicles, or carriers, that encapsulate therapeutic genes for delivery to cells. These include both disabled viruses and non-viral vectors, such as lipid particles. Vectors don’t replicate; they carry the functional gene to the cells.",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "aaa4fe84-cbc7-44b1-9608-818e3198a1f0",
+    "Term": "Vector design",
+    "Description": "Describes the individual components of the delivery vehicle e.g., gene cassette, to create a specific configuration.",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "27feb332-5bb7-4ea5-95ad-8e5f479e6c22",
+    "Term": "Vector horizontal transmission",
+    "Description": "<span style=\"line-height: 107%;\">Refers\nto the spread of the vector to other individuals through contact with the\npatient who received the vector, such as via contact with bodily fluids\ncontaining the vector.</span>",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "dcf5f00e-ef32-4a7e-a57c-49527533ec42",
+    "Term": "Vector integration",
+    "Description": "When genetic material is inserted into the patient’s own chromosomes, which occurs infrequently with AAV.",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "6fbbf3d7-036f-4c5e-8cb5-75e69bb55430",
+    "Term": "Vector shedding (or vector clearance)",
+    "Description": "Vertical transmission is when changes introduced into a patient’s cells are passed on (transmitted) to subsequent children the patient has. This can happen if the vector changes genes in egg cells in females or sperm cells in males.",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "eb916067-eb7d-4858-ad67-48e6fd61faa9",
+    "Term": "<span style=\"line-height: 107%;\">Vector\nvertical transmission</span>",
+    "Description": "Vertical transmission is when changes introduced into a patient’s cells are passed on (transmitted) to subsequent children the patient has. This can happen if the vector changes genes in egg cells in females or sperm cells in males.",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "6bcd8852-341c-43ea-b081-36aa5b43dc87",
+    "Term": "Virus",
+    "Description": "<span style=\"line-height: 107%;\">Viruses\nare made up of a genome and a protein shell and have evolved to efficiently\ndeliver the genome inside the cells they infect. Viruses use their genetic\nmaterial to replicate.</span>",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}, {
+    "Id": "4e79c294-a6c3-4773-92f7-0f2f0796936d",
+    "Term": "<span style=\"line-height: 107%;\">Wild\ntype</span>",
+    "Description": "<span style=\"line-height: 107%;\">The\nmost frequently occurring form, appearance, or strain existing in nature.</span>",
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    }
+}]
+

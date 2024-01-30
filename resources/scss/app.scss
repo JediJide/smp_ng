@@ -1,0 +1,26 @@
+
+// @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600&display=swap');
+
+// @import 'vendor/flag-icon/flag-icon.scss';
+
+$enable-responsive-font-sizes:true;
+
+// Bootstrap and its default variables
+// @import 'node_modules/bootstrap/scss/bootstrap';
+
+// @import "helpers/variables";
+// @import "helpers/typography";
+
+// @import "helpers/mixins";
+
+// @import "layout/layout";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap');
+
+
+@import "pages/pages";
+
+@import "components/components";
+
+
+

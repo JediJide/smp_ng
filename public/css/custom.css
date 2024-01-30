@@ -1,0 +1,267 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap);
+main {
+  position: relative;
+  min-height: calc(100vh - 200px);
+}
+
+.site-wrap section.navbar .tab-navbar {
+  padding: 1.3em 0 !important;
+  min-height: 70px !important;
+  z-index: 3;
+}
+.site-wrap section.navbar:after {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  content: "";
+  right: 0px;
+  top: -18px;
+  left: 0px;
+  position: absolute;
+  width: 100%;
+  height: 45px;
+  z-index: 2;
+  background-color: #fcfcfa;
+  transform: skewY(-1deg);
+}
+
+.header-h1 {
+  font-family: Montserrat, sans-serif;
+  color: #29261e;
+  font-weight: 300;
+  font-size: 2.5em;
+  line-height: 1.4;
+}
+
+.site-wrap,
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner {
+  background-color: transparent;
+}
+
+.navbar,
+.navbar-brand {
+  padding: 0 !important;
+}
+
+#logo {
+  margin-left: 0 !important;
+}
+
+header h1 {
+  font-weight: 200;
+  font-style: normal;
+  margin-top: 15px;
+}
+
+.site-wrap.home {
+  position: relative;
+}
+.site-wrap.home header {
+  background-color: #fff;
+  background-size: contain;
+  background-position: top right;
+  background-repeat: no-repeat;
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.site-wrap.home section.navbar {
+  background-color: #fcfcfa;
+  z-index: 3;
+}
+.site-wrap.home section.navbar:after {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  content: "";
+  right: 0px;
+  top: -18px;
+  left: 0px;
+  position: absolute;
+  width: 100%;
+  height: 45px;
+  z-index: 2;
+  background-color: #fcfcfa;
+  transform: skewY(-1deg);
+}
+.site-wrap.home section.navbar .tab-navbar {
+  padding: 1.3em 0 !important;
+  min-height: 70px !important;
+  z-index: 3;
+  display: flex;
+}
+
+#submit-btn {
+  background: #147296;
+  color: #ffffff;
+  box-sizing: border-box;
+  position: relative;
+  -webkit-text-size-adjust: none;
+  border-radius: 4px;
+  display: inline-block;
+  overflow: hidden;
+  text-decoration: none;
+  padding: 10px 30px;
+  font-weight: 500;
+}
+
+footer {
+  position: relative;
+  background-color: #29261e;
+  color: white;
+  height: 100px;
+  line-height: 100px;
+}
+
+a.footer-link {
+  color: #fff;
+}
+
+.login-page .btn-primary {
+  background-color: #147296;
+  border-color: #147296;
+}
+.login-page .btn-link {
+  color: #147296;
+}
+
+.navbar-brand img {
+  width: 200px;
+  height: auto;
+}
+
+.ck-editor__editable, textarea {
+  min-height: 150px;
+}
+
+.datatable {
+  width: 100% !important;
+}
+
+table.dataTable tbody td.select-checkbox::before, table.dataTable tbody td.select-checkbox::after {
+  top: 50%;
+}
+table.dataTable tbody th.select-checkbox::before, table.dataTable tbody th.select-checkbox::after {
+  top: 50%;
+}
+
+.dataTables_length, .dataTables_filter, .dt-buttons {
+  margin-bottom: 0.333em;
+  margin-top: 0.2rem;
+}
+
+.dataTables_filter {
+  margin-right: 0.2rem;
+}
+
+.dt-buttons .btn {
+  margin-left: 0.333em;
+  border-radius: 0;
+}
+
+.table.datatable {
+  box-sizing: border-box;
+  border-collapse: collapse;
+}
+
+table.dataTable thead th {
+  border-bottom: 2px solid #c8ced3;
+}
+
+.dataTables_wrapper.no-footer .dataTables_scrollBody {
+  border-bottom: 1px solid #c8ced3;
+}
+
+.select2 {
+  max-width: 100%;
+  width: 100% !important;
+}
+
+.select2-selection__rendered {
+  padding-bottom: 5px !important;
+}
+
+.has-error .invalid-feedback {
+  display: block !important;
+}
+
+.btn-info, .badge-info {
+  color: white;
+}
+
+table.dataTable thead .sorting, table.dataTable thead .sorting_asc, table.dataTable thead .sorting_desc {
+  background-image: none;
+}
+
+.sidebar .nav-item {
+  cursor: pointer;
+}
+
+.btn-default {
+  color: #23282c;
+  background-color: #f0f3f5;
+  border-color: #f0f3f5;
+}
+.btn-default.focus, .btn-default:focus {
+  box-shadow: 0 0 0 0.2rem rgba(209, 213, 215, 0.5);
+}
+.btn-default:hover {
+  color: #23282c;
+  background-color: #d9e1e6;
+  border-color: #d1dbe1;
+}
+
+.btn-group-xs > .btn, .btn-xs {
+  padding: 1px 5px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+
+.searchable-title {
+  font-weight: bold;
+}
+
+.searchable-fields {
+  padding-left: 5px;
+}
+
+.searchable-link {
+  padding: 0 5px 0 5px;
+}
+.searchable-link:hover {
+  cursor: pointer;
+  background: #eaeaea;
+}
+
+.select2-results__option {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.form-group .required::after {
+  content: " *";
+  color: red;
+}
+
+.form-check.is-invalid ~ .invalid-feedback {
+  display: block;
+}
+
+.c-sidebar-brand .c-sidebar-brand-full:hover {
+  color: inherit;
+}
+
+.custom-select.form-control-sm {
+  padding: 0.25rem 1.5rem;
+}
+
+.password-form-hint {
+  font-size: 12px;
+  padding-top: 10px;
+}

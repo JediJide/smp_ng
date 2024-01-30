@@ -1,0 +1,1564 @@
+{
+    "Id": "e359bc77-9567-41fa-8002-d6bff55f8feb",
+    "Title": "<b>Pillar 1:</b> Gene therapy overview",
+    "Description": "<b>Core statement:</b>&nbsp;<span lang=\"EN-US\" style=\"line-height: 107%;\">Gene therapy is an innovative transformative treatment that modifies a person's genes to treat or cure a disease, with several agents already approved for use.</span><div><div><span lang=\"EN-US\" style=\"line-height: 107%;\"><br></span></div></div>",
+    "ParentId": "00000000-0000-0000-0000-000000000000",
+    "Status": 0,
+    "Index": null,
+    "Theme": {
+        "Id": "382d487a-dd73-4b5a-a1ae-b22f6384c6b7",
+        "Name": "<b>Pillar 1:</b> Gene therapy overview",
+        "Description": "<span style=\"font-size:9.0pt;font-family:&quot;Montserrat Light&quot;; mso-ascii-font-family:&quot;Montserrat Light&quot;;mso-fareast-font-family:+mn-ea; mso-bidi-font-family:+mn-cs;mso-ascii-theme-font:minor-latin;mso-fareast-theme-font: minor-fareast;mso-bidi-theme-font:minor-bidi;color:#231F20;mso-color-index: 1;mso-font-kerning:12.0pt;language:en-GB;mso-style-textfill-type:solid; mso-style-textfill-fill-themecolor:text1;mso-style-textfill-fill-color:#231F20; mso-style-textfill-fill-alpha:100.0%\">Strategic objective: Provide an overview of gene therapy and its potential benefits</span>"
+    },
+    "References": [],
+    "SubStatements": [
+        {
+            "Id": "a1831c16-eaea-44ad-9ea1-32b74cfc2cb5",
+            "Title": "<b>Pillar 1:</b> Gene therapy overview",
+            "Description": "<span lang=\"EN-US\" style=\"line-height: 107%;\">S1. Gene therapy is an innovative approach to treating or curing a disease by introducing a functional gene or inactivating/editing a disease-causing gene.&nbsp;</span>",
+            "ParentId": "e359bc77-9567-41fa-8002-d6bff55f8feb",
+            "Status": 0,
+            "Index": 0,
+            "Theme": {
+                "Id": "382d487a-dd73-4b5a-a1ae-b22f6384c6b7",
+                "Name": "<b>Pillar 1:</b> Gene therapy overview",
+                "Description": "<span style=\"font-size:9.0pt;font-family:&quot;Montserrat Light&quot;; mso-ascii-font-family:&quot;Montserrat Light&quot;;mso-fareast-font-family:+mn-ea; mso-bidi-font-family:+mn-cs;mso-ascii-theme-font:minor-latin;mso-fareast-theme-font: minor-fareast;mso-bidi-theme-font:minor-bidi;color:#231F20;mso-color-index: 1;mso-font-kerning:12.0pt;language:en-GB;mso-style-textfill-type:solid; mso-style-textfill-fill-themecolor:text1;mso-style-textfill-fill-color:#231F20; mso-style-textfill-fill-alpha:100.0%\">Strategic objective: Provide an overview of gene therapy and its potential benefits</span>"
+            },
+            "References": [],
+            "SubStatements": [
+                {
+                    "Id": "8cc4ad35-617e-4060-85d1-6f366d01aebe",
+                    "Title": "<b>Pillar 1:</b> Gene therapy overview",
+                    "Description": "<span lang=\"EN-US\" style=\"line-height: 107%;\">Gene therapy is defined as a technique that modifies a person’s genes to treat or cure disease.&nbsp;</span><a id=\"39cd3ade-ecf6-4002-aac0-9f216fc9caa9_1\" class=\"btn-ref\"><sup>1</sup></a>&nbsp;&nbsp;",
+                    "ParentId": "a1831c16-eaea-44ad-9ea1-32b74cfc2cb5",
+                    "Status": 0,
+                    "Index": null,
+                    "Theme": {
+                        "Id": "382d487a-dd73-4b5a-a1ae-b22f6384c6b7",
+                        "Name": "<b>Pillar 1:</b> Gene therapy overview",
+                        "Description": "<span style=\"font-size:9.0pt;font-family:&quot;Montserrat Light&quot;; mso-ascii-font-family:&quot;Montserrat Light&quot;;mso-fareast-font-family:+mn-ea; mso-bidi-font-family:+mn-cs;mso-ascii-theme-font:minor-latin;mso-fareast-theme-font: minor-fareast;mso-bidi-theme-font:minor-bidi;color:#231F20;mso-color-index: 1;mso-font-kerning:12.0pt;language:en-GB;mso-style-textfill-type:solid; mso-style-textfill-fill-themecolor:text1;mso-style-textfill-fill-color:#231F20; mso-style-textfill-fill-alpha:100.0%\">Strategic objective: Provide an overview of gene therapy and its potential benefits</span>"
+                    },
+                    "References": [
+                        {
+                            "Id": "39cd3ade-ecf6-4002-aac0-9f216fc9caa9",
+                            "Description": "FDA_What is Gene Therapy_ 2018_P1",
+                            "Url": "",
+                            "Index": 1,
+                            "Tag": "n/a",
+                            "HasFile": true
+                        }
+                    ],
+                    "SubStatements": [],
+                    "StatementResources": []
+                },
+                {
+                    "Id": "a13359ee-920c-4096-a916-6b346b032f01",
+                    "Title": "<b>Pillar 1:</b> Gene therapy overview",
+                    "Description": "<span lang=\"EN-US\" style=\"line-height: 107%;\"> Gene therapies work by introducing a functional gene (transgene) or inactivating/editing a disease-causing gene.&nbsp;</span><a id=\"39cd3ade-ecf6-4002-aac0-9f216fc9caa9_1\" class=\"btn-ref\"><sup>1</sup></a>&nbsp;<a id=\"b0635431-1ed1-40cb-b923-213cb0360360_2\" class=\"btn-ref\"><sup>2</sup></a>&nbsp;",
+                    "ParentId": "a1831c16-eaea-44ad-9ea1-32b74cfc2cb5",
+                    "Status": 0,
+                    "Index": 1,
+                    "Theme": {
+                        "Id": "382d487a-dd73-4b5a-a1ae-b22f6384c6b7",
+                        "Name": "<b>Pillar 1:</b> Gene therapy overview",
+                        "Description": "<span style=\"font-size:9.0pt;font-family:&quot;Montserrat Light&quot;; mso-ascii-font-family:&quot;Montserrat Light&quot;;mso-fareast-font-family:+mn-ea; mso-bidi-font-family:+mn-cs;mso-ascii-theme-font:minor-latin;mso-fareast-theme-font: minor-fareast;mso-bidi-theme-font:minor-bidi;color:#231F20;mso-color-index: 1;mso-font-kerning:12.0pt;language:en-GB;mso-style-textfill-type:solid; mso-style-textfill-fill-themecolor:text1;mso-style-textfill-fill-color:#231F20; mso-style-textfill-fill-alpha:100.0%\">Strategic objective: Provide an overview of gene therapy and its potential benefits</span>"
+                    },
+                    "References": [
+                        {
+                            "Id": "b0635431-1ed1-40cb-b923-213cb0360360",
+                            "Description": "Miesbach_Haemophilia_2019_P1",
+                            "Url": "",
+                            "Index": 2,
+                            "Tag": "n/a",
+                            "HasFile": true
+                        },
+                        {
+                            "Id": "39cd3ade-ecf6-4002-aac0-9f216fc9caa9",
+                            "Description": "FDA_What is Gene Therapy_ 2018_P1",
+                            "Url": "",
+                            "Index": 1,
+                            "Tag": "n/a",
+                            "HasFile": true
+                        }
+                    ],
+                    "SubStatements": [
+                        {
+                            "Id": "d83852fb-b0f1-41da-8e3e-051f17510d04",
+                            "Title": "<b>Pillar 1:</b> Gene therapy overview",
+                            "Description": "<p class=\"MsoNormal\"><span>Gene therapy works through various approaches, including the following:&nbsp;</span><a id=\"19e3b889-6f7e-45e3-ab8c-2bf07c9cbd4d_3\" class=\"btn-ref\"><sup>3</sup></a><span>&nbsp;</span></p><p class=\"MsoNormal\"></p><ul><li><span>Gene transfer is the process of introducing a functional copy of a missing or dysfunctional gene, typically through a viral vector.</span></li><li><span style=\"font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;\"> &nbsp;</span><span lang=\"EN-US\">Gene inactivation (also known as gene silencing) is used when a genetic alteration causes an excess of protein; here, RNA interference (RNAi) can be used to silence or suppress gene expression.</span></li><li> Gene editing uses technologies such as zinc finger nucleases, transcriptional activator-like effector nucleases, and clustered regularly interspaced short palindromic repeats, with association protein 9 (CRISPR/CAS9) to edit or replace defective genes.</li></ul><p></p>",
+                            "ParentId": "a13359ee-920c-4096-a916-6b346b032f01",
+                            "Status": 0,
+                            "Index": null,
+                            "Theme": {
+                                "Id": "382d487a-dd73-4b5a-a1ae-b22f6384c6b7",
+                                "Name": "<b>Pillar 1:</b> Gene therapy overview",
+                                "Description": "<span style=\"font-size:9.0pt;font-family:&quot;Montserrat Light&quot;; mso-ascii-font-family:&quot;Montserrat Light&quot;;mso-fareast-font-family:+mn-ea; mso-bidi-font-family:+mn-cs;mso-ascii-theme-font:minor-latin;mso-fareast-theme-font: minor-fareast;mso-bidi-theme-font:minor-bidi;color:#231F20;mso-color-index: 1;mso-font-kerning:12.0pt;language:en-GB;mso-style-textfill-type:solid; mso-style-textfill-fill-themecolor:text1;mso-style-textfill-fill-color:#231F20; mso-style-textfill-fill-alpha:100.0%\">Strategic objective: Provide an overview of gene therapy and its potential benefits</span>"
+                            },
+                            "References": [
+                                {
+                                    "Id": "19e3b889-6f7e-45e3-ab8c-2bf07c9cbd4d",
+                                    "Description": "Pasi_Neuro Res_2019_P1",
+                                    "Url": "",
+                                    "Index": 3,
+                                    "Tag": "n/a",
+                                    "HasFile": true
+                                }
+                            ],
+                            "SubStatements": [],
+                            "StatementResources": []
+                        }
+                    ],
+                    "StatementResources": []
+                }
+            ],
+            "StatementResources": []
+        },
+        {
+            "Id": "2e3a1dcf-9588-43e8-a26b-8111db7d64da",
+            "Title": "<b>Pillar 1:</b> Gene therapy overview",
+            "Description": "<span lang=\"EN-US\" style=\"line-height: 107%;\">S2. Classical gene therapy approaches for inherited monogenic diseases have focused on the delivery of a functional gene (transgene) using an inactivated viral vector.&nbsp;</span>",
+            "ParentId": "e359bc77-9567-41fa-8002-d6bff55f8feb",
+            "Status": 0,
+            "Index": 1,
+            "Theme": {
+                "Id": "382d487a-dd73-4b5a-a1ae-b22f6384c6b7",
+                "Name": "<b>Pillar 1:</b> Gene therapy overview",
+                "Description": "<span style=\"font-size:9.0pt;font-family:&quot;Montserrat Light&quot;; mso-ascii-font-family:&quot;Montserrat Light&quot;;mso-fareast-font-family:+mn-ea; mso-bidi-font-family:+mn-cs;mso-ascii-theme-font:minor-latin;mso-fareast-theme-font: minor-fareast;mso-bidi-theme-font:minor-bidi;color:#231F20;mso-color-index: 1;mso-font-kerning:12.0pt;language:en-GB;mso-style-textfill-type:solid; mso-style-textfill-fill-themecolor:text1;mso-style-textfill-fill-color:#231F20; mso-style-textfill-fill-alpha:100.0%\">Strategic objective: Provide an overview of gene therapy and its potential benefits</span>"
+            },
+            "References": [],
+            "SubStatements": [
+                {
+                    "Id": "be01b4dd-dd38-4d41-81f3-3d4578130f25",
+                    "Title": "Pillar 1: Gene therapy overview (strategic objective: XYZ)",
+                    "Description": "<span lang=\"EN-US\" style=\"line-height: 107%;\">Gene therapy approaches for inherited monogenic diseases have predominantly focused on the delivery of a functional gene using a viral vector.&nbsp;</span><a id=\"12febc81-e2c9-4492-8464-d5015adf47be_4\" class=\"btn-ref\"><sup>4</sup></a>&nbsp;",
+                    "ParentId": "2e3a1dcf-9588-43e8-a26b-8111db7d64da",
+                    "Status": 0,
+                    "Index": null,
+                    "Theme": {
+                        "Id": "382d487a-dd73-4b5a-a1ae-b22f6384c6b7",
+                        "Name": "<b>Pillar 1:</b> Gene therapy overview",
+                        "Description": "<span style=\"font-size:9.0pt;font-family:&quot;Montserrat Light&quot;; mso-ascii-font-family:&quot;Montserrat Light&quot;;mso-fareast-font-family:+mn-ea; mso-bidi-font-family:+mn-cs;mso-ascii-theme-font:minor-latin;mso-fareast-theme-font: minor-fareast;mso-bidi-theme-font:minor-bidi;color:#231F20;mso-color-index: 1;mso-font-kerning:12.0pt;language:en-GB;mso-style-textfill-type:solid; mso-style-textfill-fill-themecolor:text1;mso-style-textfill-fill-color:#231F20; mso-style-textfill-fill-alpha:100.0%\">Strategic objective: Provide an overview of gene therapy and its potential benefits</span>"
+                    },
+                    "References": [
+                        {
+                            "Id": "12febc81-e2c9-4492-8464-d5015adf47be",
+                            "Description": "Prakash_Mole Ther_2016_P1",
+                            "Url": "",
+                            "Index": 4,
+                            "Tag": "n/a",
+                            "HasFile": true
+                        }
+                    ],
+                    "SubStatements": [
+                        {
+                            "Id": "665b31fb-26e1-4d49-bd72-bd7ebfc98b86",
+                            "Title": "<b>Pillar 1:</b> Gene therapy overview",
+                            "Description": "<p class=\"MsoNormal\"><span lang=\"EN-US\">For gene transfer, the transferred gene is most frequently a functional copy of a mutated gene.&nbsp;</span><a id=\"3f6badde-a30e-4320-b63c-a1ff36836f47_5\" class=\"btn-ref\"><sup>5</sup></a><span>&nbsp;</span></p>  <ul><li><span lang=\"EN-US\" style=\"line-height: 107%;\">Variant genes can also be added that give rise to a protein with increased activity compared with wild type (e.g., Padua variant of factor IX [FIX]).&nbsp;</span><a id=\"cc05aa6d-ba02-424b-a37d-cd3ee9225787_6\" class=\"btn-ref\"><sup>6</sup></a>&nbsp;<a id=\"62b8cdd4-a95d-4469-b9f0-2cbbe03b76b8_7\" class=\"btn-ref\"><sup>7</sup></a>&nbsp;</li></ul>&nbsp;&nbsp;",
+                            "ParentId": "be01b4dd-dd38-4d41-81f3-3d4578130f25",
+                            "Status": 0,
+                            "Index": null,
+                            "Theme": {
+                                "Id": "382d487a-dd73-4b5a-a1ae-b22f6384c6b7",
+                                "Name": "<b>Pillar 1:</b> Gene therapy overview",
+                                "Description": "<span style=\"font-size:9.0pt;font-family:&quot;Montserrat Light&quot;; mso-ascii-font-family:&quot;Montserrat Light&quot;;mso-fareast-font-family:+mn-ea; mso-bidi-font-family:+mn-cs;mso-ascii-theme-font:minor-latin;mso-fareast-theme-font: minor-fareast;mso-bidi-theme-font:minor-bidi;color:#231F20;mso-color-index: 1;mso-font-kerning:12.0pt;language:en-GB;mso-style-textfill-type:solid; mso-style-textfill-fill-themecolor:text1;mso-style-textfill-fill-color:#231F20; mso-style-textfill-fill-alpha:100.0%\">Strategic objective: Provide an overview of gene therapy and its potential benefits</span>"
+                            },
+                            "References": [
+                                {
+                                    "Id": "62b8cdd4-a95d-4469-b9f0-2cbbe03b76b8",
+                                    "Description": "Von Drygalski_Blood Adv_2019_P1",
+                                    "Url": "",
+                                    "Index": 7,
+                                    "Tag": "n/a",
+                                    "HasFile": true
+                                },
+                                {
+                                    "Id": "3f6badde-a30e-4320-b63c-a1ff36836f47",
+                                    "Description": "Anguela and High_Ann Rev Med_2019_P1",
+                                    "Url": "",
+                                    "Index": 5,
+                                    "Tag": "n/a",
+                                    "HasFile": true
+                                },
+                                {
+                                    "Id": "cc05aa6d-ba02-424b-a37d-cd3ee9225787",
+                                    "Description": "George LA_NEJM_2017_P1",
+                                    "Url": "",
+                                    "Index": 6,
+                                    "Tag": "n/a",
+                                    "HasFile": true
+                                }
+                            ],
+                            "SubStatements": [],
+                            "StatementResources": []
+                        }
+                    ],
+                    "StatementResources": []
+                },
+                {
+                    "Id": "357917d8-d2ab-452e-9af7-4036920bf22f",
+                    "Title": "Pillar 1: Gene therapy overview (strategic objective: XYZ)",
+                    "Description": "<span lang=\"EN-US\" style=\"line-height: 107%;\">In most gene therapy applications, viruses are modified to produce viral vectors by removing all or most of the viral genome, minimizing toxicity and eliminating their ability to cause infectious disease, and replicate.&nbsp;</span><a id=\"39cd3ade-ecf6-4002-aac0-9f216fc9caa9_1\" class=\"btn-ref\"><sup>1</sup></a>&nbsp;<a id=\"ec436581-0c07-488f-8da3-5a9ea75c10ba_8\" class=\"btn-ref\"><sup>8</sup></a>&nbsp;",
+                    "ParentId": "2e3a1dcf-9588-43e8-a26b-8111db7d64da",
+                    "Status": 0,
+                    "Index": 1,
+                    "Theme": {
+                        "Id": "382d487a-dd73-4b5a-a1ae-b22f6384c6b7",
+                        "Name": "<b>Pillar 1:</b> Gene therapy overview",
+                        "Description": "<span style=\"font-size:9.0pt;font-family:&quot;Montserrat Light&quot;; mso-ascii-font-family:&quot;Montserrat Light&quot;;mso-fareast-font-family:+mn-ea; mso-bidi-font-family:+mn-cs;mso-ascii-theme-font:minor-latin;mso-fareast-theme-font: minor-fareast;mso-bidi-theme-font:minor-bidi;color:#231F20;mso-color-index: 1;mso-font-kerning:12.0pt;language:en-GB;mso-style-textfill-type:solid; mso-style-textfill-fill-themecolor:text1;mso-style-textfill-fill-color:#231F20; mso-style-textfill-fill-alpha:100.0%\">Strategic objective: Provide an overview of gene therapy and its potential benefits</span>"
+                    },
+                    "References": [
+                        {
+                            "Id": "ec436581-0c07-488f-8da3-5a9ea75c10ba",
+                            "Description": "Thomas_Nat Rev Genet_2003_P1",
+                            "Url": "",
+                            "Index": 8,
+                            "Tag": "n/a",
+                            "HasFile": true
+                        },
+                        {
+                            "Id": "39cd3ade-ecf6-4002-aac0-9f216fc9caa9",
+                            "Description": "FDA_What is Gene Therapy_ 2018_P1",
+                            "Url": "",
+                            "Index": 1,
+                            "Tag": "n/a",
+                            "HasFile": true
+                        }
+                    ],
+                    "SubStatements": [],
+                    "StatementResources": []
+                },
+                {
+                    "Id": "4257265a-20a1-4555-8250-076179567f2c",
+                    "Title": "Pillar 1: Gene therapy overview (strategic objective: XYZ)",
+                    "Description": "<span lang=\"EN-US\" style=\"line-height: 107%;\">Viral vectors can be divided into predominantly integrating (retrovirus, lentivirus) and predominantly non-integrating (adenovirus and adeno-associated virus [AAV]) vectors.&nbsp;</span><a id=\"3f6badde-a30e-4320-b63c-a1ff36836f47_5\" class=\"btn-ref\"><sup>5</sup></a>&nbsp;<div><span lang=\"EN-US\" style=\"line-height: 107%;\"><i><br></i></span></div><div><span lang=\"EN-US\" style=\"line-height: 107%;\"><span lang=\"EN-US\" style=\"line-height: 107%; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\"><i>See Table 1 for an overview of commonly used viral vectors (in resources).</i></span><br></span></div>",
+                    "ParentId": "2e3a1dcf-9588-43e8-a26b-8111db7d64da",
+                    "Status": 0,
+                    "Index": 2,
+                    "Theme": {
+                        "Id": "382d487a-dd73-4b5a-a1ae-b22f6384c6b7",
+                        "Name": "<b>Pillar 1:</b> Gene therapy overview",
+                        "Description": "<span style=\"font-size:9.0pt;font-family:&quot;Montserrat Light&quot;; mso-ascii-font-family:&quot;Montserrat Light&quot;;mso-fareast-font-family:+mn-ea; mso-bidi-font-family:+mn-cs;mso-ascii-theme-font:minor-latin;mso-fareast-theme-font: minor-fareast;mso-bidi-theme-font:minor-bidi;color:#231F20;mso-color-index: 1;mso-font-kerning:12.0pt;language:en-GB;mso-style-textfill-type:solid; mso-style-textfill-fill-themecolor:text1;mso-style-textfill-fill-color:#231F20; mso-style-textfill-fill-alpha:100.0%\">Strategic objective: Provide an overview of gene therapy and its potential benefits</span>"
+                    },
+                    "References": [
+                        {
+                            "Id": "3f6badde-a30e-4320-b63c-a1ff36836f47",
+                            "Description": "Anguela and High_Ann Rev Med_2019_P1",
+                            "Url": "",
+                            "Index": 5,
+                            "Tag": "n/a",
+                            "HasFile": true
+                        }
+                    ],
+                    "SubStatements": [
+                        {
+                            "Id": "fbaf2207-2deb-4b25-97e9-8418772aeff9",
+                            "Title": "Pillar 1: Gene therapy overview (strategic objective: XYZ)",
+                            "Description": "<span lang=\"EN-US\" style=\"line-height: 107%;\">The non-integrating adenoviral and AAV vectors have a DNA genome with a packaging capacity of ~8–30 kb and ~5 kb, respectively, and can transduce both dividing and non-dividing cells.&nbsp;</span><a id=\"3f6badde-a30e-4320-b63c-a1ff36836f47_5\" class=\"btn-ref\"><sup>5</sup></a>&nbsp;",
+                            "ParentId": "4257265a-20a1-4555-8250-076179567f2c",
+                            "Status": 0,
+                            "Index": null,
+                            "Theme": {
+                                "Id": "382d487a-dd73-4b5a-a1ae-b22f6384c6b7",
+                                "Name": "<b>Pillar 1:</b> Gene therapy overview",
+                                "Description": "<span style=\"font-size:9.0pt;font-family:&quot;Montserrat Light&quot;; mso-ascii-font-family:&quot;Montserrat Light&quot;;mso-fareast-font-family:+mn-ea; mso-bidi-font-family:+mn-cs;mso-ascii-theme-font:minor-latin;mso-fareast-theme-font: minor-fareast;mso-bidi-theme-font:minor-bidi;color:#231F20;mso-color-index: 1;mso-font-kerning:12.0pt;language:en-GB;mso-style-textfill-type:solid; mso-style-textfill-fill-themecolor:text1;mso-style-textfill-fill-color:#231F20; mso-style-textfill-fill-alpha:100.0%\">Strategic objective: Provide an overview of gene therapy and its potential benefits</span>"
+                            },
+                            "References": [
+                                {
+                                    "Id": "3f6badde-a30e-4320-b63c-a1ff36836f47",
+                                    "Description": "Anguela and High_Ann Rev Med_2019_P1",
+                                    "Url": "",
+                                    "Index": 5,
+                                    "Tag": "n/a",
+                                    "HasFile": true
+                                }
+                            ],
+                            "SubStatements": [],
+                            "StatementResources": []
+                        },
+                        {
+                            "Id": "4899407b-8e4d-44df-b213-6ca98092e62a",
+                            "Title": "Pillar 1: Gene therapy overview (strategic objective: XYZ)",
+                            "Description": "<span lang=\"EN-US\" style=\"line-height: 107%;\">Retroviruses have an RNA genome with a packaging capacity of ~8 kb and possess reverse transcriptase activity, which enables their integration as DNA copies into the host genome; however, retroviruses cannot infect non-dividing cells.&nbsp;</span><a id=\"3f6badde-a30e-4320-b63c-a1ff36836f47_5\" class=\"btn-ref\"><sup>5</sup></a>&nbsp;<a id=\"6a643344-dfc9-4b40-aece-a35146ae042d_9\" class=\"btn-ref\"><sup>9</sup></a>&nbsp;",
+                            "ParentId": "4257265a-20a1-4555-8250-076179567f2c",
+                            "Status": 0,
+                            "Index": 1,
+                            "Theme": {
+                                "Id": "382d487a-dd73-4b5a-a1ae-b22f6384c6b7",
+                                "Name": "<b>Pillar 1:</b> Gene therapy overview",
+                                "Description": "<span style=\"font-size:9.0pt;font-family:&quot;Montserrat Light&quot;; mso-ascii-font-family:&quot;Montserrat Light&quot;;mso-fareast-font-family:+mn-ea; mso-bidi-font-family:+mn-cs;mso-ascii-theme-font:minor-latin;mso-fareast-theme-font: minor-fareast;mso-bidi-theme-font:minor-bidi;color:#231F20;mso-color-index: 1;mso-font-kerning:12.0pt;language:en-GB;mso-style-textfill-type:solid; mso-style-textfill-fill-themecolor:text1;mso-style-textfill-fill-color:#231F20; mso-style-textfill-fill-alpha:100.0%\">Strategic objective: Provide an overview of gene therapy and its potential benefits</span>"
+                            },
+                            "References": [
+                                {
+                                    "Id": "3f6badde-a30e-4320-b63c-a1ff36836f47",
+                                    "Description": "Anguela and High_Ann Rev Med_2019_P1",
+                                    "Url": "",
+                                    "Index": 5,
+                                    "Tag": "n/a",
+                                    "HasFile": true
+                                },
+                                {
+                                    "Id": "6a643344-dfc9-4b40-aece-a35146ae042d",
+                                    "Description": "Lundstrom_Tech Can Res Treat_2004_P1",
+                                    "Url": "",
+                                    "Index": 9,
+                                    "Tag": "n/a",
+                                    "HasFile": true
+                                }
+                            ],
+                            "SubStatements": [],
+                            "StatementResources": []
+                        },
+                        {
+                            "Id": "c9d4a4f7-d229-4bda-ba92-64917c8f2109",
+                            "Title": "Pillar 1: Gene therapy overview (strategic objective: XYZ)",
+                            "Description": "<span lang=\"EN-US\" style=\"line-height: 107%;\">Lentiviruses are a subset of retroviruses that share the ability to integrate into the host genome; however, unlike retroviruses, lentiviruses can efficiently transduce both dividing and non-dividing cells.&nbsp;</span><a id=\"3f6badde-a30e-4320-b63c-a1ff36836f47_5\" class=\"btn-ref\"><sup>5</sup></a>&nbsp;<a id=\"6a643344-dfc9-4b40-aece-a35146ae042d_9\" class=\"btn-ref\"><sup>9</sup></a>&nbsp;",
+                            "ParentId": "4257265a-20a1-4555-8250-076179567f2c",
+                            "Status": 0,
+                            "Index": 2,
+                            "Theme": {
+                                "Id": "382d487a-dd73-4b5a-a1ae-b22f6384c6b7",
+                                "Name": "<b>Pillar 1:</b> Gene therapy overview",
+                                "Description": "<span style=\"font-size:9.0pt;font-family:&quot;Montserrat Light&quot;; mso-ascii-font-family:&quot;Montserrat Light&quot;;mso-fareast-font-family:+mn-ea; mso-bidi-font-family:+mn-cs;mso-ascii-theme-font:minor-latin;mso-fareast-theme-font: minor-fareast;mso-bidi-theme-font:minor-bidi;color:#231F20;mso-color-index: 1;mso-font-kerning:12.0pt;language:en-GB;mso-style-textfill-type:solid; mso-style-textfill-fill-themecolor:text1;mso-style-textfill-fill-color:#231F20; mso-style-textfill-fill-alpha:100.0%\">Strategic objective: Provide an overview of gene therapy and its potential benefits</span>"
+                            },
+                            "References": [
+                                {
+                                    "Id": "3f6badde-a30e-4320-b63c-a1ff36836f47",
+                                    "Description": "Anguela and High_Ann Rev Med_2019_P1",
+                                    "Url": "",
+                                    "Index": 5,
+                                    "Tag": "n/a",
+                                    "HasFile": true
+                                },
+                                {
+                                    "Id": "6a643344-dfc9-4b40-aece-a35146ae042d",
+                                    "Description": "Lundstrom_Tech Can Res Treat_2004_P1",
+                                    "Url": "",
+                                    "Index": 9,
+                                    "Tag": "n/a",
+                                    "HasFile": true
+                                }
+                            ],
+                            "SubStatements": [],
+                            "StatementResources": []
+                        }
+                    ],
+                    "StatementResources": []
+                }
+            ],
+            "StatementResources": []
+        },
+        {
+            "Id": "a39ec144-f967-41b7-8322-2234d18f2adf",
+            "Title": "<b>Pillar 1:</b> Gene therapy overview",
+            "Description": "<span lang=\"EN-US\" style=\"line-height: 107%;\">S3. Functional genes are delivered either directly into the recipient (<i>in vivo</i> gene therapy) using a non-integrating vector or into cells extracted from the recipient (<i>ex vivo</i> gene therapy) using an integrating vector.&nbsp;</span>",
+            "ParentId": "e359bc77-9567-41fa-8002-d6bff55f8feb",
+            "Status": 0,
+            "Index": 2,
+            "Theme": {
+                "Id": "382d487a-dd73-4b5a-a1ae-b22f6384c6b7",
+                "Name": "<b>Pillar 1:</b> Gene therapy overview",
+                "Description": "<span style=\"font-size:9.0pt;font-family:&quot;Montserrat Light&quot;; mso-ascii-font-family:&quot;Montserrat Light&quot;;mso-fareast-font-family:+mn-ea; mso-bidi-font-family:+mn-cs;mso-ascii-theme-font:minor-latin;mso-fareast-theme-font: minor-fareast;mso-bidi-theme-font:minor-bidi;color:#231F20;mso-color-index: 1;mso-font-kerning:12.0pt;language:en-GB;mso-style-textfill-type:solid; mso-style-textfill-fill-themecolor:text1;mso-style-textfill-fill-color:#231F20; mso-style-textfill-fill-alpha:100.0%\">Strategic objective: Provide an overview of gene therapy and its potential benefits</span>"
+            },
+            "References": [],
+            "SubStatements": [
+                {
+                    "Id": "6575af5b-691a-4309-9338-ccb2428064ce",
+                    "Title": "<b>Pillar 1:</b> Gene therapy overview",
+                    "Description": "<p class=\"MsoNormal\"><span lang=\"EN-US\"><i>In vivo</i></span><span lang=\"EN-US\"> gene therapy directly introduces a predominantly non-integrating vector (e.g., a recombinant (r) AAV vector) into the recipient to deliver a functional gene (transgene) into postmitotic cells.&nbsp;</span><a id=\"c709ae8d-f495-40a8-bc99-204a5ef371ce_10\" class=\"btn-ref\"><sup>10</sup></a><span>&nbsp;</span></p>  <p class=\"MsoNormal\"><span><i>See Figure 1: Overview of in vivo gene therapy (in resources).</i></span></p>&nbsp;",
+                    "ParentId": "a39ec144-f967-41b7-8322-2234d18f2adf",
+                    "Status": 0,
+                    "Index": null,
+                    "Theme": {
+                        "Id": "382d487a-dd73-4b5a-a1ae-b22f6384c6b7",
+                        "Name": "<b>Pillar 1:</b> Gene therapy overview",
+                        "Description": "<span style=\"font-size:9.0pt;font-family:&quot;Montserrat Light&quot;; mso-ascii-font-family:&quot;Montserrat Light&quot;;mso-fareast-font-family:+mn-ea; mso-bidi-font-family:+mn-cs;mso-ascii-theme-font:minor-latin;mso-fareast-theme-font: minor-fareast;mso-bidi-theme-font:minor-bidi;color:#231F20;mso-color-index: 1;mso-font-kerning:12.0pt;language:en-GB;mso-style-textfill-type:solid; mso-style-textfill-fill-themecolor:text1;mso-style-textfill-fill-color:#231F20; mso-style-textfill-fill-alpha:100.0%\">Strategic objective: Provide an overview of gene therapy and its potential benefits</span>"
+                    },
+                    "References": [
+                        {
+                            "Id": "c709ae8d-f495-40a8-bc99-204a5ef371ce",
+                            "Description": "High_Roncarolo_2019_supplementary graphic_P1",
+                            "Url": "",
+                            "Index": 10,
+                            "Tag": "n/a",
+                            "HasFile": true
+                        }
+                    ],
+                    "SubStatements": [
+                        {
+                            "Id": "6ab6b61a-0ada-4872-bad5-d3024eec390e",
+                            "Title": "Pillar 1: Gene therapy overview (strategic objective: XYZ)",
+                            "Description": "<span lang=\"EN-US\" style=\"line-height: 107%;\">Most gene therapy strategies for treating inherited diseases utilize AAV vectors for <i>in vivo</i> gene transfer into postmitotic cell types.&nbsp;</span><a id=\"3f6badde-a30e-4320-b63c-a1ff36836f47_5\" class=\"btn-ref\"><sup>5</sup></a>&nbsp;",
+                            "ParentId": "6575af5b-691a-4309-9338-ccb2428064ce",
+                            "Status": 0,
+                            "Index": null,
+                            "Theme": {
+                                "Id": "382d487a-dd73-4b5a-a1ae-b22f6384c6b7",
+                                "Name": "<b>Pillar 1:</b> Gene therapy overview",
+                                "Description": "<span style=\"font-size:9.0pt;font-family:&quot;Montserrat Light&quot;; mso-ascii-font-family:&quot;Montserrat Light&quot;;mso-fareast-font-family:+mn-ea; mso-bidi-font-family:+mn-cs;mso-ascii-theme-font:minor-latin;mso-fareast-theme-font: minor-fareast;mso-bidi-theme-font:minor-bidi;color:#231F20;mso-color-index: 1;mso-font-kerning:12.0pt;language:en-GB;mso-style-textfill-type:solid; mso-style-textfill-fill-themecolor:text1;mso-style-textfill-fill-color:#231F20; mso-style-textfill-fill-alpha:100.0%\">Strategic objective: Provide an overview of gene therapy and its potential benefits</span>"
+                            },
+                            "References": [
+                                {
+                                    "Id": "3f6badde-a30e-4320-b63c-a1ff36836f47",
+                                    "Description": "Anguela and High_Ann Rev Med_2019_P1",
+                                    "Url": "",
+                                    "Index": 5,
+                                    "Tag": "n/a",
+                                    "HasFile": true
+                                }
+                            ],
+                            "SubStatements": [],
+                            "StatementResources": []
+                        },
+                        {
+                            "Id": "7833ff49-9e68-4482-8c9e-3badd047d03f",
+                            "Title": "<b>Pillar 1:</b> Gene therapy overview",
+                            "Description": "<span lang=\"EN-US\" style=\"line-height: 107%;\"><i>In vivo</i></span><span lang=\"EN-US\" style=\"line-height: 107%;\"> gene therapy can be delivered to recipients intravenously or via direct injection into the target tissue.&nbsp;</span><a id=\"4f889472-b36a-4ef0-a424-d33f4fcd1b1e_11\" class=\"btn-ref\"><sup>11</sup></a>&nbsp;<a id=\"41ff3fc8-9b97-4c61-abef-dd8b7f9d280b_12\" class=\"btn-ref\"><sup>12</sup></a>&nbsp;<br>&nbsp;",
+                            "ParentId": "6575af5b-691a-4309-9338-ccb2428064ce",
+                            "Status": 0,
+                            "Index": 1,
+                            "Theme": {
+                                "Id": "382d487a-dd73-4b5a-a1ae-b22f6384c6b7",
+                                "Name": "<b>Pillar 1:</b> Gene therapy overview",
+                                "Description": "<span style=\"font-size:9.0pt;font-family:&quot;Montserrat Light&quot;; mso-ascii-font-family:&quot;Montserrat Light&quot;;mso-fareast-font-family:+mn-ea; mso-bidi-font-family:+mn-cs;mso-ascii-theme-font:minor-latin;mso-fareast-theme-font: minor-fareast;mso-bidi-theme-font:minor-bidi;color:#231F20;mso-color-index: 1;mso-font-kerning:12.0pt;language:en-GB;mso-style-textfill-type:solid; mso-style-textfill-fill-themecolor:text1;mso-style-textfill-fill-color:#231F20; mso-style-textfill-fill-alpha:100.0%\">Strategic objective: Provide an overview of gene therapy and its potential benefits</span>"
+                            },
+                            "References": [
+                                {
+                                    "Id": "4f889472-b36a-4ef0-a424-d33f4fcd1b1e",
+                                    "Description": "Maguire_Opthamology_2019_P1",
+                                    "Url": "",
+                                    "Index": 11,
+                                    "Tag": "n/a",
+                                    "HasFile": true
+                                },
+                                {
+                                    "Id": "41ff3fc8-9b97-4c61-abef-dd8b7f9d280b",
+                                    "Description": "Mendell_AAN 2020_P1",
+                                    "Url": "",
+                                    "Index": 12,
+                                    "Tag": "n/a",
+                                    "HasFile": true
+                                }
+                            ],
+                            "SubStatements": [],
+                            "StatementResources": []
+                        }
+                    ],
+                    "StatementResources": []
+                },
+                {
+                    "Id": "559d2165-13a2-45b7-a446-e898b65e2ba5",
+                    "Title": "<b>Pillar 1:</b> Gene therapy overview",
+                    "Description": "<span lang=\"EN-US\" style=\"line-height: 107%;\">In <i>ex vivo</i> gene therapy, stem cells are extracted from recipients, transduced with the functional gene using an integrating vector, and then returned to the recipient. Following cell division, the integrated gene is passed on to daughter cells.&nbsp;</span><a id=\"c709ae8d-f495-40a8-bc99-204a5ef371ce_10\" class=\"btn-ref\"><sup>10</sup></a>&nbsp;",
+                    "ParentId": "a39ec144-f967-41b7-8322-2234d18f2adf",
+                    "Status": 0,
+                    "Index": 1,
+                    "Theme": {
+                        "Id": "382d487a-dd73-4b5a-a1ae-b22f6384c6b7",
+                        "Name": "<b>Pillar 1:</b> Gene therapy overview",
+                        "Description": "<span style=\"font-size:9.0pt;font-family:&quot;Montserrat Light&quot;; mso-ascii-font-family:&quot;Montserrat Light&quot;;mso-fareast-font-family:+mn-ea; mso-bidi-font-family:+mn-cs;mso-ascii-theme-font:minor-latin;mso-fareast-theme-font: minor-fareast;mso-bidi-theme-font:minor-bidi;color:#231F20;mso-color-index: 1;mso-font-kerning:12.0pt;language:en-GB;mso-style-textfill-type:solid; mso-style-textfill-fill-themecolor:text1;mso-style-textfill-fill-color:#231F20; mso-style-textfill-fill-alpha:100.0%\">Strategic objective: Provide an overview of gene therapy and its potential benefits</span>"
+                    },
+                    "References": [
+                        {
+                            "Id": "c709ae8d-f495-40a8-bc99-204a5ef371ce",
+                            "Description": "High_Roncarolo_2019_supplementary graphic_P1",
+                            "Url": "",
+                            "Index": 10,
+                            "Tag": "n/a",
+                            "HasFile": true
+                        }
+                    ],
+                    "SubStatements": [
+                        {
+                            "Id": "f76c13a6-c314-4639-8e27-e62906d1885f",
+                            "Title": "Pillar 1: Gene therapy overview (strategic objective: XYZ)",
+                            "Description": "<span lang=\"EN-US\" style=\"line-height: 107%;\">Most gene therapy strategies for treating inherited diseases utilize lentiviral vectors for <i>ex vivo</i> gene transfer into hematopoietic and other stem cells.&nbsp;</span><a id=\"3f6badde-a30e-4320-b63c-a1ff36836f47_5\" class=\"btn-ref\"><sup>5</sup></a>&nbsp;",
+                            "ParentId": "559d2165-13a2-45b7-a446-e898b65e2ba5",
+                            "Status": 0,
+                            "Index": null,
+                            "Theme": {
+                                "Id": "382d487a-dd73-4b5a-a1ae-b22f6384c6b7",
+                                "Name": "<b>Pillar 1:</b> Gene therapy overview",
+                                "Description": "<span style=\"font-size:9.0pt;font-family:&quot;Montserrat Light&quot;; mso-ascii-font-family:&quot;Montserrat Light&quot;;mso-fareast-font-family:+mn-ea; mso-bidi-font-family:+mn-cs;mso-ascii-theme-font:minor-latin;mso-fareast-theme-font: minor-fareast;mso-bidi-theme-font:minor-bidi;color:#231F20;mso-color-index: 1;mso-font-kerning:12.0pt;language:en-GB;mso-style-textfill-type:solid; mso-style-textfill-fill-themecolor:text1;mso-style-textfill-fill-color:#231F20; mso-style-textfill-fill-alpha:100.0%\">Strategic objective: Provide an overview of gene therapy and its potential benefits</span>"
+                            },
+                            "References": [
+                                {
+                                    "Id": "3f6badde-a30e-4320-b63c-a1ff36836f47",
+                                    "Description": "Anguela and High_Ann Rev Med_2019_P1",
+                                    "Url": "",
+                                    "Index": 5,
+                                    "Tag": "n/a",
+                                    "HasFile": true
+                                }
+                            ],
+                            "SubStatements": [],
+                            "StatementResources": []
+                        }
+                    ],
+                    "StatementResources": []
+                },
+                {
+                    "Id": "823122f4-bd77-4164-9f28-281b7b63eee1",
+                    "Title": "Pillar 1: Gene therapy overview (strategic objective: XYZ)",
+                    "Description": "<span lang=\"EN-US\" style=\"line-height: 107%;\"> Both<i> ex vivo</i> and <i>in vitro </i>gene therapy approaches are currently approved for the treatment of inherited monogenic diseases using the addition of a functional gene.&nbsp;</span><a id=\"bf996391-9926-4d83-84cc-581a74cac66a_13\" class=\"btn-ref\"><sup>13</sup></a>&nbsp;<a id=\"38a76ffd-296d-4bda-9b6c-761aed6a6461_14\" class=\"btn-ref\"><sup>14</sup></a>&nbsp;<a id=\"af421c9a-b9a3-450c-8f03-15080fa63ba6_15\" class=\"btn-ref\"><sup>15</sup></a>&nbsp;<a id=\"142990f4-76cb-4077-9487-37c8745b87de_16\" class=\"btn-ref\"><sup>16</sup></a>&nbsp;&nbsp;",
+                    "ParentId": "a39ec144-f967-41b7-8322-2234d18f2adf",
+                    "Status": 0,
+                    "Index": 2,
+                    "Theme": {
+                        "Id": "382d487a-dd73-4b5a-a1ae-b22f6384c6b7",
+                        "Name": "<b>Pillar 1:</b> Gene therapy overview",
+                        "Description": "<span style=\"font-size:9.0pt;font-family:&quot;Montserrat Light&quot;; mso-ascii-font-family:&quot;Montserrat Light&quot;;mso-fareast-font-family:+mn-ea; mso-bidi-font-family:+mn-cs;mso-ascii-theme-font:minor-latin;mso-fareast-theme-font: minor-fareast;mso-bidi-theme-font:minor-bidi;color:#231F20;mso-color-index: 1;mso-font-kerning:12.0pt;language:en-GB;mso-style-textfill-type:solid; mso-style-textfill-fill-themecolor:text1;mso-style-textfill-fill-color:#231F20; mso-style-textfill-fill-alpha:100.0%\">Strategic objective: Provide an overview of gene therapy and its potential benefits</span>"
+                    },
+                    "References": [
+                        {
+                            "Id": "af421c9a-b9a3-450c-8f03-15080fa63ba6",
+                            "Description": "ZOLGENSMA_SMPC_P1",
+                            "Url": "",
+                            "Index": 15,
+                            "Tag": "n/a",
+                            "HasFile": true
+                        },
+                        {
+                            "Id": "142990f4-76cb-4077-9487-37c8745b87de",
+                            "Description": "Zynteglo_SMPC_P1",
+                            "Url": "",
+                            "Index": 16,
+                            "Tag": "n/a",
+                            "HasFile": true
+                        },
+                        {
+                            "Id": "bf996391-9926-4d83-84cc-581a74cac66a",
+                            "Description": "LUXTURNA_US_Prescribing_Information_P1",
+                            "Url": "",
+                            "Index": 13,
+                            "Tag": "n/a",
+                            "HasFile": true
+                        },
+                        {
+                            "Id": "38a76ffd-296d-4bda-9b6c-761aed6a6461",
+                            "Description": "ZOLGENSMA_US_Prescribing information_P1",
+                            "Url": "",
+                            "Index": 14,
+                            "Tag": "n/a",
+                            "HasFile": true
+                        }
+                    ],
+                    "SubStatements": [
+                        {
+                            "Id": "f6b8f328-7b89-4591-a379-bf9b3aff274a",
+                            "Title": "<b>Pillar 1:</b> Gene therapy overview",
+                            "Description": "<p class=\"MsoNormal\"><span lang=\"EN-US\">As of May 2021, there are two <i>in vivo</i>&nbsp;rAAV-based and one <i>ex vivo</i> lentiviral-based gene therapy products approved for the treatment of inherited monogenic diseases.&nbsp;<o:p></o:p></span><a id=\"bf996391-9926-4d83-84cc-581a74cac66a_13\" class=\"btn-ref\"><sup>13</sup></a><span>&nbsp;</span><a id=\"38a76ffd-296d-4bda-9b6c-761aed6a6461_14\" class=\"btn-ref\"><sup>14</sup></a><span>&nbsp;</span><a id=\"af421c9a-b9a3-450c-8f03-15080fa63ba6_15\" class=\"btn-ref\"><sup>15</sup></a><span>&nbsp;</span><a id=\"142990f4-76cb-4077-9487-37c8745b87de_16\" class=\"btn-ref\"><sup>16</sup></a><span>&nbsp;</span><a id=\"bdbf5fd1-994f-453f-856e-22a0392de5fa_17\" class=\"btn-ref\"><sup>17</sup></a><span>&nbsp;</span></p>  <span lang=\"EN-US\" style=\"line-height: 107%; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\"><i>See Table 2 for an overview of currently approved products (in resources).</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+                            "ParentId": "823122f4-bd77-4164-9f28-281b7b63eee1",
+                            "Status": 0,
+                            "Index": null,
+                            "Theme": {
+                                "Id": "382d487a-dd73-4b5a-a1ae-b22f6384c6b7",
+                                "Name": "<b>Pillar 1:</b> Gene therapy overview",
+                                "Description": "<span style=\"font-size:9.0pt;font-family:&quot;Montserrat Light&quot;; mso-ascii-font-family:&quot;Montserrat Light&quot;;mso-fareast-font-family:+mn-ea; mso-bidi-font-family:+mn-cs;mso-ascii-theme-font:minor-latin;mso-fareast-theme-font: minor-fareast;mso-bidi-theme-font:minor-bidi;color:#231F20;mso-color-index: 1;mso-font-kerning:12.0pt;language:en-GB;mso-style-textfill-type:solid; mso-style-textfill-fill-themecolor:text1;mso-style-textfill-fill-color:#231F20; mso-style-textfill-fill-alpha:100.0%\">Strategic objective: Provide an overview of gene therapy and its potential benefits</span>"
+                            },
+                            "References": [
+                                {
+                                    "Id": "af421c9a-b9a3-450c-8f03-15080fa63ba6",
+                                    "Description": "ZOLGENSMA_SMPC_P1",
+                                    "Url": "",
+                                    "Index": 15,
+                                    "Tag": "n/a",
+                                    "HasFile": true
+                                },
+                                {
+                                    "Id": "bdbf5fd1-994f-453f-856e-22a0392de5fa",
+                                    "Description": "LUXTURNA_SMPC_P1",
+                                    "Url": "",
+                                    "Index": 17,
+                                    "Tag": "n/a",
+                                    "HasFile": true
+                                },
+                                {
+                                    "Id": "142990f4-76cb-4077-9487-37c8745b87de",
+                                    "Description": "Zynteglo_SMPC_P1",
+                                    "Url": "",
+                                    "Index": 16,
+                                    "Tag": "n/a",
+                                    "HasFile": true
+                                },
+                                {
+                                    "Id": "bf996391-9926-4d83-84cc-581a74cac66a",
+                                    "Description": "LUXTURNA_US_Prescribing_Information_P1",
+                                    "Url": "",
+                                    "Index": 13,
+                                    "Tag": "n/a",
+                                    "HasFile": true
+                                },
+                                {
+                                    "Id": "38a76ffd-296d-4bda-9b6c-761aed6a6461",
+                                    "Description": "ZOLGENSMA_US_Prescribing information_P1",
+                                    "Url": "",
+                                    "Index": 14,
+                                    "Tag": "n/a",
+                                    "HasFile": true
+                                }
+                            ],
+                            "SubStatements": [],
+                            "StatementResources": []
+                        }
+                    ],
+                    "StatementResources": []
+                }
+            ],
+            "StatementResources": []
+        },
+        {
+            "Id": "5b08aea5-6508-4511-a64b-7cba83f8dce3",
+            "Title": "Pillar 1: Gene therapy overview",
+            "Description": "<span lang=\"EN-US\" style=\"line-height: 107%;\">S4. Gene therapy has demonstrated durable benefit to patients from a single administration; however, the long-term effects of gene therapy have yet to be fully characterized.</span>",
+            "ParentId": "e359bc77-9567-41fa-8002-d6bff55f8feb",
+            "Status": 0,
+            "Index": 3,
+            "Theme": {
+                "Id": "382d487a-dd73-4b5a-a1ae-b22f6384c6b7",
+                "Name": "<b>Pillar 1:</b> Gene therapy overview",
+                "Description": "<span style=\"font-size:9.0pt;font-family:&quot;Montserrat Light&quot;; mso-ascii-font-family:&quot;Montserrat Light&quot;;mso-fareast-font-family:+mn-ea; mso-bidi-font-family:+mn-cs;mso-ascii-theme-font:minor-latin;mso-fareast-theme-font: minor-fareast;mso-bidi-theme-font:minor-bidi;color:#231F20;mso-color-index: 1;mso-font-kerning:12.0pt;language:en-GB;mso-style-textfill-type:solid; mso-style-textfill-fill-themecolor:text1;mso-style-textfill-fill-color:#231F20; mso-style-textfill-fill-alpha:100.0%\">Strategic objective: Provide an overview of gene therapy and its potential benefits</span>"
+            },
+            "References": [],
+            "SubStatements": [
+                {
+                    "Id": "9be37fb2-cd08-47bc-b28f-79d753e07a88",
+                    "Title": "<b>Pillar 1:</b> Gene therapy overview",
+                    "Description": "<span lang=\"EN-US\" style=\"line-height: 107%;\">The goal of gene therapy for inherited diseases is to achieve durable expression of the therapeutic gene or transgene at a level sufficient to ameliorate or cure disease symptoms with minimal adverse events.&nbsp;</span><a id=\"2b178794-5fb0-475a-ad51-f15b1ad6a87f_18\" class=\"btn-ref\"><sup>18</sup></a>&nbsp;",
+                    "ParentId": "5b08aea5-6508-4511-a64b-7cba83f8dce3",
+                    "Status": 0,
+                    "Index": null,
+                    "Theme": {
+                        "Id": "382d487a-dd73-4b5a-a1ae-b22f6384c6b7",
+                        "Name": "<b>Pillar 1:</b> Gene therapy overview",
+                        "Description": "<span style=\"font-size:9.0pt;font-family:&quot;Montserrat Light&quot;; mso-ascii-font-family:&quot;Montserrat Light&quot;;mso-fareast-font-family:+mn-ea; mso-bidi-font-family:+mn-cs;mso-ascii-theme-font:minor-latin;mso-fareast-theme-font: minor-fareast;mso-bidi-theme-font:minor-bidi;color:#231F20;mso-color-index: 1;mso-font-kerning:12.0pt;language:en-GB;mso-style-textfill-type:solid; mso-style-textfill-fill-themecolor:text1;mso-style-textfill-fill-color:#231F20; mso-style-textfill-fill-alpha:100.0%\">Strategic objective: Provide an overview of gene therapy and its potential benefits</span>"
+                    },
+                    "References": [
+                        {
+                            "Id": "2b178794-5fb0-475a-ad51-f15b1ad6a87f",
+                            "Description": "High_Roncarolo_2019_P1",
+                            "Url": "",
+                            "Index": 18,
+                            "Tag": "n/a",
+                            "HasFile": true
+                        }
+                    ],
+                    "SubStatements": [],
+                    "StatementResources": []
+                },
+                {
+                    "Id": "c1a851de-ed87-4af4-8b27-705e02064cae",
+                    "Title": "Pillar 1: Gene therapy overview (strategic objective: XYZ)",
+                    "Description": "<span lang=\"EN-US\" style=\"line-height: 107%;\"> Gene therapy has demonstrated durable clinical benefit (4–8 years’ follow-up) from a single administration across a number of disease areas.&nbsp;</span><a id=\"4f889472-b36a-4ef0-a424-d33f4fcd1b1e_11\" class=\"btn-ref\"><sup>11</sup></a>&nbsp;<a id=\"41ff3fc8-9b97-4c61-abef-dd8b7f9d280b_12\" class=\"btn-ref\"><sup>12</sup></a>&nbsp;<a id=\"54b0d5cf-3747-4c93-948b-919e30d9b665_19\" class=\"btn-ref\"><sup>19</sup></a>&nbsp;<a id=\"499a42ab-cdcd-4c43-87ea-22ed299314c6_20\" class=\"btn-ref\"><sup>20</sup></a>&nbsp;",
+                    "ParentId": "5b08aea5-6508-4511-a64b-7cba83f8dce3",
+                    "Status": 0,
+                    "Index": 1,
+                    "Theme": {
+                        "Id": "382d487a-dd73-4b5a-a1ae-b22f6384c6b7",
+                        "Name": "<b>Pillar 1:</b> Gene therapy overview",
+                        "Description": "<span style=\"font-size:9.0pt;font-family:&quot;Montserrat Light&quot;; mso-ascii-font-family:&quot;Montserrat Light&quot;;mso-fareast-font-family:+mn-ea; mso-bidi-font-family:+mn-cs;mso-ascii-theme-font:minor-latin;mso-fareast-theme-font: minor-fareast;mso-bidi-theme-font:minor-bidi;color:#231F20;mso-color-index: 1;mso-font-kerning:12.0pt;language:en-GB;mso-style-textfill-type:solid; mso-style-textfill-fill-themecolor:text1;mso-style-textfill-fill-color:#231F20; mso-style-textfill-fill-alpha:100.0%\">Strategic objective: Provide an overview of gene therapy and its potential benefits</span>"
+                    },
+                    "References": [
+                        {
+                            "Id": "499a42ab-cdcd-4c43-87ea-22ed299314c6",
+                            "Description": "Mendell_MDA Congress_2021_Abstract_P1",
+                            "Url": "",
+                            "Index": 20,
+                            "Tag": "n/a",
+                            "HasFile": true
+                        },
+                        {
+                            "Id": "54b0d5cf-3747-4c93-948b-919e30d9b665",
+                            "Description": "Nathwani_Blood (2018) 132 (Supplement 1) 491_P1",
+                            "Url": "",
+                            "Index": 19,
+                            "Tag": "n/a",
+                            "HasFile": true
+                        },
+                        {
+                            "Id": "4f889472-b36a-4ef0-a424-d33f4fcd1b1e",
+                            "Description": "Maguire_Opthamology_2019_P1",
+                            "Url": "",
+                            "Index": 11,
+                            "Tag": "n/a",
+                            "HasFile": true
+                        },
+                        {
+                            "Id": "41ff3fc8-9b97-4c61-abef-dd8b7f9d280b",
+                            "Description": "Mendell_AAN 2020_P1",
+                            "Url": "",
+                            "Index": 12,
+                            "Tag": "n/a",
+                            "HasFile": true
+                        }
+                    ],
+                    "SubStatements": [
+                        {
+                            "Id": "8e97a662-cf98-4ec0-92f8-53849dfc36cf",
+                            "Title": "Pillar 1: Gene therapy overview (strategic objective: XYZ)",
+                            "Description": "<p class=\"MsoNormal\"><span lang=\"EN-US\">Sustained clinical benefit has been observed with gene therapy in a number of disease areas.</span><span>&nbsp;</span><a id=\"4f889472-b36a-4ef0-a424-d33f4fcd1b1e_11\" class=\"btn-ref\"><sup>11</sup></a><span>&nbsp;</span><a id=\"41ff3fc8-9b97-4c61-abef-dd8b7f9d280b_12\" class=\"btn-ref\"><sup>12</sup></a><span>&nbsp;</span><a id=\"54b0d5cf-3747-4c93-948b-919e30d9b665_19\" class=\"btn-ref\"><sup>19</sup></a><span >&nbsp;</span><a id=\"499a42ab-cdcd-4c43-87ea-22ed299314c6_20\" class=\"btn-ref\"><sup>20</sup></a><span >&nbsp;</span></p>  <p class=\"MsoNormal\"><i><span>See Table 3: </span><span>Overview of durable benefits of gene therapy in clinical studies (in resources).</span></i></p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+                            "ParentId": "c1a851de-ed87-4af4-8b27-705e02064cae",
+                            "Status": 0,
+                            "Index": null,
+                            "Theme": {
+                                "Id": "382d487a-dd73-4b5a-a1ae-b22f6384c6b7",
+                                "Name": "<b>Pillar 1:</b> Gene therapy overview",
+                                "Description": "<span style=\"font-size:9.0pt;font-family:&quot;Montserrat Light&quot;; mso-ascii-font-family:&quot;Montserrat Light&quot;;mso-fareast-font-family:+mn-ea; mso-bidi-font-family:+mn-cs;mso-ascii-theme-font:minor-latin;mso-fareast-theme-font: minor-fareast;mso-bidi-theme-font:minor-bidi;color:#231F20;mso-color-index: 1;mso-font-kerning:12.0pt;language:en-GB;mso-style-textfill-type:solid; mso-style-textfill-fill-themecolor:text1;mso-style-textfill-fill-color:#231F20; mso-style-textfill-fill-alpha:100.0%\">Strategic objective: Provide an overview of gene therapy and its potential benefits</span>"
+                            },
+                            "References": [
+                                {
+                                    "Id": "499a42ab-cdcd-4c43-87ea-22ed299314c6",
+                                    "Description": "Mendell_MDA Congress_2021_Abstract_P1",
+                                    "Url": "",
+                                    "Index": 20,
+                                    "Tag": "n/a",
+                                    "HasFile": true
+                                },
+                                {
+                                    "Id": "54b0d5cf-3747-4c93-948b-919e30d9b665",
+                                    "Description": "Nathwani_Blood (2018) 132 (Supplement 1) 491_P1",
+                                    "Url": "",
+                                    "Index": 19,
+                                    "Tag": "n/a",
+                                    "HasFile": true
+                                },
+                                {
+                                    "Id": "4f889472-b36a-4ef0-a424-d33f4fcd1b1e",
+                                    "Description": "Maguire_Opthamology_2019_P1",
+                                    "Url": "",
+                                    "Index": 11,
+                                    "Tag": "n/a",
+                                    "HasFile": true
+                                },
+                                {
+                                    "Id": "41ff3fc8-9b97-4c61-abef-dd8b7f9d280b",
+                                    "Description": "Mendell_AAN 2020_P1",
+                                    "Url": "",
+                                    "Index": 12,
+                                    "Tag": "n/a",
+                                    "HasFile": true
+                                }
+                            ],
+                            "SubStatements": [],
+                            "StatementResources": []
+                        }
+                    ],
+                    "StatementResources": []
+                },
+                {
+                    "Id": "9df29826-88b7-405a-ab2e-1e4f782f64aa",
+                    "Title": "Pillar 1: Gene therapy overview (strategic objective: XYZ)",
+                    "Description": "<span lang=\"EN-US\" style=\"line-height: 107%;\">Long-term follow-up of gene therapy is required to fully characterize its safety and efficacy.&nbsp;</span><a id=\"c63926c6-0389-4fe2-ab9b-cd4fa83d823d_21\" class=\"btn-ref\"><sup>21</sup></a>&nbsp;<a id=\"19e91ad3-0586-441e-b062-07bcd25b7cf0_22\" class=\"btn-ref\"><sup>22</sup></a>&nbsp;<a id=\"5194938e-f185-4365-89ba-a12908e2ee09_23\" class=\"btn-ref\"><sup>23</sup></a>&nbsp;",
+                    "ParentId": "5b08aea5-6508-4511-a64b-7cba83f8dce3",
+                    "Status": 0,
+                    "Index": 2,
+                    "Theme": {
+                        "Id": "382d487a-dd73-4b5a-a1ae-b22f6384c6b7",
+                        "Name": "<b>Pillar 1:</b> Gene therapy overview",
+                        "Description": "<span style=\"font-size:9.0pt;font-family:&quot;Montserrat Light&quot;; mso-ascii-font-family:&quot;Montserrat Light&quot;;mso-fareast-font-family:+mn-ea; mso-bidi-font-family:+mn-cs;mso-ascii-theme-font:minor-latin;mso-fareast-theme-font: minor-fareast;mso-bidi-theme-font:minor-bidi;color:#231F20;mso-color-index: 1;mso-font-kerning:12.0pt;language:en-GB;mso-style-textfill-type:solid; mso-style-textfill-fill-themecolor:text1;mso-style-textfill-fill-color:#231F20; mso-style-textfill-fill-alpha:100.0%\">Strategic objective: Provide an overview of gene therapy and its potential benefits</span>"
+                    },
+                    "References": [
+                        {
+                            "Id": "19e91ad3-0586-441e-b062-07bcd25b7cf0",
+                            "Description": "FDA_LTFU_2020_P1",
+                            "Url": "",
+                            "Index": 22,
+                            "Tag": "n/a",
+                            "HasFile": true
+                        },
+                        {
+                            "Id": "5194938e-f185-4365-89ba-a12908e2ee09",
+                            "Description": "EMA GT FU guidelines_P1",
+                            "Url": "",
+                            "Index": 23,
+                            "Tag": "n/a",
+                            "HasFile": true
+                        },
+                        {
+                            "Id": "c63926c6-0389-4fe2-ab9b-cd4fa83d823d",
+                            "Description": "Konkle_Haemophilia_2021_P1",
+                            "Url": "",
+                            "Index": 21,
+                            "Tag": "n/a",
+                            "HasFile": true
+                        }
+                    ],
+                    "SubStatements": [
+                        {
+                            "Id": "65bfa9e1-cbe5-4c55-b8fc-da86d90e6988",
+                            "Title": "Pillar 1: Gene therapy overview (strategic objective: XYZ)",
+                            "Description": "<span lang=\"EN-US\" style=\"line-height: 107%;\">Complications of gene therapy have been observed in clinical trials, including integration events and insertional mutagenesis and immunotoxicity.&nbsp;</span><a id=\"2b178794-5fb0-475a-ad51-f15b1ad6a87f_18\" class=\"btn-ref\"><sup>18</sup></a>&nbsp;<div><span lang=\"EN-US\" style=\"line-height: 107%;\"><br> <span><i>See Table 4: Observed complications of gene therapy (in resources).</i></span></span></div>",
+                            "ParentId": "9df29826-88b7-405a-ab2e-1e4f782f64aa",
+                            "Status": 0,
+                            "Index": null,
+                            "Theme": {
+                                "Id": "382d487a-dd73-4b5a-a1ae-b22f6384c6b7",
+                                "Name": "<b>Pillar 1:</b> Gene therapy overview",
+                                "Description": "<span style=\"font-size:9.0pt;font-family:&quot;Montserrat Light&quot;; mso-ascii-font-family:&quot;Montserrat Light&quot;;mso-fareast-font-family:+mn-ea; mso-bidi-font-family:+mn-cs;mso-ascii-theme-font:minor-latin;mso-fareast-theme-font: minor-fareast;mso-bidi-theme-font:minor-bidi;color:#231F20;mso-color-index: 1;mso-font-kerning:12.0pt;language:en-GB;mso-style-textfill-type:solid; mso-style-textfill-fill-themecolor:text1;mso-style-textfill-fill-color:#231F20; mso-style-textfill-fill-alpha:100.0%\">Strategic objective: Provide an overview of gene therapy and its potential benefits</span>"
+                            },
+                            "References": [
+                                {
+                                    "Id": "2b178794-5fb0-475a-ad51-f15b1ad6a87f",
+                                    "Description": "High_Roncarolo_2019_P1",
+                                    "Url": "",
+                                    "Index": 18,
+                                    "Tag": "n/a",
+                                    "HasFile": true
+                                }
+                            ],
+                            "SubStatements": [],
+                            "StatementResources": []
+                        },
+                        {
+                            "Id": "8cc4de30-3250-4f26-8020-959eb27abc15",
+                            "Title": "Pillar 1: Gene therapy overview (strategic objective: XYZ)",
+                            "Description": "<span lang=\"EN-US\" style=\"line-height: 107%;\">Safety events such as tumorigenesis may not occur for years or decades after vector infusion.&nbsp;</span><a id=\"c63926c6-0389-4fe2-ab9b-cd4fa83d823d_21\" class=\"btn-ref\"><sup>21</sup></a>&nbsp;",
+                            "ParentId": "9df29826-88b7-405a-ab2e-1e4f782f64aa",
+                            "Status": 0,
+                            "Index": 1,
+                            "Theme": {
+                                "Id": "382d487a-dd73-4b5a-a1ae-b22f6384c6b7",
+                                "Name": "<b>Pillar 1:</b> Gene therapy overview",
+                                "Description": "<span style=\"font-size:9.0pt;font-family:&quot;Montserrat Light&quot;; mso-ascii-font-family:&quot;Montserrat Light&quot;;mso-fareast-font-family:+mn-ea; mso-bidi-font-family:+mn-cs;mso-ascii-theme-font:minor-latin;mso-fareast-theme-font: minor-fareast;mso-bidi-theme-font:minor-bidi;color:#231F20;mso-color-index: 1;mso-font-kerning:12.0pt;language:en-GB;mso-style-textfill-type:solid; mso-style-textfill-fill-themecolor:text1;mso-style-textfill-fill-color:#231F20; mso-style-textfill-fill-alpha:100.0%\">Strategic objective: Provide an overview of gene therapy and its potential benefits</span>"
+                            },
+                            "References": [
+                                {
+                                    "Id": "c63926c6-0389-4fe2-ab9b-cd4fa83d823d",
+                                    "Description": "Konkle_Haemophilia_2021_P1",
+                                    "Url": "",
+                                    "Index": 21,
+                                    "Tag": "n/a",
+                                    "HasFile": true
+                                }
+                            ],
+                            "SubStatements": [],
+                            "StatementResources": []
+                        }
+                    ],
+                    "StatementResources": []
+                }
+            ],
+            "StatementResources": []
+        },
+        {
+            "Id": "433422c3-efc2-48e5-bf4d-2b6b422ba0ad",
+            "Title": "Pillar 1: Gene therapy overview",
+            "Description": "<span lang=\"EN-US\" style=\"line-height: 107%;\">S5. The first gene therapies were approved by the FDA and EMA in the 2010s.</span>",
+            "ParentId": "e359bc77-9567-41fa-8002-d6bff55f8feb",
+            "Status": 0,
+            "Index": 4,
+            "Theme": {
+                "Id": "382d487a-dd73-4b5a-a1ae-b22f6384c6b7",
+                "Name": "<b>Pillar 1:</b> Gene therapy overview",
+                "Description": "<span style=\"font-size:9.0pt;font-family:&quot;Montserrat Light&quot;; mso-ascii-font-family:&quot;Montserrat Light&quot;;mso-fareast-font-family:+mn-ea; mso-bidi-font-family:+mn-cs;mso-ascii-theme-font:minor-latin;mso-fareast-theme-font: minor-fareast;mso-bidi-theme-font:minor-bidi;color:#231F20;mso-color-index: 1;mso-font-kerning:12.0pt;language:en-GB;mso-style-textfill-type:solid; mso-style-textfill-fill-themecolor:text1;mso-style-textfill-fill-color:#231F20; mso-style-textfill-fill-alpha:100.0%\">Strategic objective: Provide an overview of gene therapy and its potential benefits</span>"
+            },
+            "References": [],
+            "SubStatements": [
+                {
+                    "Id": "f2d9efec-1e51-4209-8ad0-e1e37fcbd145",
+                    "Title": "Pillar 1: Gene therapy overview (strategic objective: XYZ)",
+                    "Description": "<span lang=\"EN-US\" style=\"line-height: 107%;\">The promise of gene therapy was realized in the 2010s with the approval of the first gene therapy products in the US and the EU.&nbsp;</span><a id=\"6356402f-c29c-4424-98d1-20687d3b7eb6_24\" class=\"btn-ref\"><sup>24</sup></a>&nbsp;<a id=\"44e9e1b5-8508-43d5-be02-18e9b2009e16_25\" class=\"btn-ref\"><sup>25</sup></a>&nbsp;",
+                    "ParentId": "433422c3-efc2-48e5-bf4d-2b6b422ba0ad",
+                    "Status": 0,
+                    "Index": null,
+                    "Theme": {
+                        "Id": "382d487a-dd73-4b5a-a1ae-b22f6384c6b7",
+                        "Name": "<b>Pillar 1:</b> Gene therapy overview",
+                        "Description": "<span style=\"font-size:9.0pt;font-family:&quot;Montserrat Light&quot;; mso-ascii-font-family:&quot;Montserrat Light&quot;;mso-fareast-font-family:+mn-ea; mso-bidi-font-family:+mn-cs;mso-ascii-theme-font:minor-latin;mso-fareast-theme-font: minor-fareast;mso-bidi-theme-font:minor-bidi;color:#231F20;mso-color-index: 1;mso-font-kerning:12.0pt;language:en-GB;mso-style-textfill-type:solid; mso-style-textfill-fill-themecolor:text1;mso-style-textfill-fill-color:#231F20; mso-style-textfill-fill-alpha:100.0%\">Strategic objective: Provide an overview of gene therapy and its potential benefits</span>"
+                    },
+                    "References": [
+                        {
+                            "Id": "44e9e1b5-8508-43d5-be02-18e9b2009e16",
+                            "Description": "Glybera_SMPC_P1",
+                            "Url": "",
+                            "Index": 25,
+                            "Tag": "n/a",
+                            "HasFile": true
+                        },
+                        {
+                            "Id": "6356402f-c29c-4424-98d1-20687d3b7eb6",
+                            "Description": "kymriah_US_prescribing information_P1",
+                            "Url": "",
+                            "Index": 24,
+                            "Tag": "n/a",
+                            "HasFile": true
+                        }
+                    ],
+                    "SubStatements": [
+                        {
+                            "Id": "8d41792e-7129-471f-9c70-91b4526e14b5",
+                            "Title": "Pillar 1: Gene therapy overview (strategic objective: XYZ)",
+                            "Description": "<p class=\"MsoNormal\"><span lang=\"EN-US\">Gene therapy products have been approved in the US and EU for inherited monogenic diseases and cancer.&nbsp;</span><a id=\"bf996391-9926-4d83-84cc-581a74cac66a_13\" class=\"btn-ref\"><sup>13</sup></a><span>&nbsp;</span><a id=\"38a76ffd-296d-4bda-9b6c-761aed6a6461_14\" class=\"btn-ref\"><sup>14</sup></a><span>&nbsp;</span><a id=\"af421c9a-b9a3-450c-8f03-15080fa63ba6_15\" class=\"btn-ref\"><sup>15</sup></a><span>&nbsp;</span><a id=\"bdbf5fd1-994f-453f-856e-22a0392de5fa_17\" class=\"btn-ref\"><sup>17</sup></a><span >&nbsp;</span><a id=\"6356402f-c29c-4424-98d1-20687d3b7eb6_24\" class=\"btn-ref\"><sup>24</sup></a><span >&nbsp;</span><a id=\"44e9e1b5-8508-43d5-be02-18e9b2009e16_25\" class=\"btn-ref\"><sup>25</sup></a><span >&nbsp;</span><a id=\"49038f6b-20e7-4f25-8622-50ab684816a9_26\" class=\"btn-ref\"><sup>26</sup></a><span >&nbsp;</span></p><p class=\"MsoNormal\"><span><i>See Table 5: Key regulatory approvals of gene therapy products (in resources).</i></span></p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+                            "ParentId": "f2d9efec-1e51-4209-8ad0-e1e37fcbd145",
+                            "Status": 0,
+                            "Index": null,
+                            "Theme": {
+                                "Id": "382d487a-dd73-4b5a-a1ae-b22f6384c6b7",
+                                "Name": "<b>Pillar 1:</b> Gene therapy overview",
+                                "Description": "<span style=\"font-size:9.0pt;font-family:&quot;Montserrat Light&quot;; mso-ascii-font-family:&quot;Montserrat Light&quot;;mso-fareast-font-family:+mn-ea; mso-bidi-font-family:+mn-cs;mso-ascii-theme-font:minor-latin;mso-fareast-theme-font: minor-fareast;mso-bidi-theme-font:minor-bidi;color:#231F20;mso-color-index: 1;mso-font-kerning:12.0pt;language:en-GB;mso-style-textfill-type:solid; mso-style-textfill-fill-themecolor:text1;mso-style-textfill-fill-color:#231F20; mso-style-textfill-fill-alpha:100.0%\">Strategic objective: Provide an overview of gene therapy and its potential benefits</span>"
+                            },
+                            "References": [
+                                {
+                                    "Id": "af421c9a-b9a3-450c-8f03-15080fa63ba6",
+                                    "Description": "ZOLGENSMA_SMPC_P1",
+                                    "Url": "",
+                                    "Index": 15,
+                                    "Tag": "n/a",
+                                    "HasFile": true
+                                },
+                                {
+                                    "Id": "44e9e1b5-8508-43d5-be02-18e9b2009e16",
+                                    "Description": "Glybera_SMPC_P1",
+                                    "Url": "",
+                                    "Index": 25,
+                                    "Tag": "n/a",
+                                    "HasFile": true
+                                },
+                                {
+                                    "Id": "6356402f-c29c-4424-98d1-20687d3b7eb6",
+                                    "Description": "kymriah_US_prescribing information_P1",
+                                    "Url": "",
+                                    "Index": 24,
+                                    "Tag": "n/a",
+                                    "HasFile": true
+                                },
+                                {
+                                    "Id": "bdbf5fd1-994f-453f-856e-22a0392de5fa",
+                                    "Description": "LUXTURNA_SMPC_P1",
+                                    "Url": "",
+                                    "Index": 17,
+                                    "Tag": "n/a",
+                                    "HasFile": true
+                                },
+                                {
+                                    "Id": "49038f6b-20e7-4f25-8622-50ab684816a9",
+                                    "Description": "Kymriah_SMPC_P1",
+                                    "Url": "",
+                                    "Index": 26,
+                                    "Tag": "n/a",
+                                    "HasFile": true
+                                },
+                                {
+                                    "Id": "bf996391-9926-4d83-84cc-581a74cac66a",
+                                    "Description": "LUXTURNA_US_Prescribing_Information_P1",
+                                    "Url": "",
+                                    "Index": 13,
+                                    "Tag": "n/a",
+                                    "HasFile": true
+                                },
+                                {
+                                    "Id": "38a76ffd-296d-4bda-9b6c-761aed6a6461",
+                                    "Description": "ZOLGENSMA_US_Prescribing information_P1",
+                                    "Url": "",
+                                    "Index": 14,
+                                    "Tag": "n/a",
+                                    "HasFile": true
+                                }
+                            ],
+                            "SubStatements": [],
+                            "StatementResources": []
+                        }
+                    ],
+                    "StatementResources": []
+                }
+            ],
+            "StatementResources": []
+        },
+        {
+            "Id": "06010559-47b2-4137-b090-cb021234dccc",
+            "Title": "Pillar 1: Gene therapy overview",
+            "Description": "<span lang=\"EN-US\" style=\"line-height: 107%;\">S6. Rapid advancements in gene therapy are ongoing, with increasing numbers of approved products and more than 1100 active clinical trials ongoing across a range of diseases.</span>",
+            "ParentId": "e359bc77-9567-41fa-8002-d6bff55f8feb",
+            "Status": 0,
+            "Index": 5,
+            "Theme": {
+                "Id": "382d487a-dd73-4b5a-a1ae-b22f6384c6b7",
+                "Name": "<b>Pillar 1:</b> Gene therapy overview",
+                "Description": "<span style=\"font-size:9.0pt;font-family:&quot;Montserrat Light&quot;; mso-ascii-font-family:&quot;Montserrat Light&quot;;mso-fareast-font-family:+mn-ea; mso-bidi-font-family:+mn-cs;mso-ascii-theme-font:minor-latin;mso-fareast-theme-font: minor-fareast;mso-bidi-theme-font:minor-bidi;color:#231F20;mso-color-index: 1;mso-font-kerning:12.0pt;language:en-GB;mso-style-textfill-type:solid; mso-style-textfill-fill-themecolor:text1;mso-style-textfill-fill-color:#231F20; mso-style-textfill-fill-alpha:100.0%\">Strategic objective: Provide an overview of gene therapy and its potential benefits</span>"
+            },
+            "References": [],
+            "SubStatements": [
+                {
+                    "Id": "a6062ad8-5662-4d5e-a529-e2c325d13c0c",
+                    "Title": "<b>Pillar 1:</b> Gene therapy overview",
+                    "Description": "<span lang=\"EN-US\" style=\"line-height: 107%;\">Recent approvals of gene therapy products include <i>in vivo r</i>AAV-based and <i>ex vivo</i> lentiviral-based gene therapies for inherited monogenic diseases.&nbsp;</span><a id=\"bf996391-9926-4d83-84cc-581a74cac66a_13\" class=\"btn-ref\"><sup>13</sup></a>&nbsp;<a id=\"38a76ffd-296d-4bda-9b6c-761aed6a6461_14\" class=\"btn-ref\"><sup>14</sup></a>&nbsp;<a id=\"af421c9a-b9a3-450c-8f03-15080fa63ba6_15\" class=\"btn-ref\"><sup>15</sup></a>&nbsp;<a id=\"142990f4-76cb-4077-9487-37c8745b87de_16\" class=\"btn-ref\"><sup>16</sup></a>&nbsp;<a id=\"bdbf5fd1-994f-453f-856e-22a0392de5fa_17\" class=\"btn-ref\"><sup>17</sup></a>&nbsp;",
+                    "ParentId": "06010559-47b2-4137-b090-cb021234dccc",
+                    "Status": 0,
+                    "Index": null,
+                    "Theme": {
+                        "Id": "382d487a-dd73-4b5a-a1ae-b22f6384c6b7",
+                        "Name": "<b>Pillar 1:</b> Gene therapy overview",
+                        "Description": "<span style=\"font-size:9.0pt;font-family:&quot;Montserrat Light&quot;; mso-ascii-font-family:&quot;Montserrat Light&quot;;mso-fareast-font-family:+mn-ea; mso-bidi-font-family:+mn-cs;mso-ascii-theme-font:minor-latin;mso-fareast-theme-font: minor-fareast;mso-bidi-theme-font:minor-bidi;color:#231F20;mso-color-index: 1;mso-font-kerning:12.0pt;language:en-GB;mso-style-textfill-type:solid; mso-style-textfill-fill-themecolor:text1;mso-style-textfill-fill-color:#231F20; mso-style-textfill-fill-alpha:100.0%\">Strategic objective: Provide an overview of gene therapy and its potential benefits</span>"
+                    },
+                    "References": [
+                        {
+                            "Id": "af421c9a-b9a3-450c-8f03-15080fa63ba6",
+                            "Description": "ZOLGENSMA_SMPC_P1",
+                            "Url": "",
+                            "Index": 15,
+                            "Tag": "n/a",
+                            "HasFile": true
+                        },
+                        {
+                            "Id": "bdbf5fd1-994f-453f-856e-22a0392de5fa",
+                            "Description": "LUXTURNA_SMPC_P1",
+                            "Url": "",
+                            "Index": 17,
+                            "Tag": "n/a",
+                            "HasFile": true
+                        },
+                        {
+                            "Id": "142990f4-76cb-4077-9487-37c8745b87de",
+                            "Description": "Zynteglo_SMPC_P1",
+                            "Url": "",
+                            "Index": 16,
+                            "Tag": "n/a",
+                            "HasFile": true
+                        },
+                        {
+                            "Id": "bf996391-9926-4d83-84cc-581a74cac66a",
+                            "Description": "LUXTURNA_US_Prescribing_Information_P1",
+                            "Url": "",
+                            "Index": 13,
+                            "Tag": "n/a",
+                            "HasFile": true
+                        },
+                        {
+                            "Id": "38a76ffd-296d-4bda-9b6c-761aed6a6461",
+                            "Description": "ZOLGENSMA_US_Prescribing information_P1",
+                            "Url": "",
+                            "Index": 14,
+                            "Tag": "n/a",
+                            "HasFile": true
+                        }
+                    ],
+                    "SubStatements": [
+                        {
+                            "Id": "741aaac1-e0dd-4ef3-be6e-59843d6cddab",
+                            "Title": "<b>Pillar 1:</b> Gene therapy overview",
+                            "Description": "<p class=\"MsoNormal\"><span lang=\"EN-US\"><i>In vivo</i></span><span lang=\"EN-US\"><i>&nbsp;r</i>AAV-based gene therapy products are approved for hereditary retinal dystrophy and spinal muscular atrophy, and an <i>ex vivo</i> lentivirus-based product has conditional approval in the EU for </span><span lang=\"EN-US\">β</span><span lang=\"EN-US\">-thalassemia.&nbsp;</span><a id=\"bf996391-9926-4d83-84cc-581a74cac66a_13\" class=\"btn-ref\"><sup>13</sup></a><span>&nbsp;</span><a id=\"38a76ffd-296d-4bda-9b6c-761aed6a6461_14\" class=\"btn-ref\"><sup>14</sup></a><span>&nbsp;</span><a id=\"af421c9a-b9a3-450c-8f03-15080fa63ba6_15\" class=\"btn-ref\"><sup>15</sup></a><span>&nbsp;</span><a id=\"142990f4-76cb-4077-9487-37c8745b87de_16\" class=\"btn-ref\"><sup>16</sup></a><span>&nbsp;</span><a id=\"bdbf5fd1-994f-453f-856e-22a0392de5fa_17\" class=\"btn-ref\"><sup>17</sup></a><span>&nbsp;</span></p>  <span lang=\"EN-US\" style=\"line-height: 107%; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\"><i>See Table 5: Key regulatory approvals of gene therapy products (in resources).</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+                            "ParentId": "a6062ad8-5662-4d5e-a529-e2c325d13c0c",
+                            "Status": 0,
+                            "Index": null,
+                            "Theme": {
+                                "Id": "382d487a-dd73-4b5a-a1ae-b22f6384c6b7",
+                                "Name": "<b>Pillar 1:</b> Gene therapy overview",
+                                "Description": "<span style=\"font-size:9.0pt;font-family:&quot;Montserrat Light&quot;; mso-ascii-font-family:&quot;Montserrat Light&quot;;mso-fareast-font-family:+mn-ea; mso-bidi-font-family:+mn-cs;mso-ascii-theme-font:minor-latin;mso-fareast-theme-font: minor-fareast;mso-bidi-theme-font:minor-bidi;color:#231F20;mso-color-index: 1;mso-font-kerning:12.0pt;language:en-GB;mso-style-textfill-type:solid; mso-style-textfill-fill-themecolor:text1;mso-style-textfill-fill-color:#231F20; mso-style-textfill-fill-alpha:100.0%\">Strategic objective: Provide an overview of gene therapy and its potential benefits</span>"
+                            },
+                            "References": [
+                                {
+                                    "Id": "af421c9a-b9a3-450c-8f03-15080fa63ba6",
+                                    "Description": "ZOLGENSMA_SMPC_P1",
+                                    "Url": "",
+                                    "Index": 15,
+                                    "Tag": "n/a",
+                                    "HasFile": true
+                                },
+                                {
+                                    "Id": "bdbf5fd1-994f-453f-856e-22a0392de5fa",
+                                    "Description": "LUXTURNA_SMPC_P1",
+                                    "Url": "",
+                                    "Index": 17,
+                                    "Tag": "n/a",
+                                    "HasFile": true
+                                },
+                                {
+                                    "Id": "142990f4-76cb-4077-9487-37c8745b87de",
+                                    "Description": "Zynteglo_SMPC_P1",
+                                    "Url": "",
+                                    "Index": 16,
+                                    "Tag": "n/a",
+                                    "HasFile": true
+                                },
+                                {
+                                    "Id": "bf996391-9926-4d83-84cc-581a74cac66a",
+                                    "Description": "LUXTURNA_US_Prescribing_Information_P1",
+                                    "Url": "",
+                                    "Index": 13,
+                                    "Tag": "n/a",
+                                    "HasFile": true
+                                },
+                                {
+                                    "Id": "38a76ffd-296d-4bda-9b6c-761aed6a6461",
+                                    "Description": "ZOLGENSMA_US_Prescribing information_P1",
+                                    "Url": "",
+                                    "Index": 14,
+                                    "Tag": "n/a",
+                                    "HasFile": true
+                                }
+                            ],
+                            "SubStatements": [],
+                            "StatementResources": []
+                        }
+                    ],
+                    "StatementResources": []
+                },
+                {
+                    "Id": "9627718b-2aa8-4d33-aa94-af58e3b01b8f",
+                    "Title": "<b>Pillar 1:</b> Gene therapy overview",
+                    "Description": "<span lang=\"EN-US\" style=\"line-height: 107%;\">As of August 2021, there are over 1100 planned or ongoing Phase 1–3 interventional clinical trials in gene therapy across disease areas.&nbsp;</span><a id=\"c6db7129-ead3-4e15-a91c-1c6c7b7d7556_27\" class=\"btn-ref\"><sup>27</sup></a>&nbsp;",
+                    "ParentId": "06010559-47b2-4137-b090-cb021234dccc",
+                    "Status": 0,
+                    "Index": 1,
+                    "Theme": {
+                        "Id": "382d487a-dd73-4b5a-a1ae-b22f6384c6b7",
+                        "Name": "<b>Pillar 1:</b> Gene therapy overview",
+                        "Description": "<span style=\"font-size:9.0pt;font-family:&quot;Montserrat Light&quot;; mso-ascii-font-family:&quot;Montserrat Light&quot;;mso-fareast-font-family:+mn-ea; mso-bidi-font-family:+mn-cs;mso-ascii-theme-font:minor-latin;mso-fareast-theme-font: minor-fareast;mso-bidi-theme-font:minor-bidi;color:#231F20;mso-color-index: 1;mso-font-kerning:12.0pt;language:en-GB;mso-style-textfill-type:solid; mso-style-textfill-fill-themecolor:text1;mso-style-textfill-fill-color:#231F20; mso-style-textfill-fill-alpha:100.0%\">Strategic objective: Provide an overview of gene therapy and its potential benefits</span>"
+                    },
+                    "References": [
+                        {
+                            "Id": "c6db7129-ead3-4e15-a91c-1c6c7b7d7556",
+                            "Description": "Clintrials.gov search output_17 May_P1",
+                            "Url": "",
+                            "Index": 27,
+                            "Tag": "n/a",
+                            "HasFile": true
+                        }
+                    ],
+                    "SubStatements": [
+                        {
+                            "Id": "d80c76fe-8db2-47f0-aaaf-5aa357adb733",
+                            "Title": "<b>Pillar 1:</b> Gene therapy overview",
+                            "Description": "<p class=\"MsoNormal\"><span lang=\"EN-US\">The majority of gene therapy clinical trials are in cancer and inherited monogenic diseases.</span><span lang=\"EN-US\">&nbsp;</span><sup><a id=\"1f9e2985-d3b1-4e83-827e-fe8f9c5e089a_28\" class=\"btn-ref\"><span>28</span></a><span>&nbsp;</span></sup></p>  <p class=\"MsoNormal\"><span lang=\"EN-US\">Gene therapy trials have been conducted in inherited monogenic diseases such as&nbsp;</span><span lang=\"EN-US\" style=\"font-size: 1rem; line-height: 107%;\">sickle cell disease, hemophilia A and B, spinal muscular atrophy, and </span><span lang=\"EN-US\" style=\"font-size: 1rem; line-height: 107%;\">β</span><span lang=\"EN-US\" style=\"font-size: 1rem; line-height: 107%;\">-thalassemia, with primary immunodeficiency disorders being the most widely studied.&nbsp;</span><a id=\"1f9e2985-d3b1-4e83-827e-fe8f9c5e089a_28\" class=\"btn-ref\"><sup>28</sup></a><span>&nbsp;</span></p>&nbsp;&nbsp;",
+                            "ParentId": "9627718b-2aa8-4d33-aa94-af58e3b01b8f",
+                            "Status": 0,
+                            "Index": null,
+                            "Theme": {
+                                "Id": "382d487a-dd73-4b5a-a1ae-b22f6384c6b7",
+                                "Name": "<b>Pillar 1:</b> Gene therapy overview",
+                                "Description": "<span style=\"font-size:9.0pt;font-family:&quot;Montserrat Light&quot;; mso-ascii-font-family:&quot;Montserrat Light&quot;;mso-fareast-font-family:+mn-ea; mso-bidi-font-family:+mn-cs;mso-ascii-theme-font:minor-latin;mso-fareast-theme-font: minor-fareast;mso-bidi-theme-font:minor-bidi;color:#231F20;mso-color-index: 1;mso-font-kerning:12.0pt;language:en-GB;mso-style-textfill-type:solid; mso-style-textfill-fill-themecolor:text1;mso-style-textfill-fill-color:#231F20; mso-style-textfill-fill-alpha:100.0%\">Strategic objective: Provide an overview of gene therapy and its potential benefits</span>"
+                            },
+                            "References": [
+                                {
+                                    "Id": "1f9e2985-d3b1-4e83-827e-fe8f9c5e089a",
+                                    "Description": "Ginn_J Gene Med_2018_P1",
+                                    "Url": "",
+                                    "Index": 28,
+                                    "Tag": "n/a",
+                                    "HasFile": true
+                                }
+                            ],
+                            "SubStatements": [],
+                            "StatementResources": []
+                        }
+                    ],
+                    "StatementResources": []
+                },
+                {
+                    "Id": "4339799f-8c75-4cda-aaf3-748f3b2661a9",
+                    "Title": "<b>Pillar 1:</b> Gene therapy overview",
+                    "Description": "<span lang=\"EN-US\" style=\"line-height: 107%;\">Advances in gene therapy are ongoing, with the emergence of optimized viral vectors and early evidence indicating that gene transfer could hold promise for certain diseases.&nbsp;</span><a id=\"6bffa9f5-61c4-40f2-aed3-40c32be73a14_29\" class=\"btn-ref\"><sup>29</sup></a>&nbsp;<a id=\"0a114ba5-cb8f-471d-9815-8fb7a3cfced8_30\" class=\"btn-ref\"><sup>30</sup></a>&nbsp;<a id=\"2b1b3a8a-9bb8-4f91-b7dc-95789c110a0f_31\" class=\"btn-ref\"><sup>31</sup></a>&nbsp;",
+                    "ParentId": "06010559-47b2-4137-b090-cb021234dccc",
+                    "Status": 0,
+                    "Index": 2,
+                    "Theme": {
+                        "Id": "382d487a-dd73-4b5a-a1ae-b22f6384c6b7",
+                        "Name": "<b>Pillar 1:</b> Gene therapy overview",
+                        "Description": "<span style=\"font-size:9.0pt;font-family:&quot;Montserrat Light&quot;; mso-ascii-font-family:&quot;Montserrat Light&quot;;mso-fareast-font-family:+mn-ea; mso-bidi-font-family:+mn-cs;mso-ascii-theme-font:minor-latin;mso-fareast-theme-font: minor-fareast;mso-bidi-theme-font:minor-bidi;color:#231F20;mso-color-index: 1;mso-font-kerning:12.0pt;language:en-GB;mso-style-textfill-type:solid; mso-style-textfill-fill-themecolor:text1;mso-style-textfill-fill-color:#231F20; mso-style-textfill-fill-alpha:100.0%\">Strategic objective: Provide an overview of gene therapy and its potential benefits</span>"
+                    },
+                    "References": [
+                        {
+                            "Id": "6bffa9f5-61c4-40f2-aed3-40c32be73a14",
+                            "Description": "Bulaklak and Gersbach_Nature Comms_2020_P1",
+                            "Url": "",
+                            "Index": 29,
+                            "Tag": "n/a",
+                            "HasFile": true
+                        },
+                        {
+                            "Id": "0a114ba5-cb8f-471d-9815-8fb7a3cfced8",
+                            "Description": "Tse_PNAS_2017_P1",
+                            "Url": "",
+                            "Index": 30,
+                            "Tag": "n/a",
+                            "HasFile": true
+                        },
+                        {
+                            "Id": "2b1b3a8a-9bb8-4f91-b7dc-95789c110a0f",
+                            "Description": "Frangoul_ASH 2020_Abstract_P1",
+                            "Url": "",
+                            "Index": 31,
+                            "Tag": "n/a",
+                            "HasFile": true
+                        }
+                    ],
+                    "SubStatements": [
+                        {
+                            "Id": "84a1a349-6b80-451d-99dd-4ef45d6658f2",
+                            "Title": "Pillar 1: Gene therapy overview (strategic objective: XYZ)",
+                            "Description": "<span lang=\"EN-US\" style=\"line-height: 107%;\">Preclinical models have shown that modification of AAV-based vectors can reduce recognition by pre-existing neutralizing antibodies.&nbsp;</span><a id=\"0a114ba5-cb8f-471d-9815-8fb7a3cfced8_30\" class=\"btn-ref\"><sup>30</sup></a>&nbsp;",
+                            "ParentId": "4339799f-8c75-4cda-aaf3-748f3b2661a9",
+                            "Status": 0,
+                            "Index": null,
+                            "Theme": {
+                                "Id": "382d487a-dd73-4b5a-a1ae-b22f6384c6b7",
+                                "Name": "<b>Pillar 1:</b> Gene therapy overview",
+                                "Description": "<span style=\"font-size:9.0pt;font-family:&quot;Montserrat Light&quot;; mso-ascii-font-family:&quot;Montserrat Light&quot;;mso-fareast-font-family:+mn-ea; mso-bidi-font-family:+mn-cs;mso-ascii-theme-font:minor-latin;mso-fareast-theme-font: minor-fareast;mso-bidi-theme-font:minor-bidi;color:#231F20;mso-color-index: 1;mso-font-kerning:12.0pt;language:en-GB;mso-style-textfill-type:solid; mso-style-textfill-fill-themecolor:text1;mso-style-textfill-fill-color:#231F20; mso-style-textfill-fill-alpha:100.0%\">Strategic objective: Provide an overview of gene therapy and its potential benefits</span>"
+                            },
+                            "References": [
+                                {
+                                    "Id": "0a114ba5-cb8f-471d-9815-8fb7a3cfced8",
+                                    "Description": "Tse_PNAS_2017_P1",
+                                    "Url": "",
+                                    "Index": 30,
+                                    "Tag": "n/a",
+                                    "HasFile": true
+                                }
+                            ],
+                            "SubStatements": [],
+                            "StatementResources": []
+                        },
+                        {
+                            "Id": "6a63f7cc-918b-428c-8847-ad1d8fa9677c",
+                            "Title": "Pillar 1: Gene therapy overview (strategic objective: XYZ)",
+                            "Description": "<span lang=\"EN-US\" style=\"line-height: 107%;\">Clinical benefits have been reported in trials of the CRISPR/Cas9 drug CTX001 in </span><span lang=\"EN-US\" style=\"line-height: 107%;\">β</span><span lang=\"EN-US\" style=\"line-height: 107%;\">-thalassemia and sickle cell disease.&nbsp;</span><a id=\"2b1b3a8a-9bb8-4f91-b7dc-95789c110a0f_31\" class=\"btn-ref\"><sup>31</sup></a>&nbsp;",
+                            "ParentId": "4339799f-8c75-4cda-aaf3-748f3b2661a9",
+                            "Status": 0,
+                            "Index": 1,
+                            "Theme": {
+                                "Id": "382d487a-dd73-4b5a-a1ae-b22f6384c6b7",
+                                "Name": "<b>Pillar 1:</b> Gene therapy overview",
+                                "Description": "<span style=\"font-size:9.0pt;font-family:&quot;Montserrat Light&quot;; mso-ascii-font-family:&quot;Montserrat Light&quot;;mso-fareast-font-family:+mn-ea; mso-bidi-font-family:+mn-cs;mso-ascii-theme-font:minor-latin;mso-fareast-theme-font: minor-fareast;mso-bidi-theme-font:minor-bidi;color:#231F20;mso-color-index: 1;mso-font-kerning:12.0pt;language:en-GB;mso-style-textfill-type:solid; mso-style-textfill-fill-themecolor:text1;mso-style-textfill-fill-color:#231F20; mso-style-textfill-fill-alpha:100.0%\">Strategic objective: Provide an overview of gene therapy and its potential benefits</span>"
+                            },
+                            "References": [
+                                {
+                                    "Id": "2b1b3a8a-9bb8-4f91-b7dc-95789c110a0f",
+                                    "Description": "Frangoul_ASH 2020_Abstract_P1",
+                                    "Url": "",
+                                    "Index": 31,
+                                    "Tag": "n/a",
+                                    "HasFile": true
+                                }
+                            ],
+                            "SubStatements": [],
+                            "StatementResources": []
+                        }
+                    ],
+                    "StatementResources": []
+                },
+                {
+                    "Id": "cfe8fdc8-44c8-452e-a9a1-0f94a36c7e9c",
+                    "Title": "Pillar 1: Gene therapy overview (strategic objective: XYZ)",
+                    "Description": "<span lang=\"EN-US\" style=\"line-height: 107%;\">Gene therapy may become part of routine care for a range of diseases.&nbsp;</span><a id=\"951b4d06-8aef-400e-8e6d-0bb505864589_32\" class=\"btn-ref\"><sup>32</sup></a>&nbsp;<a id=\"a253aa33-da44-4a80-be38-75c9677da8e8_33\" class=\"btn-ref\"><sup>33</sup></a>&nbsp;<a id=\"ec9adfc8-32ba-48ab-b7e7-e4c7b099b5c8_34\" class=\"btn-ref\"><sup>34</sup></a>&nbsp;",
+                    "ParentId": "06010559-47b2-4137-b090-cb021234dccc",
+                    "Status": 0,
+                    "Index": 3,
+                    "Theme": {
+                        "Id": "382d487a-dd73-4b5a-a1ae-b22f6384c6b7",
+                        "Name": "<b>Pillar 1:</b> Gene therapy overview",
+                        "Description": "<span style=\"font-size:9.0pt;font-family:&quot;Montserrat Light&quot;; mso-ascii-font-family:&quot;Montserrat Light&quot;;mso-fareast-font-family:+mn-ea; mso-bidi-font-family:+mn-cs;mso-ascii-theme-font:minor-latin;mso-fareast-theme-font: minor-fareast;mso-bidi-theme-font:minor-bidi;color:#231F20;mso-color-index: 1;mso-font-kerning:12.0pt;language:en-GB;mso-style-textfill-type:solid; mso-style-textfill-fill-themecolor:text1;mso-style-textfill-fill-color:#231F20; mso-style-textfill-fill-alpha:100.0%\">Strategic objective: Provide an overview of gene therapy and its potential benefits</span>"
+                    },
+                    "References": [
+                        {
+                            "Id": "951b4d06-8aef-400e-8e6d-0bb505864589",
+                            "Description": "Abou-El-Enein_Trends in biotechnology_2015_P1",
+                            "Url": "",
+                            "Index": 32,
+                            "Tag": "n/a",
+                            "HasFile": true
+                        },
+                        {
+                            "Id": "a253aa33-da44-4a80-be38-75c9677da8e8",
+                            "Description": "Baruteau_J Inherit Metab_2017_P1",
+                            "Url": "",
+                            "Index": 33,
+                            "Tag": "n/a",
+                            "HasFile": true
+                        },
+                        {
+                            "Id": "ec9adfc8-32ba-48ab-b7e7-e4c7b099b5c8",
+                            "Description": "Jayarajan_Experimental Dermatology_2021_P1",
+                            "Url": "",
+                            "Index": 34,
+                            "Tag": "n/a",
+                            "HasFile": true
+                        }
+                    ],
+                    "SubStatements": [
+                        {
+                            "Id": "5a8e8d6c-6bf3-4073-9604-38bb8b9f19b4",
+                            "Title": "Pillar 1: Gene therapy overview (strategic objective: XYZ)",
+                            "Description": "<span lang=\"EN-US\" style=\"line-height: 107%;\">Governments are supporting the development of advanced cell treatments, including gene therapy.&nbsp;</span><a id=\"5c1e4337-2cda-4947-89ff-6363a6a89b94_35\" class=\"btn-ref\"><sup>35</sup></a>&nbsp;<a id=\"2851ffd4-9c5e-45e7-bdad-d5f771c2f7df_36\" class=\"btn-ref\"><sup>36</sup></a>&nbsp;<a id=\"05f498a7-3832-4cbb-9cbb-dc65b6cacf53_37\" class=\"btn-ref\"><sup>37</sup></a>&nbsp;",
+                            "ParentId": "cfe8fdc8-44c8-452e-a9a1-0f94a36c7e9c",
+                            "Status": 0,
+                            "Index": null,
+                            "Theme": {
+                                "Id": "382d487a-dd73-4b5a-a1ae-b22f6384c6b7",
+                                "Name": "<b>Pillar 1:</b> Gene therapy overview",
+                                "Description": "<span style=\"font-size:9.0pt;font-family:&quot;Montserrat Light&quot;; mso-ascii-font-family:&quot;Montserrat Light&quot;;mso-fareast-font-family:+mn-ea; mso-bidi-font-family:+mn-cs;mso-ascii-theme-font:minor-latin;mso-fareast-theme-font: minor-fareast;mso-bidi-theme-font:minor-bidi;color:#231F20;mso-color-index: 1;mso-font-kerning:12.0pt;language:en-GB;mso-style-textfill-type:solid; mso-style-textfill-fill-themecolor:text1;mso-style-textfill-fill-color:#231F20; mso-style-textfill-fill-alpha:100.0%\">Strategic objective: Provide an overview of gene therapy and its potential benefits</span>"
+                            },
+                            "References": [
+                                {
+                                    "Id": "5c1e4337-2cda-4947-89ff-6363a6a89b94",
+                                    "Description": "Catapult Cell and Gene Therapy Funding_P1",
+                                    "Url": "",
+                                    "Index": 35,
+                                    "Tag": "n/a",
+                                    "HasFile": true
+                                },
+                                {
+                                    "Id": "2851ffd4-9c5e-45e7-bdad-d5f771c2f7df",
+                                    "Description": "Singapore Health Society Authority Innovation Office_P1",
+                                    "Url": "",
+                                    "Index": 36,
+                                    "Tag": "n/a",
+                                    "HasFile": true
+                                },
+                                {
+                                    "Id": "05f498a7-3832-4cbb-9cbb-dc65b6cacf53",
+                                    "Description": "FDA_News release_2020_P1",
+                                    "Url": "",
+                                    "Index": 37,
+                                    "Tag": "n/a",
+                                    "HasFile": true
+                                }
+                            ],
+                            "SubStatements": [],
+                            "StatementResources": []
+                        }
+                    ],
+                    "StatementResources": []
+                }
+            ],
+            "StatementResources": []
+        }
+    ],
+    "StatementResources": [
+        {
+            "Id": "ec20a103-32f7-41b1-9a86-a4cee8a886d9",
+            "Url": "https://nucleusglobal-resourcerepository.s3.eu-west-1.amazonaws.com/csl-smp/1f3ff3ad-ddb8-40a4-b566-05710a5135f0.pdf?X-Amz-Expires=1800&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAILI2QFGMTZTKHUAQ/20220222/eu-west-1/s3/aws4_request&X-Amz-Date=20220222T144742Z&X-Amz-SignedHeaders=host&X-Amz-Signature=9c326857bd3e126cb3ad903341d1c72787c3a5eb9b449765713d2d59f88bce69",
+            "CategoryDefintionId": "fe6ed403-4110-4188-a034-6ab397a6c913",
+            "IsHeader": false,
+            "ResourceType": {
+                "Id": "322f3897-a9d2-4acc-986f-49f7ede8183e",
+                "Type": "DefaultPdf",
+                "Extensions": [
+                    ".pdf"
+                ]
+            },
+            "Title": "Pillar 1: Downloadable file",
+            "User": {
+                "Email": "robyn.bradbury@meditechmedia.com",
+                "FirstName": "Robyn",
+                "LastName": "Bradbury",
+                "UserName": "robyn.bradbury@meditechmedia.com",
+                "PhoneNumber": "",
+                "Claims": [
+                    {
+                        "ClaimKey": "culture-code",
+                        "ClaimValue": "en-GB"
+                    },
+                    {
+                        "ClaimKey": "LastLoginDate",
+                        "ClaimValue": "2/15/2022 1:17:51 PM +00:00"
+                    },
+                    {
+                        "ClaimKey": "role",
+                        "ClaimValue": "admin"
+                    }
+                ],
+                "Id": "b5fae9da-c517-4191-ae19-61f8ea9cf880"
+            },
+            "FileName": null,
+            "CreatedDate": "2021-11-12T10:34:22.3608285+00:00"
+        },
+        {
+            "Id": "bc9eb287-bab4-46ce-9fb0-45bf85c63f9a",
+            "Url": "https://nucleusglobal-resourcerepository.s3.eu-west-1.amazonaws.com/csl-smp/511e1406-5101-4b4f-ad70-5683ba5341c0.pdf?X-Amz-Expires=1800&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAILI2QFGMTZTKHUAQ/20220222/eu-west-1/s3/aws4_request&X-Amz-Date=20220222T144742Z&X-Amz-SignedHeaders=host&X-Amz-Signature=db2bc81e78271b205069c1559450ecc120a56cb719475bfa753bba5f41f721b0",
+            "CategoryDefintionId": "fe6ed403-4110-4188-a034-6ab397a6c913",
+            "IsHeader": false,
+            "ResourceType": {
+                "Id": "322f3897-a9d2-4acc-986f-49f7ede8183e",
+                "Type": "DefaultPdf",
+                "Extensions": [
+                    ".pdf"
+                ]
+            },
+            "Title": "Table 5: Key regulatory approvals of gene therapy products (August 2021)",
+            "User": {
+                "Email": "robyn.bradbury@meditechmedia.com",
+                "FirstName": "Robyn",
+                "LastName": "Bradbury",
+                "UserName": "robyn.bradbury@meditechmedia.com",
+                "PhoneNumber": "",
+                "Claims": [
+                    {
+                        "ClaimKey": "culture-code",
+                        "ClaimValue": "en-GB"
+                    },
+                    {
+                        "ClaimKey": "LastLoginDate",
+                        "ClaimValue": "2/15/2022 1:17:51 PM +00:00"
+                    },
+                    {
+                        "ClaimKey": "role",
+                        "ClaimValue": "admin"
+                    }
+                ],
+                "Id": "b5fae9da-c517-4191-ae19-61f8ea9cf880"
+            },
+            "FileName": null,
+            "CreatedDate": "2021-11-12T10:32:56.1092581+00:00"
+        },
+        {
+            "Id": "6d2ea13e-d1b2-43d0-8a65-667c2a3cf4e5",
+            "Url": "https://nucleusglobal-resourcerepository.s3.eu-west-1.amazonaws.com/csl-smp/dd9b65f3-833b-4986-ac3a-4ca5429bb8fa.pdf?X-Amz-Expires=1800&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAILI2QFGMTZTKHUAQ/20220222/eu-west-1/s3/aws4_request&X-Amz-Date=20220222T144742Z&X-Amz-SignedHeaders=host&X-Amz-Signature=412319031f9c7330d84c6eb6f6ee38c52f78422c9210672e02fdc3aaf8eff123",
+            "CategoryDefintionId": "fe6ed403-4110-4188-a034-6ab397a6c913",
+            "IsHeader": false,
+            "ResourceType": {
+                "Id": "322f3897-a9d2-4acc-986f-49f7ede8183e",
+                "Type": "DefaultPdf",
+                "Extensions": [
+                    ".pdf"
+                ]
+            },
+            "Title": "Table 3: Overview of durable benefits of gene therapy for inherited monogenic diseases in clinical studies",
+            "User": {
+                "Email": "robyn.bradbury@meditechmedia.com",
+                "FirstName": "Robyn",
+                "LastName": "Bradbury",
+                "UserName": "robyn.bradbury@meditechmedia.com",
+                "PhoneNumber": "",
+                "Claims": [
+                    {
+                        "ClaimKey": "culture-code",
+                        "ClaimValue": "en-GB"
+                    },
+                    {
+                        "ClaimKey": "LastLoginDate",
+                        "ClaimValue": "2/15/2022 1:17:51 PM +00:00"
+                    },
+                    {
+                        "ClaimKey": "role",
+                        "ClaimValue": "admin"
+                    }
+                ],
+                "Id": "b5fae9da-c517-4191-ae19-61f8ea9cf880"
+            },
+            "FileName": null,
+            "CreatedDate": "2021-11-12T10:32:31.9838583+00:00"
+        },
+        {
+            "Id": "8d9b6e3c-5999-4dd4-babf-7437494dbfd1",
+            "Url": "https://nucleusglobal-resourcerepository.s3.eu-west-1.amazonaws.com/csl-smp/e27b9e5d-9313-499f-b755-5a5f4a3b1382.pdf?X-Amz-Expires=1800&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAILI2QFGMTZTKHUAQ/20220222/eu-west-1/s3/aws4_request&X-Amz-Date=20220222T144742Z&X-Amz-SignedHeaders=host&X-Amz-Signature=1e544b7c9ad177063e5b66e12f8bc766e7602bd2e64f6d1ac1b04bf576c12f87",
+            "CategoryDefintionId": "fe6ed403-4110-4188-a034-6ab397a6c913",
+            "IsHeader": false,
+            "ResourceType": {
+                "Id": "322f3897-a9d2-4acc-986f-49f7ede8183e",
+                "Type": "DefaultPdf",
+                "Extensions": [
+                    ".pdf"
+                ]
+            },
+            "Title": "Table 2: Overview of currently approved gene therapy products for inherited monogenic diseases using the addition of a functional gene (transgene)",
+            "User": {
+                "Email": "robyn.bradbury@meditechmedia.com",
+                "FirstName": "Robyn",
+                "LastName": "Bradbury",
+                "UserName": "robyn.bradbury@meditechmedia.com",
+                "PhoneNumber": "",
+                "Claims": [
+                    {
+                        "ClaimKey": "culture-code",
+                        "ClaimValue": "en-GB"
+                    },
+                    {
+                        "ClaimKey": "LastLoginDate",
+                        "ClaimValue": "2/15/2022 1:17:51 PM +00:00"
+                    },
+                    {
+                        "ClaimKey": "role",
+                        "ClaimValue": "admin"
+                    }
+                ],
+                "Id": "b5fae9da-c517-4191-ae19-61f8ea9cf880"
+            },
+            "FileName": null,
+            "CreatedDate": "2021-11-12T10:31:55.905098+00:00"
+        },
+        {
+            "Id": "73a1acf4-98f1-4a3d-b430-ac27c3430e6a",
+            "Url": "https://nucleusglobal-resourcerepository.s3.eu-west-1.amazonaws.com/csl-smp/7004ea30-20c7-4802-9729-59811f1eb034.pdf?X-Amz-Expires=1800&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAILI2QFGMTZTKHUAQ/20220222/eu-west-1/s3/aws4_request&X-Amz-Date=20220222T144742Z&X-Amz-SignedHeaders=host&X-Amz-Signature=1fe70038558d7e6cb1912ca163f44f2e9cb58d6a0328da000699a74208729421",
+            "CategoryDefintionId": "fe6ed403-4110-4188-a034-6ab397a6c913",
+            "IsHeader": false,
+            "ResourceType": {
+                "Id": "322f3897-a9d2-4acc-986f-49f7ede8183e",
+                "Type": "DefaultPdf",
+                "Extensions": [
+                    ".pdf"
+                ]
+            },
+            "Title": "Pillar 1: Downloadable reference list",
+            "User": null,
+            "FileName": null,
+            "CreatedDate": "2021-07-22T12:31:37.5486725+00:00"
+        },
+        {
+            "Id": "5ca54a49-b04c-42f8-877c-2ebac7851daa",
+            "Url": "https://nucleusglobal-resourcerepository.s3.eu-west-1.amazonaws.com/csl-smp/cd0dce3a-315f-4899-854f-b4a20ef5df6c.pdf?X-Amz-Expires=1800&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAILI2QFGMTZTKHUAQ/20220222/eu-west-1/s3/aws4_request&X-Amz-Date=20220222T144742Z&X-Amz-SignedHeaders=host&X-Amz-Signature=f5ec18b17ef5cf6aee770345be3cec8f912ee1f498fbb761fab4ef27cafd9a3a",
+            "CategoryDefintionId": "fe6ed403-4110-4188-a034-6ab397a6c913",
+            "IsHeader": false,
+            "ResourceType": {
+                "Id": "322f3897-a9d2-4acc-986f-49f7ede8183e",
+                "Type": "DefaultPdf",
+                "Extensions": [
+                    ".pdf"
+                ]
+            },
+            "Title": "Figure 1: Overview of in vivo gene therapy",
+            "User": null,
+            "FileName": null,
+            "CreatedDate": "2021-07-22T12:31:10.8616406+00:00"
+        },
+        {
+            "Id": "9bf817eb-ec30-4274-b554-340d36928137",
+            "Url": "https://nucleusglobal-resourcerepository.s3.eu-west-1.amazonaws.com/csl-smp/766a0fb0-e542-49c0-b558-601e8b3a2ac4.pdf?X-Amz-Expires=1800&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAILI2QFGMTZTKHUAQ/20220222/eu-west-1/s3/aws4_request&X-Amz-Date=20220222T144742Z&X-Amz-SignedHeaders=host&X-Amz-Signature=082b63cc3e118baa259dede4fb6f9a528b209c5acfaa5fee126d3aefab532f99",
+            "CategoryDefintionId": "fe6ed403-4110-4188-a034-6ab397a6c913",
+            "IsHeader": false,
+            "ResourceType": {
+                "Id": "322f3897-a9d2-4acc-986f-49f7ede8183e",
+                "Type": "DefaultPdf",
+                "Extensions": [
+                    ".pdf"
+                ]
+            },
+            "Title": "Figure 2: Overview of ex vivo gene therapy",
+            "User": null,
+            "FileName": null,
+            "CreatedDate": "2021-07-22T12:30:50.1914211+00:00"
+        },
+        {
+            "Id": "8ffeaa3a-9f41-4706-877e-004ef605a626",
+            "Url": "https://nucleusglobal-resourcerepository.s3.eu-west-1.amazonaws.com/csl-smp/782ca569-0ac2-461b-9160-64ce049b1a19.pdf?X-Amz-Expires=1800&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAILI2QFGMTZTKHUAQ/20220222/eu-west-1/s3/aws4_request&X-Amz-Date=20220222T144742Z&X-Amz-SignedHeaders=host&X-Amz-Signature=c6c72f1e05c69d22a23be6aec72e988d27a305f286f67feb4c73ea756c80f837",
+            "CategoryDefintionId": "fe6ed403-4110-4188-a034-6ab397a6c913",
+            "IsHeader": false,
+            "ResourceType": {
+                "Id": "322f3897-a9d2-4acc-986f-49f7ede8183e",
+                "Type": "DefaultPdf",
+                "Extensions": [
+                    ".pdf"
+                ]
+            },
+            "Title": "Table 1: Commonly used viral vectors for gene therapy applications",
+            "User": null,
+            "FileName": null,
+            "CreatedDate": "2021-07-22T12:30:38.8458466+00:00"
+        },
+        {
+            "Id": "0f118496-9ac9-4d50-8359-9a116be21bb0",
+            "Url": "https://nucleusglobal-resourcerepository.s3.eu-west-1.amazonaws.com/csl-smp/2c80e3ca-988a-459b-9c31-05e83434b07e.pdf?X-Amz-Expires=1800&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAILI2QFGMTZTKHUAQ/20220222/eu-west-1/s3/aws4_request&X-Amz-Date=20220222T144742Z&X-Amz-SignedHeaders=host&X-Amz-Signature=4f16e8381c1cce6be65fe4639f24b53c481e076ee5593888611351daf81a6132",
+            "CategoryDefintionId": "fe6ed403-4110-4188-a034-6ab397a6c913",
+            "IsHeader": false,
+            "ResourceType": {
+                "Id": "322f3897-a9d2-4acc-986f-49f7ede8183e",
+                "Type": "DefaultPdf",
+                "Extensions": [
+                    ".pdf"
+                ]
+            },
+            "Title": "Table 4: Observed complications of gene therapy and risk mitigation",
+            "User": null,
+            "FileName": null,
+            "CreatedDate": "2021-07-22T12:29:57.1570958+00:00"
+        }
+    ]
+}

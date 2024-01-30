@@ -1,0 +1,932 @@
+[{
+    "Id": "8fd0b03c-88e5-44dc-8452-c37c81158722",
+    "PreferredTerm": "<b>Phase 2b study of etranacogene dezaparvovec (NCT03489291) (at first mention)</b>",
+    "Guidance": "<b>Use at first mention of the Phase 2b study of etranacogene dezaparvovec in patients with severe or moderately severe hemophilia B; the term ‘Phase 2b study’ can be used thereafter</b>",
+    "NonPreferredTerms": [{
+        "Id": "cfa4ee67-8e54-4c85-a89f-4945ae28217a",
+        "c": "<b>Phase 2 clinical study, NCT03489291</b>",
+        "LexiconId": "8fd0b03c-88e5-44dc-8452-c37c81158722"
+    }],
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    },
+    "Rank": null
+}, {
+    "Id": "63086e7c-e63d-486a-898d-573da148b70a",
+    "PreferredTerm": "<b>Hemophilia B: General terminology</b>",
+    "Guidance": "&nbsp;",
+    "NonPreferredTerms": [{
+        "Id": "d786ca07-d2d0-4f2f-89fc-d98c37ec3e8b",
+        "Name": "&nbsp;",
+        "LexiconId": "63086e7c-e63d-486a-898d-573da148b70a"
+    }],
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    },
+    "Rank": null
+}, {
+    "Id": "588782c3-1a6b-40ec-b068-dac68cc920fb",
+    "PreferredTerm": "<p class=\"MsoNormal\" style=\"line-height:normal\"><b>Burden\nof disease or condition&nbsp;<span style=\"font-size: 1rem; background-color: rgba(0, 0, 0, 0.05);\">(</span><i style=\"font-size: 1rem; background-color: rgba(0, 0, 0, 0.05);\">HCPs, payers</i><span style=\"font-size: 1rem; background-color: rgba(0, 0, 0, 0.05);\">)</span></b></p>\n\n<span style=\"line-height: 107%;\">Impact of condition&nbsp;</span><span style=\"background-color: rgba(0, 0, 0, 0.05);\">(</span><i style=\"background-color: rgba(0, 0, 0, 0.05);\">patients, caregivers, advocates</i><span style=\"background-color: rgba(0, 0, 0, 0.05);\">)</span>",
+    "Guidance": "<span style=\"line-height: 107%;\"><b>Use\nwhen referring to the consequences of hemophilia for people with the disorder,\nhowever, terminology should differ according to stakeholder audience</b></span><br>",
+    "NonPreferredTerms": [{
+        "Id": "e4233958-b92f-4d3d-a2e6-91ce4046301a",
+        "Name": "Impact of disease&nbsp;<span style=\"background-color: rgba(0, 0, 0, 0.05);\">(</span><i style=\"background-color: rgba(0, 0, 0, 0.05);\">patients, caregivers, advocates</i><span style=\"background-color: rgba(0, 0, 0, 0.05);\">)</span><br>",
+        "LexiconId": "588782c3-1a6b-40ec-b068-dac68cc920fb"
+    }],
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    },
+    "Rank": null
+}, {
+    "Id": "ce4cca20-520e-4aea-a02b-d8e51d808bb4",
+    "PreferredTerm": "<p class=\"MsoNormal\" style=\"line-height:normal\"></p><p class=\"MsoNormal\" style=\"line-height:normal\"><b>Burden\nof treatment (<i>HCPs, payers</i>)</b></p><p class=\"MsoNormal\" style=\"margin-bottom:0cm;margin-bottom:0cm;margin-top:0cm;\nmso-margin-bottom-alt:8.0pt;mso-margin-top-alt:0cm;mso-add-space:auto;\nline-height:normal\">Impact of treatment&nbsp;<span style=\"font-size: 1rem;\">(</span><i style=\"font-size: 1rem;\">patients, caregivers, advocates</i><span style=\"font-size: 1rem;\">)</span></p>",
+    "Guidance": "<span style=\"line-height: 107%;\"><b>Use\nwhen referring to the impact of treatment on patients' functioning and\nwell-being</b></span>",
+    "NonPreferredTerms": [{
+        "Id": "baeef98a-9692-40a6-9822-bd98d0a6298e",
+        "Name": "&nbsp;",
+        "LexiconId": "ce4cca20-520e-4aea-a02b-d8e51d808bb4"
+    }],
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    },
+    "Rank": null
+}, {
+    "Id": "aae40ea6-bcd0-450d-a245-73494f327909",
+    "PreferredTerm": "<p class=\"MsoNormal\" style=\"margin-right: 5.65pt; line-height: normal;\"><b>Coagulation factor IX, factor IX, or FIX</b></p>",
+    "Guidance": "<p class=\"MsoNormal\" style=\"margin-bottom:0cm;mso-margin-bottom-alt:8.0pt;\nmso-margin-top-alt:0cm;mso-add-space:auto;line-height:normal\"><b>Use when discussing the factor IX protein. Use of\n‘coagulation’ is not essential but may be helpful when describing the function\nof factor IX as a blood clotting factor</b></p>\n\n<span style=\"line-height: 107%;\"><b>At first use, factor IX should be spelled out in\nfull; FIX can be used thereafter. It should always be lower case (i.e. <u>f</u>actor\nIX should be used rather than <u>F</u>actor IX), except when starting a\nsentence</b></span>",
+    "NonPreferredTerms": [{
+        "Id": "91b0b59a-82ce-486f-93ab-b82f1684a448",
+        "Name": "<p class=\"MsoNormal\" style=\"margin-right:5.65pt;mso-add-space:auto;line-height:\nnormal\"><b>Factor 9,&nbsp;<span style=\"font-size: 1rem; line-height: 107%;\"><i>F9 </i></span><span style=\"font-size: 1rem; line-height: 107%;\">(this\nrefers to the gene that encodes factor IX)</span></b></p>",
+        "LexiconId": "aae40ea6-bcd0-450d-a245-73494f327909"
+    }],
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    },
+    "Rank": null
+}, {
+    "Id": "20461350-afd8-4412-b29d-c0f8f29a2f9e",
+    "PreferredTerm": "<p class=\"MsoNormal\" style=\"line-height:normal\"><b>Disease,\ncondition, or disorder (<i>HCPs, payers</i>)</b><o:p></o:p></p>\n\n<p class=\"MsoNormal\" style=\"margin-bottom:0cm;margin-bottom:0cm;margin-top:0cm;\nmso-margin-bottom-alt:8.0pt;mso-margin-top-alt:0cm;mso-add-space:auto;\nline-height:normal\">&nbsp;</p>\n\n<p class=\"MsoNormal\" style=\"margin-bottom:0cm;margin-bottom:0cm;margin-top:0cm;\nmso-margin-bottom-alt:8.0pt;mso-margin-top-alt:0cm;mso-add-space:auto;\nline-height:normal\">Condition&nbsp;<span style=\"font-size: 1rem;\">(<i>patients,\ncaregivers, advocates</i>)</span></p>",
+    "Guidance": "<p class=\"MsoNormal\" style=\"line-height:normal\"><b>Use\nwhen describing hemophilia in broad terms; once the term is chosen, use consistently\nwithin a document or asset</b></p>\n\n<p class=\"MsoNormal\" style=\"margin-bottom:0cm;margin-bottom:0cm;margin-top:0cm;\nmso-margin-bottom-alt:8.0pt;mso-margin-top-alt:0cm;mso-add-space:auto;\nline-height:normal\"><b>For lay audiences, the rationale\nfor using ‘condition/disorder’ rather than ‘disease’ is to avoid defining\npeople with hemophilia by their disease.&nbsp;<i style=\"font-size: 1rem;\">Example: Hemophilia B is a rare, hereditary,\nX-linked recessive bleeding disorder</i></b></p>",
+    "NonPreferredTerms": [{
+        "Id": "8fad0461-ee2a-4326-b239-4267d4352111",
+        "Name": "<span style=\"line-height: 107%;\">Disease, disorder</span><span style=\"line-height: 107%;\"> <i>(patients,\ncaregivers, advocates</i>)</span>",
+        "LexiconId": "20461350-afd8-4412-b29d-c0f8f29a2f9e"
+    }],
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    },
+    "Rank": null
+}, {
+    "Id": "6490e73b-7e2c-4d92-ba9b-999bcc7a66ad",
+    "PreferredTerm": "<p class=\"MsoNormal\" style=\"line-height:normal\"><b>Endogenous\nFIX activity/expression</b></p>\n\n<span style=\"line-height: 107%;\">Body produces FIX on\nits own (<i>patients, caregivers, advocates</i>)</span>",
+    "Guidance": "<span style=\"line-height: 107%;\"><b>Use\nwhen describing FIX produced in the body (vs exogenous FIX activity provided by\nfactor replacement products)</b></span>",
+    "NonPreferredTerms": [{
+        "Id": "583a7031-e441-4452-88bc-96bf466b75d7",
+        "Name": "<span style=\"line-height: 107%;\"><b>Naturally\nproduced FIX activity/expression</b></span>",
+        "LexiconId": "6490e73b-7e2c-4d92-ba9b-999bcc7a66ad"
+    }],
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    },
+    "Rank": null
+}, {
+    "Id": "a71599bd-3550-43b6-a8b4-e17d9580d6d4",
+    "PreferredTerm": "<b><i>F9&nbsp;</i>or gene encoding factor IX</b>",
+    "Guidance": "<span style=\"line-height: 107%;\"><b>Use\nwhen discussing the&nbsp;<i>F9</i> gene that encodes factor IX. The protein is\nreferred to as factor IX (FIX)</b></span>",
+    "NonPreferredTerms": [{
+        "Id": "1c81535a-75c9-49ac-bf74-7cbc1947685d",
+        "Name": "<p class=\"MsoNormal\" style=\"margin-right:5.65pt;mso-add-space:auto;line-height:\nnormal\"><b>Factor IX gene,&nbsp;<span style=\"font-size: 1rem;\">FIX gene (in publications)</span></b></p>",
+        "LexiconId": "a71599bd-3550-43b6-a8b4-e17d9580d6d4"
+    }],
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    },
+    "Rank": null
+}, {
+    "Id": "fa460a96-92fa-4286-bef4-e8bb6734c646",
+    "PreferredTerm": "<span style=\"line-height: 107%;\"><b>Factor\nreplacement products</b></span>",
+    "Guidance": "<span style=\"line-height: 107%;\"><b>Use\nwhen referring to current standard of care factor replacement therapy</b></span>",
+    "NonPreferredTerms": [{
+        "Id": "de627db1-2f31-41cb-be55-12805ec142fb",
+        "Name": "&nbsp;",
+        "LexiconId": "fa460a96-92fa-4286-bef4-e8bb6734c646"
+    }],
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    },
+    "Rank": null
+}, {
+    "Id": "74c93778-e7ae-49f3-b291-238c41f93673",
+    "PreferredTerm": "<p class=\"MsoNormal\" style=\"margin-right:5.65pt;mso-add-space:auto;line-height:\nnormal\"><b>Genetic mutation or g<span style=\"font-size: 1rem;\">enetic variation</span></b></p>",
+    "Guidance": "<p class=\"MsoNormal\" style=\"margin-right:5.65pt;mso-add-space:auto;line-height:\nnormal\"><span style=\"line-height: 107%;\"><b>Use\nwhen describing the root cause of genetic conditions. Since genetic mutation is\na broad term, for HCPs it may be helpful to provide additional information on\nthe mutation type – e.g., missense mutation, frame-shift mutation, etc.</b></span><br></p>",
+    "NonPreferredTerms": [{
+        "Id": "7216a57e-0749-4599-8b87-4175d820feac",
+        "Name": "<p class=\"MsoNormal\" style=\"margin-right: 5.65pt; line-height: normal;\"><b>Defect, mistake, hiccup, disease, abnormality, variation, change</b></p>",
+        "LexiconId": "74c93778-e7ae-49f3-b291-238c41f93673"
+    }],
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    },
+    "Rank": null
+}, {
+    "Id": "1fc5efd2-b0cb-45a5-9e56-72250a7d3d96",
+    "PreferredTerm": "<p class=\"MsoNormal\" style=\"line-height:normal\"><b>People\nwith hemophilia/people with hemophilia B (PWH/PWHB)</b></p>\n\n<span style=\"line-height: 107%;\"><b>Participants/subjects with hemophilia (when\nreferring to clinical trial data)</b></span>",
+    "Guidance": "<p class=\"MsoNormal\" style=\"line-height: normal;\"><b>Use when describing those with hemophilia/hemophilia B to avoid defining individuals by their disease</b></p><p class=\"MsoNormal\" style=\"margin-top: 0cm; margin-bottom: 0cm; line-height: normal;\"><b>At first use, these should be spelled out in full; the abbreviated version (PWH/PWHB) can be used thereafter</b></p><span style=\"line-height: 17.12px;\"><b>Please ensure consistent use of a single term (e.g., ‘people’ or ‘participants’) within a document</b></span><br>",
+    "NonPreferredTerms": [{
+        "Id": "07bddc46-3521-441e-bc0f-a32a54cafe8c",
+        "Name": "<p class=\"MsoNormal\" style=\"margin-right:5.65pt;mso-add-space:auto;line-height:\nnormal\"><b>Hemophilia patients, h<span style=\"font-size: 1rem;\">emophiliacs</span></b></p>",
+        "LexiconId": "1fc5efd2-b0cb-45a5-9e56-72250a7d3d96"
+    }],
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    },
+    "Rank": null
+}, {
+    "Id": "60f7f309-c96c-45cb-8890-1638dbd65388",
+    "PreferredTerm": "<p class=\"MsoNormal\" style=\"margin-right:5.65pt;mso-add-space:auto;line-height:\nnormal\"><b>Phase 1, Phase 2, Phase 3</b></p>",
+    "Guidance": "<p class=\"MsoNormal\" style=\"margin-right: 5.65pt; line-height: normal;\"><span style=\"line-height: 107%;\"><b>Use\nuppercase <u>P</u>hase and numbers rather than Roman numerals when describing\nphases of a clinical study</b></span><br></p>",
+    "NonPreferredTerms": [{
+        "Id": "631a7d42-dc5d-486c-9672-c6775bbae091",
+        "Name": "<p class=\"MsoNormal\" style=\"margin-right: 5.65pt; line-height: normal;\"><b>Phase I, Phase II, Phase III</b></p>",
+        "LexiconId": "60f7f309-c96c-45cb-8890-1638dbd65388"
+    }],
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    },
+    "Rank": null
+}, {
+    "Id": "e1163e77-dd2f-4e60-9cef-1461e53d3344",
+    "PreferredTerm": "<b>Gene therapy: General terminology</b>",
+    "Guidance": "&nbsp;",
+    "NonPreferredTerms": [{
+        "Id": "79495d49-2fba-488a-aef7-1edb4dd8693c",
+        "Name": "&nbsp;",
+        "LexiconId": "e1163e77-dd2f-4e60-9cef-1461e53d3344"
+    }],
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    },
+    "Rank": null
+}, {
+    "Id": "4e020d0d-25ee-4c1b-a99f-e4932f55bc54",
+    "PreferredTerm": "<p class=\"MsoNormal\" style=\"line-height:normal\"><b>Adeno-associated\nvirus (AAV)-based gene therapy (<i>HCPs, payers</i>)</b></p>\n\n<span style=\"line-height: 107%;\">AAV gene transfer\n(<i>patients, caregivers, advocates</i>)</span>",
+    "Guidance": "<p class=\"MsoNormal\" style=\"line-height:normal\"><b>Use\nwhen discussing gene therapy with AAV vectors (vs other gene therapy\napproaches)</b></p><p class=\"MsoNormal\" style=\"margin-right:5.65pt;mso-add-space:auto;line-height:\nnormal\">\n\n\n\n<span style=\"line-height: 107%;\"><b>In gene therapy for hemophilia B, AAV gene\ntransfer is used to describe the addition of a functional version of the\ndysfunctional/mutated gene back into the cell. More accurately describes the\ngene therapy process where a gene is added, while the host gene is unaffected.\nAAV gene transfer can be included in the hierarchical terms’ gene transfer and\ngene therapy</b></span><br></p>",
+    "NonPreferredTerms": [{
+        "Id": "afe765bf-bfed-4c46-af55-e492ebe63cad",
+        "Name": "<p class=\"MsoNormal\" style=\"margin-right: 5.65pt; line-height: normal;\"><b>Gene supplementation, g<span style=\"font-size: 1rem;\">ene replacement, g</span><span style=\"font-size: 1rem;\">ene augmentation,&nbsp;</span><span style=\"font-size: 1rem;\">AAV gene therapy,&nbsp;</span><span style=\"font-size: 1rem;\">AAV gene transfer</span></b></p>",
+        "LexiconId": "4e020d0d-25ee-4c1b-a99f-e4932f55bc54"
+    }],
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    },
+    "Rank": null
+}, {
+    "Id": "f4066a91-769e-4dbd-bf0c-3ff53d7f4ef5",
+    "PreferredTerm": "<p class=\"MsoNormal\" style=\"margin-bottom:0cm;line-height:normal\"><b>AAV neutralizing antibodies (NAbs)</b></p>\n\n<span style=\"line-height: 107%;\">Antibodies to the\nvector shell (<i>patients, caregivers, advocates</i>)</span>",
+    "Guidance": "<p class=\"MsoNormal\" style=\"line-height:normal\"><b>Use\nwhen describing neutralizing antibodies against wild-type AAV or AAV vectors in\nnarratives that do not refer to specific serotypes. If specific to serotype, use\nthe specific AAV vector e.g., AAV5 neutralizing antibodies</b></p>\n\n<span style=\"line-height: 107%;\"><i><b>Note: AAV NAbs are distinct from FIX inhibitors.\nAAV NAbs are antibodies produced against the AAV capsid, whereas FIX inhibitors\nare produced against the exogenous FIX replacement products&nbsp;</b></i></span>",
+    "NonPreferredTerms": [{
+        "Id": "99a6470b-be88-4767-b90d-f7e475952eda",
+        "Name": "<p class=\"MsoNormal\" style=\"margin-right:5.65pt;mso-add-space:auto;line-height:\nnormal\"><b>AAV inhibitors, n<span style=\"font-size: 1rem;\">eutralizing antibodies</span></b></p>",
+        "LexiconId": "f4066a91-769e-4dbd-bf0c-3ff53d7f4ef5"
+    }],
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    },
+    "Rank": null
+}, {
+    "Id": "c2bf0da5-c254-410d-ae1a-d1b2f3c90a39",
+    "PreferredTerm": "<b>Capsid (<i>HCPs, payers</i>)</b><div><br></div><div>Viral shell or vehicle (<i>patients, caregivers, advocates</i>)</div>",
+    "Guidance": "<span style=\"line-height: 107%;\"><b>Use\nwhen describing the outer protein component of an AAV vector that surrounds the\ntherapeutic genetic material</b></span>",
+    "NonPreferredTerms": [{
+        "Id": "8f2b50b0-4c38-4bb7-959e-fa3ec8789b00",
+        "Name": "<p class=\"MsoNormal\" style=\"margin-right:5.65pt;mso-add-space:auto;line-height:\nnormal\"><b>Capsule, polyhedron, carrier, envelope</b></p>",
+        "LexiconId": "c2bf0da5-c254-410d-ae1a-d1b2f3c90a39"
+    }],
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    },
+    "Rank": null
+}, {
+    "Id": "73f76d85-d641-49a7-be59-7724e58bb069",
+    "PreferredTerm": "<p class=\"MsoNormal\" style=\"line-height:normal\"><b>Expression\ncassette&nbsp;or gene expression cassette\n(<i>HCPs, payers</i>)</b></p>\n\n<span style=\"line-height: 107%;\">Functional gene\ncassette (<i>patients, caregivers, advocates</i>)</span>",
+    "Guidance": "<span style=\"line-height: 107%;\"><b>Use\nto describe the genetic material, or the functional copy of the gene, contained\nin a gene therapy vector. The expression cassette typically contains the\nfunctional gene and other regulatory elements</b></span><br>",
+    "NonPreferredTerms": [{
+        "Id": "c67cc589-5972-4283-90d4-28a0c9cf645c",
+        "Name": "<b>Vector or DNA components</b>",
+        "LexiconId": "73f76d85-d641-49a7-be59-7724e58bb069"
+    }],
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    },
+    "Rank": null
+}, {
+    "Id": "b4669081-4dd9-4349-a744-5394df0d1b5e",
+    "PreferredTerm": "<b><i>Ex vivo </i>gene therapy</b>",
+    "Guidance": "<span style=\"line-height: 107%;\"><b>Use\nto describe gene therapy that is delivered to cells extracted from the patient\nwhich are then transferred back into the patient</b></span>",
+    "NonPreferredTerms": [{
+        "Id": "86b2844d-9d77-4b96-a282-1008a24080c0",
+        "Name": "&nbsp;",
+        "LexiconId": "b4669081-4dd9-4349-a744-5394df0d1b5e"
+    }],
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    },
+    "Rank": null
+}, {
+    "Id": "3c552a3c-e90e-43ff-a9e7-730fd7d650fb",
+    "PreferredTerm": "<b>Gene inactivation or gene silencing</b>",
+    "Guidance": "<p class=\"MsoNormal\" style=\"line-height:normal\"><b>Use\nto describe the process of turning off or suppressing transcription of a gene\nso that no protein or a reduced amount of protein is expressed</b></p><p class=\"MsoNormal\" style=\"margin-right: 5.65pt; line-height: normal;\">\n\n\n\n<span style=\"line-height: 107%;\"><i><b>Note: This is the underlying mechanism behind\napproaches such as siRNA and miRNA, where gene transcription is\nreduced/precluded</b></i></span><br></p>",
+    "NonPreferredTerms": [{
+        "Id": "681678fe-8d01-4a6a-ab88-ba30699489d6",
+        "Name": "<p class=\"MsoNormal\" style=\"margin-right: 5.65pt; line-height: normal;\"><b>Gene knockdown, gene negative regulation, or gene expression lowering</b></p>",
+        "LexiconId": "3c552a3c-e90e-43ff-a9e7-730fd7d650fb"
+    }],
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    },
+    "Rank": null
+}, {
+    "Id": "4bbff0fb-f241-4425-a058-e82022b19114",
+    "PreferredTerm": "<b>Gene therapy</b>",
+    "Guidance": "<p class=\"MsoNormal\" style=\"line-height:normal\"><a name=\"_Hlk78459623\"><b>Gene therapy is the hierarchical term that encompasses\nAAV gene transfer and other techniques that use genetic materials to treat or\ncure disease. The term should be used when speaking generally about using\ngenetic materials to treat or cure disease</b></a></p>",
+    "NonPreferredTerms": [{
+        "Id": "9ddc63b7-8077-4fda-8ce6-9f2f135f111d",
+        "Name": "<p class=\"MsoNormal\" style=\"margin-right: 5.65pt; line-height: normal;\"><b>Gene supplementation, gene replacement, gene modification, gene/genome editing, gene engineering</b></p>",
+        "LexiconId": "4bbff0fb-f241-4425-a058-e82022b19114"
+    }],
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    },
+    "Rank": null
+}, {
+    "Id": "14c79c05-bcfa-40b4-b9d8-c09be29c6567",
+    "PreferredTerm": "<b>Gene transfer</b>",
+    "Guidance": "<span style=\"line-height: 107%;\"><b>Gene\ntransfer is a hierarchical term under which AAV gene transfer, gene addition\nand gene editing would be examples</b></span>",
+    "NonPreferredTerms": [{
+        "Id": "a2442edc-0431-424d-a214-9c2a44a07b9c",
+        "Name": "<p class=\"MsoNormal\" style=\"margin-right:5.65pt;mso-add-space:auto;line-height:\nnormal\"><b>Gene replacement, gene augmentation, gene correction, gene addition</b></p>",
+        "LexiconId": "14c79c05-bcfa-40b4-b9d8-c09be29c6567"
+    }],
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    },
+    "Rank": null
+}, {
+    "Id": "2a3f2362-f987-4a10-9f3a-f1be9a16041a",
+    "PreferredTerm": "<p class=\"MsoNormal\" style=\"line-height:normal\"><b>Inactivated\nviral vector (<i>HCPs, payers</i>)</b></p>\n\n<span style=\"line-height: 107%;\">Inactivated and/or non-disease-causing\nviral shell (<i>patients, caregivers, advocates</i>)</span>",
+    "Guidance": "<p class=\"MsoNormal\" style=\"line-height:normal\"><b>Use\nto highlight that vectors are derived from viruses but modified to ensure safe\nuse. Use of ‘inactivated’ is not essential but may be helpful when introducing\nthe basics of gene therapy</b></p>\n\n<span style=\"line-height: 107%;\"><i>Example: A functional\ngene is inserted into the shell of an inactivated, non-disease-causing viral\nshell, which delivers the new gene into the liver (</i>for patients, caregivers, advocates<i>)</i></span>",
+    "NonPreferredTerms": [{
+        "Id": "57df20ba-29af-4696-b2e9-9c16da6e227d",
+        "Name": "<p class=\"MsoNormal\" style=\"margin-right:5.65pt;mso-add-space:auto;line-height:\nnormal\"><b>Neutralized virus, harmless virus</b></p>",
+        "LexiconId": "2a3f2362-f987-4a10-9f3a-f1be9a16041a"
+    }],
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    },
+    "Rank": null
+}, {
+    "Id": "a127c736-aa6f-4608-bfd0-c3c53e1b721b",
+    "PreferredTerm": "<span style=\"line-height: 107%;\"><b>Innovative\nand/or transformative treatment</b></span>",
+    "Guidance": "<p class=\"MsoNormal\" style=\"line-height:normal\"><b>Use\nto consistently describe gene therapy</b></p>\n\n<span style=\"line-height: 107%;\"><i><b>Example: Gene therapy is a transformative\ntreatment that addresses underlying genetic mutations to treat or cure a\ndisease, with several agents already approved for use.</b></i></span>",
+    "NonPreferredTerms": [{
+        "Id": "c91f5026-f510-4f98-a8a9-9b021bb88399",
+        "Name": "<span style=\"line-height: 107%;\"><b>Revolutionary\ntreatment</b></span>",
+        "LexiconId": "a127c736-aa6f-4608-bfd0-c3c53e1b721b"
+    }],
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    },
+    "Rank": null
+}, {
+    "Id": "6f6f74b3-6604-47e5-9307-744b77b00e62",
+    "PreferredTerm": "<p class=\"MsoNormal\" style=\"line-height:normal\"><b>Integrating\nviral vector (<i>HCPs, payers</i>)</b></p>\n\n<span style=\"line-height: 107%;\">Viral vector that can\ninsert into the recipient’s own genes (<i>patients, caregivers, advocates</i>)</span>",
+    "Guidance": "<span style=\"line-height: 107%;\"><b>Use\nwhen describing integrating vectors such as lentivirus vectors in which the\nvector genome predominantly integrates into the host genome</b></span>",
+    "NonPreferredTerms": [{
+        "Id": "6c537ee3-b48d-4838-bfa1-de1193975c65",
+        "Name": "&nbsp;",
+        "LexiconId": "6f6f74b3-6604-47e5-9307-744b77b00e62"
+    }],
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    },
+    "Rank": null
+}, {
+    "Id": "0b492f57-6b12-4839-90df-6a5b309b691d",
+    "PreferredTerm": "<b><i>In vivo </i>gene therapy</b>",
+    "Guidance": "<span style=\"line-height: 107%;\"><b>Use\nto describe gene therapy that is delivered directly to the patient to modify\ncells</b></span>",
+    "NonPreferredTerms": [{
+        "Id": "9753da32-0613-4369-80f7-8f373d68756e",
+        "Name": "<span style=\"line-height: 107%;\"><b>Directed\ngene therapy&nbsp;</b></span>",
+        "LexiconId": "0b492f57-6b12-4839-90df-6a5b309b691d"
+    }],
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    },
+    "Rank": null
+}, {
+    "Id": "f3c416ab-e317-47a9-a52f-988ade233164",
+    "PreferredTerm": "<b>Method of treatment</b>",
+    "Guidance": "<p class=\"MsoNormal\" style=\"margin-right:5.65pt;mso-add-space:auto;line-height:\nnormal\"><span style=\"line-height: 107%;\"><b>Use\nto describe gene therapy approaches</b></span><br></p>",
+    "NonPreferredTerms": [{
+        "Id": "0885adfd-e4dd-4482-9615-3f305c797d4e",
+        "Name": "<p class=\"MsoNormal\" style=\"margin-right: 5.65pt; line-height: normal;\"><b>Treatment approach, mode of treatment, scientific technique, form of treatment, medical approach</b></p>",
+        "LexiconId": "f3c416ab-e317-47a9-a52f-988ade233164"
+    }],
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    },
+    "Rank": null
+}, {
+    "Id": "a13f75dc-6708-4139-8426-738ab1570780",
+    "PreferredTerm": "<span style=\"line-height: 107%;\"><b>Non-integrating\nviral vector</b></span>",
+    "Guidance": "<span style=\"line-height: 107%;\"><b>Use\nwhen comparisons are made with integrating vectors, such as lentiviral vectors.\nWith non-integrating vectors (i.e. AAV, adenovirus), the vector genome is\npredominantly maintained episomally (outside of the host genome) with low rates of integration</b></span>",
+    "NonPreferredTerms": [{
+        "Id": "cd0660fc-3c0b-4147-b868-358d58435e71",
+        "Name": "&nbsp;",
+        "LexiconId": "a13f75dc-6708-4139-8426-738ab1570780"
+    }],
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    },
+    "Rank": null
+}, {
+    "Id": "9d0d1a03-9d78-4786-981e-707aa7da61d1",
+    "PreferredTerm": "<span style=\"line-height: 107%;\"><b>Packaging\ncapacity</b></span>",
+    "Guidance": "<span style=\"line-height: 107%;\"><b>Use\nwhen referring to the maximum size of the expression cassette that can be\npackaged within the vector</b></span>",
+    "NonPreferredTerms": [{
+        "Id": "ce9c6d67-aae5-4932-b937-97274a415362",
+        "Name": "<span style=\"line-height: 107%;\"><b>Packaging\nlimitation&nbsp;</b></span>",
+        "LexiconId": "9d0d1a03-9d78-4786-981e-707aa7da61d1"
+    }],
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    },
+    "Rank": null
+}, {
+    "Id": "2d38588a-a1f4-47a0-94d5-79644d1337e0",
+    "PreferredTerm": "<b>Promoter</b>",
+    "Guidance": "<span style=\"line-height: 107%;\"><b>Use\nwhen describing the sequence of DNA that initiates transcription of a gene (or\ntransgene)</b></span>",
+    "NonPreferredTerms": [{
+        "Id": "3b131ca6-3949-423f-8090-8497e9980ce2",
+        "Name": "<b>Start codon</b>",
+        "LexiconId": "2d38588a-a1f4-47a0-94d5-79644d1337e0"
+    }],
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    },
+    "Rank": null
+}, {
+    "Id": "1cd484d3-4e4e-4836-9475-845983766e9d",
+    "PreferredTerm": "<p class=\"MsoNormal\" style=\"line-height:normal\"><b>Transgene (a<i style=\"font-size: 1rem;\">lso known as therapeutic\ngene)</i></b></p><p class=\"MsoNormal\" style=\"margin-bottom:0cm;margin-bottom:0cm;margin-top:0cm;\nmso-margin-bottom-alt:8.0pt;mso-margin-top-alt:0cm;mso-add-space:auto;\nline-height:normal\"><o:p></o:p></p><p class=\"MsoNormal\" style=\"margin-bottom:0cm;margin-bottom:0cm;margin-top:0cm;\nmso-margin-bottom-alt:8.0pt;mso-margin-top-alt:0cm;mso-add-space:auto;\nline-height:normal\"><i><br></i></p><p class=\"MsoNormal\" style=\"margin-bottom:0cm;margin-bottom:0cm;margin-top:0cm;\nmso-margin-bottom-alt:8.0pt;mso-margin-top-alt:0cm;mso-add-space:auto;\nline-height:normal\">Functional gene <i>(patients, caregivers, advocates)</i></p>",
+    "Guidance": "<span style=\"line-height: 107%;\"><b>Use\nwhen describing the gene product following gene transfer. Describes the working\ngene/genetic material that has been inserted in the gene therapy vector</b></span>",
+    "NonPreferredTerms": [{
+        "Id": "cb177c71-ca42-4a29-ab74-72227c59a5b1",
+        "Name": "<b>Healthy gene</b>",
+        "LexiconId": "1cd484d3-4e4e-4836-9475-845983766e9d"
+    }],
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    },
+    "Rank": null
+}, {
+    "Id": "c3511a3d-b31b-4b47-b68c-a033e805cd88",
+    "PreferredTerm": "<span style=\"line-height: 107%;\"><b>Tissue-specific\npromoter&nbsp;</b></span>",
+    "Guidance": "<p class=\"MsoNormal\" style=\"line-height:normal\"><b>Use\nwhen describing gene therapy vectors that have been designed with a promoter\nthat is only active in certain cell types<o:p></o:p></b></p>\n\n<span style=\"line-height: 107%;\"><b>‘Tissue’ can be replaced with the specific\norgan/tissue of interest, for example ‘liver-specific promoter’</b></span>",
+    "NonPreferredTerms": [{
+        "Id": "b719ac3c-11e8-4177-90dc-ccb6cfdce44e",
+        "Name": "<span style=\"line-height: 107%;\"><b>Promoter&nbsp;</b></span>",
+        "LexiconId": "c3511a3d-b31b-4b47-b68c-a033e805cd88"
+    }],
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    },
+    "Rank": null
+}, {
+    "Id": "2d5a0b72-ce94-4c7e-bc15-40874a4c494b",
+    "PreferredTerm": "<span style=\"line-height: 107%;\"><b>Vector\nparticle shedding</b></span>",
+    "Guidance": "<p class=\"MsoNormal\" style=\"line-height: normal;\"><b>Vector particle shedding should be used when referring to the dissemination of gene therapy vector components (vector DNA or viral particles) into the environment via excreta (i.e. bodily fluids) from the treated patient</b></p><p class=\"MsoNormal\" style=\"margin-right:5.65pt;mso-add-space:auto;line-height:\nnormal\"><i><b><span style=\"line-height: 17.12px;\">Example:</span><span style=\"line-height: 17.12px;\">&nbsp;Vector particle shedding was detected two weeks after AMT-060 infusion</span></b></i><br></p>",
+    "NonPreferredTerms": [{
+        "Id": "63c55f9a-b2b2-485e-8f4a-afef55cb55e4",
+        "Name": "<p class=\"MsoNormal\" style=\"line-height:normal\"><b>Vector excretion/expulsion, viral shedding</b></p>",
+        "LexiconId": "2d5a0b72-ce94-4c7e-bc15-40874a4c494b"
+    }],
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    },
+    "Rank": null
+}, {
+    "Id": "b0252cea-9d3f-4e65-9add-ca184a848e9a",
+    "PreferredTerm": "<span style=\"line-height: 107%;\"><b>Vector\nclearance</b></span>",
+    "Guidance": "<p class=\"MsoNormal\" style=\"line-height:normal\"><b>Use\nwhen describing the point at which vector shedding is no longer detectable in\nany given body fluid</b></p>\n\n<span style=\"line-height: 107%;\"><i><b>Example: Vector clearance from the urine\nwas demonstrated in all subjects following AMT-060 infusion</b></i></span>",
+    "NonPreferredTerms": [{
+        "Id": "b1b8c7b7-185c-4754-b10b-b4b2e99ef03d",
+        "Name": "&nbsp;",
+        "LexiconId": "b0252cea-9d3f-4e65-9add-ca184a848e9a"
+    }],
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    },
+    "Rank": null
+}, {
+    "Id": "7bd54fdc-e6d9-43d6-b84c-35ef0d0b7d19",
+    "PreferredTerm": "<b>Etranacogene dezaparvovec: Background</b>",
+    "Guidance": "&nbsp;",
+    "NonPreferredTerms": [{
+        "Id": "d0426e93-7e6d-47d0-bd94-d645ae1c7cc4",
+        "Name": "&nbsp;",
+        "LexiconId": "7bd54fdc-e6d9-43d6-b84c-35ef0d0b7d19"
+    }],
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    },
+    "Rank": null
+}, {
+    "Id": "1a3e5db4-ee29-4276-9ac6-1935a53a0a79",
+    "PreferredTerm": "<span style=\"line-height: 107%;\"><b>AAV5-hFIXco-WT\n(formerly AMT-060)</b><b style=\"font-family: Calibri, sans-serif; font-size: 10pt;\"><i></i></b></span>",
+    "Guidance": "<p class=\"MsoNormal\" style=\"margin-right:5.65pt;mso-add-space:auto;line-height:\nnormal\"><b> Use to describe the uniQure AAV5 vector with a liver-specific promoter driving expression of a codon-optimized wild-type human FIX gene</b><br></p>",
+    "NonPreferredTerms": [{
+        "Id": "79be5bb4-2f5c-4c85-bb5b-505c3f28e579",
+        "Name": "<p class=\"MsoNormal\" style=\"margin-right:5.65pt;mso-add-space:auto;line-height:\nnormal\"><b>Precursor to AMT-061, first-generation gene therapy</b></p>",
+        "LexiconId": "1a3e5db4-ee29-4276-9ac6-1935a53a0a79"
+    }],
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    },
+    "Rank": null
+}, {
+    "Id": "971501c6-29b5-4c5c-b110-c207904fb15a",
+    "PreferredTerm": "<span style=\"line-height: 107%;\"><b>AMT-060\ncomprises a recombinant AAV5 vector incorporating an expression cassette\ncontaining codon-optimized human wild-type FIX under the control of a\nliver-specific promoter&nbsp;</b></span>",
+    "Guidance": "<span style=\"line-height: 107%;\"><b>Short\ndescriptor to be used at first mention of AMT-060</b></span>",
+    "NonPreferredTerms": [{
+        "Id": "1a0cb913-d118-4395-9067-919b1e05c306",
+        "Name": "&nbsp;",
+        "LexiconId": "971501c6-29b5-4c5c-b110-c207904fb15a"
+    }],
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    },
+    "Rank": null
+}, {
+    "Id": "271f0580-3a85-470e-b17d-3b4db0e2151d",
+    "PreferredTerm": "<div><div><p class=\"MsoNormal\" style=\"line-height: normal;\"><b>External communications:</b></p><p class=\"MsoNormal\" style=\"line-height: normal;\"><b>Etranacogene dezaparvovec or EtranaDez (formerly AMT-061)</b></p><p class=\"MsoNormal\" style=\"line-height:normal\"><b>Internal communications:</b></p><p class=\"MsoNormal\" style=\"line-height:normal\"><b>Etranacogene dezaparvovec or EtranaDez (CSL222)</b></p></div></div>",
+    "Guidance": "<p class=\"MsoNormal\" style=\"margin-bottom:0cm;mso-margin-bottom-alt:8.0pt;\nmso-margin-top-alt:0cm;mso-add-space:auto;line-height:normal\"><b>For external communications: <o:p></o:p></b></p>\n\n<p class=\"MsoListParagraph\" style=\"margin-left: 17pt; line-height: normal;\"><b> Use etranacogene dezaparvovec/ EtranaDez (formerly\nAMT-061); include ‘formerly AMT-061’ only on first mention in a\ndocument/material and then refer to it as etranacogene dezaparvovec or\nEtranaDez</b></p><p class=\"MsoListParagraphCxSpFirst\" style=\"margin-left: 17pt; line-height: normal;\"><b> AMT-061 may continue to be used in agency and\nregulatory interactions and in publications&nbsp;&nbsp;<o:p></o:p></b></p><p class=\"MsoListParagraph\" style=\"margin-left: 17pt; line-height: normal;\">\n\n</p><p class=\"MsoListParagraphCxSpLast\" style=\"margin-left: 17pt; line-height: normal;\"><b> For publications the full name (etranacogene\ndezaparvovec) should be used; EtranaDez can be used in slide decks and where\ncharacter count is limited</b></p><p class=\"MsoListParagraphCxSpLast\" style=\"margin-left: 17pt; line-height: normal;\"></p><p class=\"MsoNormal\" style=\"margin-bottom:0cm;margin-top:0cm;mso-margin-bottom-alt:\n8.0pt;mso-margin-top-alt:0cm;mso-add-space:auto;line-height:normal\"><b>For internal communications: <span style=\"font-size: 10pt;\"><o:p></o:p></span></b></p><p class=\"MsoListParagraphCxSpLast\" style=\"margin-left: 17pt; line-height: normal;\"><span style=\"line-height: 107%;\"><b> Use\nEtranaDez (CSL222</b>)</span><br></p>",
+    "NonPreferredTerms": [{
+        "Id": "e7c6d83d-63c5-4c3b-a6c9-2a079e0003a8",
+        "Name": "<p class=\"MsoNormal\" style=\"margin-right:5.65pt;mso-add-space:auto;line-height:\nnormal\"><b>CSL222,&nbsp;<span style=\"font-size: 1rem;\">AMT-061, s</span><span style=\"font-size: 1rem;\">econd-generation gene therapy,&nbsp;</span><span style=\"font-size: 1rem;\">Hemgenix (</span><i style=\"font-size: 1rem;\">until confirmed and approved</i><span style=\"font-size: 1rem;\">)</span></b></p>",
+        "LexiconId": "271f0580-3a85-470e-b17d-3b4db0e2151d"
+    }],
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    },
+    "Rank": null
+}, {
+    "Id": "a6fe082d-2de1-4d1c-ba0b-d5a7e2d3d43b",
+    "PreferredTerm": "<span style=\"line-height: 107%;\"><b>Etranacogene\ndezaparvovec (formerly AMT-061) is a transformative recombinant AAV5 vector\nthat includes an expression cassette containing a codon-optimized Padua variant\nof FIX under the control of a liver-specific promoter (LP-1)&nbsp;</b></span>",
+    "Guidance": "<span style=\"line-height: 107%;\"><b>Short\ndescriptor to be used at first mention of etranacogene dezaparvovec. Liver-specific\npromoter 1 (LP-1) is the liver-specific promoter used in AMT-060 and\netranacogene dezaparvovec</b></span>",
+    "NonPreferredTerms": [{
+        "Id": "0ebf6127-be10-4cd6-9d7d-2063774c4892",
+        "Name": "&nbsp;",
+        "LexiconId": "a6fe082d-2de1-4d1c-ba0b-d5a7e2d3d43b"
+    }],
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    },
+    "Rank": null
+}, {
+    "Id": "39a2111a-f40c-4531-9937-9d4594a4f034",
+    "PreferredTerm": "<span style=\"line-height: 107%;\"><b>Etranacogene\ndezaparvovec is similar to AMT-060, differing only in a single amino acid substitution\nin the <font face=\"Calibri, sans-serif\"><span style=\"font-size: 10pt;\">F9</span></font> gene encoding the highly active, naturally occurring Padua\nvariant</b></span>",
+    "Guidance": "<span style=\"line-height: 107%;\"><b>Short\ndescriptor to be used to describe the difference between AMT-060 and\netranacogene dezaparvovec</b></span>",
+    "NonPreferredTerms": [{
+        "Id": "1716f5d1-ee46-49b0-9317-5825e844ad88",
+        "Name": "&nbsp;",
+        "LexiconId": "39a2111a-f40c-4531-9937-9d4594a4f034"
+    }],
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    },
+    "Rank": null
+}, {
+    "Id": "d112a112-c1d4-4395-8c21-6bca12b4b296",
+    "PreferredTerm": "<p class=\"MsoNormal\" style=\"line-height:normal\"><b>Naturally\noccurring AAV5-capsid (<i>HCPs, payers</i>)</b></p>\n\n<span style=\"line-height: 107%;\">AAV5-vector shell or\nAAV5-delivery vehicle (<i>patients, caregivers, advocates</i>)</span>",
+    "Guidance": "<span style=\"line-height: 107%;\"><b>Use\nwhen describing the outer protein component of an AAV vector that surrounds the\ntherapeutic genetic material</b></span>",
+    "NonPreferredTerms": [{
+        "Id": "3f871d6f-6eff-4331-ac60-0b9ace8ef9a1",
+        "Name": "<b>AAV5 capsule,&nbsp;<span style=\"font-size: 1rem;\">AAV5 polyhedron,&nbsp;</span><span style=\"font-size: 1rem;\">AAV5 carrier,&nbsp;</span><span style=\"font-size: 1rem;\">AAV5 shell&nbsp;</span></b>",
+        "LexiconId": "d112a112-c1d4-4395-8c21-6bca12b4b296"
+    }],
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    },
+    "Rank": null
+}, {
+    "Id": "136da52f-627c-4475-98e5-69e3d3a48938",
+    "PreferredTerm": "<p class=\"MsoNormal\" style=\"line-height:normal\"><b>Highly\nactive Padua variant, gain-of-function variant, or Padua variant of factor IX\n(FIX-Padua)&nbsp;</b><span style=\"font-size: 10pt;\"><o:p></o:p></span></p>",
+    "Guidance": "<p class=\"MsoNormal\" style=\"margin-top:0cm;margin-right:5.65pt;margin-bottom:\n8.0pt;margin-left:5.65pt;mso-add-space:auto;line-height:normal\"><span style=\"line-height: 107%;\"><b>Use\nto describe the Padua variant of the <font face=\"Calibri, sans-serif\"><span style=\"font-size: 10pt;\">F9</span></font> gene that encodes a FIX protein\nwith increased activity compared with wild type</b></span><br></p>",
+    "NonPreferredTerms": [{
+        "Id": "cb9f2fb9-26d5-4436-8b6a-113a830158bd",
+        "Name": "<p class=\"MsoNormal\" style=\"margin: 0cm 5.65pt 8pt; line-height: normal;\"><b>Hyperactive Padua variant, h<span style=\"font-size: 1rem;\">yper-functional Padua variant</span></b></p>",
+        "LexiconId": "136da52f-627c-4475-98e5-69e3d3a48938"
+    }],
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    },
+    "Rank": null
+}, {
+    "Id": "5cb56617-37fe-4a48-9584-8f9192c7294f",
+    "PreferredTerm": "<span style=\"line-height: 107%;\"><b>Liver-specific\npromoter</b></span>",
+    "Guidance": "<p class=\"MsoNormal\" style=\"line-height:normal\"><b>Use\nwhen describing the design of etranacogene dezaparvovec</b></p>\n\n<i><b><span style=\"line-height: 107%;\">Example: Etranacogene dezaparvovec comprises</span><span style=\"line-height: 107%;\"> codon-optimized human FIX-Padua under the\ncontrol of a liver-specific promoter, LP-1</span></b></i>",
+    "NonPreferredTerms": [{
+        "Id": "ec00081b-eb5a-4099-90f5-fc592a9f4485",
+        "Name": "<span style=\"line-height: 107%;\"><b>Promoter</b></span>",
+        "LexiconId": "5cb56617-37fe-4a48-9584-8f9192c7294f"
+    }],
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    },
+    "Rank": null
+}, {
+    "Id": "55b16d62-bc63-49be-8a84-2def463ed4c4",
+    "PreferredTerm": "<b>Etranacogene dezaparvovec: Clinical development</b>",
+    "Guidance": "&nbsp;",
+    "NonPreferredTerms": [{
+        "Id": "4036eead-c0cb-4f1a-9f95-a6cf49da2245",
+        "Name": "&nbsp;",
+        "LexiconId": "55b16d62-bc63-49be-8a84-2def463ed4c4"
+    }],
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    },
+    "Rank": null
+}, {
+    "Id": "e371e7f1-150c-46b2-8b0d-53798474ba08",
+    "PreferredTerm": "<span style=\"line-height: 107%;\"><b>Phase\n1/2 study of AMT-060 (NCT02396342) (at first mention)</b></span>",
+    "Guidance": "<p class=\"MsoNormal\" style=\"margin-left:5.65pt;mso-add-space:auto;line-height:\nnormal\"><b>Use when first describing the Phase 1/2\nstudy of AMT-060 in patients with severe or moderately severe hemophilia B; the\nterm ‘Phase 1/2 study’ can be used thereafter</b></p>",
+    "NonPreferredTerms": [{
+        "Id": "68bf34a5-6c16-422a-8e4b-c938d5269fe3",
+        "Name": "<p class=\"MsoNormal\" style=\"margin-top:0cm;margin-right:5.65pt;margin-bottom:\n8.0pt;margin-left:5.65pt;mso-add-space:auto;line-height:normal\"><b>&nbsp;AMT-060 clinical study,&nbsp;<span style=\"font-size: 1rem;\">NCT02396342,&nbsp;</span><span style=\"font-size: 1rem;\">Phase 1/2 study of etranacogene dezaparvovec</span></b></p>",
+        "LexiconId": "e371e7f1-150c-46b2-8b0d-53798474ba08"
+    }],
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    },
+    "Rank": null
+}, {
+    "Id": "86216e54-cb59-48a3-8c1d-06b6e039e384",
+    "PreferredTerm": "<p class=\"MsoNormal\" style=\"line-height:normal\"><b>The\nPhase 1/2 study of AMT-060 (NCT02396342) is a multinational, open-label, Phase\n1/2 dose-escalation study investigating AMT-060 in adults with severe or\nmoderately severe hemophilia B (<i>HCPs, payers</i>)</b></p>\n\n<span style=\"line-height: 107%;\">The Phase 1/2 study\nof AMT-060 was designed to determine the safety and optimal dose of AMT-060 in\nadults with severe or moderately severe hemophilia (<i style=\"\">patients, caregivers,\nadvocates</i>)</span>",
+    "Guidance": "<p class=\"MsoNormal\" style=\"margin-left:5.65pt;mso-add-space:auto;line-height:\nnormal\"><b> Short descriptor to be used at first\nmention of the Phase 1/2 study</b></p>",
+    "NonPreferredTerms": [{
+        "Id": "6dc89058-1eed-4c62-8d96-95a74cec4552",
+        "Name": "&nbsp;",
+        "LexiconId": "86216e54-cb59-48a3-8c1d-06b6e039e384"
+    }],
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    },
+    "Rank": null
+}, {
+    "Id": "d821ca05-e91d-437f-a20d-a55cf179302c",
+    "PreferredTerm": "<p class=\"MsoNormal\" style=\"line-height:normal\"><b>The\nPhase 2b study of etranacogene dezaparvovec (NCT03489291) is an open-label,\nsingle-dose, single-arm, multicenter study in adults with severe or moderately\nsevere hemophilia B (<i>HCPs, payers</i>)</b></p>\n\n<span style=\"line-height: 107%;\">The Phase 2b study of\netranacogene dezaparvovec (NCT03489291) examines the safety and efficacy of a\nsingle dose of etranacogene dezaparvovec in adults with severe or moderately\nsevere hemophilia B (<i>patients, caregivers, advocates</i>)</span>",
+    "Guidance": "<span style=\"line-height: 107%;\"><b>Short\ndescriptor to be used at first mention of the Phase 2b study</b></span>",
+    "NonPreferredTerms": [{
+        "Id": "04f4910c-1166-45c5-b0de-07c81ff53102",
+        "Name": "&nbsp;",
+        "LexiconId": "d821ca05-e91d-437f-a20d-a55cf179302c"
+    }],
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    },
+    "Rank": null
+}, {
+    "Id": "0ef3a8b6-0827-41e7-8372-8b882b39e789",
+    "PreferredTerm": "<p class=\"MsoNormal\" style=\"line-height:normal\"><b>HOPE-B\n(Health Outcomes with Padua gene: Evaluation in Hemophilia B; NCT03569891) (at\nfirst mention),&nbsp;<span style=\"font-size: 1rem;\">HOPE-B</span></b></p>",
+    "Guidance": "<span style=\"line-height: 107%;\"><b>Use\nwhen first describing the Phase 3 study of etranacogene dezaparvovec\ngene therapy for hemophilia B; the term ‘HOPE-B’ can be used thereafter</b></span>",
+    "NonPreferredTerms": [{
+        "Id": "0512ccdd-2ab7-4c0b-a5a8-013225457c4c",
+        "Name": "<p class=\"MsoNormal\" style=\"margin-top:0cm;margin-right:5.65pt;margin-bottom:\n8.0pt;margin-left:5.65pt;mso-add-space:auto;line-height:normal\"><b>HOPEB,&nbsp;<span style=\"font-size: 1rem;\">Hope-B,&nbsp;</span><span style=\"font-size: 1rem;\">NCT-3569891 Phase 3 clinical study</span></b></p>",
+        "LexiconId": "0ef3a8b6-0827-41e7-8372-8b882b39e789"
+    }],
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    },
+    "Rank": null
+}, {
+    "Id": "71a4fc37-9ef2-4e29-a014-6fef98b8b8c8",
+    "PreferredTerm": "<p class=\"MsoNormal\" style=\"line-height:normal\"><b>HOPE-B\n(Health Outcomes with Padua gene: Evaluation in Hemophilia B; NCT03569891) is a\nPhase 3, open-label, single-dose, single-arm, multinational trial in adults\nwith severe or moderately severe hemophilia (<i>HCPs, payers</i>)</b></p>\n\n<span style=\"line-height: 107%;\">HOPE-B (Health\nOutcomes with Padua gene: Evaluation in Hemophilia B; NCT03569891) is a Phase 3\nclinical study investigating the safety and efficacy of a single dose of\netranacogene dezaparvovec in adults with severe or moderately severe hemophilia\n(<i>patients, caregivers, advocates</i>)</span>",
+    "Guidance": "<span style=\"line-height: 107%;\"><b>Short\ndescriptor to be used at first mention of the Phase 3 HOPE-B clinical trial</b></span>",
+    "NonPreferredTerms": [{
+        "Id": "bf1d1179-2863-4317-a70c-1ce221528a39",
+        "Name": "&nbsp;",
+        "LexiconId": "71a4fc37-9ef2-4e29-a014-6fef98b8b8c8"
+    }],
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    },
+    "Rank": null
+}, {
+    "Id": "152143d4-a234-406d-acad-cda418bd78f7",
+    "PreferredTerm": "<span style=\"line-height: 107%;\"><b>The\nprimary endpoint of the HOPE-B study is the annualized bleeding rate (ABR) at\n52 weeks, compared to lead-in. ABR will be measured between 26 and 78 weeks\nafter administration</b></span>",
+    "Guidance": "<a name=\"_Hlk74125237\"><span style=\"line-height: 107%;\"><b>Short\ndescriptor of the primary endpoint of the Phase 3 HOPE-B clinical trial</b></span></a>",
+    "NonPreferredTerms": [{
+        "Id": "8210b68c-a942-4788-8d24-f98e1889cd38",
+        "Name": "&nbsp;",
+        "LexiconId": "152143d4-a234-406d-acad-cda418bd78f7"
+    }],
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    },
+    "Rank": null
+}, {
+    "Id": "133111c2-dd07-4f64-8094-dce5e69a92e5",
+    "PreferredTerm": "<span style=\"line-height: 107%;\"><b>The\nsecondary endpoints of the HOPE-B study include FIX activity at 6, 12 and 18\nmonths after dosing, rates of total, spontaneous, traumatic, and\ntreated/untreated bleeds, FIX replacement product consumption, correlation of\nFIX activity levels and safety with pre-treatment, AAV5 NAb titers over 26\nweeks’ follow-up, and safety</b></span>",
+    "Guidance": "<span style=\"line-height: 107%;\"><b>Short\ndescriptor of the secondary endpoints of the Phase 3 HOPE-B clinical trial</b></span>",
+    "NonPreferredTerms": [{
+        "Id": "0f52939b-f01e-4a76-80f8-49c760e708b6",
+        "Name": "&nbsp;",
+        "LexiconId": "133111c2-dd07-4f64-8094-dce5e69a92e5"
+    }],
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    },
+    "Rank": null
+}, {
+    "Id": "523c4e51-301d-4a4d-a030-efc51da97dda",
+    "PreferredTerm": "<b>Etranacogene dezaparvovec: Efficacy and safety</b>",
+    "Guidance": "&nbsp;",
+    "NonPreferredTerms": [{
+        "Id": "4c0ea589-a8a4-4dce-a568-1a15c2a444c2",
+        "Name": "&nbsp;",
+        "LexiconId": "523c4e51-301d-4a4d-a030-efc51da97dda"
+    }],
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    },
+    "Rank": null
+}, {
+    "Id": "91dfccbf-a6ed-4f07-b1ed-b946bbd06878",
+    "PreferredTerm": "<p class=\"MsoNormal\" style=\"line-height:normal\"><b>AAV5\nneutralizing antibodies (NAbs)</b></p>\n\n<span style=\"line-height: 107%;\">Antibodies to AAV5-vector\nshell </span><span style=\"line-height: 107%;\">(<i>patients, caregivers, advocates</i>)</span>",
+    "Guidance": "<span style=\"line-height: 107%;\"><b>Use\nspecific terminology when referring to NAbs to the AAV5 capsid and to\ndistinguish from NAbs for other AAV serotypes/capsids</b></span>",
+    "NonPreferredTerms": [{
+        "Id": "3baee724-bcc2-4f02-946c-a4f0f9a48a28",
+        "Name": "<p class=\"MsoNormal\" style=\"margin-top:0cm;margin-right:5.65pt;margin-bottom:\n8.0pt;margin-left:5.65pt;mso-add-space:auto;line-height:normal\"><b>AAV NAbs,&nbsp;<span style=\"font-size: 1rem;\">NAbs, n</span><span style=\"font-size: 1rem;\">eutralizing antibodies</span></b></p>",
+        "LexiconId": "91dfccbf-a6ed-4f07-b1ed-b946bbd06878"
+    }],
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    },
+    "Rank": null
+}, {
+    "Id": "3951ba4d-568c-427b-b030-dbd31dbe1fef",
+    "PreferredTerm": "<span style=\"line-height: 107%;\"><b>No\nrelationship between safety and titers of pre-existing AAV5 NAbs has been\nobserved with etranacogene dezaparvovec; the most common treatment-related AEs\nwere similar between participants with and without pre-existing AAV5 NAbs</b></span><br>",
+    "Guidance": "<span style=\"line-height: 107%;\"><b>Short\ndescriptor to cover safety associated with pre-existing AAV5 NAbs in the HOPE-B\nstudy</b></span>",
+    "NonPreferredTerms": [{
+        "Id": "ebb67e80-c8f5-4a3c-b4d1-560d1c7d33a3",
+        "Name": "&nbsp;",
+        "LexiconId": "3951ba4d-568c-427b-b030-dbd31dbe1fef"
+    }],
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    },
+    "Rank": null
+}, {
+    "Id": "959c84ae-7310-4c9c-b5d3-106eb91dcbe7",
+    "PreferredTerm": "<p class=\"MsoNormal\" style=\"line-height:normal\"><b>Endogenous\nFIX activity levels (<i>HCPs, payers</i>)</b></p>\n\n<span style=\"line-height: 107%;\">FIX is produced from\ncells in the liver (<i>patients, caregivers, advocates</i>)</span>",
+    "Guidance": "<p class=\"MsoNormal\" style=\"margin-left:5.65pt;mso-add-space:auto;line-height:\nnormal\"><b>Use when describing FIX activity levels\nfollowing gene therapy</b></p>\n\n<span style=\"line-height: 107%;\"><i><b>Example: The primary objective was to assess\nwhether endogenous FIX activity levels of ≥5% were achieved at 6 weeks</b></i></span>",
+    "NonPreferredTerms": [{
+        "Id": "ab47a45b-10b8-4bd2-9c4c-8d499b9157aa",
+        "Name": "FIX expression",
+        "LexiconId": "959c84ae-7310-4c9c-b5d3-106eb91dcbe7"
+    }],
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    },
+    "Rank": null
+}, {
+    "Id": "c2f7e258-90c6-4d06-b305-7a1584e1e93b",
+    "PreferredTerm": "<span style=\"line-height: 107%;\"><b>Exogenous\nFIX product&nbsp;</b></span>",
+    "Guidance": "<p class=\"MsoNormal\" style=\"margin-left:5.65pt;mso-add-space:auto;line-height:\nnormal\"><b>Use when describing the change in\nexogenous FIX product requirements (vs endogenous FIX activity levels)\nfollowing treatment with etranacogene dezaparvovec</b></p>\n\n<span style=\"line-height: 107%;\"><i><b>Example: Etranacogene dezaparvovec resulted in a\ndecrease in exogenous FIX product use.&nbsp;</b></i></span><br>",
+    "NonPreferredTerms": [{
+        "Id": "ee31a70c-0aff-4b71-8f1a-d92b57b2cdd3",
+        "Name": "<b>Exogenous FIX concentrate</b>",
+        "LexiconId": "c2f7e258-90c6-4d06-b305-7a1584e1e93b"
+    }],
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    },
+    "Rank": null
+}, {
+    "Id": "c2c8c758-d3ec-471f-b37b-9af69a7bcd90",
+    "PreferredTerm": "<span style=\"line-height: 107%;\"><b>Based\non the results of a comprehensive investigation conducted by an independent\nlaboratory and reviewed by leading external experts in the field, etranacogene\ndezaparvovec was determined to be highly unlikely to be the cause of a single\ncase of hepatocellular carcinoma (HCC) in the HOPE-B study</b></span>",
+    "Guidance": "<b> Short descriptor to cover the case of HCC diagnosed in a HOPE-B study participant post-treatment</b>",
+    "NonPreferredTerms": [{
+        "Id": "6946ba6c-83f9-4fd3-b5ea-b382d77f4a6a",
+        "Name": "&nbsp;",
+        "LexiconId": "c2c8c758-d3ec-471f-b37b-9af69a7bcd90"
+    }],
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    },
+    "Rank": null
+}, {
+    "Id": "2b8de083-81aa-41aa-8b32-54115bbe2d5b",
+    "PreferredTerm": "<span style=\"line-height: 107%;\"><b>Mean\nendogenous FIX activity increased to near-normal levels&nbsp;</b></span>",
+    "Guidance": "<p class=\"MsoNormal\" style=\"margin-left:5.65pt;mso-add-space:auto;line-height:\nnormal\"><b>Use when describing the potential\nbenefit of etranacogene dezaparvovec gene therapy for hemophilia B (based on\n26-week HOPE-B data)</b></p><p class=\"MsoNormal\" style=\"margin-left:5.65pt;mso-add-space:auto;line-height:\nnormal\"><i><b><span style=\"font-size: 1rem;\">Example: Mean endogenous FIX activity levels increased\ninto the </span><span style=\"font-size: 1rem;\">near-normal</span><span style=\"font-size: 1rem;\"> range</span></b></i></p>\n\n<span style=\"line-height: 107%;\"><b> Claims about the benefits of gene therapy should\nbe in line with the current data</b></span>",
+    "NonPreferredTerms": [{
+        "Id": "25ddda85-370c-47f9-bbf8-487692e52276",
+        "Name": "<p class=\"MsoNormal\" style=\"margin-top:0cm;margin-right:5.65pt;margin-bottom:\n8.0pt;margin-left:5.65pt;mso-add-space:auto;line-height:normal\"><b>Functional cure, c<span style=\"font-size: 1rem;\">urative/cure, n</span><span style=\"font-size: 1rem;\">ear cure</span></b></p>",
+        "LexiconId": "2b8de083-81aa-41aa-8b32-54115bbe2d5b"
+    }],
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    },
+    "Rank": null
+}, {
+    "Id": "45d9be97-f949-4218-8ff6-596b059fe501",
+    "PreferredTerm": "<p class=\"MsoNormal\" style=\"line-height:normal\"><b>Sustained\nand durable (<i>HCPs, payers</i>)</b></p>\n\n<span style=\"line-height: 107%;\">Long-lasting\n(<i>patients, caregivers, advocates</i>)</span>",
+    "Guidance": "<b>Use when describing endogenous FIX activity levels at 5 years/2 years of follow-up for&nbsp;<span style=\"font-size: 1rem;\">AMT-060/etranacogene dezaparvovec</span></b><div><i style=\"font-size: 1rem;\"><span style=\"font-weight: 700;\"><span style=\"font-size: 1rem;\"><br></span></span></i></div><div><i style=\"font-size: 1rem;\"><span style=\"font-size: 1rem;\"><b>Example: Endogenous FIX activity levels are sustained and durable at 2 years of follow-up for etranacogene dezaparvovec</b></span></i></div>",
+    "NonPreferredTerms": [{
+        "Id": "68fc470f-9455-49e6-aa53-18632c034fa5",
+        "Name": "<p class=\"MsoNormal\" style=\"margin-top:0cm;margin-right:5.65pt;margin-bottom:\n8.0pt;margin-left:5.65pt;mso-add-space:auto;line-height:normal\"><b>Long-term</b>&nbsp;</p><p class=\"MsoNormal\" style=\"margin-left:5.65pt;mso-add-space:auto;line-height:\nnormal\">\n\n\n\n<span style=\"line-height: 107%;\">Permanent/lifetime/enduring/one-time treatment (non-preferred patient terms)</span><br></p>",
+        "LexiconId": "45d9be97-f949-4218-8ff6-596b059fe501"
+    }],
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    },
+    "Rank": null
+}, {
+    "Id": "59a51b8b-e891-498a-9961-7232fb698f1f",
+    "PreferredTerm": "<b>Etranacogene dezaparvovec: Administration and monitoring</b>",
+    "Guidance": "&nbsp;",
+    "NonPreferredTerms": [{
+        "Id": "29a0e1c5-5d6a-4101-b1c2-e2d696cdc70c",
+        "Name": "&nbsp;",
+        "LexiconId": "59a51b8b-e891-498a-9961-7232fb698f1f"
+    }],
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    },
+    "Rank": null
+}, {
+    "Id": "545fa76a-8cae-4604-9233-a6d24905d36d",
+    "PreferredTerm": "<span style=\"line-height: 107%;\"><b>Administered\nvia a single, one-time intravenous (IV) infusion</b></span>",
+    "Guidance": "<p class=\"MsoNormal\" style=\"margin-left:5.65pt;mso-add-space:auto;line-height:\nnormal\"><b>Use when discussing the administration\nof etranacogene dezaparvovec to highlight the one-time treatment. Intravenous\nshould be spelled out in full at first use; IV can be used thereafter</b></p>\n\n<span style=\"line-height: 107%;\"><i><b>Example: Etranacogene dezaparvovec is\nadministered via a single, one-time intravenous (IV) infusion in an outpatient\nsetting</b></i></span>",
+    "NonPreferredTerms": [{
+        "Id": "8149a701-300b-415d-8273-6241da90d921",
+        "Name": "<span style=\"line-height: 107%;\"><b>Unlike\ntraditional factor replacement therapy</b></span>",
+        "LexiconId": "545fa76a-8cae-4604-9233-a6d24905d36d"
+    }],
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    },
+    "Rank": null
+}, {
+    "Id": "a8634851-4176-4a61-a961-bcf1eb0b26e6",
+    "PreferredTerm": "<span style=\"line-height: 107%;\"><b>Companion\ndiagnostic (CDx) for AAV5 NAbs</b></span>",
+    "Guidance": "<p class=\"MsoNormal\" style=\"margin-left: 5.65pt; line-height: normal;\"><b>A companion diagnostic (CDx) is a diagnostic test used as a companion to a therapeutic drug to determine its applicability to a specific person</b></p><span style=\"line-height: 17.12px;\"><b>The FDA has requested a CDx test to assess the pre-existing AAV5 NAb levels in PWHB prior to treatment with etranacogene dezaparvovec</b></span>",
+    "NonPreferredTerms": [{
+        "Id": "ed75ad58-0fde-4a8c-87dc-f79b40057f67",
+        "Name": "<p class=\"MsoNormal\" style=\"margin-left:5.65pt;mso-add-space:auto;line-height:\nnormal\"></p><b>Biomarker test</b>",
+        "LexiconId": "a8634851-4176-4a61-a961-bcf1eb0b26e6"
+    }],
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    },
+    "Rank": null
+}, {
+    "Id": "09fd1189-5a54-493e-902b-c18db699d9d0",
+    "PreferredTerm": "<span style=\"line-height: 107%;\"><b>Genome\ncopies (gc), vector genomes (vg), or vector genome copies (VGC)</b></span>",
+    "Guidance": "<p class=\"MsoNormal\" style=\"margin-left:5.65pt;mso-add-space:auto;line-height:\nnormal\"><b> Use to describe the dose of etranacogene\ndezaparvovec given to a PWH (in gc/kg)</b></p>\n\n<span style=\"line-height: 107%;\"><i><b>Note: uniQure has been describing the dose in\nterms of gc vs Freeline, Pfizer/Spark, who use the terminology\nvg</b></i></span>",
+    "NonPreferredTerms": [{
+        "Id": "bbc7e66a-d272-49cf-a1fc-37671b3f08a6",
+        "Name": "<b>Vector copies</b>",
+        "LexiconId": "09fd1189-5a54-493e-902b-c18db699d9d0"
+    }],
+    "Asset": {
+        "Id": "5a6ac412-e6a4-45c4-b925-e793df373ce2",
+        "Name": "EtranaDez",
+        "Description": ""
+    },
+    "Rank": null
+}]
+

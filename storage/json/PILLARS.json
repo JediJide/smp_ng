@@ -1,0 +1,2631 @@
+[{
+    "Id": "af2a48ed-e08c-4a1a-baba-65f764fbc254",
+    "Name": "<b>Pillar 1: </b>Gene therapy overview",
+    "Description": "",
+    "Index": 0,
+    "ResourceCount": 0,
+    "Statements": [{
+        "Id": "ff074c3f-d89a-4416-8e6c-a6e334ddda22",
+        "Title": "<b>Pillar 1: </b>Gene therapy overview",
+        "Description": "<b>HCP narrative:</b>&nbsp;<span>Gene therapy is an innovative transformative approach to treating or curing\na disease by modifying a person's genes.</span><a id=\"39cd3ade-ecf6-4002-aac0-9f216fc9caa9_1\" class=\"btn-ref\"><sup>1</sup></a>&nbsp;<span>The first gene therapies were approved by the Food and Drug Administration and European Medicines Agency in the 2010s,</span><a id=\"6356402f-c29c-4424-98d1-20687d3b7eb6_2\" class=\"btn-ref\"><sup>2</sup></a>&nbsp;<a id=\"44e9e1b5-8508-43d5-be02-18e9b2009e16_3\" class=\"btn-ref\"><sup>3</sup></a><span>&nbsp;with an increasing number of\napprovals, and more than 1100 active clinical trials ongoing across a range of\ndiseases in recent times.</span>&nbsp;<span>Gene therapies work\nthrough a variety of approaches including functional gene transfer or gene\ninactivation/editing.</span><a id=\"39cd3ade-ecf6-4002-aac0-9f216fc9caa9_1\" class=\"btn-ref\"><sup>1</sup></a>&nbsp;<a id=\"b0635431-1ed1-40cb-b923-213cb0360360_4\" class=\"btn-ref\"><sup>4&nbsp;</sup></a><a id=\"19e3b889-6f7e-45e3-ab8c-2bf07c9cbd4d_5\" class=\"btn-ref\"><sup>5</sup></a><span>&nbsp;Approaches for inherited monogenic diseases have predominantly focused on the delivery of\na functional gene using a viral vector, which can be divided into integrating\n(retrovirus, lentiviral) and non-integrating (adenovirus, adeno-associated virus [AAV]) vectors.</span><a id=\"12febc81-e2c9-4492-8464-d5015adf47be_6\" class=\"btn-ref\"><sup>6&nbsp;</sup></a><a id=\"3f6badde-a30e-4320-b63c-a1ff36836f47_7\" class=\"btn-ref\"><sup>7</sup></a><span>&nbsp;Gene therapies can be delivered either\ndirectly into the patient (</span><i>in vivo</i><span> gene therapy) or into cells extracted\nfrom the patient (</span><i>ex vivo</i><span> gene therapy).</span><a id=\"2b178794-5fb0-475a-ad51-f15b1ad6a87f_8\" class=\"btn-ref\"><sup>8</sup></a><span>&nbsp;A single, one-time administration of a gene\ntherapy has been shown to have durable benefit to patients, although the\nlong-term effects are yet to be fully characterized.</span><a id=\"54b0d5cf-3747-4c93-948b-919e30d9b665_9\" class=\"btn-ref\"><sup>9&nbsp;</sup></a><a id=\"4f889472-b36a-4ef0-a424-d33f4fcd1b1e_10\" class=\"btn-ref\"><sup>10&nbsp;</sup></a><a id=\"41ff3fc8-9b97-4c61-abef-dd8b7f9d280b_11\" class=\"btn-ref\"><sup>11&nbsp;</sup></a><a id=\"499a42ab-cdcd-4c43-87ea-22ed299314c6_12\" class=\"btn-ref\"><sup>12&nbsp;</sup></a><a id=\"c63926c6-0389-4fe2-ab9b-cd4fa83d823d_13\" class=\"btn-ref\"><sup>13&nbsp;</sup></a><a id=\"19e91ad3-0586-441e-b062-07bcd25b7cf0_14\" class=\"btn-ref\"><sup>14&nbsp;</sup></a><a id=\"5194938e-f185-4365-89ba-a12908e2ee09_15\" class=\"btn-ref\"><sup>15</sup></a>&nbsp;<p class=\"MsoNormal\"><o:p></o:p></p><p class=\"MsoNormal\"><o:p></o:p></p><p class=\"MsoNormal\"><o:p></o:p></p>&nbsp;",
+        "ThemeId": "af2a48ed-e08c-4a1a-baba-65f764fbc254",
+        "Status": 0,
+        "SubStatementCount": 0,
+        "NonHeaderResourceCount": 0,
+        "HeaderResources": [{
+            "Id": "8350e6e6-992a-45ca-ac0d-bdeba6abeb66",
+            "Url": "https://nucleusglobal-resourcerepository.s3.eu-west-1.amazonaws.com/csl-smp/2ec85116-08bb-4da6-9fed-0dfbceb31593.pdf?X-Amz-Expires=1800&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAILI2QFGMTZTKHUAQ/20220221/eu-west-1/s3/aws4_request&X-Amz-Date=20220221T102110Z&X-Amz-SignedHeaders=host&X-Amz-Signature=1d66c1e77ca8e8b0af70cffb42382688f201b4f40504663eb09e219c4e3c7b4b",
+            "CategoryDefintionId": "a679f2f4-df13-40bf-91b6-fa8557373df7",
+            "IsHeader": true,
+            "ResourceType": {
+                "Id": "322f3897-a9d2-4acc-986f-49f7ede8183e",
+                "Type": "DefaultPdf",
+                "Extensions": [".pdf"]
+            },
+            "Title": null,
+            "User": null,
+            "FileName": null,
+            "CreatedDate": "2021-11-12T10:14:46.0590305+00:00"
+        }],
+        "References": [{
+            "Id": "19e91ad3-0586-441e-b062-07bcd25b7cf0",
+            "Description": "FDA_LTFU_2020_P1",
+            "Url": "",
+            "Index": 14,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "44e9e1b5-8508-43d5-be02-18e9b2009e16",
+            "Description": "Glybera_SMPC_P1",
+            "Url": "",
+            "Index": 3,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "6356402f-c29c-4424-98d1-20687d3b7eb6",
+            "Description": "kymriah_US_prescribing information_P1",
+            "Url": "",
+            "Index": 2,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "b0635431-1ed1-40cb-b923-213cb0360360",
+            "Description": "Miesbach_Haemophilia_2019_P1",
+            "Url": "",
+            "Index": 4,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "499a42ab-cdcd-4c43-87ea-22ed299314c6",
+            "Description": "Mendell_MDA Congress_2021_Abstract_P1",
+            "Url": "",
+            "Index": 12,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "19e3b889-6f7e-45e3-ab8c-2bf07c9cbd4d",
+            "Description": "Pasi_Neuro Res_2019_P1",
+            "Url": "",
+            "Index": 5,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "54b0d5cf-3747-4c93-948b-919e30d9b665",
+            "Description": "Nathwani_Blood (2018) 132 (Supplement 1) 491_P1",
+            "Url": "",
+            "Index": 9,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "39cd3ade-ecf6-4002-aac0-9f216fc9caa9",
+            "Description": "FDA_What is Gene Therapy_ 2018_P1",
+            "Url": "",
+            "Index": 1,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "5194938e-f185-4365-89ba-a12908e2ee09",
+            "Description": "EMA GT FU guidelines_P1",
+            "Url": "",
+            "Index": 15,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "3f6badde-a30e-4320-b63c-a1ff36836f47",
+            "Description": "Anguela and High_Ann Rev Med_2019_P1",
+            "Url": "",
+            "Index": 7,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "c63926c6-0389-4fe2-ab9b-cd4fa83d823d",
+            "Description": "Konkle_Haemophilia_2021_P1",
+            "Url": "",
+            "Index": 13,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "4f889472-b36a-4ef0-a424-d33f4fcd1b1e",
+            "Description": "Maguire_Opthamology_2019_P1",
+            "Url": "",
+            "Index": 10,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "12febc81-e2c9-4492-8464-d5015adf47be",
+            "Description": "Prakash_Mole Ther_2016_P1",
+            "Url": "",
+            "Index": 6,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "41ff3fc8-9b97-4c61-abef-dd8b7f9d280b",
+            "Description": "Mendell_AAN 2020_P1",
+            "Url": "",
+            "Index": 11,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "2b178794-5fb0-475a-ad51-f15b1ad6a87f",
+            "Description": "High_Roncarolo_2019_P1",
+            "Url": "",
+            "Index": 8,
+            "Tag": "n/a",
+            "HasFile": true
+        }]
+    }, {
+        "Id": "162a7b95-7d63-4ee6-83e4-8ec9df4dd07d",
+        "Title": "<b>Pillar 1: </b>Gene therapy overview",
+        "Description": "<b>Lay narrative:&nbsp;</b>Gene therapy is an innovative transformative method of treatment currently being\nstudied in clinical trials for a variety of genetic conditions, including\nhemophilia B.<a id=\"39cd3ade-ecf6-4002-aac0-9f216fc9caa9_1\" class=\"btn-ref\"><sup>1</sup></a>&nbsp;<a id=\"c6db7129-ead3-4e15-a91c-1c6c7b7d7556_2\" class=\"btn-ref\"><sup>2</sup></a>&nbsp;Gene therapies aim to treat or cure a disease by modifying a person's genes.<a id=\"39cd3ade-ecf6-4002-aac0-9f216fc9caa9_1\" class=\"btn-ref\"><span><sup>1</sup></span></a>&nbsp;<a id=\"b0635431-1ed1-40cb-b923-213cb0360360_3\" class=\"btn-ref\"><sup>3</sup></a>&nbsp;<a id=\"19e3b889-6f7e-45e3-ab8c-2bf07c9cbd4d_4\" class=\"btn-ref\"><sup>4</sup></a>&nbsp;Functional genes are usually delivered into the cells of the\nbody by inserting them into a non-infectious, neutralized or inactivated viral\nshell (the vector).<a id=\"12febc81-e2c9-4492-8464-d5015adf47be_5\" class=\"btn-ref\"><sup>5</sup></a>&nbsp;<a id=\"3f6badde-a30e-4320-b63c-a1ff36836f47_6\" class=\"btn-ref\"><sup>6</sup></a>&nbsp;Vectors act like delivery trucks, carrying the gene to specific, target cells.&nbsp;The gene can be delivered directly\nto the person (<font face=\"Montserrat\"><span><i>in vivo</i> </span></font>gene therapy) or into cells that have been taken\nfrom the person, then treated, then returned to the person (<font face=\"Montserrat\"><span><i>ex vivo</i> </span></font>gene\ntherapy).<a id=\"12febc81-e2c9-4492-8464-d5015adf47be_5\" class=\"btn-ref\"><span><sup>5</sup></span></a>&nbsp;<a id=\"3f6badde-a30e-4320-b63c-a1ff36836f47_6\" class=\"btn-ref\"><span><sup>6</sup></span></a>&nbsp;A single,\none-time infusion of a gene therapy has been shown to provide long-lasting\nbenefit, although the long-term effects are yet to be fully understood.<a id=\"54b0d5cf-3747-4c93-948b-919e30d9b665_7\" class=\"btn-ref\"><sup>7</sup></a>&nbsp;<a id=\"4f889472-b36a-4ef0-a424-d33f4fcd1b1e_8\" class=\"btn-ref\"><sup>8</sup></a>&nbsp;<a id=\"41ff3fc8-9b97-4c61-abef-dd8b7f9d280b_9\" class=\"btn-ref\"><sup>9</sup></a>&nbsp;<a id=\"499a42ab-cdcd-4c43-87ea-22ed299314c6_10\" class=\"btn-ref\"><sup>10</sup></a>&nbsp;<a id=\"c63926c6-0389-4fe2-ab9b-cd4fa83d823d_11\" class=\"btn-ref\"><sup>11</sup></a>&nbsp;<a id=\"19e91ad3-0586-441e-b062-07bcd25b7cf0_12\" class=\"btn-ref\"><sup>12</sup></a>&nbsp;<a id=\"5194938e-f185-4365-89ba-a12908e2ee09_13\" class=\"btn-ref\"><sup>13</sup></a>&nbsp;<p class=\"MsoNormal\"><span style=\"font-size:12.0pt;line-height:107%;font-family:\nMontserrat\"><o:p></o:p></span></p><p class=\"MsoNormal\"><span style=\"font-size:12.0pt;line-height:107%;font-family:\nMontserrat\"><o:p></o:p></span></p><p class=\"MsoNormal\"><o:p></o:p></p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+        "ThemeId": "af2a48ed-e08c-4a1a-baba-65f764fbc254",
+        "Status": 0,
+        "SubStatementCount": 0,
+        "NonHeaderResourceCount": 0,
+        "HeaderResources": [{
+            "Id": "231fe508-5953-4b9c-8295-f874e0094d44",
+            "Url": "https://nucleusglobal-resourcerepository.s3.eu-west-1.amazonaws.com/csl-smp/a5e00438-cc56-468e-9d07-fe4adce0ddd5.pdf?X-Amz-Expires=1800&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAILI2QFGMTZTKHUAQ/20220221/eu-west-1/s3/aws4_request&X-Amz-Date=20220221T102110Z&X-Amz-SignedHeaders=host&X-Amz-Signature=e79d34d7728154d46f1cb495880fe1d4c12535c4d65564dfc7117b76333f81e4",
+            "CategoryDefintionId": "a679f2f4-df13-40bf-91b6-fa8557373df7",
+            "IsHeader": true,
+            "ResourceType": {
+                "Id": "322f3897-a9d2-4acc-986f-49f7ede8183e",
+                "Type": "DefaultPdf",
+                "Extensions": [".pdf"]
+            },
+            "Title": null,
+            "User": null,
+            "FileName": null,
+            "CreatedDate": "2021-11-12T10:15:01.8562078+00:00"
+        }],
+        "References": [{
+            "Id": "19e91ad3-0586-441e-b062-07bcd25b7cf0",
+            "Description": "FDA_LTFU_2020_P1",
+            "Url": "",
+            "Index": 12,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "c6db7129-ead3-4e15-a91c-1c6c7b7d7556",
+            "Description": "Clintrials.gov search output_17 May_P1",
+            "Url": "",
+            "Index": 2,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "b0635431-1ed1-40cb-b923-213cb0360360",
+            "Description": "Miesbach_Haemophilia_2019_P1",
+            "Url": "",
+            "Index": 3,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "499a42ab-cdcd-4c43-87ea-22ed299314c6",
+            "Description": "Mendell_MDA Congress_2021_Abstract_P1",
+            "Url": "",
+            "Index": 10,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "19e3b889-6f7e-45e3-ab8c-2bf07c9cbd4d",
+            "Description": "Pasi_Neuro Res_2019_P1",
+            "Url": "",
+            "Index": 4,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "54b0d5cf-3747-4c93-948b-919e30d9b665",
+            "Description": "Nathwani_Blood (2018) 132 (Supplement 1) 491_P1",
+            "Url": "",
+            "Index": 7,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "39cd3ade-ecf6-4002-aac0-9f216fc9caa9",
+            "Description": "FDA_What is Gene Therapy_ 2018_P1",
+            "Url": "",
+            "Index": 1,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "5194938e-f185-4365-89ba-a12908e2ee09",
+            "Description": "EMA GT FU guidelines_P1",
+            "Url": "",
+            "Index": 13,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "3f6badde-a30e-4320-b63c-a1ff36836f47",
+            "Description": "Anguela and High_Ann Rev Med_2019_P1",
+            "Url": "",
+            "Index": 6,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "c63926c6-0389-4fe2-ab9b-cd4fa83d823d",
+            "Description": "Konkle_Haemophilia_2021_P1",
+            "Url": "",
+            "Index": 11,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "4f889472-b36a-4ef0-a424-d33f4fcd1b1e",
+            "Description": "Maguire_Opthamology_2019_P1",
+            "Url": "",
+            "Index": 8,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "12febc81-e2c9-4492-8464-d5015adf47be",
+            "Description": "Prakash_Mole Ther_2016_P1",
+            "Url": "",
+            "Index": 5,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "41ff3fc8-9b97-4c61-abef-dd8b7f9d280b",
+            "Description": "Mendell_AAN 2020_P1",
+            "Url": "",
+            "Index": 9,
+            "Tag": "n/a",
+            "HasFile": true
+        }]
+    }]
+}, {
+    "Id": "e9ebcadd-44f6-4b52-acd1-5fdf47c1212f",
+    "Name": "<b>Pillar 2:</b> AAV gene therapy introduction",
+    "Description": "",
+    "Index": 1,
+    "ResourceCount": 0,
+    "Statements": [{
+        "Id": "0cf14247-bb50-41ad-872b-205a40e4e1b0",
+        "Title": "<b>Pillar 2:</b> AAV gene therapy introduction",
+        "Description": "<b>HCP narrative: </b><span>Recombinant AAV (rAAV) vectors have been widely studied for </span><i>in vivo</i><span> gene\ntherapy delivery,</span><a id=\"0884f46b-7833-4ed3-a915-6e8c24067963_1\" class=\"btn-ref\"><sup>1</sup></a>&nbsp;<a id=\"b53ff171-7208-445b-8597-9e9023b62c97_2\" class=\"btn-ref\"><sup>2</sup></a><span>&nbsp;with\ntwo products currently approved for use in the US (in 2017 and 2019) and the EU\n(in 2018 and 2020).</span><a id=\"7651565e-5b00-45f0-b190-927e39a95557_3\" class=\"btn-ref\"><sup>3</sup></a>&nbsp;<a id=\"07dc2e77-0b4b-4804-a8c4-ba9bf69c7f56_4\" class=\"btn-ref\"><sup>4</sup></a>&nbsp;<a id=\"89b789e4-e7d4-4000-a735-d936b1f0b04a_5\" class=\"btn-ref\"><sup>5</sup></a>&nbsp;<a id=\"ee5f03e4-2319-4b4e-b1dc-d3dc2e669e56_6\" class=\"btn-ref\"><sup>6</sup></a><span>&nbsp;rAAV-based gene therapy, derived from naturally\noccurring non-pathogenic AAV, consists of a capsid containing a DNA genome in\nwhich the viral coding sequences are replaced with an expression cassette incorporating\nthe transgene.</span><a id=\"40662c18-4ac0-4c7e-954f-350dbfa55753_7\" class=\"btn-ref\"><sup>7</sup></a>&nbsp;<a id=\"de324524-9c00-48ea-a50c-bc214364d22e_8\" class=\"btn-ref\"><sup>8</sup></a>&nbsp;<a id=\"d1f0d592-ef51-42e6-bd09-11f043b27fea_9\" class=\"btn-ref\"><sup>9</sup></a>&nbsp;r<span>AAV vectors have several characteristics that make them well-suited\nto the delivery of gene therapies compared with other vectors, including low\nlevels of immunogenicity and minimal risk of insertional mutagenesis, while\nstill resulting in long-term expression of the transgene.</span><a id=\"6807b32f-5eef-4e27-892b-fac27bb9663e_10\" class=\"btn-ref\"><sup>10</sup></a>&nbsp;<a id=\"f8e1fc4b-e394-41af-889c-0ef730dbc24b_11\" class=\"btn-ref\"><sup>11</sup></a>&nbsp;<a id=\"c6ceed12-3d44-495f-8f91-7084320caaa9_12\" class=\"btn-ref\"><sup>12</sup></a>&nbsp;<a id=\"369aa17a-9f28-4cb5-bf22-8890412c50b7_13\" class=\"btn-ref\"><sup>13</sup></a>&nbsp;<a id=\"ad40fb91-1a9e-4a15-8dc9-1b5dd8e4b127_14\" class=\"btn-ref\"><sup>14</sup></a>&nbsp;<a id=\"5deb389f-6a5d-419b-a916-7aed6a981c6b_15\" class=\"btn-ref\"><sup>15</sup></a>&nbsp;<a id=\"3bb7683f-9ee9-4685-a36f-8cc482561a13_16\" class=\"btn-ref\"><sup>16</sup></a>&nbsp;<a id=\"faaaf142-b91a-44ca-a878-4938ca184d98_17\" class=\"btn-ref\"><sup>17</sup></a><span>&nbsp;Naturally occurring wild-type (WT) AAV vectors have\nserotype-specific tropism, which can be used to target gene expression to particular\ncells or tissues.</span><a id=\"607d4d85-67c7-4ee0-a760-5b728172e1ed_18\" class=\"btn-ref\"><sup>18</sup></a>&nbsp;<a id=\"86875481-65e3-4d10-a2c3-d6107c1a9c19_19\" class=\"btn-ref\"><sup>19</sup></a>&nbsp;<a id=\"4c2a8b89-2bc6-452c-b7c9-68f163d45be9_20\" class=\"btn-ref\"><sup>20</sup></a><span>&nbsp;Some serotypes (e.g. AAV8 and AAV9) target a broader range of\ncells and tissues than others. The specificity of cell-type expression can be ensured\nthrough vector design, specifically through the use of serotype tropism and a tissue-specific promoter.</span><a id=\"607d4d85-67c7-4ee0-a760-5b728172e1ed_18\" class=\"btn-ref\"><span><sup>18</sup></span></a><span>&nbsp;</span><a id=\"86875481-65e3-4d10-a2c3-d6107c1a9c19_19\" class=\"btn-ref\"><span><sup>19&nbsp;</sup></span></a><a id=\"adeed0c3-6e6a-4804-9413-6d50ce176dc3_21\" class=\"btn-ref\"><sup>21</sup></a>&nbsp;<p class=\"MsoNormal\"><o:p></o:p></p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+        "ThemeId": "e9ebcadd-44f6-4b52-acd1-5fdf47c1212f",
+        "Status": 0,
+        "SubStatementCount": 0,
+        "NonHeaderResourceCount": 0,
+        "HeaderResources": [{
+            "Id": "17d94004-24af-4576-893a-89178d4b6328",
+            "Url": "https://nucleusglobal-resourcerepository.s3.eu-west-1.amazonaws.com/csl-smp/32f98a54-80c3-4aac-aa20-0fea4625f482.pdf?X-Amz-Expires=1800&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAILI2QFGMTZTKHUAQ/20220221/eu-west-1/s3/aws4_request&X-Amz-Date=20220221T102110Z&X-Amz-SignedHeaders=host&X-Amz-Signature=e35170c0be27209b7a7e0f3b9b0a55612f26022ea7a706e6651bb4a2ca25f15b",
+            "CategoryDefintionId": "a679f2f4-df13-40bf-91b6-fa8557373df7",
+            "IsHeader": true,
+            "ResourceType": {
+                "Id": "322f3897-a9d2-4acc-986f-49f7ede8183e",
+                "Type": "DefaultPdf",
+                "Extensions": [".pdf"]
+            },
+            "Title": null,
+            "User": null,
+            "FileName": null,
+            "CreatedDate": "2021-11-12T10:15:22.6221861+00:00"
+        }],
+        "References": [{
+            "Id": "f8e1fc4b-e394-41af-889c-0ef730dbc24b",
+            "Description": "Nidetz_Pharmacol Ther_2020_P2",
+            "Url": "",
+            "Index": 11,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "d1f0d592-ef51-42e6-bd09-11f043b27fea",
+            "Description": "Wang_Nat Rev Drug Disc_2019_P2",
+            "Url": "",
+            "Index": 9,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "ad40fb91-1a9e-4a15-8dc9-1b5dd8e4b127",
+            "Description": "George_Mol Ther_2020_P2",
+            "Url": "",
+            "Index": 14,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "40662c18-4ac0-4c7e-954f-350dbfa55753",
+            "Description": "Arruda and Doshi_Med J Hematol Infect Dis 2020_P2",
+            "Url": "",
+            "Index": 7,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "faaaf142-b91a-44ca-a878-4938ca184d98",
+            "Description": "Nathwani_Blood (2018) 132 (Supplement 1) 491_P2",
+            "Url": "",
+            "Index": 17,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "607d4d85-67c7-4ee0-a760-5b728172e1ed",
+            "Description": "Pipe_Mol Ther Methods Clin Dev_2019_P2",
+            "Url": "",
+            "Index": 18,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "4c2a8b89-2bc6-452c-b7c9-68f163d45be9",
+            "Description": "Dhungel_Trends Mol Med_2021_P2",
+            "Url": "",
+            "Index": 20,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "adeed0c3-6e6a-4804-9413-6d50ce176dc3",
+            "Description": "Nathwani_Blood_2006_P2",
+            "Url": "",
+            "Index": 21,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "0884f46b-7833-4ed3-a915-6e8c24067963",
+            "Description": "Bulcha_Sig Transduc Targeted Ther_2021_P2",
+            "Url": "",
+            "Index": 1,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "c6ceed12-3d44-495f-8f91-7084320caaa9",
+            "Description": "Vandendriessche_J Thromb and hemostasis_2007_P2",
+            "Url": "",
+            "Index": 12,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "5deb389f-6a5d-419b-a916-7aed6a981c6b",
+            "Description": "Gil-Farina_Mol Ther_2016_P2",
+            "Url": "",
+            "Index": 15,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "369aa17a-9f28-4cb5-bf22-8890412c50b7",
+            "Description": "Zaiss et al., 2002_P2",
+            "Url": "",
+            "Index": 13,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "3bb7683f-9ee9-4685-a36f-8cc482561a13",
+            "Description": "Niemeyer_Blood 2009_P2",
+            "Url": "",
+            "Index": 16,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "7651565e-5b00-45f0-b190-927e39a95557",
+            "Description": "LUXTURNA_SMPC_P2",
+            "Url": "",
+            "Index": 3,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "b53ff171-7208-445b-8597-9e9023b62c97",
+            "Description": "Anguela and High_Ann Rev Med_2019_P2",
+            "Url": "",
+            "Index": 2,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "07dc2e77-0b4b-4804-a8c4-ba9bf69c7f56",
+            "Description": "LUXTURNA_US_Prescribing_Information_P2",
+            "Url": "",
+            "Index": 4,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "de324524-9c00-48ea-a50c-bc214364d22e",
+            "Description": "Naso_Biodrugs_2017_P2",
+            "Url": "",
+            "Index": 8,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "ee5f03e4-2319-4b4e-b1dc-d3dc2e669e56",
+            "Description": "ZOLGENSMA_US_Prescribing information_P2",
+            "Url": "",
+            "Index": 6,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "86875481-65e3-4d10-a2c3-d6107c1a9c19",
+            "Description": "Zincarelli_Mol Ther_2008_P2",
+            "Url": "",
+            "Index": 19,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "89b789e4-e7d4-4000-a735-d936b1f0b04a",
+            "Description": "ZOLGENSMA_SMPC_P2",
+            "Url": "",
+            "Index": 5,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "6807b32f-5eef-4e27-892b-fac27bb9663e",
+            "Description": "Shirley_Mol Ther_2020_P2",
+            "Url": "",
+            "Index": 10,
+            "Tag": "n/a",
+            "HasFile": true
+        }]
+    }, {
+        "Id": "7ec59b7d-cef9-4942-83df-06046375fbdc",
+        "Title": "<b>Pillar 2:</b> AAV gene therapy introduction",
+        "Description": "<b>Lay narrative:</b>&nbsp;Recombinant adeno-associated virus (rAAV) vectors have been widely studied in\nthe development of gene therapies, with two products currently approved for use\nin the US and EU.<a id=\"0884f46b-7833-4ed3-a915-6e8c24067963_1\" class=\"btn-ref\"><sup>1</sup></a>&nbsp;<a id=\"b53ff171-7208-445b-8597-9e9023b62c97_2\" class=\"btn-ref\"><sup>2</sup></a>&nbsp;<a id=\"7651565e-5b00-45f0-b190-927e39a95557_3\" class=\"btn-ref\"><sup>3</sup></a>&nbsp;<a id=\"07dc2e77-0b4b-4804-a8c4-ba9bf69c7f56_4\" class=\"btn-ref\"><sup>4</sup></a>&nbsp;<a id=\"89b789e4-e7d4-4000-a735-d936b1f0b04a_5\" class=\"btn-ref\"><sup>5</sup></a>&nbsp;<a id=\"ee5f03e4-2319-4b4e-b1dc-d3dc2e669e56_6\" class=\"btn-ref\"><sup>6</sup></a>&nbsp;In rAAV-based gene therapy or gene\ntransfer, a functional, working gene is inserted into an rAAV vector, an inactivated or non-disease causing viral shell derived from the naturally\noccurring, non-infectious AAV.<a id=\"40662c18-4ac0-4c7e-954f-350dbfa55753_7\" class=\"btn-ref\"><sup>7</sup></a>&nbsp;<a id=\"de324524-9c00-48ea-a50c-bc214364d22e_8\" class=\"btn-ref\"><sup>8</sup></a>&nbsp;<a id=\"d1f0d592-ef51-42e6-bd09-11f043b27fea_9\" class=\"btn-ref\"><sup>9</sup></a>&nbsp;The new gene is then delivered to specific, target cells via a\nsingle, one-time infusion.<a id=\"faaaf142-b91a-44ca-a878-4938ca184d98_10\" class=\"btn-ref\"><sup>10</sup></a>&nbsp;<a id=\"bfe13a75-e0ad-4870-a253-7d29b0b970e0_11\" class=\"btn-ref\"><sup>11</sup></a>&nbsp;rAAV vectors have several features that make them well-suited for gene therapy;\nthere is a low chance they will cause an immune response or that the functional\ngene will insert into the person’s own DNA, while allowing long-lasting\nexpression of the functional gene.<b><a id=\"faaaf142-b91a-44ca-a878-4938ca184d98_10\" class=\"btn-ref\"><sup>10</sup></a><span>&nbsp;</span></b><a id=\"6807b32f-5eef-4e27-892b-fac27bb9663e_12\" class=\"btn-ref\"><sup>12</sup></a>&nbsp;<a id=\"f8e1fc4b-e394-41af-889c-0ef730dbc24b_13\" class=\"btn-ref\"><sup>13</sup></a>&nbsp;<a id=\"c6ceed12-3d44-495f-8f91-7084320caaa9_14\" class=\"btn-ref\"><sup>14</sup></a>&nbsp;<a id=\"369aa17a-9f28-4cb5-bf22-8890412c50b7_15\" class=\"btn-ref\"><sup>15</sup></a>&nbsp;<a id=\"ad40fb91-1a9e-4a15-8dc9-1b5dd8e4b127_16\" class=\"btn-ref\"><sup>16</sup></a>&nbsp;<a id=\"5deb389f-6a5d-419b-a916-7aed6a981c6b_17\" class=\"btn-ref\"><sup>17</sup></a>&nbsp;<a id=\"3bb7683f-9ee9-4685-a36f-8cc482561a13_18\" class=\"btn-ref\"><sup>18</sup></a>&nbsp;There are many different types of AAV vectors (known as AAV serotypes) with\ndifferent proteins that determine the specific cells or tissues in the body\nthat each vector targets (referred to as serotype-specific tropism).<a id=\"607d4d85-67c7-4ee0-a760-5b728172e1ed_19\" class=\"btn-ref\"><sup>19</sup></a>&nbsp;<a id=\"86875481-65e3-4d10-a2c3-d6107c1a9c19_20\" class=\"btn-ref\"><sup>20</sup></a>&nbsp;<a id=\"4c2a8b89-2bc6-452c-b7c9-68f163d45be9_21\" class=\"btn-ref\"><sup>21</sup></a>&nbsp;Some serotypes, such\nas AAV8 and AAV9, target a wider range of cells and tissues than others. In\ngene therapy, different rAAV vectors can be used to make sure the new functional\ngene is only delivered to certain cells or parts of the body.<b><a id=\"607d4d85-67c7-4ee0-a760-5b728172e1ed_19\" class=\"btn-ref\"><sup>19</sup></a><sup>&nbsp;</sup><a id=\"86875481-65e3-4d10-a2c3-d6107c1a9c19_20\" class=\"btn-ref\"><sup>20</sup></a><sup>&nbsp;</sup></b><a id=\"adeed0c3-6e6a-4804-9413-6d50ce176dc3_22\" class=\"btn-ref\"><sup>22</sup></a><p class=\"MsoNormal\"><span style=\"font-size:12.0pt;line-height:107%;font-family:\nMontserrat\"><o:p></o:p></span></p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+        "ThemeId": "e9ebcadd-44f6-4b52-acd1-5fdf47c1212f",
+        "Status": 0,
+        "SubStatementCount": 0,
+        "NonHeaderResourceCount": 0,
+        "HeaderResources": [{
+            "Id": "5cb484ae-77d4-40df-88a4-1be0d2e63ca6",
+            "Url": "https://nucleusglobal-resourcerepository.s3.eu-west-1.amazonaws.com/csl-smp/40e8f653-20c4-4201-bf25-20016a18e82b.pdf?X-Amz-Expires=1800&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAILI2QFGMTZTKHUAQ/20220221/eu-west-1/s3/aws4_request&X-Amz-Date=20220221T102110Z&X-Amz-SignedHeaders=host&X-Amz-Signature=5ee6f0c2decd719029b009984e3eaf61ade350be9b9ee86c16b007a19f747069",
+            "CategoryDefintionId": "a679f2f4-df13-40bf-91b6-fa8557373df7",
+            "IsHeader": true,
+            "ResourceType": {
+                "Id": "322f3897-a9d2-4acc-986f-49f7ede8183e",
+                "Type": "DefaultPdf",
+                "Extensions": [".pdf"]
+            },
+            "Title": null,
+            "User": null,
+            "FileName": null,
+            "CreatedDate": "2021-11-12T10:15:37.1068107+00:00"
+        }],
+        "References": [{
+            "Id": "f8e1fc4b-e394-41af-889c-0ef730dbc24b",
+            "Description": "Nidetz_Pharmacol Ther_2020_P2",
+            "Url": "",
+            "Index": 13,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "d1f0d592-ef51-42e6-bd09-11f043b27fea",
+            "Description": "Wang_Nat Rev Drug Disc_2019_P2",
+            "Url": "",
+            "Index": 9,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "ad40fb91-1a9e-4a15-8dc9-1b5dd8e4b127",
+            "Description": "George_Mol Ther_2020_P2",
+            "Url": "",
+            "Index": 16,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "40662c18-4ac0-4c7e-954f-350dbfa55753",
+            "Description": "Arruda and Doshi_Med J Hematol Infect Dis 2020_P2",
+            "Url": "",
+            "Index": 7,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "faaaf142-b91a-44ca-a878-4938ca184d98",
+            "Description": "Nathwani_Blood (2018) 132 (Supplement 1) 491_P2",
+            "Url": "",
+            "Index": 10,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "607d4d85-67c7-4ee0-a760-5b728172e1ed",
+            "Description": "Pipe_Mol Ther Methods Clin Dev_2019_P2",
+            "Url": "",
+            "Index": 19,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "4c2a8b89-2bc6-452c-b7c9-68f163d45be9",
+            "Description": "Dhungel_Trends Mol Med_2021_P2",
+            "Url": "",
+            "Index": 21,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "adeed0c3-6e6a-4804-9413-6d50ce176dc3",
+            "Description": "Nathwani_Blood_2006_P2",
+            "Url": "",
+            "Index": 22,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "0884f46b-7833-4ed3-a915-6e8c24067963",
+            "Description": "Bulcha_Sig Transduc Targeted Ther_2021_P2",
+            "Url": "",
+            "Index": 1,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "c6ceed12-3d44-495f-8f91-7084320caaa9",
+            "Description": "Vandendriessche_J Thromb and hemostasis_2007_P2",
+            "Url": "",
+            "Index": 14,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "5deb389f-6a5d-419b-a916-7aed6a981c6b",
+            "Description": "Gil-Farina_Mol Ther_2016_P2",
+            "Url": "",
+            "Index": 17,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "bfe13a75-e0ad-4870-a253-7d29b0b970e0",
+            "Description": "Von Drygalski_Blood Adv_2019_P2",
+            "Url": "",
+            "Index": 11,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "369aa17a-9f28-4cb5-bf22-8890412c50b7",
+            "Description": "Zaiss et al., 2002_P2",
+            "Url": "",
+            "Index": 15,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "3bb7683f-9ee9-4685-a36f-8cc482561a13",
+            "Description": "Niemeyer_Blood 2009_P2",
+            "Url": "",
+            "Index": 18,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "7651565e-5b00-45f0-b190-927e39a95557",
+            "Description": "LUXTURNA_SMPC_P2",
+            "Url": "",
+            "Index": 3,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "b53ff171-7208-445b-8597-9e9023b62c97",
+            "Description": "Anguela and High_Ann Rev Med_2019_P2",
+            "Url": "",
+            "Index": 2,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "07dc2e77-0b4b-4804-a8c4-ba9bf69c7f56",
+            "Description": "LUXTURNA_US_Prescribing_Information_P2",
+            "Url": "",
+            "Index": 4,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "de324524-9c00-48ea-a50c-bc214364d22e",
+            "Description": "Naso_Biodrugs_2017_P2",
+            "Url": "",
+            "Index": 8,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "ee5f03e4-2319-4b4e-b1dc-d3dc2e669e56",
+            "Description": "ZOLGENSMA_US_Prescribing information_P2",
+            "Url": "",
+            "Index": 6,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "86875481-65e3-4d10-a2c3-d6107c1a9c19",
+            "Description": "Zincarelli_Mol Ther_2008_P2",
+            "Url": "",
+            "Index": 20,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "89b789e4-e7d4-4000-a735-d936b1f0b04a",
+            "Description": "ZOLGENSMA_SMPC_P2",
+            "Url": "",
+            "Index": 5,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "6807b32f-5eef-4e27-892b-fac27bb9663e",
+            "Description": "Shirley_Mol Ther_2020_P2",
+            "Url": "",
+            "Index": 12,
+            "Tag": "n/a",
+            "HasFile": true
+        }]
+    }]
+}, {
+    "Id": "171199b6-3643-4588-b822-ba463de43615",
+    "Name": "<b>Pillar 3: </b>AAV gene therapy design",
+    "Description": "",
+    "Index": 2,
+    "ResourceCount": 0,
+    "Statements": [{
+        "Id": "8be93a8c-6237-46ff-b338-a635cfad2290",
+        "Title": "<b>Pillar 3: </b>AAV gene therapy design",
+        "Description": "<b>HCP narrative:</b>&nbsp;Clinical outcomes with recombinant AAV (rAAV)-based gene therapy are influenced\nby vector design and other factors such as pre-existing AAV neutralizing\nantibodies (NAbs). The components of the rAVV expression cassette (including\nsize and type of transgene, codon optimization, promoter, and vector\nconfiguration) can influence the expression of the transgene.<a id=\"5820cc83-aac5-4e92-8c85-6e5374b59632_1\" class=\"btn-ref\"><sup>1</sup></a>&nbsp;<a id=\"e0a768de-47d6-4867-8222-602bc6fb481e_2\" class=\"btn-ref\"><sup>2</sup></a>&nbsp;<a id=\"6bb9160e-2898-440c-a605-2df4cb69d2b9_3\" class=\"btn-ref\"><sup>3</sup></a>&nbsp;<a id=\"2f8d6edc-18dc-484f-82e6-210580a544a8_4\" class=\"btn-ref\"><sup>4</sup></a>&nbsp;<a id=\"c9cb5c1e-ff4a-4f9a-b003-6fb33def8b1b_5\" class=\"btn-ref\"><sup>5</sup></a>&nbsp;<a id=\"b2e9d8bf-adde-466a-b349-e1d8c4b5901f_6\" class=\"btn-ref\"><sup>6</sup></a>&nbsp;<a id=\"a3d6fc5e-7e2c-49fa-8b6c-00b8a2c8cedb_7\" class=\"btn-ref\"><sup>7</sup></a>&nbsp;<a id=\"ef94b190-3ec0-4230-a9cb-5044ccb246c8_8\" class=\"btn-ref\"><sup>8</sup></a>&nbsp;<a id=\"27f8840d-e9ce-4529-8860-435b528424fd_9\" class=\"btn-ref\"><sup>9</sup></a>&nbsp;<a id=\"bebae33e-79e7-439d-aeba-eaa82a48f53a_10\" class=\"btn-ref\"><sup>10</sup></a>&nbsp;<a id=\"2f52682d-dbe0-449f-b25b-0174e566194a_11\" class=\"btn-ref\"><sup>11</sup></a>&nbsp;Effective\ntransgene expression requires transduction into the cell through a vital multistep\nprocess that is dependent on the interaction between the capsid and receptors\non the surface of the host cell.<a id=\"8a1cc581-7c05-41d6-9a9c-fab2267eb0d4_12\" class=\"btn-ref\"><sup>12</sup></a>&nbsp;Transgene\nexpression may subsequently be compromised by immune responses to components of\nthe rAAV vector, which differ between individuals, or by the presence of\npre-existing AAV NAbs from prior exposure to naturally occurring AAV.<a id=\"d460a723-386b-4683-b73f-3e1305527887_13\" class=\"btn-ref\"><sup>13</sup></a>&nbsp;<a id=\"61c71e91-599d-4e3e-9cf4-eae646622af5_14\" class=\"btn-ref\"><sup>14</sup></a>&nbsp;<a id=\"1d1eb9c1-937d-4789-adcf-837c0dddcba8_15\" class=\"btn-ref\"><sup>15</sup></a>&nbsp;<a id=\"899698b9-84a8-4429-95d7-d134b740b837_16\" class=\"btn-ref\"><sup>16</sup></a>&nbsp;Most individuals experience asymptomatic exposure to wild-type (WT) AAV during childhood; the\nseroprevalence of AAV NAbs varies by serotype, age and geographic location.<a id=\"27f8840d-e9ce-4529-8860-435b528424fd_9\" class=\"btn-ref\"><span><sup>9</sup></span></a>&nbsp;<a id=\"bebae33e-79e7-439d-aeba-eaa82a48f53a_10\" class=\"btn-ref\"><span><sup>10</sup></span></a>&nbsp;<a id=\"2f52682d-dbe0-449f-b25b-0174e566194a_11\" class=\"btn-ref\"><span><sup>11</sup></span></a>&nbsp;<a id=\"54659171-89d3-4343-9692-6b483d6b57c5_17\" class=\"btn-ref\"><sup>17</sup></a>&nbsp;<a id=\"4da231d0-1017-466e-994e-bf4327cb148a_18\" class=\"btn-ref\"><sup>18</sup></a>&nbsp;The\nproperties of the rAAV capsid used in gene therapies are key to ensuring optimal\nclinical outcomes.<a id=\"075fcddf-04d8-4c96-af1d-7ad9cf1603f6_19\" class=\"btn-ref\"><sup>19</sup></a>&nbsp;<a id=\"48d4389e-4f3b-4f93-8c61-b4d11dec60b9_20\" class=\"btn-ref\"><sup>20</sup></a>&nbsp;<a id=\"3b9f6ccd-2b7a-4033-b1d7-42c783d4967c_21\" class=\"btn-ref\"><sup>21</sup></a>&nbsp;<p class=\"MsoNormal\"><o:p></o:p></p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+        "ThemeId": "171199b6-3643-4588-b822-ba463de43615",
+        "Status": 0,
+        "SubStatementCount": 0,
+        "NonHeaderResourceCount": 0,
+        "HeaderResources": [{
+            "Id": "08121f82-b46c-408d-9794-70dce31bb299",
+            "Url": "https://nucleusglobal-resourcerepository.s3.eu-west-1.amazonaws.com/csl-smp/aa4323c2-8404-47ab-8bb2-99fd6d48a692.pdf?X-Amz-Expires=1800&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAILI2QFGMTZTKHUAQ/20220221/eu-west-1/s3/aws4_request&X-Amz-Date=20220221T102110Z&X-Amz-SignedHeaders=host&X-Amz-Signature=938a6e1080917001fdb270e15bd48768bafb757a373b213f51eceacfd52d3a9b",
+            "CategoryDefintionId": "a679f2f4-df13-40bf-91b6-fa8557373df7",
+            "IsHeader": true,
+            "ResourceType": {
+                "Id": "322f3897-a9d2-4acc-986f-49f7ede8183e",
+                "Type": "DefaultPdf",
+                "Extensions": [".pdf"]
+            },
+            "Title": null,
+            "User": null,
+            "FileName": null,
+            "CreatedDate": "2021-11-12T10:15:52.7789462+00:00"
+        }],
+        "References": [{
+            "Id": "a3d6fc5e-7e2c-49fa-8b6c-00b8a2c8cedb",
+            "Description": "Nieuwenhuis_Gene Ther_2021_P3",
+            "Url": "",
+            "Index": 7,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "2f52682d-dbe0-449f-b25b-0174e566194a",
+            "Description": "Boutin_Hum Gene Ther_2010_P3",
+            "Url": "",
+            "Index": 11,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "2f8d6edc-18dc-484f-82e6-210580a544a8",
+            "Description": "Binny_Blood_2012_CC_P3",
+            "Url": "",
+            "Index": 4,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "6bb9160e-2898-440c-a605-2df4cb69d2b9",
+            "Description": "Bell_Hum Gene Ther Method_2016_P3",
+            "Url": "",
+            "Index": 3,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "d460a723-386b-4683-b73f-3e1305527887",
+            "Description": "Ronzitti_Frontiers Immunol_2020_P3",
+            "Url": "",
+            "Index": 13,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "3b9f6ccd-2b7a-4033-b1d7-42c783d4967c",
+            "Description": "Thomas_J Virol_2004_P3",
+            "Url": "",
+            "Index": 21,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "27f8840d-e9ce-4529-8860-435b528424fd",
+            "Description": "Monahan J Thromb Haemostat_2015_P3",
+            "Url": "",
+            "Index": 9,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "ef94b190-3ec0-4230-a9cb-5044ccb246c8",
+            "Description": "Powell_Discovery Med_2015_P3",
+            "Url": "",
+            "Index": 8,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "e0a768de-47d6-4867-8222-602bc6fb481e",
+            "Description": "Wu_Mol Ther_2010_P3",
+            "Url": "",
+            "Index": 2,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "54659171-89d3-4343-9692-6b483d6b57c5",
+            "Description": "Calcedo_Clin Vacc Immunol_2011_P3",
+            "Url": "",
+            "Index": 17,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "5820cc83-aac5-4e92-8c85-6e5374b59632",
+            "Description": "High_Roncarolo_2019_P3",
+            "Url": "",
+            "Index": 1,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "c9cb5c1e-ff4a-4f9a-b003-6fb33def8b1b",
+            "Description": "Nathwani_Blood_2006_P3",
+            "Url": "",
+            "Index": 5,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "075fcddf-04d8-4c96-af1d-7ad9cf1603f6",
+            "Description": "Pipe_Mol Ther Methods Clin Dev_2019_P3",
+            "Url": "",
+            "Index": 19,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "1d1eb9c1-937d-4789-adcf-837c0dddcba8",
+            "Description": "Manno_Nature Med_2006_P3",
+            "Url": "",
+            "Index": 15,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "48d4389e-4f3b-4f93-8c61-b4d11dec60b9",
+            "Description": "Davidoff_Mol Ther_2005_P3",
+            "Url": "",
+            "Index": 20,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "4da231d0-1017-466e-994e-bf4327cb148a",
+            "Description": "Kruzik_Mol Ther Meth Clin Dev_2019_P3",
+            "Url": "",
+            "Index": 18,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "899698b9-84a8-4429-95d7-d134b740b837",
+            "Description": "George LA_NEJM_2017_MU_P3",
+            "Url": "",
+            "Index": 16,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "b2e9d8bf-adde-466a-b349-e1d8c4b5901f",
+            "Description": "Faust_J Clin Invest_2013_P3",
+            "Url": "",
+            "Index": 6,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "bebae33e-79e7-439d-aeba-eaa82a48f53a",
+            "Description": "Li_Gene Ther_2012_P3",
+            "Url": "",
+            "Index": 10,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "61c71e91-599d-4e3e-9cf4-eae646622af5",
+            "Description": "Wang_Nat Rev Drug Disc_2019_P3",
+            "Url": "",
+            "Index": 14,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "8a1cc581-7c05-41d6-9a9c-fab2267eb0d4",
+            "Description": "Dhungel_Trends Mol Med_2020_P3",
+            "Url": "",
+            "Index": 12,
+            "Tag": "n/a",
+            "HasFile": true
+        }]
+    }, {
+        "Id": "12a6a0a6-b8dd-4bb5-aa40-ce221e8f2405",
+        "Title": "<b>Pillar 3: </b>AAV gene therapy design",
+        "Description": "<b>Lay narrative:</b>&nbsp;The success of gene therapy is influenced by the design of the\nvector (a non-disease causing/inactivated viral shell) and some other factors. The\ndesign of a recombinant adeno-associated virus (rAAV) vector (including the size and type\nof the functional gene, the approaches used to optimize gene expression [known\nas codon optimization], and the structure of the vector) affects the delivery\nof the functional gene into the cells and how well the rAAV-based gene therapy\nwill work.<a id=\"5820cc83-aac5-4e92-8c85-6e5374b59632_1\" class=\"btn-ref\"><sup>1</sup></a>&nbsp;<a id=\"e0a768de-47d6-4867-8222-602bc6fb481e_2\" class=\"btn-ref\"><sup>2</sup></a>&nbsp;<a id=\"6bb9160e-2898-440c-a605-2df4cb69d2b9_3\" class=\"btn-ref\"><sup>3</sup></a>&nbsp;<a id=\"2f8d6edc-18dc-484f-82e6-210580a544a8_4\" class=\"btn-ref\"><sup>4</sup></a>&nbsp;<a id=\"c9cb5c1e-ff4a-4f9a-b003-6fb33def8b1b_5\" class=\"btn-ref\"><sup>5</sup></a>&nbsp;<a id=\"b2e9d8bf-adde-466a-b349-e1d8c4b5901f_6\" class=\"btn-ref\"><sup>6</sup></a>&nbsp;<a id=\"a3d6fc5e-7e2c-49fa-8b6c-00b8a2c8cedb_7\" class=\"btn-ref\"><sup>7</sup></a>&nbsp;<a id=\"ef94b190-3ec0-4230-a9cb-5044ccb246c8_8\" class=\"btn-ref\"><sup>8</sup></a>&nbsp;<a id=\"27f8840d-e9ce-4529-8860-435b528424fd_9\" class=\"btn-ref\"><sup>9</sup></a>&nbsp;<a id=\"bebae33e-79e7-439d-aeba-eaa82a48f53a_10\" class=\"btn-ref\"><sup>10</sup></a>&nbsp;<a id=\"2f52682d-dbe0-449f-b25b-0174e566194a_11\" class=\"btn-ref\"><sup>11</sup></a>&nbsp;The functional gene can only begin to work after the gene has been successfully\ndelivered into the cell by a vector.<a id=\"4c2a8b89-2bc6-452c-b7c9-68f163d45be9_12\" class=\"btn-ref\"><sup>12</sup></a>&nbsp;This is a multistep\nprocess that depends on the interaction between the vector and the host\ncell.<a id=\"4c2a8b89-2bc6-452c-b7c9-68f163d45be9_12\" class=\"btn-ref\"><span><sup>12</sup></span></a>&nbsp;The successful introduction of the functional gene\nmay also be put at risk if a person has an immune response to parts of the rAAV\nvector, or if a person already has AAV neutralizing antibodies present in their\nbody from a previous exposure to naturally occurring AAV.<a id=\"d460a723-386b-4683-b73f-3e1305527887_13\" class=\"btn-ref\"><sup>13</sup></a>&nbsp;<a id=\"61c71e91-599d-4e3e-9cf4-eae646622af5_14\" class=\"btn-ref\"><sup>14</sup></a>&nbsp;<a id=\"1d1eb9c1-937d-4789-adcf-837c0dddcba8_15\" class=\"btn-ref\"><sup>15</sup></a>&nbsp;<a id=\"899698b9-84a8-4429-95d7-d134b740b837_16\" class=\"btn-ref\"><sup>16</sup></a>&nbsp;Most people\nare unknowingly exposed to AAV during childhood; this exposure varies by type\nof AAV, age and location.<a id=\"27f8840d-e9ce-4529-8860-435b528424fd_9\" class=\"btn-ref\"><span><sup>9</sup></span></a>&nbsp;<a id=\"bebae33e-79e7-439d-aeba-eaa82a48f53a_10\" class=\"btn-ref\"><span><sup>10</sup></span></a>&nbsp;<a id=\"2f52682d-dbe0-449f-b25b-0174e566194a_11\" class=\"btn-ref\"><span><sup>11</sup></span></a>&nbsp;<a id=\"54659171-89d3-4343-9692-6b483d6b57c5_17\" class=\"btn-ref\"><sup>17</sup></a>&nbsp;<a id=\"4da231d0-1017-466e-994e-bf4327cb148a_18\" class=\"btn-ref\"><sup>18</sup></a>&nbsp;Optimal clinical outcomes and the\nsuccess of gene therapy are highly dependent on the design of the rAAV\nvector.<a id=\"075fcddf-04d8-4c96-af1d-7ad9cf1603f6_19\" class=\"btn-ref\"><sup>19</sup></a>&nbsp;<a id=\"48d4389e-4f3b-4f93-8c61-b4d11dec60b9_20\" class=\"btn-ref\"><sup>20</sup></a>&nbsp;<a id=\"3b9f6ccd-2b7a-4033-b1d7-42c783d4967c_21\" class=\"btn-ref\"><sup>21</sup></a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;",
+        "ThemeId": "171199b6-3643-4588-b822-ba463de43615",
+        "Status": 0,
+        "SubStatementCount": 0,
+        "NonHeaderResourceCount": 0,
+        "HeaderResources": [{
+            "Id": "60758ff8-52d7-42b6-8b91-2b5be28ad2a4",
+            "Url": "https://nucleusglobal-resourcerepository.s3.eu-west-1.amazonaws.com/csl-smp/8350caa5-1007-4737-b9fc-c55bc82cfe49.pdf?X-Amz-Expires=1800&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAILI2QFGMTZTKHUAQ/20220221/eu-west-1/s3/aws4_request&X-Amz-Date=20220221T102110Z&X-Amz-SignedHeaders=host&X-Amz-Signature=8e9d0548deec71bf43bdb9070a8915c3690f700d5a2d1ffc62791f34eaf9784d",
+            "CategoryDefintionId": "a679f2f4-df13-40bf-91b6-fa8557373df7",
+            "IsHeader": true,
+            "ResourceType": {
+                "Id": "322f3897-a9d2-4acc-986f-49f7ede8183e",
+                "Type": "DefaultPdf",
+                "Extensions": [".pdf"]
+            },
+            "Title": null,
+            "User": null,
+            "FileName": null,
+            "CreatedDate": "2021-11-12T10:16:08.1854658+00:00"
+        }],
+        "References": [{
+            "Id": "a3d6fc5e-7e2c-49fa-8b6c-00b8a2c8cedb",
+            "Description": "Nieuwenhuis_Gene Ther_2021_P3",
+            "Url": "",
+            "Index": 7,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "2f52682d-dbe0-449f-b25b-0174e566194a",
+            "Description": "Boutin_Hum Gene Ther_2010_P3",
+            "Url": "",
+            "Index": 11,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "2f8d6edc-18dc-484f-82e6-210580a544a8",
+            "Description": "Binny_Blood_2012_CC_P3",
+            "Url": "",
+            "Index": 4,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "6bb9160e-2898-440c-a605-2df4cb69d2b9",
+            "Description": "Bell_Hum Gene Ther Method_2016_P3",
+            "Url": "",
+            "Index": 3,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "d460a723-386b-4683-b73f-3e1305527887",
+            "Description": "Ronzitti_Frontiers Immunol_2020_P3",
+            "Url": "",
+            "Index": 13,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "3b9f6ccd-2b7a-4033-b1d7-42c783d4967c",
+            "Description": "Thomas_J Virol_2004_P3",
+            "Url": "",
+            "Index": 21,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "27f8840d-e9ce-4529-8860-435b528424fd",
+            "Description": "Monahan J Thromb Haemostat_2015_P3",
+            "Url": "",
+            "Index": 9,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "ef94b190-3ec0-4230-a9cb-5044ccb246c8",
+            "Description": "Powell_Discovery Med_2015_P3",
+            "Url": "",
+            "Index": 8,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "e0a768de-47d6-4867-8222-602bc6fb481e",
+            "Description": "Wu_Mol Ther_2010_P3",
+            "Url": "",
+            "Index": 2,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "4c2a8b89-2bc6-452c-b7c9-68f163d45be9",
+            "Description": "Dhungel_Trends Mol Med_2021_P2",
+            "Url": "",
+            "Index": 12,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "54659171-89d3-4343-9692-6b483d6b57c5",
+            "Description": "Calcedo_Clin Vacc Immunol_2011_P3",
+            "Url": "",
+            "Index": 17,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "5820cc83-aac5-4e92-8c85-6e5374b59632",
+            "Description": "High_Roncarolo_2019_P3",
+            "Url": "",
+            "Index": 1,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "c9cb5c1e-ff4a-4f9a-b003-6fb33def8b1b",
+            "Description": "Nathwani_Blood_2006_P3",
+            "Url": "",
+            "Index": 5,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "075fcddf-04d8-4c96-af1d-7ad9cf1603f6",
+            "Description": "Pipe_Mol Ther Methods Clin Dev_2019_P3",
+            "Url": "",
+            "Index": 19,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "1d1eb9c1-937d-4789-adcf-837c0dddcba8",
+            "Description": "Manno_Nature Med_2006_P3",
+            "Url": "",
+            "Index": 15,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "48d4389e-4f3b-4f93-8c61-b4d11dec60b9",
+            "Description": "Davidoff_Mol Ther_2005_P3",
+            "Url": "",
+            "Index": 20,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "4da231d0-1017-466e-994e-bf4327cb148a",
+            "Description": "Kruzik_Mol Ther Meth Clin Dev_2019_P3",
+            "Url": "",
+            "Index": 18,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "899698b9-84a8-4429-95d7-d134b740b837",
+            "Description": "George LA_NEJM_2017_MU_P3",
+            "Url": "",
+            "Index": 16,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "b2e9d8bf-adde-466a-b349-e1d8c4b5901f",
+            "Description": "Faust_J Clin Invest_2013_P3",
+            "Url": "",
+            "Index": 6,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "bebae33e-79e7-439d-aeba-eaa82a48f53a",
+            "Description": "Li_Gene Ther_2012_P3",
+            "Url": "",
+            "Index": 10,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "61c71e91-599d-4e3e-9cf4-eae646622af5",
+            "Description": "Wang_Nat Rev Drug Disc_2019_P3",
+            "Url": "",
+            "Index": 14,
+            "Tag": "n/a",
+            "HasFile": true
+        }]
+    }]
+}, {
+    "Id": "90efb523-8efc-4c76-819b-63e808d0d378",
+    "Name": "<b>Pillar 4: </b>Hemophilia B and burden of disease",
+    "Description": "",
+    "Index": 3,
+    "ResourceCount": 0,
+    "Statements": [{
+        "Id": "94267441-e4d7-43d3-9dfc-1ef275ea06e3",
+        "Title": "<b>Pillar 4: </b>Hemophilia B and burden of disease",
+        "Description": "<b>HCP narrative:</b>&nbsp;<span lang=\"EN-US\" >Hemophilia\nB is a rare, X-linked, hereditary disorder characterized by bleeding, pain, and\nlong-term complications.<a id=\"5e376b9c-e604-44b0-bde4-2f918d51c045_1\" class=\"btn-ref\"><sup>1</sup></a>&nbsp;<a id=\"b9ac0cd8-6f52-4275-b77a-8b9e30ff8bc6_2\" class=\"btn-ref\"><sup>2</sup></a>&nbsp;<a id=\"59e009f4-ca05-4494-a32b-edbc2ab5c5f8_3\" class=\"btn-ref\"><sup>3</sup></a>&nbsp;<span >Hemophilia B occurs in 5 per 100,000\nmale births</span><a id=\"470b8b11-d2b2-48f8-b46d-cbe50fddd2c0_4\" class=\"btn-ref\"><sup>4</sup></a>&nbsp;<span >and is caused by a defect in a gene\nencoding coagulation factor IX (FIX), which is expressed primarily in\nhepatocytes.</span><a id=\"59e009f4-ca05-4494-a32b-edbc2ab5c5f8_3\" class=\"btn-ref\" ><span ><sup>3</sup></span></a><span >&nbsp;</span><a id=\"161cbc3c-7b8a-455a-8920-8753279903ed_5\" class=\"btn-ref\"><sup>5</sup></a>&nbsp;<span >The severity of hemophilia B is dependent on native coagulation factor activity;\nsevere hemophilia B is characterized by spontaneous and/or traumatic bleeding\ninto joints, muscles, and internal organs, and can result in reduced life\nexpectancy.</span><a id=\"b9ac0cd8-6f52-4275-b77a-8b9e30ff8bc6_2\" class=\"btn-ref\" ><span ><sup>2</sup></span></a><span >&nbsp;</span><a id=\"59e009f4-ca05-4494-a32b-edbc2ab5c5f8_3\" class=\"btn-ref\" ><span ><sup>3</sup></span></a><span >&nbsp;</span></span><a id=\"9ae29fd0-e1f4-4d25-ad21-ddb8acda3d9c_6\" class=\"btn-ref\"><sup>6</sup></a>&nbsp;<span lang=\"EN-US\" >Joint damage caused by this bleeding can lead to long-term consequences,\nincluding functional impairment, chronic pain, and reduced quality of life.<a id=\"b95a881b-fcae-4798-8d15-9395e3ab16d4_7\" class=\"btn-ref\"><sup>7</sup></a>&nbsp;<a id=\"e7dcd943-e3b4-4b72-8fdc-840e64ed944f_8\" class=\"btn-ref\"><sup>8</sup></a>&nbsp;<a id=\"4c738c3d-66a4-4b48-a8cb-1d91888f0433_9\" class=\"btn-ref\"><sup>9</sup></a>&nbsp;<a id=\"9bcea232-e1ca-43b9-a221-61eade1ad1bb_10\" class=\"btn-ref\"><sup>10</sup></a>&nbsp;<a id=\"48bdbf75-e6e8-48bc-8f47-ea586c71f900_11\" class=\"btn-ref\"><sup>11</sup></a>&nbsp;Additionally, due to historic issues with\ncontaminated blood, older people with hemophilia B (PWHB) have a high\nprevalence of infection from viruses such as hepatitis B and C, and human\nimmunodeficiency virus.</span><a id=\"74fd6c9f-b83a-4870-be8c-405ff297b953_12\" class=\"btn-ref\"><sup>12</sup></a>&nbsp;<span lang=\"EN-US\" >As such, PWHB, their families,\ncaregivers, and the healthcare system face a significant life-long burden in the\nmanagement of hemophilia B.<a id=\"0730e0e6-c337-45cb-9afb-6c39fd010d76_13\" class=\"btn-ref\"><sup>13</sup></a>&nbsp;<a id=\"b4348ab0-5d03-4de9-8832-903730bc7c4b_14\" class=\"btn-ref\"><sup>14</sup></a>&nbsp;<a id=\"4130b1c7-72f3-4123-8da2-5a55a07f8c1f_15\" class=\"btn-ref\"><sup>15</sup></a>&nbsp;<a id=\"48b7eabe-6431-4b3b-b377-fd471f387e6e_16\" class=\"btn-ref\"><sup>16</sup></a>&nbsp;<a id=\"64b81c8b-128e-4607-b842-0482a4cb72d9_17\" class=\"btn-ref\"><sup>17</sup></a>&nbsp;<a id=\"4c56dd80-f14d-4111-93da-f0bce716e175_18\" class=\"btn-ref\"><sup>18</sup></a>&nbsp;<a id=\"641998ca-8b47-4138-acba-7d48908a4a44_19\" class=\"btn-ref\"><sup>19</sup></a>&nbsp;</span><p class=\"MsoNormal\"><span lang=\"EN-US\"><o:p></o:p></span></p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+        "ThemeId": "90efb523-8efc-4c76-819b-63e808d0d378",
+        "Status": 0,
+        "SubStatementCount": 0,
+        "NonHeaderResourceCount": 0,
+        "HeaderResources": [{
+            "Id": "13cf7abb-26a7-4012-861c-eb81aa56de0a",
+            "Url": "https://nucleusglobal-resourcerepository.s3.eu-west-1.amazonaws.com/csl-smp/1ac8eebc-8c81-461a-98f9-e9f2103cf45a.pdf?X-Amz-Expires=1800&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAILI2QFGMTZTKHUAQ/20220221/eu-west-1/s3/aws4_request&X-Amz-Date=20220221T102110Z&X-Amz-SignedHeaders=host&X-Amz-Signature=cc713f2d7874cf5bdb1a7bfd8b43ee5d034f8ccecd9250bfdef5c4d8e1482659",
+            "CategoryDefintionId": "a679f2f4-df13-40bf-91b6-fa8557373df7",
+            "IsHeader": true,
+            "ResourceType": {
+                "Id": "322f3897-a9d2-4acc-986f-49f7ede8183e",
+                "Type": "DefaultPdf",
+                "Extensions": [".pdf"]
+            },
+            "Title": null,
+            "User": null,
+            "FileName": null,
+            "CreatedDate": "2021-11-12T10:16:24.1232384+00:00"
+        }],
+        "References": [{
+            "Id": "64b81c8b-128e-4607-b842-0482a4cb72d9",
+            "Description": "Li_J Med Econom_2021_P4",
+            "Url": "",
+            "Index": 17,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "4c738c3d-66a4-4b48-a8cb-1d91888f0433",
+            "Description": "O'Hara et al_ 2017_P4",
+            "Url": "",
+            "Index": 9,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "5e376b9c-e604-44b0-bde4-2f918d51c045",
+            "Description": "Liras_Orphanet J Rare Dis_2012_P4",
+            "Url": "",
+            "Index": 1,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "74fd6c9f-b83a-4870-be8c-405ff297b953",
+            "Description": "Mazepa_Blood_2016_P4",
+            "Url": "",
+            "Index": 12,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "4130b1c7-72f3-4123-8da2-5a55a07f8c1f",
+            "Description": "Curtis et al. Am J Hematol 2015_P4",
+            "Url": "",
+            "Index": 15,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "9bcea232-e1ca-43b9-a221-61eade1ad1bb",
+            "Description": "O'Hara_Health Econom Rev_2018_P4",
+            "Url": "",
+            "Index": 10,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "0730e0e6-c337-45cb-9afb-6c39fd010d76",
+            "Description": "Dolan_Eur J Haematol_2017_P4",
+            "Url": "",
+            "Index": 13,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "641998ca-8b47-4138-acba-7d48908a4a44",
+            "Description": "Buckner et al_Blood Adv_2021_P4",
+            "Url": "",
+            "Index": 19,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "e7dcd943-e3b4-4b72-8fdc-840e64ed944f",
+            "Description": "Batt et al Eur J Hematol 2018_P4",
+            "Url": "",
+            "Index": 8,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "161cbc3c-7b8a-455a-8920-8753279903ed",
+            "Description": "CDC_hemophilia facts_P4",
+            "Url": "",
+            "Index": 5,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "b9ac0cd8-6f52-4275-b77a-8b9e30ff8bc6",
+            "Description": "Mannucci. Haematologica 2020_P4",
+            "Url": "",
+            "Index": 2,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "b4348ab0-5d03-4de9-8832-903730bc7c4b",
+            "Description": "Cutter et al. Eur J Haematol 2017_P4",
+            "Url": "",
+            "Index": 14,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "b95a881b-fcae-4798-8d15-9395e3ab16d4",
+            "Description": "Miesbach_Hemophila 2019_P4",
+            "Url": "",
+            "Index": 7,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "470b8b11-d2b2-48f8-b46d-cbe50fddd2c0",
+            "Description": "Iorio_Annal Intern Med_2019_P4",
+            "Url": "",
+            "Index": 4,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "9ae29fd0-e1f4-4d25-ad21-ddb8acda3d9c",
+            "Description": "Hemophilia Coalition FAQs_2021_P4",
+            "Url": "",
+            "Index": 6,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "48bdbf75-e6e8-48bc-8f47-ea586c71f900",
+            "Description": "Manco-Johnson et al. NEJM 2007_P4",
+            "Url": "",
+            "Index": 11,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "59e009f4-ca05-4494-a32b-edbc2ab5c5f8",
+            "Description": "Srivastava et al_WFH_2020_P4",
+            "Url": "",
+            "Index": 3,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "4c56dd80-f14d-4111-93da-f0bce716e175",
+            "Description": "Burke et al_ 2021_P4",
+            "Url": "",
+            "Index": 18,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "48b7eabe-6431-4b3b-b377-fd471f387e6e",
+            "Description": "Rind et al_2020_P4",
+            "Url": "",
+            "Index": 16,
+            "Tag": "n/a",
+            "HasFile": true
+        }]
+    }, {
+        "Id": "6a171eb0-de49-49ca-b1d1-2f0fb6a582c0",
+        "Title": "<b>Pillar 4: </b>Hemophilia B and burden of disease",
+        "Description": "<b><span>Lay narrative:</span>&nbsp;</b>Hemophilia B is a rare, hereditary bleeding disorder,\nwhich causes pain and long-term complications.<a id=\"5e376b9c-e604-44b0-bde4-2f918d51c045_1\" class=\"btn-ref\"><sup>1</sup></a>&nbsp;<a id=\"b9ac0cd8-6f52-4275-b77a-8b9e30ff8bc6_2\" class=\"btn-ref\"><sup>2</sup></a>&nbsp;<a id=\"59e009f4-ca05-4494-a32b-edbc2ab5c5f8_3\" class=\"btn-ref\"><sup>3</sup></a>&nbsp;It is caused by a defect\nin a gene which leads to low levels of factor IX (FIX), a protein produced by\nthe liver that helps blood to clot during the healing process.<a id=\"59e009f4-ca05-4494-a32b-edbc2ab5c5f8_3\" class=\"btn-ref\"><span><sup>3</sup></span></a>&nbsp;<a id=\"470b8b11-d2b2-48f8-b46d-cbe50fddd2c0_4\" class=\"btn-ref\"><sup>4</sup></a>&nbsp;<a id=\"161cbc3c-7b8a-455a-8920-8753279903ed_5\" class=\"btn-ref\"><sup>5</sup></a>&nbsp;The severity of\nhemophilia B is dependent on the amount of FIX in the blood. People living with\nsevere hemophilia B experience bleeding into the joints, muscles, and internal\norgans which can occur suddenly with no obvious cause and can impact life\nexpectancy.<a id=\"9ae29fd0-e1f4-4d25-ad21-ddb8acda3d9c_6\" class=\"btn-ref\"></a><a id=\"b9ac0cd8-6f52-4275-b77a-8b9e30ff8bc6_2\" class=\"btn-ref\"><span><sup>2</sup></span></a><span>&nbsp;</span><a id=\"59e009f4-ca05-4494-a32b-edbc2ab5c5f8_3\" class=\"btn-ref\"><span><sup>3</sup></span></a>&nbsp;<a id=\"9ae29fd0-e1f4-4d25-ad21-ddb8acda3d9c_6\" class=\"btn-ref\"><sup>6</sup></a>&nbsp;Joint damage caused by bleeding can lead to\nlong-term problems, including difficulty carrying out everyday tasks, long-term\npain, and reduced quality of life.<a id=\"b95a881b-fcae-4798-8d15-9395e3ab16d4_7\" class=\"btn-ref\"><sup>7</sup></a>&nbsp;<a id=\"e7dcd943-e3b4-4b72-8fdc-840e64ed944f_8\" class=\"btn-ref\"><sup>8</sup></a>&nbsp;<a id=\"4c738c3d-66a4-4b48-a8cb-1d91888f0433_9\" class=\"btn-ref\"><sup>9</sup></a>&nbsp;<a id=\"9bcea232-e1ca-43b9-a221-61eade1ad1bb_10\" class=\"btn-ref\"><sup>10</sup></a>&nbsp;<a id=\"48bdbf75-e6e8-48bc-8f47-ea586c71f900_11\" class=\"btn-ref\"><sup>11</sup></a>&nbsp;Also, due to\nhistoric issues with contaminated blood, older people with hemophilia B have a\nhigher infection rate from viruses such as hepatitis B and C, and human\nimmunodeficiency virus.<a id=\"74fd6c9f-b83a-4870-be8c-405ff297b953_12\" class=\"btn-ref\"><sup>12</sup></a>&nbsp;As such, people with hemophilia B,\ntheir families, caregivers, and the healthcare system face a life-long burden\nin the management of hemophilia B.<a id=\"0730e0e6-c337-45cb-9afb-6c39fd010d76_13\" class=\"btn-ref\"><sup>13</sup></a>&nbsp;<a id=\"b4348ab0-5d03-4de9-8832-903730bc7c4b_14\" class=\"btn-ref\"><sup>14</sup></a>&nbsp;<a id=\"4130b1c7-72f3-4123-8da2-5a55a07f8c1f_15\" class=\"btn-ref\"><sup>15</sup></a>&nbsp;<a id=\"48b7eabe-6431-4b3b-b377-fd471f387e6e_16\" class=\"btn-ref\"><sup>16</sup></a>&nbsp;<a id=\"64b81c8b-128e-4607-b842-0482a4cb72d9_17\" class=\"btn-ref\"><sup>17</sup></a>&nbsp;<a id=\"4c56dd80-f14d-4111-93da-f0bce716e175_18\" class=\"btn-ref\"><sup>18</sup></a>&nbsp;<a id=\"641998ca-8b47-4138-acba-7d48908a4a44_19\" class=\"btn-ref\"><sup>19</sup></a>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;",
+        "ThemeId": "90efb523-8efc-4c76-819b-63e808d0d378",
+        "Status": 0,
+        "SubStatementCount": 0,
+        "NonHeaderResourceCount": 0,
+        "HeaderResources": [{
+            "Id": "b06b8ae9-dd8a-4f79-9789-75e9ff9b3bf1",
+            "Url": "https://nucleusglobal-resourcerepository.s3.eu-west-1.amazonaws.com/csl-smp/bb655975-593c-47b0-ae7c-43c8d963b3aa.pdf?X-Amz-Expires=1800&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAILI2QFGMTZTKHUAQ/20220221/eu-west-1/s3/aws4_request&X-Amz-Date=20220221T102110Z&X-Amz-SignedHeaders=host&X-Amz-Signature=0c07bedb605fd45345063d1f33c5e1b3c811810643e552a99863de62a64cea7f",
+            "CategoryDefintionId": "a679f2f4-df13-40bf-91b6-fa8557373df7",
+            "IsHeader": true,
+            "ResourceType": {
+                "Id": "322f3897-a9d2-4acc-986f-49f7ede8183e",
+                "Type": "DefaultPdf",
+                "Extensions": [".pdf"]
+            },
+            "Title": null,
+            "User": null,
+            "FileName": null,
+            "CreatedDate": "2021-11-12T10:16:38.5766092+00:00"
+        }],
+        "References": [{
+            "Id": "64b81c8b-128e-4607-b842-0482a4cb72d9",
+            "Description": "Li_J Med Econom_2021_P4",
+            "Url": "",
+            "Index": 17,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "4c738c3d-66a4-4b48-a8cb-1d91888f0433",
+            "Description": "O'Hara et al_ 2017_P4",
+            "Url": "",
+            "Index": 9,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "5e376b9c-e604-44b0-bde4-2f918d51c045",
+            "Description": "Liras_Orphanet J Rare Dis_2012_P4",
+            "Url": "",
+            "Index": 1,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "74fd6c9f-b83a-4870-be8c-405ff297b953",
+            "Description": "Mazepa_Blood_2016_P4",
+            "Url": "",
+            "Index": 12,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "4130b1c7-72f3-4123-8da2-5a55a07f8c1f",
+            "Description": "Curtis et al. Am J Hematol 2015_P4",
+            "Url": "",
+            "Index": 15,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "9bcea232-e1ca-43b9-a221-61eade1ad1bb",
+            "Description": "O'Hara_Health Econom Rev_2018_P4",
+            "Url": "",
+            "Index": 10,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "0730e0e6-c337-45cb-9afb-6c39fd010d76",
+            "Description": "Dolan_Eur J Haematol_2017_P4",
+            "Url": "",
+            "Index": 13,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "641998ca-8b47-4138-acba-7d48908a4a44",
+            "Description": "Buckner et al_Blood Adv_2021_P4",
+            "Url": "",
+            "Index": 19,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "e7dcd943-e3b4-4b72-8fdc-840e64ed944f",
+            "Description": "Batt et al Eur J Hematol 2018_P4",
+            "Url": "",
+            "Index": 8,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "161cbc3c-7b8a-455a-8920-8753279903ed",
+            "Description": "CDC_hemophilia facts_P4",
+            "Url": "",
+            "Index": 5,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "b9ac0cd8-6f52-4275-b77a-8b9e30ff8bc6",
+            "Description": "Mannucci. Haematologica 2020_P4",
+            "Url": "",
+            "Index": 2,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "b4348ab0-5d03-4de9-8832-903730bc7c4b",
+            "Description": "Cutter et al. Eur J Haematol 2017_P4",
+            "Url": "",
+            "Index": 14,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "b95a881b-fcae-4798-8d15-9395e3ab16d4",
+            "Description": "Miesbach_Hemophila 2019_P4",
+            "Url": "",
+            "Index": 7,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "470b8b11-d2b2-48f8-b46d-cbe50fddd2c0",
+            "Description": "Iorio_Annal Intern Med_2019_P4",
+            "Url": "",
+            "Index": 4,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "9ae29fd0-e1f4-4d25-ad21-ddb8acda3d9c",
+            "Description": "Hemophilia Coalition FAQs_2021_P4",
+            "Url": "",
+            "Index": 6,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "48bdbf75-e6e8-48bc-8f47-ea586c71f900",
+            "Description": "Manco-Johnson et al. NEJM 2007_P4",
+            "Url": "",
+            "Index": 11,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "59e009f4-ca05-4494-a32b-edbc2ab5c5f8",
+            "Description": "Srivastava et al_WFH_2020_P4",
+            "Url": "",
+            "Index": 3,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "4c56dd80-f14d-4111-93da-f0bce716e175",
+            "Description": "Burke et al_ 2021_P4",
+            "Url": "",
+            "Index": 18,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "48b7eabe-6431-4b3b-b377-fd471f387e6e",
+            "Description": "Rind et al_2020_P4",
+            "Url": "",
+            "Index": 16,
+            "Tag": "n/a",
+            "HasFile": true
+        }]
+    }]
+}, {
+    "Id": "e21e01ba-af63-4b88-8015-8b3e460d1d6c",
+    "Name": "<b>Pillar 5: </b>Current treatment and unmet need",
+    "Description": "",
+    "Index": 4,
+    "ResourceCount": 0,
+    "Statements": [{
+        "Id": "a2b4fdd5-9263-438f-9017-1e84cc3b42f0",
+        "Title": "<b>Pillar 5: </b>Current treatment and unmet need",
+        "Description": "<b>HCP narrative:</b>&nbsp;<span lang=\"EN-US\">To date,\nthere is no cure for hemophilia B.<a id=\"8604fb33-be23-4266-be08-cf14d858c086_1\" class=\"btn-ref\"><sup>1</sup></a>&nbsp;<a id=\"79c35855-35c9-4f5f-839d-7847419f5afc_2\" class=\"btn-ref\"><sup>2</sup></a>&nbsp;<a id=\"fcfd5c29-600c-45e3-aa3d-76cc7b95d1c9_3\" class=\"btn-ref\"><sup>3</sup></a>&nbsp;<span>The standard of care is life-long treatment with\ncoagulation factor replacement products, either prophylactic and episodic, with guidelines\nrecommending prophylaxis to maintain high trough levels and improve clinical\noutcomes.</span><a id=\"84c39065-ba94-4951-afa2-cfd35d5bb34e_4\" class=\"btn-ref\"><sup>4</sup></a>&nbsp;<a id=\"f587bc80-bd75-4916-af40-33bf91b63854_5\" class=\"btn-ref\"><sup>5</sup></a>&nbsp;<a id=\"ebcd58f2-2534-42b0-aec1-f451c78cbf40_6\" class=\"btn-ref\"><sup>6</sup></a>&nbsp;<a id=\"a86bf4b2-f8c1-444c-b718-ccdcdd97b908_7\" class=\"btn-ref\"><sup>7</sup></a>&nbsp;<span>While long-acting recombinant coagulation factor IX (FIX) replacement products have reduced the frequency of treatment and maintained low bleeding\nrates, people with hemophilia B may still experience breakthrough bleeds, which may lead to </span></span>joint\ndamage, functional impairment, acute and chronic pain, and reduced quality of\nlife<span lang=\"EN-US\">.<a id=\"84c39065-ba94-4951-afa2-cfd35d5bb34e_4\" class=\"btn-ref\"><span><sup>4</sup></span></a>&nbsp;<a id=\"a86bf4b2-f8c1-444c-b718-ccdcdd97b908_7\" class=\"btn-ref\"><span><sup>7</sup></span></a>&nbsp;<a id=\"c62c387e-55f5-49ef-ab31-bf128d87d32f_8\" class=\"btn-ref\"><sup>8</sup></a>&nbsp;<a id=\"dc4905bc-6340-40cc-a35d-c36a57337607_9\" class=\"btn-ref\"><sup>9</sup></a>&nbsp;<a id=\"dff56055-0f9f-49dc-aa93-cb3762f7206a_10\" class=\"btn-ref\"><sup>10</sup></a>&nbsp;In addition, recombinant FIX replacement products carry a risk of\ndevelopment of FIX inhibitors and are associated with a high treatment burden,\nwhich may impact quality of life and reduce adherence, leading to suboptimal treatment\noutcomes.</span><a id=\"b5c682e1-2130-47f8-af94-92ba62182801_11\" class=\"btn-ref\"><sup>11</sup></a>&nbsp;<a id=\"e57010ea-b977-4129-850c-968b847d8a67_12\" class=\"btn-ref\"><sup>12</sup></a>&nbsp;<a id=\"9327899b-a8d3-4379-8cf0-1087be7de553_13\" class=\"btn-ref\"><sup>13</sup></a>&nbsp;<a id=\"39e93cbe-43c1-47cb-9231-dc9bf22e5e50_14\" class=\"btn-ref\"><sup>14</sup></a>&nbsp;<a id=\"33713263-4778-47c5-84a9-f38b8ecd7745_15\" class=\"btn-ref\"><sup>15</sup></a>&nbsp;<span lang=\"EN-US\">In summary, there remains a significant unmet need to address the challenges\nand clinical implications associated with the long-term management of\nhemophilia B, despite improvements in factor replacement therapy and updated clinical\nguidelines.<a id=\"fcfd5c29-600c-45e3-aa3d-76cc7b95d1c9_3\" class=\"btn-ref\"><span><sup>3</sup></span></a>&nbsp;<a id=\"7c402857-a5f9-457d-afc9-3f8411fa75a8_16\" class=\"btn-ref\"><sup>16</sup></a>&nbsp;<a id=\"feabca12-3387-4cf0-9d51-4a40f2d4758a_17\" class=\"btn-ref\"><sup>17</sup></a>&nbsp;<a id=\"a5939db0-8c14-43e3-867a-9a49d2af62bf_18\" class=\"btn-ref\"><sup>18</sup></a>&nbsp;<a id=\"8f1a8657-fe47-406c-bfad-2fbe3e5e3c7e_19\" class=\"btn-ref\"><sup>19</sup></a>&nbsp;</span><p class=\"MsoNormal\"><span lang=\"EN-US\"><sup><o:p></o:p></sup></span></p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+        "ThemeId": "e21e01ba-af63-4b88-8015-8b3e460d1d6c",
+        "Status": 0,
+        "SubStatementCount": 0,
+        "NonHeaderResourceCount": 0,
+        "HeaderResources": [{
+            "Id": "c240a2b5-58ec-4abb-96f7-decdeb575144",
+            "Url": "https://nucleusglobal-resourcerepository.s3.eu-west-1.amazonaws.com/csl-smp/b0fe6511-49da-46ca-98ab-4abd31dd5ea7.pdf?X-Amz-Expires=1800&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAILI2QFGMTZTKHUAQ/20220221/eu-west-1/s3/aws4_request&X-Amz-Date=20220221T102110Z&X-Amz-SignedHeaders=host&X-Amz-Signature=d7850cdae1d25963c1ebe0f1c0ba2479bbf407cbde9dfb895afcce1253583cc1",
+            "CategoryDefintionId": "a679f2f4-df13-40bf-91b6-fa8557373df7",
+            "IsHeader": true,
+            "ResourceType": {
+                "Id": "322f3897-a9d2-4acc-986f-49f7ede8183e",
+                "Type": "DefaultPdf",
+                "Extensions": [".pdf"]
+            },
+            "Title": null,
+            "User": null,
+            "FileName": null,
+            "CreatedDate": "2021-11-12T10:16:53.045611+00:00"
+        }],
+        "References": [{
+            "Id": "9327899b-a8d3-4379-8cf0-1087be7de553",
+            "Description": "Collins et al Haemophilia 2012_P5",
+            "Url": "",
+            "Index": 13,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "8f1a8657-fe47-406c-bfad-2fbe3e5e3c7e",
+            "Description": "Skinner_Haemophilia_2020_P5",
+            "Url": "",
+            "Index": 19,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "f587bc80-bd75-4916-af40-33bf91b63854",
+            "Description": "Rayment et al. BJH 2020_P5",
+            "Url": "",
+            "Index": 5,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "7c402857-a5f9-457d-afc9-3f8411fa75a8",
+            "Description": "Hassan_J Haemostasis_2021_P5",
+            "Url": "",
+            "Index": 16,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "feabca12-3387-4cf0-9d51-4a40f2d4758a",
+            "Description": "Darby et al_Blood_2007_P5",
+            "Url": "",
+            "Index": 17,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "fcfd5c29-600c-45e3-aa3d-76cc7b95d1c9",
+            "Description": "Mannucci. Haematologica 2020_P5",
+            "Url": "",
+            "Index": 3,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "79c35855-35c9-4f5f-839d-7847419f5afc",
+            "Description": "Spadarella_Blood Rev 2020_P5",
+            "Url": "",
+            "Index": 2,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "b5c682e1-2130-47f8-af94-92ba62182801",
+            "Description": "Castaman and Matino_Haematologica_2019_P5",
+            "Url": "",
+            "Index": 11,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "e57010ea-b977-4129-850c-968b847d8a67",
+            "Description": "Berntorp_Haemophilia_2009_P5",
+            "Url": "",
+            "Index": 12,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "a5939db0-8c14-43e3-867a-9a49d2af62bf",
+            "Description": "Skjefstad_Eur J Haemotol_2020_P5",
+            "Url": "",
+            "Index": 18,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "c62c387e-55f5-49ef-ab31-bf128d87d32f",
+            "Description": "Idelvion_PI_P5",
+            "Url": "",
+            "Index": 8,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "dc4905bc-6340-40cc-a35d-c36a57337607",
+            "Description": "Alprolix PI_P5",
+            "Url": "",
+            "Index": 9,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "dff56055-0f9f-49dc-aa93-cb3762f7206a",
+            "Description": "Miesbach_Hemophila 2019_P5",
+            "Url": "",
+            "Index": 10,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "a86bf4b2-f8c1-444c-b718-ccdcdd97b908",
+            "Description": "Castaman_Expert Rev Hematology_2018_P5",
+            "Url": "",
+            "Index": 7,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "8604fb33-be23-4266-be08-cf14d858c086",
+            "Description": "Liras_Orphanet J Rare Dis_2012_P5",
+            "Url": "",
+            "Index": 1,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "84c39065-ba94-4951-afa2-cfd35d5bb34e",
+            "Description": "Srivastava_WFH guidelines_2020_P5",
+            "Url": "",
+            "Index": 4,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "39e93cbe-43c1-47cb-9231-dc9bf22e5e50",
+            "Description": "KrishnanS_Haemophilia_2015_P5",
+            "Url": "",
+            "Index": 14,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "33713263-4778-47c5-84a9-f38b8ecd7745",
+            "Description": "SantoroC_Semin Thromb Hemost_2018_P5",
+            "Url": "",
+            "Index": 15,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "ebcd58f2-2534-42b0-aec1-f451c78cbf40",
+            "Description": "National Hemophilia Foundation_MASAC_2016_P5",
+            "Url": "",
+            "Index": 6,
+            "Tag": "n/a",
+            "HasFile": true
+        }]
+    }, {
+        "Id": "e872b927-d09c-4c27-8239-febc3b1e84b8",
+        "Title": "<b>Pillar 5: </b>Current treatment and unmet need",
+        "Description": "<b>Lay narrative:&nbsp;</b>To date, there is no cure for hemophilia B.<a id=\"8604fb33-be23-4266-be08-cf14d858c086_1\" class=\"btn-ref\"><sup>1</sup></a>&nbsp;<a id=\"79c35855-35c9-4f5f-839d-7847419f5afc_2\" class=\"btn-ref\"><sup>2</sup></a>&nbsp;<a id=\"fcfd5c29-600c-45e3-aa3d-76cc7b95d1c9_3\" class=\"btn-ref\"><sup>3</sup></a>&nbsp;The standard of care is\nlife-long prophylactic or preventative treatment with factor IX (FIX)\nreplacement products to temporarily replace or supplement low levels of blood-clotting\nfactor.<a id=\"84c39065-ba94-4951-afa2-cfd35d5bb34e_4\" class=\"btn-ref\"><sup>4</sup></a>&nbsp;<a id=\"f587bc80-bd75-4916-af40-33bf91b63854_5\" class=\"btn-ref\"><sup>5</sup></a>&nbsp;<a id=\"ebcd58f2-2534-42b0-aec1-f451c78cbf40_6\" class=\"btn-ref\"><sup>6</sup></a>&nbsp;<a id=\"a86bf4b2-f8c1-444c-b718-ccdcdd97b908_7\" class=\"btn-ref\"><sup>7</sup></a>&nbsp;Some people may\nalso receive ‘on-demand’ or episodic factor replacement therapy at the time of\na bleed or during surgery.<a id=\"84c39065-ba94-4951-afa2-cfd35d5bb34e_4\" class=\"btn-ref\"><span><sup>4</sup></span></a>&nbsp;<a id=\"f587bc80-bd75-4916-af40-33bf91b63854_5\" class=\"btn-ref\"><span><sup>5</sup></span></a>&nbsp;<a id=\"a86bf4b2-f8c1-444c-b718-ccdcdd97b908_7\" class=\"btn-ref\"><span><sup>7</sup></span></a>&nbsp;Long-lasting FIX replacement\ntreatments have reduced how often people with hemophilia B need treatment but\npeople receiving FIX replacement products can still experience breakthrough bleeds,\nwhich can lead to joint damage, pain, reduced quality of life, and inability to\ncarry out everyday tasks.<a id=\"84c39065-ba94-4951-afa2-cfd35d5bb34e_4\" class=\"btn-ref\"><span><sup>4</sup></span></a>&nbsp;<a id=\"a86bf4b2-f8c1-444c-b718-ccdcdd97b908_7\" class=\"btn-ref\"><span><sup>7</sup></span></a>&nbsp;<a id=\"c62c387e-55f5-49ef-ab31-bf128d87d32f_8\" class=\"btn-ref\"><sup>8</sup></a>&nbsp;<a id=\"dc4905bc-6340-40cc-a35d-c36a57337607_9\" class=\"btn-ref\"><sup>9</sup></a>&nbsp;<a id=\"dff56055-0f9f-49dc-aa93-cb3762f7206a_10\" class=\"btn-ref\"><sup>10</sup></a>&nbsp;Some\npeople may also generate FIX inhibitors against FIX replacement treatment,\nwhich can impact how effective the treatment is. FIX replacement treatment can\nbe inconvenient, painful, and impact quality of life; this can make it hard for\npeople with hemophilia B to stick to their treatment plan.<a id=\"b5c682e1-2130-47f8-af94-92ba62182801_11\" class=\"btn-ref\"><sup>11</sup></a>&nbsp;<a id=\"e57010ea-b977-4129-850c-968b847d8a67_12\" class=\"btn-ref\"><sup>12</sup></a>&nbsp;<a id=\"9327899b-a8d3-4379-8cf0-1087be7de553_13\" class=\"btn-ref\"><sup>13</sup></a>&nbsp;<a id=\"39e93cbe-43c1-47cb-9231-dc9bf22e5e50_14\" class=\"btn-ref\"><sup>14</sup></a>&nbsp;<a id=\"33713263-4778-47c5-84a9-f38b8ecd7745_15\" class=\"btn-ref\"><sup>15</sup></a>&nbsp;For these reasons, new treatments are needed to improve\nclinical outcomes, slow down the progression of the disease, and improve\nquality of life and life expectancy.<a id=\"fcfd5c29-600c-45e3-aa3d-76cc7b95d1c9_3\" class=\"btn-ref\"><span><sup>3</sup></span></a>&nbsp;<a id=\"7c402857-a5f9-457d-afc9-3f8411fa75a8_16\" class=\"btn-ref\"><sup>16</sup></a>&nbsp;<a id=\"feabca12-3387-4cf0-9d51-4a40f2d4758a_17\" class=\"btn-ref\"><sup>17</sup></a>&nbsp;<a id=\"a5939db0-8c14-43e3-867a-9a49d2af62bf_18\" class=\"btn-ref\"><sup>18</sup></a>&nbsp;<a id=\"8f1a8657-fe47-406c-bfad-2fbe3e5e3c7e_19\" class=\"btn-ref\"><sup>19</sup></a>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+        "ThemeId": "e21e01ba-af63-4b88-8015-8b3e460d1d6c",
+        "Status": 0,
+        "SubStatementCount": 0,
+        "NonHeaderResourceCount": 0,
+        "HeaderResources": [{
+            "Id": "9198f682-b2e7-4089-9274-03ad4d124073",
+            "Url": "https://nucleusglobal-resourcerepository.s3.eu-west-1.amazonaws.com/csl-smp/6f2af08e-28f6-40a6-933c-9f35412f1850.pdf?X-Amz-Expires=1800&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAILI2QFGMTZTKHUAQ/20220221/eu-west-1/s3/aws4_request&X-Amz-Date=20220221T102110Z&X-Amz-SignedHeaders=host&X-Amz-Signature=2fd4ad49b29ed8830e17c5398c49f058d01539ae4fc633837158917137092ac3",
+            "CategoryDefintionId": "a679f2f4-df13-40bf-91b6-fa8557373df7",
+            "IsHeader": true,
+            "ResourceType": {
+                "Id": "322f3897-a9d2-4acc-986f-49f7ede8183e",
+                "Type": "DefaultPdf",
+                "Extensions": [".pdf"]
+            },
+            "Title": null,
+            "User": null,
+            "FileName": null,
+            "CreatedDate": "2021-11-12T10:17:11.6396947+00:00"
+        }],
+        "References": [{
+            "Id": "9327899b-a8d3-4379-8cf0-1087be7de553",
+            "Description": "Collins et al Haemophilia 2012_P5",
+            "Url": "",
+            "Index": 13,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "8f1a8657-fe47-406c-bfad-2fbe3e5e3c7e",
+            "Description": "Skinner_Haemophilia_2020_P5",
+            "Url": "",
+            "Index": 19,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "f587bc80-bd75-4916-af40-33bf91b63854",
+            "Description": "Rayment et al. BJH 2020_P5",
+            "Url": "",
+            "Index": 5,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "7c402857-a5f9-457d-afc9-3f8411fa75a8",
+            "Description": "Hassan_J Haemostasis_2021_P5",
+            "Url": "",
+            "Index": 16,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "feabca12-3387-4cf0-9d51-4a40f2d4758a",
+            "Description": "Darby et al_Blood_2007_P5",
+            "Url": "",
+            "Index": 17,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "fcfd5c29-600c-45e3-aa3d-76cc7b95d1c9",
+            "Description": "Mannucci. Haematologica 2020_P5",
+            "Url": "",
+            "Index": 3,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "79c35855-35c9-4f5f-839d-7847419f5afc",
+            "Description": "Spadarella_Blood Rev 2020_P5",
+            "Url": "",
+            "Index": 2,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "b5c682e1-2130-47f8-af94-92ba62182801",
+            "Description": "Castaman and Matino_Haematologica_2019_P5",
+            "Url": "",
+            "Index": 11,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "e57010ea-b977-4129-850c-968b847d8a67",
+            "Description": "Berntorp_Haemophilia_2009_P5",
+            "Url": "",
+            "Index": 12,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "a5939db0-8c14-43e3-867a-9a49d2af62bf",
+            "Description": "Skjefstad_Eur J Haemotol_2020_P5",
+            "Url": "",
+            "Index": 18,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "c62c387e-55f5-49ef-ab31-bf128d87d32f",
+            "Description": "Idelvion_PI_P5",
+            "Url": "",
+            "Index": 8,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "dc4905bc-6340-40cc-a35d-c36a57337607",
+            "Description": "Alprolix PI_P5",
+            "Url": "",
+            "Index": 9,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "dff56055-0f9f-49dc-aa93-cb3762f7206a",
+            "Description": "Miesbach_Hemophila 2019_P5",
+            "Url": "",
+            "Index": 10,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "a86bf4b2-f8c1-444c-b718-ccdcdd97b908",
+            "Description": "Castaman_Expert Rev Hematology_2018_P5",
+            "Url": "",
+            "Index": 7,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "8604fb33-be23-4266-be08-cf14d858c086",
+            "Description": "Liras_Orphanet J Rare Dis_2012_P5",
+            "Url": "",
+            "Index": 1,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "84c39065-ba94-4951-afa2-cfd35d5bb34e",
+            "Description": "Srivastava_WFH guidelines_2020_P5",
+            "Url": "",
+            "Index": 4,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "39e93cbe-43c1-47cb-9231-dc9bf22e5e50",
+            "Description": "KrishnanS_Haemophilia_2015_P5",
+            "Url": "",
+            "Index": 14,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "33713263-4778-47c5-84a9-f38b8ecd7745",
+            "Description": "SantoroC_Semin Thromb Hemost_2018_P5",
+            "Url": "",
+            "Index": 15,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "ebcd58f2-2534-42b0-aec1-f451c78cbf40",
+            "Description": "National Hemophilia Foundation_MASAC_2016_P5",
+            "Url": "",
+            "Index": 6,
+            "Tag": "n/a",
+            "HasFile": true
+        }]
+    }]
+}, {
+    "Id": "3be273c5-607a-4bec-b174-9fe601d7e722",
+    "Name": "<b>Pillar 6: </b>Gene therapy for hemophilia B",
+    "Description": "",
+    "Index": 5,
+    "ResourceCount": 0,
+    "Statements": [{
+        "Id": "94c256fb-a699-4857-92e1-18648d7f7283",
+        "Title": "<b>Pillar 6: </b>Gene therapy for hemophilia B",
+        "Description": "<b>HCP narrative:</b>&nbsp;<span lang=\"EN-US\"><i>In vivo</i></span><span lang=\"EN-US\">, liver-directed, recombinant adeno-associated virus (rAAV)-based gene\ntherapy is an innovative treatment option for people with hemophilia B (PWHB) that aims to reduce</span> disease\nseverity to a near-normal state through sustained,\nendogenous FIX expression.<a id=\"caaa2b67-7e76-4953-8ae3-f34db33cd007_1\" class=\"btn-ref\"><sup>1</sup></a>&nbsp;<a id=\"85cff24d-e926-4bf4-b67e-4ff10a167a5a_2\" class=\"btn-ref\"><sup>2</sup></a>&nbsp;<a id=\"6bd8b59c-5380-41d0-a9f1-f99f310e8f4a_3\" class=\"btn-ref\"><sup>3</sup></a>&nbsp;<a id=\"bf43bbcd-f2e4-4fcf-8648-1268afeb9da7_4\" class=\"btn-ref\"><sup>4</sup></a>&nbsp;<span lang=\"EN-US\">AAV-based gene therapies are\nwell-suited for hemophilia B due to the size of the transgene and the monogenic\nnature of the disease.<a id=\"7f4f987d-c53f-4ff8-b738-37cea44d7e8a_5\" class=\"btn-ref\"><sup>5</sup></a>&nbsp;<a id=\"1d870a10-39ac-400d-b604-7a4fd7677bfb_6\" class=\"btn-ref\"><sup>6</sup></a>&nbsp;<a id=\"f3950866-e0db-4c76-aaab-877bd49071f6_7\" class=\"btn-ref\"><sup>7</sup></a>&nbsp;</span>Clinical use of rAAV-based gene therapy for hemophilia B\nhas been under investigation for almost two decades and studies of rAAV-based gene therapy in PWHB (with ≤ 2% FIX activity\nlevels) have shown increases in endogenous FIX activity levels in the\nnear-normal range following a single administration.<a id=\"ee6f62c1-5ce5-49cf-b4d8-b45ee5f87a52_8\" class=\"btn-ref\"><sup>8</sup></a>&nbsp;<a id=\"479c3e7d-eb38-4458-9318-174972a3e672_9\" class=\"btn-ref\"><sup>9</sup></a>&nbsp;<a id=\"f214d3af-4f28-4c23-884e-aa94c6d13914_10\" class=\"btn-ref\"><sup>10</sup></a>&nbsp;AAV neutralizing antibodies, as well as immunologic responses to the capsid (manifesting\nas transient, asymptomatic transaminitis), may reduce FIX activity levels;\nhowever, the optimal vector choice and design can help in reducing immune reactions and\nensuring optimal clinical outcomes.<a id=\"6bd8b59c-5380-41d0-a9f1-f99f310e8f4a_3\" class=\"btn-ref\"><span><sup>3</sup></span></a>&nbsp;<a id=\"479c3e7d-eb38-4458-9318-174972a3e672_9\" class=\"btn-ref\"><span><sup>9</sup></span></a>&nbsp;<a id=\"5df3b711-0518-4849-952c-2fc02a65be21_11\" class=\"btn-ref\"><sup>11</sup></a>&nbsp;<a id=\"4a4bcc7a-0830-489f-9777-15d610b749fe_12\" class=\"btn-ref\"><sup>12</sup></a>&nbsp;<a id=\"8106057b-734f-4d95-9086-f0ea0e8c1385_13\" class=\"btn-ref\"><sup>13</sup></a>&nbsp;<a id=\"bd683135-7e4d-4a7c-b4dc-7eceb0ec97c1_14\" class=\"btn-ref\"><sup>14</sup></a>&nbsp;<p class=\"MsoNormal\"> <span lang=\"EN-US\"><o:p></o:p></span></p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+        "ThemeId": "3be273c5-607a-4bec-b174-9fe601d7e722",
+        "Status": 0,
+        "SubStatementCount": 0,
+        "NonHeaderResourceCount": 0,
+        "HeaderResources": [{
+            "Id": "4085c856-f0cd-4214-9823-e05e8c871625",
+            "Url": "https://nucleusglobal-resourcerepository.s3.eu-west-1.amazonaws.com/csl-smp/b6997706-f474-4376-a4e3-8155aef280e5.pdf?X-Amz-Expires=1800&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAILI2QFGMTZTKHUAQ/20220221/eu-west-1/s3/aws4_request&X-Amz-Date=20220221T102110Z&X-Amz-SignedHeaders=host&X-Amz-Signature=83da235e58dbf7065b58c3240e741c0208aa424ef4c40e6c4c9943496324a446",
+            "CategoryDefintionId": "a679f2f4-df13-40bf-91b6-fa8557373df7",
+            "IsHeader": true,
+            "ResourceType": {
+                "Id": "322f3897-a9d2-4acc-986f-49f7ede8183e",
+                "Type": "DefaultPdf",
+                "Extensions": [".pdf"]
+            },
+            "Title": null,
+            "User": null,
+            "FileName": null,
+            "CreatedDate": "2021-11-12T10:17:31.8588125+00:00"
+        }],
+        "References": [{
+            "Id": "bf43bbcd-f2e4-4fcf-8648-1268afeb9da7",
+            "Description": "Pipe ASH 2020 HOPE-B PRESENTATION_FINAL_P6",
+            "Url": "",
+            "Index": 4,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "4a4bcc7a-0830-489f-9777-15d610b749fe",
+            "Description": "Pipe_Mol Ther Methods Clin Dev_2019_P6",
+            "Url": "",
+            "Index": 12,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "479c3e7d-eb38-4458-9318-174972a3e672",
+            "Description": "Manno_Nature Med_2006_P6",
+            "Url": "",
+            "Index": 9,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "5df3b711-0518-4849-952c-2fc02a65be21",
+            "Description": "Calcedo_Clin Vacc Immunol_2011_P6",
+            "Url": "",
+            "Index": 11,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "7f4f987d-c53f-4ff8-b738-37cea44d7e8a",
+            "Description": "Doshi and Arruda_Ther Adv Hemo_2018_P6",
+            "Url": "",
+            "Index": 5,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "85cff24d-e926-4bf4-b67e-4ff10a167a5a",
+            "Description": "Von Drygalski_Blood Adv_2019_P6",
+            "Url": "",
+            "Index": 2,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "1d870a10-39ac-400d-b604-7a4fd7677bfb",
+            "Description": "Wu_Mol Ther_2010_P6",
+            "Url": "",
+            "Index": 6,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "bd683135-7e4d-4a7c-b4dc-7eceb0ec97c1",
+            "Description": "Nathwani_NEJM_2014_P6",
+            "Url": "",
+            "Index": 14,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "f3950866-e0db-4c76-aaab-877bd49071f6",
+            "Description": "Perrin_Blood_2019_P6",
+            "Url": "",
+            "Index": 7,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "f214d3af-4f28-4c23-884e-aa94c6d13914",
+            "Description": "Nathwani_NEJM_2011_P6",
+            "Url": "",
+            "Index": 10,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "ee6f62c1-5ce5-49cf-b4d8-b45ee5f87a52",
+            "Description": "Manno_Blood_2003_P6",
+            "Url": "",
+            "Index": 8,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "8106057b-734f-4d95-9086-f0ea0e8c1385",
+            "Description": "Mingozzi and High_Blood_2013_P6",
+            "Url": "",
+            "Index": 13,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "caaa2b67-7e76-4953-8ae3-f34db33cd007",
+            "Description": "Arruda and Doshi_Med J Hematol Infect Dis 2020_P6",
+            "Url": "",
+            "Index": 1,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "6bd8b59c-5380-41d0-a9f1-f99f310e8f4a",
+            "Description": "George LA_NEJM_2017_MU_P6",
+            "Url": "",
+            "Index": 3,
+            "Tag": "n/a",
+            "HasFile": true
+        }]
+    }, {
+        "Id": "0a489c58-1fca-40c2-a202-80ad3de06169",
+        "Title": "<b>Pillar 6: </b>Gene therapy for hemophilia B",
+        "Description": "<b>Lay narrative:&nbsp;</b>Adeno-associated virus (AAV)-based gene transfer directed at the liver is a new treatment option for people living with\nhemophilia B. Treatment with gene therapy aims to reduce, or even stop,\nbleeding events by allowing the body to generate its own stable and protective\nlevels of factor IX (FIX) from the new functional gene.<a id=\"caaa2b67-7e76-4953-8ae3-f34db33cd007_1\" class=\"btn-ref\"><sup>1</sup></a>&nbsp;<a id=\"85cff24d-e926-4bf4-b67e-4ff10a167a5a_2\" class=\"btn-ref\"><sup>2</sup></a>&nbsp;<a id=\"6bd8b59c-5380-41d0-a9f1-f99f310e8f4a_3\" class=\"btn-ref\"><sup>3</sup></a>&nbsp;<a id=\"bf43bbcd-f2e4-4fcf-8648-1268afeb9da7_4\" class=\"btn-ref\"><sup>4</sup></a>&nbsp;Hemophilia B is well-suited for treatment with gene therapy\nbecause it is caused by a single gene mutation that can be corrected by\nproviding a functional, working copy of the gene.<a id=\"7f4f987d-c53f-4ff8-b738-37cea44d7e8a_5\" class=\"btn-ref\"><sup>5</sup></a>&nbsp;<a id=\"1d870a10-39ac-400d-b604-7a4fd7677bfb_6\" class=\"btn-ref\"><sup>6</sup></a>&nbsp;<a id=\"f3950866-e0db-4c76-aaab-877bd49071f6_7\" class=\"btn-ref\"><sup>7</sup></a>&nbsp;AAV-based gene therapy for hemophilia B has\nbeen studied for almost 20 years.<a id=\"ee6f62c1-5ce5-49cf-b4d8-b45ee5f87a52_8\" class=\"btn-ref\"><sup>8</sup></a>&nbsp;<a id=\"479c3e7d-eb38-4458-9318-174972a3e672_9\" class=\"btn-ref\"><sup>9</sup></a>&nbsp;<a id=\"f214d3af-4f28-4c23-884e-aa94c6d13914_10\" class=\"btn-ref\"><sup>10</sup></a>&nbsp;Studies of a single, one-time administration of\nAAV-based gene therapy in people living with hemophilia B have shown increased\nFIX activity levels to within the mild-to-near normal range.<a id=\"ee6f62c1-5ce5-49cf-b4d8-b45ee5f87a52_8\" class=\"btn-ref\"><span><sup>8</sup></span></a>&nbsp;<a id=\"479c3e7d-eb38-4458-9318-174972a3e672_9\" class=\"btn-ref\"><span><sup>9</sup></span></a>&nbsp;<a id=\"f214d3af-4f28-4c23-884e-aa94c6d13914_10\" class=\"btn-ref\"><span><sup>10</sup></span></a>&nbsp;Antibodies produced against the\nvector shell (AAV-neutralizing antibodies), as well as an immune response to\nthe neutralized on inactivated viral shell (vector), may reduce levels of FIX\nexpression in some people; however, improvements in the vector design can help\nin reducing immune responses and ensuring optimal outcomes.<a id=\"6bd8b59c-5380-41d0-a9f1-f99f310e8f4a_3\" class=\"btn-ref\"><span><sup>3</sup></span></a>&nbsp;<a id=\"479c3e7d-eb38-4458-9318-174972a3e672_9\" class=\"btn-ref\"><span><sup>9</sup></span></a>&nbsp;<a id=\"5df3b711-0518-4849-952c-2fc02a65be21_11\" class=\"btn-ref\"><sup>11</sup></a>&nbsp;<a id=\"4a4bcc7a-0830-489f-9777-15d610b749fe_12\" class=\"btn-ref\"><sup>12</sup></a>&nbsp;<a id=\"8106057b-734f-4d95-9086-f0ea0e8c1385_13\" class=\"btn-ref\"><sup>13</sup></a>&nbsp;<a id=\"bd683135-7e4d-4a7c-b4dc-7eceb0ec97c1_14\" class=\"btn-ref\"><sup>14</sup></a><p class=\"MsoNormal\"><span style=\"font-size:12.0pt;\nline-height:107%;font-family:Montserrat;mso-bidi-font-family:Calibri;\nmso-bidi-theme-font:minor-latin\"><o:p></o:p></span></p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+        "ThemeId": "3be273c5-607a-4bec-b174-9fe601d7e722",
+        "Status": 0,
+        "SubStatementCount": 0,
+        "NonHeaderResourceCount": 0,
+        "HeaderResources": [{
+            "Id": "6116bf4b-eb96-4d8a-9aee-a61cf320b35b",
+            "Url": "https://nucleusglobal-resourcerepository.s3.eu-west-1.amazonaws.com/csl-smp/4f6b778b-7f07-43e2-bde5-d5312dfb1113.pdf?X-Amz-Expires=1800&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAILI2QFGMTZTKHUAQ/20220221/eu-west-1/s3/aws4_request&X-Amz-Date=20220221T102110Z&X-Amz-SignedHeaders=host&X-Amz-Signature=fec8ff7ab237f332e5c2dc32857f9fa3489543ab12a77c6bc9be0c422d90dddd",
+            "CategoryDefintionId": "a679f2f4-df13-40bf-91b6-fa8557373df7",
+            "IsHeader": true,
+            "ResourceType": {
+                "Id": "322f3897-a9d2-4acc-986f-49f7ede8183e",
+                "Type": "DefaultPdf",
+                "Extensions": [".pdf"]
+            },
+            "Title": null,
+            "User": null,
+            "FileName": null,
+            "CreatedDate": "2021-11-12T10:17:47.39031+00:00"
+        }],
+        "References": [{
+            "Id": "bf43bbcd-f2e4-4fcf-8648-1268afeb9da7",
+            "Description": "Pipe ASH 2020 HOPE-B PRESENTATION_FINAL_P6",
+            "Url": "",
+            "Index": 4,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "4a4bcc7a-0830-489f-9777-15d610b749fe",
+            "Description": "Pipe_Mol Ther Methods Clin Dev_2019_P6",
+            "Url": "",
+            "Index": 12,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "479c3e7d-eb38-4458-9318-174972a3e672",
+            "Description": "Manno_Nature Med_2006_P6",
+            "Url": "",
+            "Index": 9,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "5df3b711-0518-4849-952c-2fc02a65be21",
+            "Description": "Calcedo_Clin Vacc Immunol_2011_P6",
+            "Url": "",
+            "Index": 11,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "7f4f987d-c53f-4ff8-b738-37cea44d7e8a",
+            "Description": "Doshi and Arruda_Ther Adv Hemo_2018_P6",
+            "Url": "",
+            "Index": 5,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "85cff24d-e926-4bf4-b67e-4ff10a167a5a",
+            "Description": "Von Drygalski_Blood Adv_2019_P6",
+            "Url": "",
+            "Index": 2,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "1d870a10-39ac-400d-b604-7a4fd7677bfb",
+            "Description": "Wu_Mol Ther_2010_P6",
+            "Url": "",
+            "Index": 6,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "bd683135-7e4d-4a7c-b4dc-7eceb0ec97c1",
+            "Description": "Nathwani_NEJM_2014_P6",
+            "Url": "",
+            "Index": 14,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "f3950866-e0db-4c76-aaab-877bd49071f6",
+            "Description": "Perrin_Blood_2019_P6",
+            "Url": "",
+            "Index": 7,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "f214d3af-4f28-4c23-884e-aa94c6d13914",
+            "Description": "Nathwani_NEJM_2011_P6",
+            "Url": "",
+            "Index": 10,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "ee6f62c1-5ce5-49cf-b4d8-b45ee5f87a52",
+            "Description": "Manno_Blood_2003_P6",
+            "Url": "",
+            "Index": 8,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "8106057b-734f-4d95-9086-f0ea0e8c1385",
+            "Description": "Mingozzi and High_Blood_2013_P6",
+            "Url": "",
+            "Index": 13,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "caaa2b67-7e76-4953-8ae3-f34db33cd007",
+            "Description": "Arruda and Doshi_Med J Hematol Infect Dis 2020_P6",
+            "Url": "",
+            "Index": 1,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "6bd8b59c-5380-41d0-a9f1-f99f310e8f4a",
+            "Description": "George LA_NEJM_2017_MU_P6",
+            "Url": "",
+            "Index": 3,
+            "Tag": "n/a",
+            "HasFile": true
+        }]
+    }]
+}, {
+    "Id": "bcb5d3ec-140b-4702-aef8-efd50bd7f8d0",
+    "Name": "<b>Pillar 7: </b>EtranaDez gene therapy platform",
+    "Description": "",
+    "Index": 6,
+    "ResourceCount": 0,
+    "Statements": [{
+        "Id": "a9a6a7ed-d683-49a8-9269-4a62b59f2a82",
+        "Title": "<b>Pillar 7: </b>EtranaDez gene therapy platform",
+        "Description": "<p class=\"MsoNormal\"><span lang=\"EN-US\"><b>HCP narrative:</b> Etranacogene\ndezaparvovec (formerly AMT-061) is a rationally designed gene therapy,\ncomprising a recombinant adeno-associated virus-5 (rAAV5) vector incorporating an expression cassette\ncontaining a codon-optimized FIX-Padua variant under the control of a\nliver-specific promoter, that aims to deliver sustained endogenous FIX\nexpression in people with hemophilia B.</span><a id=\"d576a693-05eb-4e77-bbb2-9fc633a65033_1\" class=\"btn-ref\"><sup>1</sup></a>&nbsp;<a id=\"e1b4f25e-6e99-4984-aeee-4f81f9630281_2\" class=\"btn-ref\"><sup>2</sup></a>&nbsp;<a id=\"997b660c-1daf-48cb-a972-893273e395d8_3\" class=\"btn-ref\"><sup>3</sup></a>&nbsp;<span lang=\"EN-US\">The development of etranacogene dezaparvovec\nbegan in 2015 with AMT-060.</span><a id=\"0956981a-7f8e-4190-9239-8f01af323c07_4\" class=\"btn-ref\"><sup>4</sup></a>&nbsp;<span lang=\"EN-US\">AMT-060 comprises </span>a rAAV5 vector incorporating an expression\ncassette containing codon-optimized human wild-type (WT) FIX under the control of a\nliver-specific promoter.<a id=\"997b660c-1daf-48cb-a972-893273e395d8_3\" class=\"btn-ref\"><span><sup>3</sup></span></a>&nbsp;<span lang=\"EN-US\">Etranacogene dezaparvovec is similar\nto AMT-060, </span>differing only in a single amino acid substitution in the\n<i>F9</i> gene encoding the highly active, naturally occurring FIX-Padua\nvariant, which provides increased endogenous FIX activity levels compared with WT\n<i>F9</i>.<a id=\"997b660c-1daf-48cb-a972-893273e395d8_3\" class=\"btn-ref\"><span><sup>3</sup></span></a>&nbsp;<a id=\"f1cfc09d-535a-4c74-ad9b-bdda1bed0434_5\" class=\"btn-ref\"><sup>5</sup></a>&nbsp;<a id=\"b28ccc6f-30f3-4669-884e-48a6e7757f6d_6\" class=\"btn-ref\"><sup>6</sup></a>&nbsp;Etranacogene dezaparvovec is currently being studied in the\nlargest Phase 3 clinical study of a hemophilia gene therapy, HOPE-B (Health Outcomes with Padua gene:\nEvaluation in Hemophilia B; NCT03569891).<a id=\"e7769c06-eb9d-49f8-90dd-4b73a049e309_7\" class=\"btn-ref\"><sup>7</sup></a>&nbsp;HOPE-B is a Phase 3, open-label, single-dose, single-arm multinational study assessing the efficacy and safety of a single, one-time intravenous (IV) administration\nof <span lang=\"EN-US\">etranacogene dezaparvovec\nin severe or moderately severe hemophilia B.</span><a id=\"d576a693-05eb-4e77-bbb2-9fc633a65033_1\" class=\"btn-ref\"><span><sup>1</sup></span></a><span lang=\"EN-US\">&nbsp;</span><a id=\"997b660c-1daf-48cb-a972-893273e395d8_3\" class=\"btn-ref\"><span><sup>3</sup></span></a>&nbsp;<a id=\"a8ede930-a483-4df0-9792-fb20a6e691b3_8\" class=\"btn-ref\"><sup>8</sup></a>&nbsp;<a id=\"952bb682-4712-4845-a7c9-04ab50d47512_9\" class=\"btn-ref\"><sup>9</sup></a>&nbsp;</p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+        "ThemeId": "bcb5d3ec-140b-4702-aef8-efd50bd7f8d0",
+        "Status": 0,
+        "SubStatementCount": 0,
+        "NonHeaderResourceCount": 0,
+        "HeaderResources": [{
+            "Id": "e3a1a334-2138-4034-bf9a-e0d37dea1860",
+            "Url": "https://nucleusglobal-resourcerepository.s3.eu-west-1.amazonaws.com/csl-smp/a78cd4cc-e2e4-4806-b9ee-6f83c26b03e7.pdf?X-Amz-Expires=1800&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAILI2QFGMTZTKHUAQ/20220221/eu-west-1/s3/aws4_request&X-Amz-Date=20220221T102110Z&X-Amz-SignedHeaders=host&X-Amz-Signature=19af88b627ce1f81ca5bd3d148ea2e5c1ebbd276646a98112b9578f7c492bd04",
+            "CategoryDefintionId": "a679f2f4-df13-40bf-91b6-fa8557373df7",
+            "IsHeader": true,
+            "ResourceType": {
+                "Id": "322f3897-a9d2-4acc-986f-49f7ede8183e",
+                "Type": "DefaultPdf",
+                "Extensions": [".pdf"]
+            },
+            "Title": null,
+            "User": null,
+            "FileName": null,
+            "CreatedDate": "2021-11-12T10:18:02.7968378+00:00"
+        }],
+        "References": [{
+            "Id": "952bb682-4712-4845-a7c9-04ab50d47512",
+            "Description": "Pipe_ASH 2020_HOPE B presentation_P7",
+            "Url": "",
+            "Index": 9,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "b28ccc6f-30f3-4669-884e-48a6e7757f6d",
+            "Description": "Spronck_Mol Ther Method Clin Dev_2019_P7",
+            "Url": "",
+            "Index": 6,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "e7769c06-eb9d-49f8-90dd-4b73a049e309",
+            "Description": "Clinicaltrial.gov_NCT03569891_P7",
+            "Url": "",
+            "Index": 7,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "e1b4f25e-6e99-4984-aeee-4f81f9630281",
+            "Description": "Nathwani_Blood_2006_P7",
+            "Url": "",
+            "Index": 2,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "997b660c-1daf-48cb-a972-893273e395d8",
+            "Description": "von Drygalski et al_Blood Adv_2019_P7",
+            "Url": "",
+            "Index": 3,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "0956981a-7f8e-4190-9239-8f01af323c07",
+            "Description": "Clinicaltrials.gov_NCT02396342_P7",
+            "Url": "",
+            "Index": 4,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "d576a693-05eb-4e77-bbb2-9fc633a65033",
+            "Description": "Miesbach_Blood_2018_P7",
+            "Url": "",
+            "Index": 1,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "f1cfc09d-535a-4c74-ad9b-bdda1bed0434",
+            "Description": "Simioni et al_NEJM_2009_P7",
+            "Url": "",
+            "Index": 5,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "a8ede930-a483-4df0-9792-fb20a6e691b3",
+            "Description": "Pipe_ASH Abstract 2020_HOPE-B_P7",
+            "Url": "",
+            "Index": 8,
+            "Tag": "n/a",
+            "HasFile": true
+        }]
+    }, {
+        "Id": "714c9a61-0554-42b6-a6bd-de262b2228c0",
+        "Title": "<b>Pillar 7: </b>EtranaDez gene therapy platform",
+        "Description": "<b>Lay narrative:&nbsp;</b>Etranacogene dezaparvovec (formerly AMT-061) is a type of gene therapy that was designed as a long-lasting\nsingle-infusion therapy for hemophilia B. It contains the factor IX Padua (FIX-Padua)\ngene, which generates a more active protein than the more common (wild type)\nform of the gene encoding FIX (<i>F9</i>).<a id=\"d576a693-05eb-4e77-bbb2-9fc633a65033_1\" class=\"btn-ref\"><sup>1</sup></a>&nbsp;<a id=\"e1b4f25e-6e99-4984-aeee-4f81f9630281_2\" class=\"btn-ref\"><sup>2</sup></a>&nbsp;<a id=\"997b660c-1daf-48cb-a972-893273e395d8_3\" class=\"btn-ref\"><sup>3</sup></a>&nbsp;It is directed towards the liver and uses a specific\ntype of recombinant adeno-associated virus (rAAV) shell (non-disease causing or inactivated viral\nshell), called AAV5, to deliver the gene to the liver cells.<a id=\"d576a693-05eb-4e77-bbb2-9fc633a65033_1\" class=\"btn-ref\"><span><sup>1</sup></span></a>&nbsp;<a id=\"997b660c-1daf-48cb-a972-893273e395d8_3\" class=\"btn-ref\"><span><sup>3</sup></span></a>&nbsp;&nbsp;The development of etranacogene dezaparvovec\nbegan in 2015 with AMT-060.<a id=\"0956981a-7f8e-4190-9239-8f01af323c07_4\" class=\"btn-ref\"><sup>4</sup></a>&nbsp;AMT-060\nis made up of an rAAV5 vector containing the human wild-type <i>F9</i> gene, with a\nliver-specific gene promoter that means the gene will only be active in the\nliver cells.<a id=\"997b660c-1daf-48cb-a972-893273e395d8_3\" class=\"btn-ref\"><span><sup>3</sup></span></a>&nbsp;Etranacogene dezaparvovec is similar\nto AMT-060; the only difference is it uses the highly-active FIX-Padua variant instead of the wild-type\n<i>F9</i>.<a id=\"997b660c-1daf-48cb-a972-893273e395d8_3\" class=\"btn-ref\"><span><sup>3</sup></span></a>&nbsp;<a id=\"f1cfc09d-535a-4c74-ad9b-bdda1bed0434_5\" class=\"btn-ref\"><sup>5</sup></a>&nbsp;<a id=\"b28ccc6f-30f3-4669-884e-48a6e7757f6d_6\" class=\"btn-ref\"><sup>6</sup></a>&nbsp;Gene therapy with a single\nintravenous (into the vein) administration of etranacogene dezaparvovec is\ncurrently being studied in the HOPE-B (Health Outcomes with Padua gene:\nEvaluation in Hemophilia B) Phase 3 clinical trial, which is assessing the safety and efficacy of etranacogene dezaparvovec in one of the largest groups of people living with\nsevere/moderately severe hemophilia B to date.<a id=\"d576a693-05eb-4e77-bbb2-9fc633a65033_1\" class=\"btn-ref\"><span><sup>1</sup></span></a>&nbsp;<a id=\"997b660c-1daf-48cb-a972-893273e395d8_3\" class=\"btn-ref\"><span><sup>3</sup></span></a>&nbsp;<a id=\"a8ede930-a483-4df0-9792-fb20a6e691b3_7\" class=\"btn-ref\"><sup>7</sup></a>&nbsp;<a id=\"952bb682-4712-4845-a7c9-04ab50d47512_8\" class=\"btn-ref\"><sup>8</sup></a>&nbsp;<a id=\"e7769c06-eb9d-49f8-90dd-4b73a049e309_9\" class=\"btn-ref\"><sup>9</sup></a>&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;",
+        "ThemeId": "bcb5d3ec-140b-4702-aef8-efd50bd7f8d0",
+        "Status": 0,
+        "SubStatementCount": 0,
+        "NonHeaderResourceCount": 0,
+        "HeaderResources": [{
+            "Id": "ea1dd3c7-14db-447b-bcb0-3bc3ecb23761",
+            "Url": "https://nucleusglobal-resourcerepository.s3.eu-west-1.amazonaws.com/csl-smp/5b5a358f-199a-47fa-b87c-efa5d871f0ed.pdf?X-Amz-Expires=1800&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAILI2QFGMTZTKHUAQ/20220221/eu-west-1/s3/aws4_request&X-Amz-Date=20220221T102110Z&X-Amz-SignedHeaders=host&X-Amz-Signature=b24d33b602c2e5907cde71377022d745fe75cfdc011e42fd9d1988b2d0bae944",
+            "CategoryDefintionId": "a679f2f4-df13-40bf-91b6-fa8557373df7",
+            "IsHeader": true,
+            "ResourceType": {
+                "Id": "322f3897-a9d2-4acc-986f-49f7ede8183e",
+                "Type": "DefaultPdf",
+                "Extensions": [".pdf"]
+            },
+            "Title": null,
+            "User": null,
+            "FileName": null,
+            "CreatedDate": "2021-11-12T10:18:14.8126994+00:00"
+        }],
+        "References": [{
+            "Id": "952bb682-4712-4845-a7c9-04ab50d47512",
+            "Description": "Pipe_ASH 2020_HOPE B presentation_P7",
+            "Url": "",
+            "Index": 8,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "b28ccc6f-30f3-4669-884e-48a6e7757f6d",
+            "Description": "Spronck_Mol Ther Method Clin Dev_2019_P7",
+            "Url": "",
+            "Index": 6,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "e7769c06-eb9d-49f8-90dd-4b73a049e309",
+            "Description": "Clinicaltrial.gov_NCT03569891_P7",
+            "Url": "",
+            "Index": 9,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "e1b4f25e-6e99-4984-aeee-4f81f9630281",
+            "Description": "Nathwani_Blood_2006_P7",
+            "Url": "",
+            "Index": 2,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "997b660c-1daf-48cb-a972-893273e395d8",
+            "Description": "von Drygalski et al_Blood Adv_2019_P7",
+            "Url": "",
+            "Index": 3,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "0956981a-7f8e-4190-9239-8f01af323c07",
+            "Description": "Clinicaltrials.gov_NCT02396342_P7",
+            "Url": "",
+            "Index": 4,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "d576a693-05eb-4e77-bbb2-9fc633a65033",
+            "Description": "Miesbach_Blood_2018_P7",
+            "Url": "",
+            "Index": 1,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "f1cfc09d-535a-4c74-ad9b-bdda1bed0434",
+            "Description": "Simioni et al_NEJM_2009_P7",
+            "Url": "",
+            "Index": 5,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "a8ede930-a483-4df0-9792-fb20a6e691b3",
+            "Description": "Pipe_ASH Abstract 2020_HOPE-B_P7",
+            "Url": "",
+            "Index": 7,
+            "Tag": "n/a",
+            "HasFile": true
+        }]
+    }]
+}, {
+    "Id": "c3541b71-a3bc-44f7-8a72-65bc49472e93",
+    "Name": "<b>Pillar 8:</b> EtranaDez clinical efficacy",
+    "Description": "",
+    "Index": 7,
+    "ResourceCount": 0,
+    "Statements": [{
+        "Id": "be11252b-d6b5-4fd2-96bf-82d8ea26e646",
+        "Title": "<b>Pillar 8:</b> EtranaDez clinical efficacy",
+        "Description": "<p class=\"MsoNormal\"><span lang=\"EN-US\"><b>HCP narrative:</b>&nbsp;Clinical\nstudies of gene therapy with AMT-060 (a recombinant AAV5 vector incorporating an expression cassette containing codon-optimized human wild-type FIX under the control of a liver-specific promoter) and\netranacogene dezaparvovec (similar to AMT-060, differing only in a single amino\nacid substitution in the <i>F9</i> gene encoding the highly active, naturally\noccurring Padua variant) have shown that a single intravenous infusion results in a\nsustained increase in endogenous FIX activity levels into the near-normal range\nin people with severe/moderately severe hemophilia B.</span><a id=\"4ab7d3e0-26b5-4b58-bdb7-c07875305b36_1\" class=\"btn-ref\"><sup>1</sup></a><span>&nbsp;</span><a id=\"8a296f80-709c-4d6e-a561-9522099164b9_2\" class=\"btn-ref\"><sup>2</sup></a><span>&nbsp;</span><a id=\"fd72fffe-3c6b-47b4-bd1e-2d032b17cad6_3\" class=\"btn-ref\"><sup>3</sup></a><span>&nbsp;</span><span>Endogenous FIX activity levels are sustained and durable at\n5 years of follow-up with AMT-060 and 2 years with etranacogene dezaparvovec.</span><a id=\"8a296f80-709c-4d6e-a561-9522099164b9_2\" class=\"btn-ref\"><span><sup>2</sup></span></a><span>&nbsp;</span><a id=\"8862005b-9ae7-4b1f-8a00-2c617536a4b4_3\" class=\"btn-ref\"><span><sup>3</sup></span></a><span>&nbsp;</span><a id=\"6eac124f-5993-41e4-a9e9-fd0fc4931aac_4\" class=\"btn-ref\"><sup>4</sup></a><span>&nbsp;</span><a id=\"e0276f69-30ec-4842-8b35-082501fdf6b4_5\" class=\"btn-ref\"><sup>5</sup></a><span>&nbsp;</span><span>Following treatment, most PWHB were able to discontinue prophylactic treatment\nand bleeding was abolished in the majority, leading to decreased exogenous FIX\nproduct consumption.</span><a id=\"52351f5c-13ba-4f0e-a87c-625e517dcfdd_1\" class=\"btn-ref\"><span><sup>1</sup></span></a><span>&nbsp;</span><a id=\"8862005b-9ae7-4b1f-8a00-2c617536a4b4_3\" class=\"btn-ref\"><span><sup>3</sup></span></a><span>&nbsp;Furthermore, etranacogene dezaparvovec has\nbeen shown to result in similar levels of endogenous FIX activity, both in the\npresence and absence of AAV5 NAbs.</span><a id=\"0cd2a26b-d2a0-4f99-a84a-ad668b3a0b9c_5\" class=\"btn-ref\"><sup>5</sup></a><span>&nbsp;</span><a id=\"b8f5f0b2-0b97-4b48-beb8-bb9fa5f5d832_6\" class=\"btn-ref\"><sup>6</sup></a><span>&nbsp;</span><span>These data support the use of etranacogene dezaparvovec as a\nrational treatment option for PWHB, including those with pre-existing NAbs.</span><a id=\"8a296f80-709c-4d6e-a561-9522099164b9_2\" class=\"btn-ref\"><span><sup>2</sup></span></a></p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+        "ThemeId": "c3541b71-a3bc-44f7-8a72-65bc49472e93",
+        "Status": 0,
+        "SubStatementCount": 0,
+        "NonHeaderResourceCount": 0,
+        "HeaderResources": [{
+            "Id": "6c3736df-6b05-4945-87f4-27301ccf1ce0",
+            "Url": "https://nucleusglobal-resourcerepository.s3.eu-west-1.amazonaws.com/csl-smp/1bcfbd1b-5930-405d-aaee-182d56d62e2a.pdf?X-Amz-Expires=1800&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAILI2QFGMTZTKHUAQ/20220221/eu-west-1/s3/aws4_request&X-Amz-Date=20220221T102110Z&X-Amz-SignedHeaders=host&X-Amz-Signature=97a8b4b2b46591d2bd8933d7764ba054728f744302e6f66c1f030071e9a70f3f",
+            "CategoryDefintionId": "a679f2f4-df13-40bf-91b6-fa8557373df7",
+            "IsHeader": true,
+            "ResourceType": {
+                "Id": "322f3897-a9d2-4acc-986f-49f7ede8183e",
+                "Type": "DefaultPdf",
+                "Extensions": [".pdf"]
+            },
+            "Title": null,
+            "User": null,
+            "FileName": null,
+            "CreatedDate": "2021-11-12T10:18:28.8285581+00:00"
+        }],
+        "References": [{
+            "Id": "fd72fffe-3c6b-47b4-bd1e-2d032b17cad6",
+            "Description": "Gomez_ISTH 2021_poster_P8",
+            "Url": "",
+            "Index": 3,
+            "Tag": null,
+            "HasFile": true
+        }, {
+            "Id": "8a296f80-709c-4d6e-a561-9522099164b9",
+            "Description": "von drygalski_Blood Advances_2019_P8",
+            "Url": "",
+            "Index": 2,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "0cd2a26b-d2a0-4f99-a84a-ad668b3a0b9c",
+            "Description": "Miesbach_Blood_2018_P8",
+            "Url": "",
+            "Index": 5,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "b8f5f0b2-0b97-4b48-beb8-bb9fa5f5d832",
+            "Description": "Majowicz_ Mol Ther Method Clin Dev_2019_P8",
+            "Url": "",
+            "Index": 6,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "4ab7d3e0-26b5-4b58-bdb7-c07875305b36",
+            "Description": "Pipe_ISTH 2021_poster_P8",
+            "Url": "",
+            "Index": 1,
+            "Tag": null,
+            "HasFile": true
+        }, {
+            "Id": "6eac124f-5993-41e4-a9e9-fd0fc4931aac",
+            "Description": "Miesbach_ISTH21_presentation_P8",
+            "Url": "",
+            "Index": 4,
+            "Tag": null,
+            "HasFile": true
+        }]
+    }, {
+        "Id": "b1dbf159-c8d2-4e32-b96b-05f14829d73c",
+        "Title": "<b>Pillar 8:</b> EtranaDez clinical efficacy",
+        "Description": "<p class=\"MsoNormal\"><span lang=\"EN-US\" style=\"line-height: 107%;\"><b>Lay narrative:</b>&nbsp;</span>Clinical studies of gene therapy with etranacogene\ndezaparvovec (made up of recombinant adeno-associated virus 5 [rAAV5], a specific type of\nAAV vector [a non-disease causing or inactivated viral shell] containing the factor IX Padua [FIX-Padua] variant that is directed to the liver) and AMT-060 (similar to etranacogene dezaparvovec but containing the wild-type <i>F9</i> gene instead of the highly active FIX-Padua gene) have shown that a single,\none-time treatment results in a long-lasting increase of FIX activity levels\ninto the near-normal range, in people living with severe or moderately severe\nhemophilia B.<a id=\"4ab7d3e0-26b5-4b58-bdb7-c07875305b36_1\" class=\"btn-ref\"><sup>1</sup></a><span>&nbsp;</span><a id=\"8a296f80-709c-4d6e-a561-9522099164b9_2\" class=\"btn-ref\"><sup>2</sup></a><span>&nbsp;</span><a id=\"fd72fffe-3c6b-47b4-bd1e-2d032b17cad6_3\" class=\"btn-ref\"><sup>3</sup></a><span>&nbsp;</span><a id=\"e0276f69-30ec-4842-8b35-082501fdf6b4_4\" class=\"btn-ref\"><sup>4</sup></a><span >&nbsp;</span><span >Furthermore, these\nincreases in FIX activity have been maintained for the length of the studies to\ndate – 5 years after AMT-060 was given and 2.5 years after etranacogene\ndezaparvovec was given</span><span >.</span><a id=\"8a296f80-709c-4d6e-a561-9522099164b9_2\" class=\"btn-ref\" ><sup>2</sup></a><span >&nbsp;</span><a id=\"8862005b-9ae7-4b1f-8a00-2c617536a4b4_3\" class=\"btn-ref\" ><sup>3</sup></a><span >&nbsp;</span><a id=\"e0276f69-30ec-4842-8b35-082501fdf6b4_4\" class=\"btn-ref\"><sup>4</sup></a><span >&nbsp;</span><span >After receiving treatment, most people had no\ncases of bleeding and most were able to stop prophylactic treatment.</span><a id=\"52351f5c-13ba-4f0e-a87c-625e517dcfdd_1\" class=\"btn-ref\" ><sup>1</sup></a><span >&nbsp;</span><a id=\"8862005b-9ae7-4b1f-8a00-2c617536a4b4_3\" class=\"btn-ref\" ><sup>3</sup></a><span >&nbsp;</span><a id=\"6eac124f-5993-41e4-a9e9-fd0fc4931aac_5\" class=\"btn-ref\"><sup>5</sup></a><span >&nbsp;</span><span >The</span><span >&nbsp;increase in FIX activity into the normal range was seen in people with and\nwithout antibodies against the AAV5 vector shell.</span><a id=\"0cd2a26b-d2a0-4f99-a84a-ad668b3a0b9c_6\" class=\"btn-ref\" ><sup>6</sup></a><span >&nbsp;</span><a id=\"b8f5f0b2-0b97-4b48-beb8-bb9fa5f5d832_7\" class=\"btn-ref\" ><sup>7</sup></a><span >&nbsp;</span><span >These results show that gene therapy with\netranacogene dezaparvovec is a valuable treatment option for people living with\nhemophilia B, including those with antibodies against the AAV5 vector shell</span><span >.</span><a id=\"8a296f80-709c-4d6e-a561-9522099164b9_2\" class=\"btn-ref\" ><sup>2</sup></a></p>&nbsp;&nbsp;",
+        "ThemeId": "c3541b71-a3bc-44f7-8a72-65bc49472e93",
+        "Status": 0,
+        "SubStatementCount": 0,
+        "NonHeaderResourceCount": 0,
+        "HeaderResources": [{
+            "Id": "b489a6c6-1a1a-4a47-bbf5-f159d781de4a",
+            "Url": "https://nucleusglobal-resourcerepository.s3.eu-west-1.amazonaws.com/csl-smp/3545d37d-ba7a-46bd-8908-181676724c24.pdf?X-Amz-Expires=1800&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAILI2QFGMTZTKHUAQ/20220221/eu-west-1/s3/aws4_request&X-Amz-Date=20220221T102110Z&X-Amz-SignedHeaders=host&X-Amz-Signature=658fd8d33a55bbdc91beb2460d2cdd1d9ed73cb18610f09077c84e5daef00350",
+            "CategoryDefintionId": "a679f2f4-df13-40bf-91b6-fa8557373df7",
+            "IsHeader": true,
+            "ResourceType": {
+                "Id": "322f3897-a9d2-4acc-986f-49f7ede8183e",
+                "Type": "DefaultPdf",
+                "Extensions": [".pdf"]
+            },
+            "Title": null,
+            "User": null,
+            "FileName": null,
+            "CreatedDate": "2021-11-12T10:18:43.3131528+00:00"
+        }],
+        "References": [{
+            "Id": "e0276f69-30ec-4842-8b35-082501fdf6b4",
+            "Description": "Miesback W_ISTH_2021_abstract_OC26.3_P8",
+            "Url": "",
+            "Index": 4,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "fd72fffe-3c6b-47b4-bd1e-2d032b17cad6",
+            "Description": "Gomez_ISTH 2021_poster_P8",
+            "Url": "",
+            "Index": 3,
+            "Tag": null,
+            "HasFile": true
+        }, {
+            "Id": "8a296f80-709c-4d6e-a561-9522099164b9",
+            "Description": "von drygalski_Blood Advances_2019_P8",
+            "Url": "",
+            "Index": 2,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "0cd2a26b-d2a0-4f99-a84a-ad668b3a0b9c",
+            "Description": "Miesbach_Blood_2018_P8",
+            "Url": "",
+            "Index": 6,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "b8f5f0b2-0b97-4b48-beb8-bb9fa5f5d832",
+            "Description": "Majowicz_ Mol Ther Method Clin Dev_2019_P8",
+            "Url": "",
+            "Index": 7,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "4ab7d3e0-26b5-4b58-bdb7-c07875305b36",
+            "Description": "Pipe_ISTH 2021_poster_P8",
+            "Url": "",
+            "Index": 1,
+            "Tag": null,
+            "HasFile": true
+        }, {
+            "Id": "6eac124f-5993-41e4-a9e9-fd0fc4931aac",
+            "Description": "Miesbach_ISTH21_presentation_P8",
+            "Url": "",
+            "Index": 5,
+            "Tag": null,
+            "HasFile": true
+        }]
+    }]
+}, {
+    "Id": "8f8f01b1-674a-4fc5-9a37-9c788cc62e7f",
+    "Name": "<b>Pillar 9: </b>EtranaDez clinical safety",
+    "Description": "",
+    "Index": 8,
+    "ResourceCount": 0,
+    "Statements": [{
+        "Id": "d65681cd-e9d0-4d62-afe0-fde0eae60d9c",
+        "Title": "<b>Pillar 9: </b>EtranaDez clinical safety",
+        "Description": "<p class=\"MsoNormal\"><span lang=\"EN-US\"><b>HCP narrative:</b>&nbsp;In clinical\nstudies of gene therapy with AMT-060 (a recombinant adeno-associated virus [AAV5] vector incorporating an expression cassette containing a\ncodon-optimized human wild-type factor IX [FIX] under the control of a liver-specific promoter) or\netranacogene dezaparvovec (similar to AMT-060, differing only in a single amino\nacid substitution in the <i>F9</i> gene encoding the highly active naturally\noccurring Padua variant), most treatment-related adverse events (AEs) were\nmild, with no treatment-related serious AEs or deaths reported.</span><a id=\"8f7efd87-dee3-45cf-9471-1094c599b67a_1\" class=\"btn-ref\"><sup>1</sup></a><span>&nbsp;</span><a id=\"f8bf9dbb-8266-417c-8f30-c5813db48268_2\" class=\"btn-ref\"><sup>2</sup></a><span>&nbsp;</span><a id=\"55731c06-e5a5-4439-a8f4-5baff528a311_3\" class=\"btn-ref\"><sup>3</sup></a><span>&nbsp;</span><a id=\"1b997c8e-0c23-415c-b949-1ccb2e4d3e40_4\" class=\"btn-ref\"><sup>4</sup></a><span>&nbsp;</span><span lang=\"EN-US\">Transient transaminase elevations that resolved with\nsteroid treatment were a common AE; however, endogenous FIX activity was\nsustained in the therapeutic range in these patients.</span><a id=\"aac5d5fb-9cae-4267-820b-22b193efbe00_5\" class=\"btn-ref\"><sup>5</sup></a><span >&nbsp;</span><a id=\"d12bcc1a-7e67-4304-a212-494416253e72_6\" class=\"btn-ref\" ><sup>6</sup></a><span >&nbsp;</span><span lang=\"EN-US\" >Manageable infusion-related reactions (IRRs) were also common following\ntreatment.</span><a id=\"aac5d5fb-9cae-4267-820b-22b193efbe00_1\" class=\"btn-ref\" ><sup>5</sup></a><span lang=\"EN-US\" >&nbsp;</span><a id=\"3c3e0549-518e-4a8f-8cee-b0f32c24f3da_7\" class=\"btn-ref\" ><sup>7</sup></a><span >&nbsp;</span><span lang=\"EN-US\" >No AAV5 capsid-specific T-cell\nresponses or FIX inhibitor development have been reported.</span><a id=\"aac5d5fb-9cae-4267-820b-22b193efbe00_1\" class=\"btn-ref\" ><sup>1</sup></a><span lang=\"EN-US\" >&nbsp;</span><a id=\"55731c06-e5a5-4439-a8f4-5baff528a311_3\" class=\"btn-ref\" ><sup>3</sup></a><span lang=\"EN-US\" >&nbsp;</span><a id=\"ee0ccf97-3a4d-41d7-adc8-76d6d06b6262_4\" class=\"btn-ref\" ><sup>2</sup></a><span lang=\"EN-US\" >&nbsp;</span><a id=\"d12bcc1a-7e67-4304-a212-494416253e72_6\" class=\"btn-ref\" ><sup>6</sup></a><span lang=\"EN-US\" >&nbsp;</span><a id=\"1661c5d3-afd9-4635-866c-b0e4bd50ee62_8\" class=\"btn-ref\"><sup>8</sup></a><span >&nbsp;</span><span lang=\"EN-US\" >One patient receiving etranacogene\ndezaparvovec in the Phase 3 HOPE-B clinical trial was diagnosed with\nhepatocellular carcinoma (HCC); however, the presence of multiple risk factors\nfor HCC, and results of a comprehensive investigation conducted by an independent laboratory and reviewed by external experts in the field, led to the conclusion that the HCC was highly unlikely to be caused by the\ntherapy.</span><a id=\"e8f04a6f-a406-4896-92b5-8bea7574e489_9\" class=\"btn-ref\"><sup>9</sup></a><span >&nbsp;</span><a id=\"411d0a35-fb98-4d5a-93f2-0cae891ceddb_10\" class=\"btn-ref\" ><sup>10</sup></a><span >&nbsp;</span><a id=\"f475cf98-c6fd-4075-ab08-60b5fe47fe85_11\" class=\"btn-ref\" ><sup>11</sup></a><span >&nbsp;</span><span lang=\"EN-US\" >As such, these data suggest that etranacogene dezaparvovec has a\nmanageable safety profile.</span></p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+        "ThemeId": "8f8f01b1-674a-4fc5-9a37-9c788cc62e7f",
+        "Status": 0,
+        "SubStatementCount": 0,
+        "NonHeaderResourceCount": 0,
+        "HeaderResources": [{
+            "Id": "105cc166-8166-412c-bf27-558d1c949e77",
+            "Url": "https://nucleusglobal-resourcerepository.s3.eu-west-1.amazonaws.com/csl-smp/3450f322-963d-42c3-a925-21edd06ec6a2.pdf?X-Amz-Expires=1800&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAILI2QFGMTZTKHUAQ/20220221/eu-west-1/s3/aws4_request&X-Amz-Date=20220221T102110Z&X-Amz-SignedHeaders=host&X-Amz-Signature=cd926c6d2e02a08e4728ae163e51190d43d9007fc7d79d047087f80edc709464",
+            "CategoryDefintionId": "a679f2f4-df13-40bf-91b6-fa8557373df7",
+            "IsHeader": true,
+            "ResourceType": {
+                "Id": "322f3897-a9d2-4acc-986f-49f7ede8183e",
+                "Type": "DefaultPdf",
+                "Extensions": [".pdf"]
+            },
+            "Title": null,
+            "User": null,
+            "FileName": null,
+            "CreatedDate": "2021-11-12T10:18:57.579039+00:00"
+        }],
+        "References": [{
+            "Id": "411d0a35-fb98-4d5a-93f2-0cae891ceddb",
+            "Description": "Monahan_J Clin Med_2021_P9",
+            "Url": "",
+            "Index": 10,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "8f7efd87-dee3-45cf-9471-1094c599b67a",
+            "Description": "Pipe_ISTH poster_2021_P9",
+            "Url": "",
+            "Index": 1,
+            "Tag": null,
+            "HasFile": true
+        }, {
+            "Id": "1b997c8e-0c23-415c-b949-1ccb2e4d3e40",
+            "Description": "Recht_ASGCT_2021_P9",
+            "Url": "",
+            "Index": 4,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "aac5d5fb-9cae-4267-820b-22b193efbe00",
+            "Description": "Pipe ASH 2020 HOPE-B PRESENTATION_FINAL_P9",
+            "Url": "",
+            "Index": 5,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "d12bcc1a-7e67-4304-a212-494416253e72",
+            "Description": "Miesbach_Blood_2018_P9",
+            "Url": "",
+            "Index": 6,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "55731c06-e5a5-4439-a8f4-5baff528a311",
+            "Description": "von drygalski_Blood Advances_2019_P9",
+            "Url": "",
+            "Index": 3,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "f475cf98-c6fd-4075-ab08-60b5fe47fe85",
+            "Description": "uniQure press release_March 26 2021_P9",
+            "Url": "",
+            "Index": 11,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "e8f04a6f-a406-4896-92b5-8bea7574e489",
+            "Description": "Schmidt_ISTH 2021_presentation_P9",
+            "Url": "",
+            "Index": 9,
+            "Tag": null,
+            "HasFile": true
+        }, {
+            "Id": "1661c5d3-afd9-4635-866c-b0e4bd50ee62",
+            "Description": "Miesbach_ISTH 2021_presentation_P9",
+            "Url": "",
+            "Index": 8,
+            "Tag": null,
+            "HasFile": true
+        }, {
+            "Id": "3c3e0549-518e-4a8f-8cee-b0f32c24f3da",
+            "Description": "Recht M_ISTH_2021_abstract_PB0659_P9",
+            "Url": "",
+            "Index": 7,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "f8bf9dbb-8266-417c-8f30-c5813db48268",
+            "Description": "Gomez E_ISTH_2021_P9",
+            "Url": "",
+            "Index": 2,
+            "Tag": null,
+            "HasFile": true
+        }]
+    }, {
+        "Id": "f2637d42-1182-47fc-acd0-4497eceb7451",
+        "Title": "<b>Pillar 9: </b>EtranaDez clinical safety",
+        "Description": "<b>Lay narrative:</b>&nbsp;In clinical studies of gene therapy with etranacogene dezaparvovec (made\nup of recombinant adeno-associated virus 5 [rAAV5], a specific type of AAV vector [a\nnon-disease causing or inactivated viral shell] containing the factor IX Padua [FIX-Padua] variant that is directed to the liver) and AMT-060 (similar to\netranacogene dezaparvovec but containing the wild-type <i>F9</i> gene instead of the\nhighly active FIX-Padua variant) most side effects related to the treatment were\nmild. There were no serious side effects or deaths reported that were related\nto the treatment.<a id=\"aac5d5fb-9cae-4267-820b-22b193efbe00_1\" class=\"btn-ref\"><sup>1</sup></a>&nbsp;<a id=\"f8bf9dbb-8266-417c-8f30-c5813db48268_2\" class=\"btn-ref\"><sup>2</sup></a>&nbsp;<a id=\"55731c06-e5a5-4439-a8f4-5baff528a311_3\" class=\"btn-ref\"><sup>3</sup></a>&nbsp;<a id=\"1661c5d3-afd9-4635-866c-b0e4bd50ee62_4\" class=\"btn-ref\"><sup>4</sup></a>&nbsp;<a id=\"1b997c8e-0c23-415c-b949-1ccb2e4d3e40_5\" class=\"btn-ref\"><sup>5</sup></a>&nbsp;Common side effects\nincluded temporarily high levels of an enzyme called transaminase that came\ndown again after treatment with steroids; mild side effects known as\ninfusion-related reactions were also seen when the gene therapy was\nadministered, which were easily managed by slowing down the infusion or giving\nsteroids/antihistamines.<a id=\"aac5d5fb-9cae-4267-820b-22b193efbe00_1\" class=\"btn-ref\"><span><sup>1</sup></span></a>&nbsp;<a id=\"1b997c8e-0c23-415c-b949-1ccb2e4d3e40_5\" class=\"btn-ref\"><span><sup>5</sup></span></a>&nbsp;<a id=\"d12bcc1a-7e67-4304-a212-494416253e72_6\" class=\"btn-ref\"><sup>6</sup></a>&nbsp;People taking part in the clinical\nstudies did not experience an immune response to the rAAV5 vector shell (this\ncould interfere with the increased FIX activity levels that the treatment\ncreates) and did not develop FIX inhibitors (these can impact how effective the\ntreatment is).<a id=\"aac5d5fb-9cae-4267-820b-22b193efbe00_1\" class=\"btn-ref\"><span><sup>2</sup></span></a><sup>&nbsp;</sup><a id=\"55731c06-e5a5-4439-a8f4-5baff528a311_3\" class=\"btn-ref\"><sup>3</sup></a>&nbsp;<a id=\"ee0ccf97-3a4d-41d7-adc8-76d6d06b6262_4\" class=\"btn-ref\"><span><sup>4</sup></span></a>&nbsp;<a id=\"d12bcc1a-7e67-4304-a212-494416253e72_6\" class=\"btn-ref\"><span><sup>6</sup></span></a>&nbsp;<a id=\"8f7efd87-dee3-45cf-9471-1094c599b67a_7\" class=\"btn-ref\"><sup>7</sup></a>&nbsp;One person treated with etranacogene dezaparvovec\nin the HOPE-B (Health Outcomes with Padua gene: Evaluation in Hemophilia B)\nclinical trial was diagnosed with a type of liver cancer called hepatocellular\ncarcinoma after receiving gene therapy, but there was no evidence to show that\nthis was caused by the treatment itself.<a id=\"937c6988-faef-4e05-a678-3cb29fe7c932_8\" class=\"btn-ref\"><sup>8</sup></a>&nbsp;<a id=\"411d0a35-fb98-4d5a-93f2-0cae891ceddb_9\" class=\"btn-ref\"><sup>9</sup></a>&nbsp;<a id=\"f475cf98-c6fd-4075-ab08-60b5fe47fe85_10\" class=\"btn-ref\"><sup>10</sup></a>&nbsp;These results\nsuggest that etranacogene dezaparvovec has a manageable safety profile.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+        "ThemeId": "8f8f01b1-674a-4fc5-9a37-9c788cc62e7f",
+        "Status": 0,
+        "SubStatementCount": 0,
+        "NonHeaderResourceCount": 0,
+        "HeaderResources": [{
+            "Id": "a4575a7f-c903-4e09-8043-b60f064453a5",
+            "Url": "https://nucleusglobal-resourcerepository.s3.eu-west-1.amazonaws.com/csl-smp/113cb486-7331-4e6b-969b-16683c0172b1.pdf?X-Amz-Expires=1800&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAILI2QFGMTZTKHUAQ/20220221/eu-west-1/s3/aws4_request&X-Amz-Date=20220221T102110Z&X-Amz-SignedHeaders=host&X-Amz-Signature=06b63414f62fdc95b5a5894be5d65ce95e034a801934cde503d63f16aab6c755",
+            "CategoryDefintionId": "a679f2f4-df13-40bf-91b6-fa8557373df7",
+            "IsHeader": true,
+            "ResourceType": {
+                "Id": "322f3897-a9d2-4acc-986f-49f7ede8183e",
+                "Type": "DefaultPdf",
+                "Extensions": [".pdf"]
+            },
+            "Title": null,
+            "User": null,
+            "FileName": null,
+            "CreatedDate": "2021-11-12T10:19:12.5168071+00:00"
+        }],
+        "References": [{
+            "Id": "411d0a35-fb98-4d5a-93f2-0cae891ceddb",
+            "Description": "Monahan_J Clin Med_2021_P9",
+            "Url": "",
+            "Index": 9,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "8f7efd87-dee3-45cf-9471-1094c599b67a",
+            "Description": "Pipe_ISTH poster_2021_P9",
+            "Url": "",
+            "Index": 7,
+            "Tag": null,
+            "HasFile": true
+        }, {
+            "Id": "1b997c8e-0c23-415c-b949-1ccb2e4d3e40",
+            "Description": "Recht_ASGCT_2021_P9",
+            "Url": "",
+            "Index": 5,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "aac5d5fb-9cae-4267-820b-22b193efbe00",
+            "Description": "Pipe ASH 2020 HOPE-B PRESENTATION_FINAL_P9",
+            "Url": "",
+            "Index": 1,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "937c6988-faef-4e05-a678-3cb29fe7c932",
+            "Description": "Schmidt_ISTH_2021_abstract_OC67.4_P9",
+            "Url": "",
+            "Index": 8,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "d12bcc1a-7e67-4304-a212-494416253e72",
+            "Description": "Miesbach_Blood_2018_P9",
+            "Url": "",
+            "Index": 6,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "55731c06-e5a5-4439-a8f4-5baff528a311",
+            "Description": "von drygalski_Blood Advances_2019_P9",
+            "Url": "",
+            "Index": 3,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "f475cf98-c6fd-4075-ab08-60b5fe47fe85",
+            "Description": "uniQure press release_March 26 2021_P9",
+            "Url": "",
+            "Index": 10,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "1661c5d3-afd9-4635-866c-b0e4bd50ee62",
+            "Description": "Miesbach_ISTH 2021_presentation_P9",
+            "Url": "",
+            "Index": 4,
+            "Tag": null,
+            "HasFile": true
+        }, {
+            "Id": "f8bf9dbb-8266-417c-8f30-c5813db48268",
+            "Description": "Gomez E_ISTH_2021_P9",
+            "Url": "",
+            "Index": 2,
+            "Tag": null,
+            "HasFile": true
+        }]
+    }]
+}, {
+    "Id": "41e495cb-f0d1-4096-8dc9-cdb85a0cd81d",
+    "Name": "<b>Pillar 10: </b>Practical considerations",
+    "Description": "",
+    "Index": 9,
+    "ResourceCount": 0,
+    "Statements": [{
+        "Id": "0e5a6e83-80a7-4804-befb-3bf87999349f",
+        "Title": "<b>Pillar 10: </b>Practical considerations",
+        "Description": "<span lang=\"EN-US\" style=\"line-height: 107%;\"><b>HCP narrative:</b>&nbsp;Although\nthe optimum care model for the administration and follow-up of gene therapy,\nsuch as etranacogene dezaparvovec, is yet to be fully determined, there are\nsome important practical points to be considered when implementing gene therapy\nin clinical practice.<a id=\"0b5078f4-6c83-4400-8c46-0f36edbf89fe_1\" class=\"btn-ref\"><sup>1</sup></a>&nbsp;For example, depending on\nlocal regulations, gene therapy may be classed as a genetically modified\norganism and subject to restrictions.<a id=\"db84fab4-33db-4eb3-b92b-33874fc0786b_2\" class=\"btn-ref\"><sup>2</sup></a>&nbsp;<a id=\"381332ab-a1c6-41c5-bcc2-41b0cdd167fd_3\" class=\"btn-ref\"><sup>3</sup></a>&nbsp;<a id=\"96f3cbf4-126f-41c9-98ae-87c085907ba9_4\" class=\"btn-ref\"><sup>4</sup></a>&nbsp;Additionally, etranacogene\ndezaparvovec is administered via a single intravenous infusion, and staff at hemophilia\ntreatment centers should be trained to monitor and treat potential infusion-related reactions.</span><span style=\"line-height: 107%;\"><a id=\"59e50e66-a95e-49b0-9ea6-820d1b65b149_5\" class=\"btn-ref\"><sup>5</sup></a>&nbsp;<a id=\"f678d64b-295e-453e-a294-3bf5c903787b_6\" class=\"btn-ref\"><sup>6</sup></a>&nbsp;<a id=\"e7a795a1-86bb-426e-b40d-475b27637330_7\" class=\"btn-ref\"><sup>7</sup></a>&nbsp;</span><span lang=\"EN-US\" style=\"line-height: 107%;\">Following treatment, close clinical monitoring and follow-up is recommended to\ndetect early or delayed adverse events.</span><span style=\"line-height: 107%;\"><a id=\"eccbb69b-eacb-4116-8ce7-57dd34b05a5a_8\" class=\"btn-ref\"><sup>8</sup></a>&nbsp;<a id=\"c25c0395-9cee-4315-853d-b7c4281b66e8_9\" class=\"btn-ref\"><sup>9</sup></a>&nbsp;</span><span lang=\"EN-US\" style=\"line-height: 107%;\">In the clinical trials, some short-term precautions are\nrecommended for participants receiving gene therapy, including the use of barrier\ncontraception for up to 12 months post-treatment to prevent the unlikely\ntransmission of vector DNA.<a id=\"d7115c5c-2eba-4cd8-afd5-fac067a4364f_10\" class=\"btn-ref\"><sup>10</sup></a>&nbsp;<a id=\"329c10e8-c8e4-4195-86a8-905598ebc229_11\" class=\"btn-ref\"><sup>11</sup></a>&nbsp;Lifestyle modifications, such as regulation of alcohol consumption, may help to\nensure the success of gene therapy.<a id=\"329c10e8-c8e4-4195-86a8-905598ebc229_11\" class=\"btn-ref\"><span><sup>11</sup></span></a>&nbsp;<a id=\"9ebd9ab5-73fc-4733-a80b-c56a7718267d_12\" class=\"btn-ref\"><sup>12</sup></a>&nbsp;Long-term or even life-long follow-up is recommended to gain\ninformation on the efficacy of gene therapy and to mitigate long-term risks.<a id=\"4a45ebbd-517c-446a-ab84-c287e1ab8cb7_13\" class=\"btn-ref\"><sup>13</sup></a>&nbsp;Currently, gene therapy expertise and experience is limited\nto the clinical trial sites for therapies like etranacogene dezaparvovec, but\nbroader guidance will be required for healthcare professionals to implement in\nclinical practice and to educate the wider hemophilia community.</span><a id=\"db84fab4-33db-4eb3-b92b-33874fc0786b_2\" class=\"btn-ref\"><span><sup>2</sup></span></a>",
+        "ThemeId": "41e495cb-f0d1-4096-8dc9-cdb85a0cd81d",
+        "Status": 0,
+        "SubStatementCount": 0,
+        "NonHeaderResourceCount": 0,
+        "HeaderResources": [{
+            "Id": "71edf7a3-df89-4726-abca-057928ec9848",
+            "Url": "https://nucleusglobal-resourcerepository.s3.eu-west-1.amazonaws.com/csl-smp/cfd5a5c4-6490-4409-b6da-9a6e162eeadf.pdf?X-Amz-Expires=1800&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAILI2QFGMTZTKHUAQ/20220221/eu-west-1/s3/aws4_request&X-Amz-Date=20220221T102110Z&X-Amz-SignedHeaders=host&X-Amz-Signature=47c92fbeafba5099102aff71fb74ca7a2503b0de10f515610e0cfefb1361a4fd",
+            "CategoryDefintionId": "a679f2f4-df13-40bf-91b6-fa8557373df7",
+            "IsHeader": true,
+            "ResourceType": {
+                "Id": "322f3897-a9d2-4acc-986f-49f7ede8183e",
+                "Type": "DefaultPdf",
+                "Extensions": [".pdf"]
+            },
+            "Title": null,
+            "User": null,
+            "FileName": null,
+            "CreatedDate": "2021-11-12T10:19:26.2826773+00:00"
+        }],
+        "References": [{
+            "Id": "0b5078f4-6c83-4400-8c46-0f36edbf89fe",
+            "Description": "EAHAD EHC_Statement on hub and spoke statement_P10",
+            "Url": "",
+            "Index": 1,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "db84fab4-33db-4eb3-b92b-33874fc0786b",
+            "Description": "Miesbach W et al. Haemophilia 2021_P10",
+            "Url": "",
+            "Index": 2,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "f678d64b-295e-453e-a294-3bf5c903787b",
+            "Description": "Pipe_ASH 2020_HOPE B abstract_P10",
+            "Url": "",
+            "Index": 6,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "381332ab-a1c6-41c5-bcc2-41b0cdd167fd",
+            "Description": "Bachtarzi_Hum Gene Ther Clin_2019_P10",
+            "Url": "",
+            "Index": 3,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "e7a795a1-86bb-426e-b40d-475b27637330",
+            "Description": "Recht M_ISTH_2021_abstract_PB0659_P10",
+            "Url": "",
+            "Index": 7,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "eccbb69b-eacb-4116-8ce7-57dd34b05a5a",
+            "Description": "FDA_Long-Term-Follow-UpJan_2020_P10",
+            "Url": "",
+            "Index": 8,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "59e50e66-a95e-49b0-9ea6-820d1b65b149",
+            "Description": "VonDrygalskiA_Blood Adv_2019_P10",
+            "Url": "",
+            "Index": 5,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "96f3cbf4-126f-41c9-98ae-87c085907ba9",
+            "Description": "NIH_Guidelines_2019_P10",
+            "Url": "",
+            "Index": 4,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "329c10e8-c8e4-4195-86a8-905598ebc229",
+            "Description": "MiesbachW_Haemophilia_2019_v25_p545_P10",
+            "Url": "",
+            "Index": 11,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "c25c0395-9cee-4315-853d-b7c4281b66e8",
+            "Description": "EMA GT FU guidelines_MUR_P10",
+            "Url": "",
+            "Index": 9,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "4a45ebbd-517c-446a-ab84-c287e1ab8cb7",
+            "Description": "Konkle_jth_2020_Core_Data_WFH_GTR_MUR_P10",
+            "Url": "",
+            "Index": 13,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "9ebd9ab5-73fc-4733-a80b-c56a7718267d",
+            "Description": "Pasi_NEJM_2020_P10",
+            "Url": "",
+            "Index": 12,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "d7115c5c-2eba-4cd8-afd5-fac067a4364f",
+            "Description": "PipeS_MolTherMethClinDev2019v15p170_P10",
+            "Url": "",
+            "Index": 10,
+            "Tag": "n/a",
+            "HasFile": true
+        }]
+    }, {
+        "Id": "376e3654-3619-4fd4-b86f-c53e03991c0a",
+        "Title": "<b>Pillar 10: </b>Practical considerations",
+        "Description": "<b>Lay narrative:</b>&nbsp;As with any new therapy that is administered in the clinic, there are\nsome important considerations for etranacogene dezaparvovec.<a id=\"0b5078f4-6c83-4400-8c46-0f36edbf89fe_1\" class=\"btn-ref\"><sup>1</sup></a>&nbsp;Firstly, it is important to note that gene therapy may only be\navailable at certain hospitals or centers, so travel may be required.<a id=\"db84fab4-33db-4eb3-b92b-33874fc0786b_2\" class=\"btn-ref\"><sup>2</sup></a>&nbsp;<a id=\"381332ab-a1c6-41c5-bcc2-41b0cdd167fd_3\" class=\"btn-ref\"><sup>3</sup></a>&nbsp;<a id=\"96f3cbf4-126f-41c9-98ae-87c085907ba9_4\" class=\"btn-ref\"><sup>4</sup></a>&nbsp;Etranacogene dezaparvovec is delivered via a single, one-time intravenous (into the vein) infusion at the\nhospital. People receiving treatment will be closely monitored after their infusion\nand will need to have regular follow-up care so that any potential side effects\ncan be detected and treated.<a id=\"59e50e66-a95e-49b0-9ea6-820d1b65b149_5\" class=\"btn-ref\"><sup>5</sup></a>&nbsp;<a id=\"f678d64b-295e-453e-a294-3bf5c903787b_6\" class=\"btn-ref\"><sup>6</sup></a>&nbsp;<a id=\"aac5d5fb-9cae-4267-820b-22b193efbe00_7\" class=\"btn-ref\"><sup>7</sup></a>&nbsp;<a id=\"e7a795a1-86bb-426e-b40d-475b27637330_8\" class=\"btn-ref\"><sup>8</sup></a>&nbsp;<a id=\"eccbb69b-eacb-4116-8ce7-57dd34b05a5a_9\" class=\"btn-ref\"><sup>9</sup></a>&nbsp;<a id=\"c25c0395-9cee-4315-853d-b7c4281b66e8_10\" class=\"btn-ref\"><sup>10</sup></a>&nbsp;People\nreceiving etranacogene dezaparvovec should also take some short-term\nprecautions, such as using barrier contraception (e.g. condoms or diaphragms)\nfor approximately a year after gene therapy is given.<a id=\"d7115c5c-2eba-4cd8-afd5-fac067a4364f_11\" class=\"btn-ref\"><sup>11</sup></a>&nbsp;<a id=\"329c10e8-c8e4-4195-86a8-905598ebc229_12\" class=\"btn-ref\"><sup>12</sup></a>&nbsp;People can also make lifestyle choices that may\nhelp to increase the chance of success with gene therapy; for example, only\ndrinking alcohol within the recommend guidelines.<a id=\"329c10e8-c8e4-4195-86a8-905598ebc229_12\" class=\"btn-ref\"><span><sup>12</sup></span></a>&nbsp;<a id=\"9ebd9ab5-73fc-4733-a80b-c56a7718267d_13\" class=\"btn-ref\"><sup>13</sup></a>&nbsp;It is important to note that in order to monitor\nhow well etranacogene dezaparvovec continues to work over time, and to watch\nfor any side effects, long-term, maybe even life-long, follow-up will be\nneeded.<a id=\"b7a50cad-1b21-42a0-9b9a-94ef18807eaf_14\" class=\"btn-ref\"><sup>14</sup></a>&nbsp;<a id=\"4a45ebbd-517c-446a-ab84-c287e1ab8cb7_15\" class=\"btn-ref\"><sup>15&nbsp;</sup></a>&nbsp;Currently, gene therapy expertise and\nexperience is limited, but the current data and information highlight the\npotential for gene therapy in the treatment of hemophilia B.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+        "ThemeId": "41e495cb-f0d1-4096-8dc9-cdb85a0cd81d",
+        "Status": 0,
+        "SubStatementCount": 0,
+        "NonHeaderResourceCount": 0,
+        "HeaderResources": [{
+            "Id": "629099cd-e369-4b04-9223-1a7dd750c452",
+            "Url": "https://nucleusglobal-resourcerepository.s3.eu-west-1.amazonaws.com/csl-smp/f02999d2-4579-4ad7-aa19-70406097744c.pdf?X-Amz-Expires=1800&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAILI2QFGMTZTKHUAQ/20220221/eu-west-1/s3/aws4_request&X-Amz-Date=20220221T102110Z&X-Amz-SignedHeaders=host&X-Amz-Signature=68ee2f50bc7d44aa40c9359f85d95c46eb1521781028a2ea788fa1f0bfa61866",
+            "CategoryDefintionId": "a679f2f4-df13-40bf-91b6-fa8557373df7",
+            "IsHeader": true,
+            "ResourceType": {
+                "Id": "322f3897-a9d2-4acc-986f-49f7ede8183e",
+                "Type": "DefaultPdf",
+                "Extensions": [".pdf"]
+            },
+            "Title": null,
+            "User": null,
+            "FileName": null,
+            "CreatedDate": "2021-11-12T10:19:40.0172679+00:00"
+        }],
+        "References": [{
+            "Id": "0b5078f4-6c83-4400-8c46-0f36edbf89fe",
+            "Description": "EAHAD EHC_Statement on hub and spoke statement_P10",
+            "Url": "",
+            "Index": 1,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "aac5d5fb-9cae-4267-820b-22b193efbe00",
+            "Description": "Pipe ASH 2020 HOPE-B PRESENTATION_FINAL_P9",
+            "Url": "",
+            "Index": 7,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "db84fab4-33db-4eb3-b92b-33874fc0786b",
+            "Description": "Miesbach W et al. Haemophilia 2021_P10",
+            "Url": "",
+            "Index": 2,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "f678d64b-295e-453e-a294-3bf5c903787b",
+            "Description": "Pipe_ASH 2020_HOPE B abstract_P10",
+            "Url": "",
+            "Index": 6,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "381332ab-a1c6-41c5-bcc2-41b0cdd167fd",
+            "Description": "Bachtarzi_Hum Gene Ther Clin_2019_P10",
+            "Url": "",
+            "Index": 3,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "e7a795a1-86bb-426e-b40d-475b27637330",
+            "Description": "Recht M_ISTH_2021_abstract_PB0659_P10",
+            "Url": "",
+            "Index": 8,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "eccbb69b-eacb-4116-8ce7-57dd34b05a5a",
+            "Description": "FDA_Long-Term-Follow-UpJan_2020_P10",
+            "Url": "",
+            "Index": 9,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "59e50e66-a95e-49b0-9ea6-820d1b65b149",
+            "Description": "VonDrygalskiA_Blood Adv_2019_P10",
+            "Url": "",
+            "Index": 5,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "96f3cbf4-126f-41c9-98ae-87c085907ba9",
+            "Description": "NIH_Guidelines_2019_P10",
+            "Url": "",
+            "Index": 4,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "329c10e8-c8e4-4195-86a8-905598ebc229",
+            "Description": "MiesbachW_Haemophilia_2019_v25_p545_P10",
+            "Url": "",
+            "Index": 12,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "b7a50cad-1b21-42a0-9b9a-94ef18807eaf",
+            "Description": "Konkle et al_EAHAD_2021 abstract_P10",
+            "Url": "",
+            "Index": 14,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "c25c0395-9cee-4315-853d-b7c4281b66e8",
+            "Description": "EMA GT FU guidelines_MUR_P10",
+            "Url": "",
+            "Index": 10,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "4a45ebbd-517c-446a-ab84-c287e1ab8cb7",
+            "Description": "Konkle_jth_2020_Core_Data_WFH_GTR_MUR_P10",
+            "Url": "",
+            "Index": 15,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "9ebd9ab5-73fc-4733-a80b-c56a7718267d",
+            "Description": "Pasi_NEJM_2020_P10",
+            "Url": "",
+            "Index": 13,
+            "Tag": "n/a",
+            "HasFile": true
+        }, {
+            "Id": "d7115c5c-2eba-4cd8-afd5-fac067a4364f",
+            "Description": "PipeS_MolTherMethClinDev2019v15p170_P10",
+            "Url": "",
+            "Index": 11,
+            "Tag": "n/a",
+            "HasFile": true
+        }]
+    }]
+}]
+
