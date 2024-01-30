@@ -22,6 +22,9 @@ use Spatie\MediaLibrary\MediaCollections\Models\Media;
  */
 class Lexicon extends Model implements HasMedia
 {
+    use HasFactory;
+
+    use InteractsWithMedia;
     /**
      * @OA\Property(format="int64", title="ID", default=0, description="ID", property="id"),
      * @OA\Property(format="string", title="preferred_phrase", default="preferred_phrase", description="preferred_phrase", property="preferred_phrase"),
@@ -29,9 +32,6 @@ class Lexicon extends Model implements HasMedia
      * @OA\Property(format="int64", title="therapy_area_id", default="1", description="therapy_area_id", property="therapy_area_id"),
      */
     use SoftDeletes;
-
-    use InteractsWithMedia;
-    use HasFactory;
 
     public $table = 'lexicons';
 
@@ -45,7 +45,7 @@ class Lexicon extends Model implements HasMedia
         'deleted_at',
     ];
 
-    public function registerMediaConversions(Media $media = null): void
+    public function registerMediaConversions(?Media $media = null): void
     {
         $this->addMediaConversion('thumb')->fit('crop', 50, 50);
         $this->addMediaConversion('preview')->fit('crop', 120, 120);

@@ -9,7 +9,6 @@ use App\Http\Requests\UpdateResourceRequest;
 use App\Http\Resources\Admin\ResourceResource;
 use App\Models\Resource;
 use Gate;
-use Illuminate\Http\Request;
 use Symfony\Component\HttpFoundation\Response;
 
 class ResourcesApiController extends Controller

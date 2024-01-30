@@ -4,9 +4,6 @@ use App\Http\Controllers\Admin;
 //use App\Http\Controllers\Auth;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
-use Illuminate\Support\Facades\Http;
-
-use Illuminate\Http\Request;
 
 Route::redirect('/', '/login');
 

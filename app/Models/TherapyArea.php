@@ -12,12 +12,13 @@ use Illuminate\Database\Eloquent\SoftDeletes;
  * required={"name"}
  *
  * Statement Class
+ *
  * @method static create(array $validated)
  */
 class TherapyArea extends Model
 {
-    use SoftDeletes;
     use HasFactory;
+    use SoftDeletes;
 
     public $table = 'therapy_areas';
 

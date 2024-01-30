@@ -6,6 +6,7 @@ use Illuminate\Http\Resources\Json\JsonResource;
 
 /**
  * Class AudienceResource
+ *
  * @OA\Schema(
  * )
  */

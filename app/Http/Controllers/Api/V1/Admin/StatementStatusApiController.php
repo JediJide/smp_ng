@@ -8,7 +8,6 @@ use App\Http\Requests\UpdateStatementStatusRequest;
 use App\Http\Resources\Admin\StatementStatusResource;
 use App\Models\StatementStatus;
 use Gate;
-use Illuminate\Http\Request;
 use Symfony\Component\HttpFoundation\Response;
 
 class StatementStatusApiController extends Controller

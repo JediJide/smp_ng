@@ -16,8 +16,6 @@ class TherapyAreaController extends Controller
 {
     /**
      * Display a listing of the resource.
-     *
-     * @return TherapyAreaResource
      */
 
     /**
@@ -39,7 +37,7 @@ class TherapyAreaController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @param Request $request
+     * @param  Request  $request
      * @return Response
      */
 
@@ -50,15 +48,19 @@ class TherapyAreaController extends Controller
      *     summary="Add new therapyarea",
      *      security={{ "Bearer":{} }},
      *     description="Add new therapy area",
+     *
      *     @OA\RequestBody(
+     *
      *         @OA\MediaType(
      *             mediaType="application/x-www-form-urlencoded",
+     *
      *             @OA\Schema(
      *                 type="object",
      *                 ref="#/components/schemas/TherapyArea",
      *             )
      *         )
      *     ),
+     *
      *      @OA\Response(response="401", description="fail", @OA\JsonContent(ref="#/components/schemas/ApiRequestException")),
      *     @OA\Response(response="201", description="Message", @OA\JsonContent(type="object", @OA\Property(format="string", default="Therapy Area created", description="message", property="message"))),
      * )
@@ -75,7 +77,6 @@ class TherapyAreaController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  int  $id
      * @return Response
      */
 
@@ -85,10 +86,12 @@ class TherapyAreaController extends Controller
      *     path="/api/v1/therapyareas/{id}",
      *     summary="get therapyarea by Id",
      *     security={{ "Bearer":{} }},
+     *
      *     @OA\Parameter(
      *        name="id",
      *        in="path",
      *        description="therapy areas",
+     *
      *        @OA\Schema(
      *           type="integer",
      *           format="int64"
@@ -96,11 +99,12 @@ class TherapyAreaController extends Controller
      *        required=true,
      *        example=1
      *     ),
+     *
      *     @OA\Response(response="401", description="fail", @OA\JsonContent(ref="#/components/schemas/ApiRequestException")),
      *     @OA\Response(response="404", description="fail", @OA\JsonContent(ref="#/components/schemas/ApiNotFoundException")),
      *     @OA\Response(response="200", description="success",@OA\JsonContent(ref="#/components/schemas/TherapyAreaResource")))
      * )
-     * @param int $id
+     *
      * @return Collection|TherapyArea[]
      */
     public function show(int $id): Collection|array
@@ -110,10 +114,6 @@ class TherapyAreaController extends Controller
 
     /**
      * Update the specified resource in storage.
-     *
-     * @param Request $request
-     * @param  int  $id
-     * @return JsonResponse
      */
     /**
      * @OA\Put(
@@ -122,10 +122,12 @@ class TherapyAreaController extends Controller
      *     summary="Update therapyarea by Id",
      *     description="Update therapyareas by Id",
      *     security={{ "Bearer":{} }},
+     *
      *     @OA\RequestBody(
      *          request="person",
      *          required=false,
      *          description="Optional Request Parameters for Querying",
+     *
      *          @OA\JsonContent(ref="#/components/schemas/UpdateTherapyAreaRequest")
      *      ),
      *
@@ -133,6 +135,7 @@ class TherapyAreaController extends Controller
      *        name="id",
      *        in="path",
      *        description="TherapyArea Id",
+     *
      *        @OA\Schema(
      *           type="integer",
      *           format="int64"
@@ -144,8 +147,10 @@ class TherapyAreaController extends Controller
      *     @OA\Response(
      *          response="200",
      *          description="Returns matching Person Object",
+     *
      *          @OA\JsonContent(
      *              type="array",
+     *
      *              @OA\Items(ref="#/components/schemas/UpdateTherapyAreaRequest")
      *          )
      *     )
@@ -165,9 +170,6 @@ class TherapyAreaController extends Controller
 
     /**
      * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     * @return JsonResponse
      */
 
     /**
@@ -176,10 +178,12 @@ class TherapyAreaController extends Controller
      *     path="/api/v1/therapyarea/{id}",
      *     summary="Delete therapyarea by Id",
      *     security={{ "Bearer":{} }},
+     *
      *     @OA\Parameter(
      *        name="id",
      *        in="path",
      *        description="therapyarea Id",
+     *
      *        @OA\Schema(
      *           type="integer",
      *           format="int64"
@@ -187,6 +191,7 @@ class TherapyAreaController extends Controller
      *        required=true,
      *        example=1
      *     ),
+     *
      *     @OA\Response(response="401", description="fail", @OA\JsonContent(ref="#/components/schemas/ApiRequestException")),
      *     @OA\Response(response="404", description="fail", @OA\JsonContent(ref="#/components/schemas/ApiNotFoundException")),
      *     @OA\Response(response="202", description="success",@OA\JsonContent(ref="#/components/schemas/MassDestroyTherapyAreaRequest")))

@@ -4,10 +4,11 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-return new class extends Migration {
+return new class extends Migration
+{
     public function up()
     {
-        Schema::connection ('common_database')->create('permission_role', function (Blueprint $table) {
+        Schema::connection('common_database')->create('permission_role', function (Blueprint $table) {
             $table->unsignedBigInteger('role_id');
             $table->foreign('role_id', 'role_id_fk_5749501')->references('id')->on('roles')->onDelete('cascade');
             $table->unsignedBigInteger('permission_id');

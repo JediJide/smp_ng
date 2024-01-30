@@ -6,9 +6,7 @@ namespace App\Http\Requests;
  * @OA\Schema(),
  * required={"email", "password"}
  */
-use App\Models\Category;
 use Illuminate\Foundation\Http\FormRequest;
-use Illuminate\Http\Response;
 use Illuminate\Support\Facades\Gate;
 
 class UpdateCategoryRequest extends FormRequest

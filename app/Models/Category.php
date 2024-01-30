@@ -17,13 +17,13 @@ use Illuminate\Support\Facades\DB;
  */
 class Category extends Model
 {
+    use HasFactory;
+
     /**
      * @OA\Property(format="string", title="name", default="Category Name", description="name", property="name"),
      * @OA\Property(format="int64", title="therapy_area_id", default="1", description="therapy_area_id", property="therapy_area_id"),
      */
     use SoftDeletes;
-
-    use HasFactory;
 
     public $table = 'categories';
 

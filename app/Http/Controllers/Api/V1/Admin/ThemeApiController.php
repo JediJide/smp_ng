@@ -9,7 +9,6 @@ use App\Http\Requests\UpdateThemeRequest;
 use App\Http\Resources\Admin\ThemeResource;
 use App\Models\Theme;
 use Gate;
-use Illuminate\Http\Request;
 use Symfony\Component\HttpFoundation\Response;
 
 class ThemeApiController extends Controller

@@ -5,18 +5,12 @@ namespace App\Http\Controllers\Api\V1\Frontend;
 use App\Http\Controllers\Controller;
 use App\Http\Resources\Admin\AudienceResource;
 use App\Models\Audience;
-use Illuminate\Database\Eloquent\Collection;
-use Illuminate\Http\JsonResponse;
-use Illuminate\Http\Request;
 use Illuminate\Http\Response;
-use Symfony\Component\HttpFoundation\Response as ResponseAlias;
 
 class AudienceController extends Controller
 {
     /**
      * Display a listing of the resource.
-     *
-     * @return AudienceResource
      */
 
     /**
@@ -34,6 +28,4 @@ class AudienceController extends Controller
     {
         return new AudienceResource(Audience::all('id', 'name'));
     }
-
-
 }

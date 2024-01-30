@@ -11,6 +11,7 @@ class ApiSystemException extends ApiException
 {
     /**
      * The error message
+     *
      * @var string
      *
      * @OA\Property(
@@ -19,7 +20,7 @@ class ApiSystemException extends ApiException
      *   example="Unauthenticated"
      * )
      */
-    public function __construct(string $message = null)
+    public function __construct(?string $message = null)
     {
         parent::__construct(self::SYS_ERROR, $message ?? Response::$statusTexts[self::SYS_ERROR]);
     }

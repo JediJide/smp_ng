@@ -11,6 +11,7 @@ class ApiNotFoundException extends ApiException
 {
     /**
      * The err message
+     *
      * @var string
      *
      * @OA\Property(
@@ -19,7 +20,7 @@ class ApiNotFoundException extends ApiException
      *   example="Not Found"
      * )
      */
-    public function __construct(string $message = null)
+    public function __construct(?string $message = null)
     {
         parent::__construct(self::NO_FOUND_ERROR, $message ?? Response::$statusTexts[self::NO_FOUND_ERROR]);
     }

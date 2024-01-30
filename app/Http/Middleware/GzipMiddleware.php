@@ -5,14 +5,12 @@ namespace App\Http\Middleware;
 use Closure;
 use Illuminate\Http\Request;
 
-
 class GzipMiddleware
 {
     /**
      * Handle an incoming request.
      *
-     * @param  Request $request
-     * @param  \Closure $next
+     * @param  Request  $request
      * @return mixed
      */
     public function handle($request, Closure $next)
@@ -23,10 +21,10 @@ class GzipMiddleware
 
         return response($data)->withHeaders([
             'Access-Control-Allow-Origin' => '*',
-            'Access-Control-Allow-Methods'=> 'GET',
+            'Access-Control-Allow-Methods' => 'GET',
             'Content-type' => 'application/json; charset=utf-8',
-            'Content-Length'=> strlen($data),
-            'Content-Encoding' => 'gzip'
+            'Content-Length' => strlen($data),
+            'Content-Encoding' => 'gzip',
         ]);
     }
 }

@@ -2,12 +2,9 @@
 
 namespace App\Models;
 
-use App\Http\Controllers\Auth\ResetPasswordController;
 use App\Notifications\ResetPasswordNotification;
 use Carbon\Carbon;
 use DateTimeInterface;
-use Illuminate\Auth\Notifications\ResetPassword;
-use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
@@ -22,6 +19,7 @@ use Laravel\Sanctum\HasApiTokens;
 
 /**
  * @property mixed $id
+ *
  * @OA\Schema(),
  * required={"email", "password"}
  *
@@ -29,18 +27,18 @@ use Laravel\Sanctum\HasApiTokens;
  */
 class User extends Authenticatable
 {
+    use HasApiTokens;
+
+    use HasFactory;
+    use Notifiable;
     /**
      * @OA\Property(format="string", default="email@user.com", description="email", property="email"),
      * @OA\Property(format="string", default="password", description="password", property="password"),
      */
     use SoftDeletes;
 
-    use Notifiable;
-    use HasFactory;
-    use HasApiTokens;
-
-    #shared user database
-     public $table = 'users';
+    //shared user database
+    public $table = 'users';
 
     protected $hidden = [
         'remember_token',
@@ -108,9 +106,9 @@ class User extends Authenticatable
 
     public function getUserByEmail(string $email): Model|\Illuminate\Database\Query\Builder|null
     {
-        return  DB::table('users')
+        return DB::table('users')
             ->whereNotNull('users.deleted_at')
-            ->select('users.id','users.name',
+            ->select('users.id', 'users.name',
                 'users.last_name', 'users.email', 'roles.title as role', 'users.created_at', 'users.updated_at', 'users.deleted_at')
             ->join('role_user', 'role_user.user_id', '=', 'users.id')
             ->join('roles', 'roles.id', '=', 'role_user.role_id')
@@ -123,17 +121,17 @@ class User extends Authenticatable
         return DB::table('users')
             ->whereNotNull('users.deleted_at')
             ->whereNotNull('password_changed_at')
-            ->where ('id','=',1)//,139,135
-            ->get ();
+            ->where('id', '=', 1)//,139,135
+            ->get();
     }
 
-//    public function latestLogin(): Collection
-//    {
-//        return DB::table ('users')
-//        ->whereNull ('deleted_at')
-//        ->orderBy ('updated_at')
-//        ->get ();
-//    }
+    //    public function latestLogin(): Collection
+    //    {
+    //        return DB::table ('users')
+    //        ->whereNull ('deleted_at')
+    //        ->orderBy ('updated_at')
+    //        ->get ();
+    //    }
 
     protected function serializeDate(DateTimeInterface $date)
     {

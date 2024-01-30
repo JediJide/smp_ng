@@ -9,10 +9,10 @@ trait HasAdvancedFilter
     public function scopeAdvancedFilter($query)
     {
         return $this->processQuery($query, [
-            'order_column'    => request('sort', 'id'),
+            'order_column' => request('sort', 'id'),
             'order_direction' => request('order', 'desc'),
-            'limit'           => request('limit', 10),
-            's'               => request('s', null),
+            'limit' => request('limit', 10),
+            's' => request('s', null),
         ])
             ->paginate(request('limit', 10));
     }
@@ -22,18 +22,18 @@ trait HasAdvancedFilter
         $data = $this->processGlobalSearch($data);
 
         $v = validator()->make($data, [
-            'order_column'    => 'sometimes|required|in:'.$this->orderableColumns(),
+            'order_column' => 'sometimes|required|in:'.$this->orderableColumns(),
             'order_direction' => 'sometimes|required|in:asc,desc',
-            'limit'           => 'sometimes|required|integer|min:1',
-            's'               => 'sometimes|nullable|string',
+            'limit' => 'sometimes|required|integer|min:1',
+            's' => 'sometimes|nullable|string',
 
             // advanced filter
             'filter_match' => 'sometimes|required|in:and,or',
-            'f'            => 'sometimes|required|array',
-            'f.*.column'   => 'required|in:'.$this->whiteListColumns(),
+            'f' => 'sometimes|required|array',
+            'f.*.column' => 'required|in:'.$this->whiteListColumns(),
             'f.*.operator' => 'required_with:f.*.column|in:'.$this->allowedOperators(),
-            'f.*.query_1'  => 'required',
-            'f.*.query_2'  => 'required_if:f.*.operator,between,not_between',
+            'f.*.query_1' => 'required',
+            'f.*.query_2' => 'required_if:f.*.operator,between,not_between',
         ]);
 
         if ($v->fails()) {
@@ -72,9 +72,9 @@ trait HasAdvancedFilter
 
         $data['f'] = array_map(function ($column) use ($data) {
             return [
-                'column'   => $column,
+                'column' => $column,
                 'operator' => 'contains',
-                'query_1'  => $data['s'],
+                'query_1' => $data['s'],
             ];
         }, $this->filterable);
 

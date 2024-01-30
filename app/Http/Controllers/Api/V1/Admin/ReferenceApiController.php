@@ -9,7 +9,6 @@ use App\Http\Requests\UpdateReferenceRequest;
 use App\Http\Resources\Admin\ReferenceResource;
 use App\Models\Reference;
 use Gate;
-use Illuminate\Http\Request;
 use Symfony\Component\HttpFoundation\Response;
 
 class ReferenceApiController extends Controller

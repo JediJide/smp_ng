@@ -42,9 +42,9 @@ return [
         ],
 
         'api' => [
-            'driver'   => 'token',
+            'driver' => 'token',
             'provider' => 'users',
-            'hash'     => false,
+            'hash' => false,
         ],
     ],
 
@@ -96,7 +96,7 @@ return [
         'users' => [
             'provider' => 'users',
             'table' => 'password_resets',
-            'expire'   => 10080, // 7 days expiration
+            'expire' => 10080, // 7 days expiration
             'throttle' => 60,
         ],
     ],

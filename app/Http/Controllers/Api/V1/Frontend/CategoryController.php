@@ -10,7 +10,6 @@ use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
-use Illuminate\Validation\ValidationException;
 
 class CategoryController extends Controller
 {
@@ -38,7 +37,6 @@ class CategoryController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @param Request $request
      * @return JsonResponse
      */
 
@@ -49,15 +47,19 @@ class CategoryController extends Controller
      *     summary="Add new category",
      *      security={{ "Bearer":{} }},
      *     description="Add new category",
+     *
      *     @OA\RequestBody(
+     *
      *         @OA\MediaType(
      *             mediaType="application/x-www-form-urlencoded",
+     *
      *             @OA\Schema(
      *                 type="object",
      *                 ref="#/components/schemas/Category",
      *             )
      *         )
      *     ),
+     *
      *      @OA\Response(response="401", description="fail", @OA\JsonContent(ref="#/components/schemas/ApiRequestException")),
      *     @OA\Response(response="201", description="Message", @OA\JsonContent(type="object", @OA\Property(format="string", default="Category created", description="message", property="message"))),
      * )
@@ -73,10 +75,6 @@ class CategoryController extends Controller
 
     /**
      * Display the specified resource.
-     *
-     * @param int $id
-     * @param Category $category
-     * @return array
      */
 
     /**
@@ -85,10 +83,12 @@ class CategoryController extends Controller
      *     path="/api/v1/category/{id}",
      *     summary="get category by Id",
      *     security={{ "Bearer":{} }},
+     *
      *     @OA\Parameter(
      *        name="id",
      *        in="path",
      *        description="Get category by Id",
+     *
      *        @OA\Schema(
      *           type="integer",
      *           format="int64"
@@ -96,13 +96,11 @@ class CategoryController extends Controller
      *        required=true,
      *        example=1
      *     ),
+     *
      *     @OA\Response(response="401", description="fail", @OA\JsonContent(ref="#/components/schemas/ApiRequestException")),
      *     @OA\Response(response="404", description="fail", @OA\JsonContent(ref="#/components/schemas/ApiNotFoundException")),
      *     @OA\Response(response="200", description="success",@OA\JsonContent(ref="#/components/schemas/CategoryResource")))
      * )
-     * @param int $id
-     * @param Category $category
-     * @return array
      */
     public function show(int $id, Category $category): array
     {
@@ -112,8 +110,6 @@ class CategoryController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param Request $request
-     * @param int $id
      * @return Response
      */
 
@@ -124,10 +120,12 @@ class CategoryController extends Controller
      *     summary="Update category by Id",
      *     description="Update category by Id",
      *     security={{ "Bearer":{} }},
+     *
      *     @OA\RequestBody(
      *          request="category",
      *          required=false,
      *          description="Optional Request Parameters for Querying",
+     *
      *          @OA\JsonContent(ref="#/components/schemas/UpdateCategoryRequest")
      *      ),
      *
@@ -135,6 +133,7 @@ class CategoryController extends Controller
      *        name="id",
      *        in="path",
      *        description="Category Id",
+     *
      *        @OA\Schema(
      *           type="integer",
      *           format="int64"
@@ -146,8 +145,10 @@ class CategoryController extends Controller
      *     @OA\Response(
      *          response="200",
      *          description="Returns matching Category Object",
+     *
      *          @OA\JsonContent(
      *              type="array",
+     *
      *              @OA\Items(ref="#/components/schemas/UpdateCategoryRequest")
      *          )
      *     )
@@ -164,7 +165,6 @@ class CategoryController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param int $id
      * @return Application|ResponseFactory|Response
      */
 
@@ -174,10 +174,12 @@ class CategoryController extends Controller
      *     path="/api/v1/category/{id}",
      *     summary="Delete category by Id",
      *     security={{ "Bearer":{} }},
+     *
      *     @OA\Parameter(
      *        name="id",
      *        in="path",
      *        description="category Id",
+     *
      *        @OA\Schema(
      *           type="integer",
      *           format="int64"
@@ -185,12 +187,11 @@ class CategoryController extends Controller
      *        required=true,
      *        example=1
      *     ),
+     *
      *     @OA\Response(response="401", description="fail", @OA\JsonContent(ref="#/components/schemas/ApiRequestException")),
      *     @OA\Response(response="404", description="fail", @OA\JsonContent(ref="#/components/schemas/ApiNotFoundException")),
      *     @OA\Response(response="202", description="success",@OA\JsonContent(ref="#/components/schemas/MassDestroyCategoryRequest")))
      * )
-     * @param int $id
-     * @return JsonResponse
      */
     public function destroy(int $id): JsonResponse
     {

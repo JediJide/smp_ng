@@ -27,12 +27,18 @@ use Staudenmeir\LaravelAdjacencyList\Eloquent\HasRecursiveRelationships;
  * required={"name", "therapy_area_id","category_id"}
  *
  * Category Class
+ *
  * @method static where(string $string, string $string1, $category_id)
  * @method static find(int $theme_latest_id)
  */
 class Theme extends Model implements HasMedia
 {
+    use Auditable;
+
+    use HasFactory;
+
     use HasRecursiveRelationships;
+    use InteractsWithMedia;
     /**
      * @OA\Property(format="string", title="name", default="Category Name", description="name", property="name"),
      * @OA\Property(format="string", title="description", default="Description body", description="description", property="description"),
@@ -41,9 +47,6 @@ class Theme extends Model implements HasMedia
      * @OA\Property(format="int64", title="category_id", default="1", description="category_id", property="category_id"),
      */
     use SoftDeletes;
-    use InteractsWithMedia;
-    use Auditable;
-    use HasFactory;
 
     public $table = 'themes';
 
@@ -67,7 +70,7 @@ class Theme extends Model implements HasMedia
     /**
      * @throws InvalidManipulation
      */
-    public function registerMediaConversions(Media $media = null): void
+    public function registerMediaConversions(?Media $media = null): void
     {
         $this->addMediaConversion('thumb')->fit('crop', 50, 50);
         $this->addMediaConversion('preview')->fit('crop', 120, 120);
@@ -77,22 +80,20 @@ class Theme extends Model implements HasMedia
     {
         return $this->hasMany(Statement::class, 'theme_id', 'id');
     }
+
     public function resourcesThemes(): BelongsToMany
     {
-        return $this->belongsToMany(Resource::class)->where ('is_header_resource','=','1');
+        return $this->belongsToMany(Resource::class)->where('is_header_resource', '=', '1');
     }
 
-    public function themeStatementTree($therapy_area_id,$category_id, $audience_id): \Illuminate\Database\Eloquent\Collection|array
+    public function themeStatementTree($therapy_area_id, $category_id, $audience_id): \Illuminate\Database\Eloquent\Collection|array
     {
 
+        // return Cache::remember  ('parent_statements',60*60*24,function () use ($category_id){
+        return self::query()
+            ->with(['themeStatements' => fn ($query) => $query->select(['id', 'theme_id', 'parent_id', 'title', 'description', 'order_by', 'status_id', 'is_notify_all',
 
-       // return Cache::remember  ('parent_statements',60*60*24,function () use ($category_id){
-        return self::query ()
-            ->with (['themeStatements'
-            =>  fn ($query)
-                => $query->select(['id','theme_id','parent_id','title','description','order_by','status_id','is_notify_all',
-
-                    DB::raw('(select count(resources.id)
+                DB::raw('(select count(resources.id)
                           FROM resources
                             JOIN resource_statement on resource_statement.resource_id = resources.id
                            WHERE resource_statement.statement_id = statements.id) As StatementResourceTotal,
@@ -109,45 +110,42 @@ class Theme extends Model implements HasMedia
                         from statements t
                         Where t.id = statements.id
                         AND t.deleted_at is null) as SubStatementsTotal'
-                    )
-                ])
+                ),
+            ])
 
-                ->when($audience_id > 0, function ($query) use ($audience_id){
-                    $query->leftJoin ('audience_statement','audience_statement.statement_id','=','statements.id')
-                        ->whereIn ('audience_statement.audience_id',[$audience_id]);
+                ->when($audience_id > 0, function ($query) use ($audience_id) {
+                    $query->leftJoin('audience_statement', 'audience_statement.statement_id', '=', 'statements.id')
+                        ->whereIn('audience_statement.audience_id', [$audience_id]);
                 })
 
                 ->with([
-                    'audiences' => fn ($query) => $query->select('audience.id' ,'audience.name'),
+                    'audiences' => fn ($query) => $query->select('audience.id', 'audience.name'),
                 ])
-
 
                 ->whereNull('parent_id')
                 ->orderBy('statements.order_by', 'asc'),
 
-                'themeStatements.resourcesThemes'
-                    =>  fn ($query)
-                    =>$query
-                     ->select(['id','temporary_url','is_header_resource','file_mime_type']),
+                'themeStatements.resourcesThemes' => fn ($query) => $query
+                    ->select(['id', 'temporary_url', 'is_header_resource', 'file_mime_type']),
             ])
-            ->where ('therapy_area_id','=',$therapy_area_id)
-            ->where ('category_id','=',$category_id)
+            ->where('therapy_area_id', '=', $therapy_area_id)
+            ->where('category_id', '=', $category_id)
             ->orderBy('order_by', 'asc')
-            ->get (['id','name','description','order_by',
-                DB::raw ('(select count(resources.id)
+            ->get(['id', 'name', 'description', 'order_by',
+                DB::raw('(select count(resources.id)
                         FROM resources
                         JOIN resource_theme on resource_theme.resource_id =resources.id
-                        WHERE resource_theme.theme_id=themes.id ) as themesResourceTotal ')
+                        WHERE resource_theme.theme_id=themes.id ) as themesResourceTotal '),
             ]);
     }
 
     public function buildThemesTree(array $elements, $parent_id = 0): array
     {
-        $branch = array();
+        $branch = [];
 
         foreach ($elements as $element) {
             if ($element->parent_id == $parent_id) {
-                $children = $this->buildThemesTree ( $elements, $element->id );
+                $children = $this->buildThemesTree($elements, $element->id);
                 if ($children) {
                     $element->children = $children;
                 }
@@ -155,16 +153,17 @@ class Theme extends Model implements HasMedia
                 unset($elements[$element->id]);
             }
         }
+
         return $branch;
     }
 
     public function parentStatements(): HasMany
     {
-       // return Cache::remember  ('parent_statements',60*60*24,function () {
-            return $this->hasMany ( Statement::class, 'theme_id', 'id' )
-                ->with ( 'parentStatements' )->whereNull ( 'parent_id' )
-                ->select ( ['id', 'title', 'description', 'is_notify_all', 'parent_id', 'status_id', 'theme_id', 'order_by'] );
-      //  });
+        // return Cache::remember  ('parent_statements',60*60*24,function () {
+        return $this->hasMany(Statement::class, 'theme_id', 'id')
+            ->with('parentStatements')->whereNull('parent_id')
+            ->select(['id', 'title', 'description', 'is_notify_all', 'parent_id', 'status_id', 'theme_id', 'order_by']);
+        //  });
     }
 
     public function therapy_area(): BelongsTo
@@ -215,7 +214,7 @@ class Theme extends Model implements HasMedia
     public function getStatementApi($category_id): Collection
     {
         return DB::table('themes')
-            ->select('themes.id','themes.name as title','themes.description',
+            ->select('themes.id', 'themes.name as title', 'themes.description',
                 DB::raw('( select count(resource_theme.resource_id)
                 from resource_theme where resource_theme.theme_id = themes.id)
                 as ResourceCount, (select count(id) from statements where theme_id = themes.id)
@@ -226,20 +225,17 @@ class Theme extends Model implements HasMedia
 
     public function getThemesTopLevel($therapy_area_id, $category_id, $audience_id): Collection
     {
-        if ( $audience_id == 0)
-        {
-           return $this->getThemesTopLevelNoFilter ($therapy_area_id, $category_id);
-        }
-        else
-        {
-            return  $this->getThemesTopLevelFilteredByAudience ($therapy_area_id, $category_id, $audience_id);
+        if ($audience_id == 0) {
+            return $this->getThemesTopLevelNoFilter($therapy_area_id, $category_id);
+        } else {
+            return $this->getThemesTopLevelFilteredByAudience($therapy_area_id, $category_id, $audience_id);
         }
     }
 
     public function getThemesTopLevelNoFilter($therapy_area_id, $category_id): Collection
     {
         return DB::table('themes')
-            ->select('themes.id','themes.name as title','themes.description','themes.order_by',
+            ->select('themes.id', 'themes.name as title', 'themes.description', 'themes.order_by',
                 DB::raw('( select count(resource_theme.resource_id)
                 from resource_theme where resource_theme.theme_id = themes.id) as ResourceCount,
                 (select count(id) from statements
@@ -251,13 +247,15 @@ class Theme extends Model implements HasMedia
             ->orderBy('themes.order_by', 'asc')
             ->get();
     }
+
     public function getThemesTopLevelFilteredByAudience($therapy_area_id, $category_id, $audience): Collection
     {
         //convert the parameter into an array, separated by commas
-        $audience_id = explode (",", $audience);
-        $audience_id = [implode(',',$audience_id)];
+        $audience_id = explode(',', $audience);
+        $audience_id = [implode(',', $audience_id)];
+
         return DB::table('themes')
-            ->select('themes.id','themes.name as title','themes.description','themes.order_by',
+            ->select('themes.id', 'themes.name as title', 'themes.description', 'themes.order_by',
                 DB::raw('( select count(resource_theme.resource_id)
                 from resource_theme where resource_theme.theme_id = themes.id) as ResourceCount,
                 (select count(s.id) from statements s
@@ -268,7 +266,7 @@ class Theme extends Model implements HasMedia
             ->where('themes.category_id', '=', '?')
             ->whereNull('themes.deleted_at')
             ->orderBy('themes.order_by', 'asc')
-            ->setBindings ([$audience_id, $category_id])
+            ->setBindings([$audience_id, $category_id])
             ->get();
     }
 
@@ -284,10 +282,10 @@ class Theme extends Model implements HasMedia
 
     public function getThemesStatement($therapy_area_id, $category_id): Collection
     {
-        return  DB::table('themes')
+        return DB::table('themes')
             ->select('themes.id as parent_id', 'statements.id', 'themes.name', 'themes.description')
             ->whereNull('themes.deleted_at')
-            ->where('themes.therapy_area_id', '=', $therapy_area_id,)
+            ->where('themes.therapy_area_id', '=', $therapy_area_id)
             ->where('themes.category_id', '=', $category_id)
             ->groupBy('themes.id', 'statements.id')
             ->leftJoin('statements', 'statements.theme_id', '=', 'themes.id')
@@ -327,29 +325,29 @@ class Theme extends Model implements HasMedia
 
     public function insertTheme($theme): int
     {
-        return  DB::table('themes')->insertGetId($theme);
+        return DB::table('themes')->insertGetId($theme);
     }
 
-   public function updateThemeById($id, $name, $description): int
+    public function updateThemeById($id, $name, $description): int
     {
-        return  DB::table('themes')
+        return DB::table('themes')
             ->where('id', '=', $id)
             ->update(
                 [
                     'name' => $name,
                     'description' => $description,
-                    'updated_at' =>  Carbon::now(),
+                    'updated_at' => Carbon::now(),
                 ]
             );
     }
 
     public function getResourcesByThemes($id): Collection
     {
-        return DB::table ('resources')
-            ->join ('resource_theme','resource_theme.resource_id','=', 'resources.id')
-            ->where ('resource_theme.theme_id','=',$id)
-            ->get (['resources.id','resources.title','resources.temporary_url',
-                'resources.is_header_resource','resources.file_mime_type','resources.file_size']);
+        return DB::table('resources')
+            ->join('resource_theme', 'resource_theme.resource_id', '=', 'resources.id')
+            ->where('resource_theme.theme_id', '=', $id)
+            ->get(['resources.id', 'resources.title', 'resources.temporary_url',
+                'resources.is_header_resource', 'resources.file_mime_type', 'resources.file_size']);
     }
 
     protected function serializeDate(DateTimeInterface $date): string

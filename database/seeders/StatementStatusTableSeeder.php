@@ -16,15 +16,15 @@ class StatementStatusTableSeeder extends Seeder
     {
         $statuses = [
             [
-                'id'    => 1,
+                'id' => 1,
                 'status' => 'low',
             ],
             [
-                'id'    => 2,
+                'id' => 2,
                 'status' => 'medium',
             ],
             [
-                'id'    => 3,
+                'id' => 3,
                 'status' => 'high',
             ],
 

@@ -11,6 +11,7 @@ class ApiRequestException extends ApiException
 {
     /**
      * The err message
+     *
      * @var string
      *
      * @OA\Property(
@@ -19,7 +20,7 @@ class ApiRequestException extends ApiException
      *   example="Unauthenticated"
      * )
      */
-    public function __construct(string $message = null)
+    public function __construct(?string $message = null)
     {
         parent::__construct(self::BAD_REQUEST, $message ?: Response::$statusTexts[self::BAD_REQUEST]);
     }

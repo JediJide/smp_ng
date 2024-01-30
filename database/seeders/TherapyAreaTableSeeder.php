@@ -16,7 +16,7 @@ class TherapyAreaTableSeeder extends Seeder
     {
         $therapy_areas = [
             [
-                'id'    => 1,
+                'id' => 1,
                 'name' => 'EtranaDez',
             ],
         ];

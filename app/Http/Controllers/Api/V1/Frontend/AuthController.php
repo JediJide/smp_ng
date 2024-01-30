@@ -18,8 +18,6 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Validation\Rules\Password;
 
-
-
 /**
  * @OA\Tag(
  *   name="auth",
@@ -29,7 +27,6 @@ use Illuminate\Validation\Rules\Password;
  *   name="user",
  *   description="API Endpoints of Users"
  * ),
- *
  *  @OA\Tag(
  *  name="theme",
  *   description="API Endpoints of Theme"
@@ -62,12 +59,10 @@ use Illuminate\Validation\Rules\Password;
  *  name="therapyarea",
  *   description="API Endpoints for Therapy Areas"
  * ),
- *
  * @OA\Tag(
  *  name="search",
  *   description="API Endpoints for Search"
  * ),
- *
  * @OA\Tag(
  *  name="notification",
  *   description="API Endpoints for notification"
@@ -83,6 +78,7 @@ class AuthController extends Controller implements ShouldQueue
      * operationId="authRegister",
      * tags={"user"},
      * security={ {"bearer": {} }},
+     *
      * @OA\Response(
      *    response=201,
      *    description="Successful operation",
@@ -90,9 +86,12 @@ class AuthController extends Controller implements ShouldQueue
      * @OA\Response(
      *    response=422,
      *    description="Returns when user is not authenticated",
+     *
      *    @OA\JsonContent(
+     *
      *       @OA\Property(property="message", type="string", example="Not authorized"),
      *    )),
+     *
      *      @OA\Response(
      *          response=401,
      *          description="Unauthenticated",
@@ -179,15 +178,19 @@ class AuthController extends Controller implements ShouldQueue
      *     tags={"auth"},
      *     path="/api/login",
      *     summary="user login",
+     *
      *     @OA\RequestBody(
+     *
      *         @OA\MediaType(
      *             mediaType="application/x-www-form-urlencoded",
+     *
      *             @OA\Schema(
      *                 type="object",
      *                 ref="#/components/schemas/User",
      *             )
      *         )
      *     ),
+     *
      *      @OA\Response(response="401", description="fail", @OA\JsonContent(ref="#/components/schemas/ApiRequestException")),
      *     @OA\Response(response="200", description="An example resource", @OA\JsonContent(type="object", @OA\Property(format="string", default="20d338931e8d6bd9466edeba78ea7dce7c7bc01aa5cc5b4735691c50a2fe3228", description="token", property="token"))),
      * )
@@ -214,24 +217,22 @@ class AuthController extends Controller implements ShouldQueue
         // $user = User::where('email', $request->email)->value();
         $user = User::with(['roles' => function ($q) {
         }])
-             ->where('email', $request->email)->first();
+            ->where('email', $request->email)->first();
 
-        $user->update (['updated_at' => Carbon::now ()]);
+        $user->update(['updated_at' => Carbon::now()]);
 
         // set json data from the huge returned object
         $user_details = [
             'id' => $user->id,
-            'name'  => $user->name,
-            'last_name'  => $user->last_name,
-            'email'  => $user->email,
-            'role'  => $user->roles[0]->title,
+            'name' => $user->name,
+            'last_name' => $user->last_name,
+            'email' => $user->email,
+            'role' => $user->roles[0]->title,
             'password_changed_at' => $user->password_changed_at,
             'new_password_token' => app('auth.password.broker')->createToken($user),
-            'created_at'  => $user->created_at,
-            'updated_at'  => $user->updated_at,
+            'created_at' => $user->created_at,
+            'updated_at' => $user->updated_at,
         ];
-
-
 
         $authToken = $user->createToken('auth-token')->plainTextToken;
 
@@ -251,6 +252,7 @@ class AuthController extends Controller implements ShouldQueue
          * operationId="authLogout",
          * tags={"auth"},
          *  security={{ "Bearer":{} }},
+         *
          * @OA\Response(
          *    response=205,
          *    description="No Content",
@@ -258,7 +260,9 @@ class AuthController extends Controller implements ShouldQueue
          * @OA\Response(
          *    response=401,
          *    description="Returns when user is not authenticated",
+         *
          *    @OA\JsonContent(
+         *
          *       @OA\Property(property="message", type="string", example="Not authorized"),
          *    )
          * )

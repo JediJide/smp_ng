@@ -23,6 +23,9 @@ use Spatie\MediaLibrary\MediaCollections\Models\Media;
  */
 class Glossary extends Model implements HasMedia
 {
+    use HasFactory;
+
+    use InteractsWithMedia;
     /**
      * @OA\Property(format="int64", title="ID", default=0, description="ID", property="id"),
      * @OA\Property(format="string", title="name", default="term", description="name", property="name"),
@@ -33,9 +36,6 @@ class Glossary extends Model implements HasMedia
      * @OA\Property(format="string", title="deleted_at", default="2022-01-06 15:47:41", description="deleted_at", property="deleted_at"),
      */
     use SoftDeletes;
-
-    use InteractsWithMedia;
-    use HasFactory;
 
     public $table = 'glossaries';
 
@@ -51,7 +51,7 @@ class Glossary extends Model implements HasMedia
     /**
      * @throws InvalidManipulation
      */
-    public function registerMediaConversions(Media $media = null): void
+    public function registerMediaConversions(?Media $media = null): void
     {
         $this->addMediaConversion('thumb')->fit('crop', 50, 50);
         $this->addMediaConversion('preview')->fit('crop', 120, 120);
@@ -66,8 +66,8 @@ class Glossary extends Model implements HasMedia
     {
         return DB::table('glossaries')
             ->whereNull('deleted_at')
-            ->select('id', 'term', 'definition', 'therapy_area_id', 'created_at', 'updated_at','order_by')
-            ->orderBy ('order_by')
+            ->select('id', 'term', 'definition', 'therapy_area_id', 'created_at', 'updated_at', 'order_by')
+            ->orderBy('order_by')
             ->paginate(500);
     }
 
@@ -76,8 +76,8 @@ class Glossary extends Model implements HasMedia
         return DB::table('glossaries')
             ->whereNull('deleted_at')
             ->where('id', $id)
-            ->select('id', 'term', 'definition', 'therapy_area_id', 'created_at', 'updated_at','order_by')
-            ->orderBy ('order_by')
+            ->select('id', 'term', 'definition', 'therapy_area_id', 'created_at', 'updated_at', 'order_by')
+            ->orderBy('order_by')
             ->get();
     }
 
@@ -101,8 +101,8 @@ class Glossary extends Model implements HasMedia
         return DB::table('glossaries')
             ->whereNull('deleted_at')
             ->where('therapy_area_id', '=', $therapy_area_id)
-            ->select('id', 'term', 'definition', 'created_at', 'updated_at', 'therapy_area_id','order_by')
-            ->orderBy ('order_by')
+            ->select('id', 'term', 'definition', 'created_at', 'updated_at', 'therapy_area_id', 'order_by')
+            ->orderBy('order_by')
             ->paginate(50);
     }
 

@@ -2,7 +2,6 @@
 
 namespace App\Http\Requests;
 
-use App\Models\Glossary;
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Support\Facades\Gate;
 use Symfony\Component\HttpFoundation\Response;
@@ -27,7 +26,7 @@ class MassDestroyGlossaryRequest extends FormRequest
     public function rules()
     {
         return [
-            'ids'   => 'required|array',
+            'ids' => 'required|array',
             'ids.*' => 'exists:glossaries,id',
         ];
     }

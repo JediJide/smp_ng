@@ -237,8 +237,6 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
         'gzip' => App\Http\Middleware\GzipMiddleware::class,
 
-
-
     ],
 
 ];

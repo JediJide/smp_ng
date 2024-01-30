@@ -9,7 +9,6 @@ use App\Http\Resources\Admin\UserResource;
 use App\Models\User;
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Contracts\Routing\ResponseFactory;
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Gate;
 use Symfony\Component\HttpFoundation\Response;
@@ -46,7 +45,6 @@ class UsersApiController extends Controller
         $user->update($request->all());
         $user->roles()->sync($request->input('roles', []));
 
-
         return (new UserResource($user->load(['roles'])))
             ->response()
             ->setStatusCode(Response::HTTP_ACCEPTED);
@@ -56,19 +54,17 @@ class UsersApiController extends Controller
     {
         abort_if(Gate::denies('user_delete'), Response::HTTP_FORBIDDEN, '403 Forbidden');
 
-        $check_invitation_data = DB::table ('invites')->where ('email',$user->email)->get ();
+        $check_invitation_data = DB::table('invites')->where('email', $user->email)->get();
 
-        #remove redundant invitation data from invites table
-        if (!$check_invitation_data->isEmpty())
-        {
-            foreach ($check_invitation_data as $invitation_datum)
-            {
-                DB::table ('invites')->delete($invitation_datum->id);
+        //remove redundant invitation data from invites table
+        if (! $check_invitation_data->isEmpty()) {
+            foreach ($check_invitation_data as $invitation_datum) {
+                DB::table('invites')->delete($invitation_datum->id);
             }
         }
 
         //$user->delete();
-        $user->forceDelete ();
+        $user->forceDelete();
 
         return response(null, Response::HTTP_NO_CONTENT);
     }

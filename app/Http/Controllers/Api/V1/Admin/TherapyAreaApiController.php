@@ -7,7 +7,6 @@ use App\Http\Requests\StoreTherapyAreaRequest;
 use App\Http\Requests\UpdateTherapyAreaRequest;
 use App\Http\Resources\Admin\TherapyAreaResource;
 use App\Models\TherapyArea;
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Gate;
 use Symfony\Component\HttpFoundation\Response;
 

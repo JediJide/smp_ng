@@ -66,7 +66,7 @@ class StatementController extends Controller
 
         $statuses = StatementStatus::pluck('status', 'id')->prepend(trans('global.pleaseSelect'), '');
 
-        return view('admin.statements.create', compact('parents', 'references', 'resources', 'statuses', 'themes', 'therapy_areas','audiences'));
+        return view('admin.statements.create', compact('parents', 'references', 'resources', 'statuses', 'themes', 'therapy_areas', 'audiences'));
     }
 
     public function store(StoreStatementRequest $request): RedirectResponse
@@ -101,7 +101,7 @@ class StatementController extends Controller
 
         $statement->load('therapy_area', 'parent', 'theme', 'resources', 'references', 'status');
 
-        return view('admin.statements.edit', compact('parents', 'references', 'resources', 'statement', 'statuses', 'themes', 'therapy_areas','audiences'));
+        return view('admin.statements.edit', compact('parents', 'references', 'resources', 'statement', 'statuses', 'themes', 'therapy_areas', 'audiences'));
     }
 
     public function update(UpdateStatementRequest $request, Statement $statement)

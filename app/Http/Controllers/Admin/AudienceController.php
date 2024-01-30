@@ -8,7 +8,6 @@ use App\Http\Requests\StoreAudienceRequest;
 use App\Http\Requests\UpdateAudienceRequest;
 use App\Models\Audience;
 use Gate;
-use Illuminate\Http\Request;
 use Symfony\Component\HttpFoundation\Response;
 
 class AudienceController extends Controller
@@ -40,7 +39,6 @@ class AudienceController extends Controller
     {
         abort_if(Gate::denies('audience_edit'), Response::HTTP_FORBIDDEN, '403 Forbidden');
 
-
         return view('admin.audiences.edit');
     }
 
@@ -48,14 +46,12 @@ class AudienceController extends Controller
     {
         $audience->update($request->all());
 
-
         return redirect()->route('admin.audiences.index');
     }
 
     public function show(Audience $audience)
     {
         abort_if(Gate::denies('audience_show'), Response::HTTP_FORBIDDEN, '403 Forbidden');
-
 
         $audience->load('audienceStatements');
 

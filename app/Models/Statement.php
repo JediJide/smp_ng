@@ -12,7 +12,6 @@ use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Http\JsonResponse;
-use Illuminate\Http\Request;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Cache;
@@ -29,13 +28,18 @@ use Symfony\Component\HttpFoundation\Response;
  * required={"title","theme_id","therapy_area_id"}
  *
  * Statement Class
+ *
  * @method static find(int $statement)
  * @method static tree()
  */
 class Statement extends Model implements HasMedia
 {
-    use HasRecursiveRelationships;
+    use Auditable;
 
+    use HasFactory;
+
+    use HasRecursiveRelationships;
+    use InteractsWithMedia;
     /**
      * @OA\Property(format="string", title="title", default="Pillar 1: Gene therapy overview", description="title", property="title"),
      * @OA\Property(format="string", title="description", default="<p>Strategic objective: Provide an overview of gene therapy and its potential benefits</p><p><strong>Core statement:</strong> Gene therapy is an innovative transformative treatment that modifies a person's genes to treat or cure a disease, with several agents already approved for use.</p>", description="description", property="description"),
@@ -45,9 +49,6 @@ class Statement extends Model implements HasMedia
      * @OA\Property(format="int64", title="is_notify_all", default="0", description="is_notify_all", property="is_notify_all"),
      */
     use SoftDeletes;
-    use InteractsWithMedia;
-    use Auditable;
-    use HasFactory;
 
     public $table = 'statements';
 
@@ -76,7 +77,7 @@ class Statement extends Model implements HasMedia
     /**
      * @throws InvalidManipulation
      */
-    public function registerMediaConversions(Media $media = null): void
+    public function registerMediaConversions(?Media $media = null): void
     {
         $this->addMediaConversion('thumb')->fit('crop', 50, 50);
         $this->addMediaConversion('preview')->fit('crop', 120, 120);
@@ -104,7 +105,7 @@ class Statement extends Model implements HasMedia
             ->with('parentStatements')
             ->with('resources:id,resources.title,resources.url,resources.file_mime_type,temporary_url,is_header_resource')
             ->with('references:id,references.title,references.temporary_url,references.url')
-            ->orderBy ('order_by')
+            ->orderBy('order_by')
             ->select(['id', 'title', 'description', 'is_notify_all', 'parent_id', 'status_id', 'theme_id', 'order_by']);
     }
 
@@ -118,28 +119,28 @@ class Statement extends Model implements HasMedia
     {
         // return Cache::remember  ('statement_tree',60*60*24,function () use ($id) {
         return self::query()
-        ->whereNull('parent_id')
-        ->where('theme_id', $id)
-        ->with([
-            'resources' => fn ($query) => $query->select('resources.id', 'resources.title', 'resources.url', 'resources.file_mime_type', 'temporary_url', 'is_header_resource'),
-        ])
-        ->with([
-            'references' => fn ($query) => $query->select('references.id', 'references.title','references.temporary_url', 'references.url'),
-        ])
-        ->with([
-            'audiences' => fn ($query) => $query->select('audience.id', 'audience.name') ,
-        ])
-        ->with(['parentStatements' => fn ($query) => $query
+            ->whereNull('parent_id')
+            ->where('theme_id', $id)
             ->with([
-                'audiences' => fn ($query) => $query->select('audience.id','audience.name'),
+                'resources' => fn ($query) => $query->select('resources.id', 'resources.title', 'resources.url', 'resources.file_mime_type', 'temporary_url', 'is_header_resource'),
             ])
-            ->orderBy('order_by', 'asc'),
-        ])
-        ->get(['id', 'title', 'description', 'is_notify_all', 'parent_id', 'status_id', 'theme_id', 'order_by',
-            DB::raw('( select count(resource_statement.resource_id)
+            ->with([
+                'references' => fn ($query) => $query->select('references.id', 'references.title', 'references.temporary_url', 'references.url'),
+            ])
+            ->with([
+                'audiences' => fn ($query) => $query->select('audience.id', 'audience.name'),
+            ])
+            ->with(['parentStatements' => fn ($query) => $query
+                ->with([
+                    'audiences' => fn ($query) => $query->select('audience.id', 'audience.name'),
+                ])
+                ->orderBy('order_by', 'asc'),
+            ])
+            ->get(['id', 'title', 'description', 'is_notify_all', 'parent_id', 'status_id', 'theme_id', 'order_by',
+                DB::raw('( select count(resource_statement.resource_id)
             from resource_statement where resource_statement.statement_id = statements.id)
-            as ResourceCount')
-        ]);
+            as ResourceCount'),
+            ]);
 
     }
 
@@ -171,7 +172,7 @@ class Statement extends Model implements HasMedia
     public function resourcesThemes(): BelongsToMany
     {
         return $this->belongsToMany(Resource::class)
-            ->where ('is_header_resource','=','1');
+            ->where('is_header_resource', '=', '1');
 
     }
 
@@ -185,7 +186,7 @@ class Statement extends Model implements HasMedia
         // clear statement cache from statement
         Cache::forget('statement_tree');
 
-        return  DB::table('statements')->insertGetId($statement);
+        return DB::table('statements')->insertGetId($statement);
     }
 
     public function store_notify_users($data): bool
@@ -201,23 +202,23 @@ class Statement extends Model implements HasMedia
     public function updateNotification_message($statement_id, $data): int
     {
         return DB::table('notification_messages')
-        ->where('statement_id', '=', $statement_id)
-        ->update($data);
+            ->where('statement_id', '=', $statement_id)
+            ->update($data);
     }
 
     public function updateNotification($notifcation_message_id, $data): int
     {
         return DB::table('notifications')
-        ->where('notification_message_id', '=', $notifcation_message_id)
-        ->update($data);
+            ->where('notification_message_id', '=', $notifcation_message_id)
+            ->update($data);
     }
 
     public function get_notification_by_statement_Id($statement_id): Collection
     {
         return DB::table('notification_messages')
-        ->where('statement_id', '=', $statement_id)
-        ->select('id', 'old_value', 'new_value', 'statement_id')
-        ->get();
+            ->where('statement_id', '=', $statement_id)
+            ->select('id', 'old_value', 'new_value', 'statement_id')
+            ->get();
     }
 
     public function status(): BelongsTo
@@ -234,7 +235,7 @@ class Statement extends Model implements HasMedia
                     'title' => $title,
                     'description' => $description,
                     'order_by' => $order,
-                    'updated_at' =>  Carbon::now(),
+                    'updated_at' => Carbon::now(),
                 ]);
 
         $statement = DB::table('statements')
@@ -251,7 +252,7 @@ class Statement extends Model implements HasMedia
     {
         return DB::table('statements')
             ->where('statements.theme_id', $id)
-            ->select('statements.id','statements.parent_id', 'statements.order_by',
+            ->select('statements.id', 'statements.parent_id', 'statements.order_by',
                 'statements.title', 'statements.description', 'statements.theme_id', 'statements.status_id')
             ->orderBy('statements.id')
             ->get();
@@ -274,7 +275,6 @@ class Statement extends Model implements HasMedia
             ->select('id', 'title', 'file_mime_type', 'temporary_url as Url', 'is_header_resource')
             ->get()->toArray();
     }
-
 
     public function getReferencesById($statement_id): array
     {

@@ -19,9 +19,6 @@ class GlossaryController extends Controller
 
     /**
      * Display a listing of the resource.
-     *
-     * @param Glossary $glossary
-     * @return JsonResponse
      */
 
     /**
@@ -46,10 +43,6 @@ class GlossaryController extends Controller
 
     /**
      * Store a newly created resource in storage.
-     *
-     * @param Request $request
-     * @param Glossary $glossary
-     * @return JsonResponse
      */
 
     /**
@@ -59,15 +52,19 @@ class GlossaryController extends Controller
      *     summary="Add new glossary",
      *      security={{ "Bearer":{} }},
      *     description="Add new glossary",
+     *
      *     @OA\RequestBody(
+     *
      *         @OA\MediaType(
      *             mediaType="application/x-www-form-urlencoded",
+     *
      *             @OA\Schema(
      *                 type="object",
      *                 ref="#/components/schemas/Glossary",
      *             )
      *         )
      *     ),
+     *
      *      @OA\Response(response="401", description="fail", @OA\JsonContent(ref="#/components/schemas/ApiRequestException")),
      *     @OA\Response(response="201", description="Message", @OA\JsonContent(type="object", @OA\Property(format="string", default="Statement created", description="message", property="message"))),
      * )
@@ -101,9 +98,6 @@ class GlossaryController extends Controller
 
     /**
      * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return JsonResponse
      */
 
     /**
@@ -112,10 +106,12 @@ class GlossaryController extends Controller
      *     path="/api/v1/glossary/{id}",
      *     summary="get glossary by Id",
      *     security={{ "Bearer":{} }},
+     *
      *     @OA\Parameter(
      *        name="id",
      *        in="path",
      *        description="Glossary by Id",
+     *
      *        @OA\Schema(
      *           type="integer",
      *           format="int64"
@@ -123,12 +119,11 @@ class GlossaryController extends Controller
      *        required=true,
      *        example=1
      *     ),
+     *
      *     @OA\Response(response="401", description="fail", @OA\JsonContent(ref="#/components/schemas/ApiRequestException")),
      *     @OA\Response(response="404", description="fail", @OA\JsonContent(ref="#/components/schemas/ApiNotFoundException")),
      *     @OA\Response(response="200", description="success",@OA\JsonContent(ref="#/components/schemas/GlossaryResource")))
      * )
-     * @param int $id
-     * @return JsonResponse
      */
     public function show(int $id): JsonResponse
     {
@@ -141,10 +136,6 @@ class GlossaryController extends Controller
 
     /**
      * Update the specified resource in storage.
-     *
-     * @param Request $request
-     * @param  int  $id
-     * @return JsonResponse
      */
 
     /**
@@ -154,10 +145,12 @@ class GlossaryController extends Controller
      *     summary="Update glossary by Id",
      *     description="Update glossary by Id",
      *     security={{ "Bearer":{} }},
+     *
      *     @OA\RequestBody(
      *          request="person",
      *          required=false,
      *          description="Optional Request Parameters for Querying",
+     *
      *          @OA\JsonContent(ref="#/components/schemas/UpdateGlossaryRequest")
      *      ),
      *
@@ -165,6 +158,7 @@ class GlossaryController extends Controller
      *        name="id",
      *        in="path",
      *        description="Statement Id",
+     *
      *        @OA\Schema(
      *           type="integer",
      *           format="int64"
@@ -176,8 +170,10 @@ class GlossaryController extends Controller
      *     @OA\Response(
      *          response="200",
      *          description="Returns matching Person Object",
+     *
      *          @OA\JsonContent(
      *              type="array",
+     *
      *              @OA\Items(ref="#/components/schemas/UpdateStatementRequest")
      *          )
      *     )
@@ -207,10 +203,12 @@ class GlossaryController extends Controller
      *     path="/api/v1/glossary/{id}",
      *     summary="Delete glossary by Id",
      *     security={{ "Bearer":{} }},
+     *
      *     @OA\Parameter(
      *        name="id",
      *        in="path",
      *        description="glossary Id",
+     *
      *        @OA\Schema(
      *           type="integer",
      *           format="int64"
@@ -218,12 +216,11 @@ class GlossaryController extends Controller
      *        required=true,
      *        example=1
      *     ),
+     *
      *     @OA\Response(response="401", description="fail", @OA\JsonContent(ref="#/components/schemas/ApiRequestException")),
      *     @OA\Response(response="404", description="fail", @OA\JsonContent(ref="#/components/schemas/ApiNotFoundException")),
      *     @OA\Response(response="202", description="success",@OA\JsonContent(ref="#/components/schemas/MassDestroyGlossaryRequest")))
      * )
-     * @param int $id
-     * @return JsonResponse
      */
     public function destroy(int $id): JsonResponse
     {

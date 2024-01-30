@@ -16,15 +16,14 @@ use Illuminate\Routing\Controller as BaseController;
  */
 class Controller extends BaseController
 {
-/**
- * @OA\SecurityScheme(
- *       scheme="Bearer",
- *       securityScheme="Bearer",
- *       type="http",
- *       in="header",
- *       name="Authorization",
- * )
- */
+    /**
+     * @OA\SecurityScheme(
+     *       scheme="Bearer",
+     *       securityScheme="Bearer",
+     *       type="http",
+     *       in="header",
+     *       name="Authorization",
+     * )
+     */
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 }
-

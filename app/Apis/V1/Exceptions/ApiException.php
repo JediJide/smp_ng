@@ -21,10 +21,8 @@ class ApiException extends HttpException
 
     /**
      * ApiException constructor.
-     * @param  int  $statusCode
-     * @param  string|null  $message
      */
-    public function __construct(int $statusCode, string $message = null)
+    public function __construct(int $statusCode, ?string $message = null)
     {
         parent::__construct($statusCode, $message);
     }

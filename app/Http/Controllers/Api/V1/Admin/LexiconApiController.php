@@ -9,7 +9,6 @@ use App\Http\Requests\UpdateLexiconRequest;
 use App\Http\Resources\Admin\LexiconResource;
 use App\Models\Lexicon;
 use Gate;
-use Illuminate\Http\Request;
 use Symfony\Component\HttpFoundation\Response;
 
 class LexiconApiController extends Controller

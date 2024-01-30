@@ -7,7 +7,6 @@ use App\Http\Controllers\Controller;
 // use App\Http\Requests\UpdateAudienceRequest;
 use App\Http\Resources\Admin\AudienceResource;
 use App\Models\Audience;
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Gate;
 use Symfony\Component\HttpFoundation\Response;
 
