@@ -2,14 +2,14 @@
 
 namespace App\Http\Controllers\Admin;
 
-use Illuminate\Http\RedirectResponse;
-use Illuminate\View\View;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\MassDestroyStatementStatusRequest;
 use App\Http\Requests\StoreStatementStatusRequest;
 use App\Http\Requests\UpdateStatementStatusRequest;
 use App\Models\StatementStatus;
 use Gate;
+use Illuminate\Http\RedirectResponse;
+use Illuminate\View\View;
 use Symfony\Component\HttpFoundation\Response;
 
 class StatementStatusController extends Controller

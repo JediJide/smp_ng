@@ -2,14 +2,14 @@
 
 namespace App\Http\Controllers\Admin;
 
-use Illuminate\Http\RedirectResponse;
-use Illuminate\View\View;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\MassDestroyTherapyAreaRequest;
 use App\Http\Requests\StoreTherapyAreaRequest;
 use App\Http\Requests\UpdateTherapyAreaRequest;
 use App\Models\TherapyArea;
 use Gate;
+use Illuminate\Http\RedirectResponse;
+use Illuminate\View\View;
 use Symfony\Component\HttpFoundation\Response;
 
 class TherapyAreaController extends Controller

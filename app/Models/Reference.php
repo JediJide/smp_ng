@@ -2,10 +2,10 @@
 
 namespace App\Models;
 
-use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use DateTimeInterface;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\DB;
@@ -25,8 +25,8 @@ use Spatie\MediaLibrary\MediaCollections\Models\Media;
 class Reference extends Model implements HasMedia
 {
     use HasFactory;
-
     use InteractsWithMedia;
+
     /**
      * @OA\Property(format="string", title="title", default="The file title", description="title", property="title"),
      * @OA\Property(format="string", title="title", default="https://www.google.com", description="url", property="url"),

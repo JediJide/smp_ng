@@ -35,11 +35,10 @@ use Symfony\Component\HttpFoundation\Response;
 class Statement extends Model implements HasMedia
 {
     use Auditable;
-
     use HasFactory;
-
     use HasRecursiveRelationships;
     use InteractsWithMedia;
+
     /**
      * @OA\Property(format="string", title="title", default="Pillar 1: Gene therapy overview", description="title", property="title"),
      * @OA\Property(format="string", title="description", default="<p>Strategic objective: Provide an overview of gene therapy and its potential benefits</p><p><strong>Core statement:</strong> Gene therapy is an innovative transformative treatment that modifies a person's genes to treat or cure a disease, with several agents already approved for use.</p>", description="description", property="description"),
