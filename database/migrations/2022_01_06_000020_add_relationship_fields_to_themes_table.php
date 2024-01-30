@@ -6,7 +6,7 @@ use Illuminate\Support\Facades\Schema;
 
 return new class extends Migration
 {
-    public function up()
+    public function up(): void
     {
         Schema::table('themes', function (Blueprint $table) {
             $table->unsignedBigInteger('therapy_area_id')->nullable();

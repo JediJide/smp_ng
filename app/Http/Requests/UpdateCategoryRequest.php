@@ -15,12 +15,12 @@ class UpdateCategoryRequest extends FormRequest
      * @OA\Property(property="name", type="string", format="name", example="name"),
      * @OA\Property(property="therapy_area_id", type="int64", format="therapy_area_id", example="1"),
      */
-    public function authorize()
+    public function authorize(): bool
     {
         return Gate::allows('category_edit');
     }
 
-    public function rules()
+    public function rules(): array
     {
         return [
             'name' => [

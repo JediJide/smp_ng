@@ -35,7 +35,7 @@ class SendEmail implements ShouldQueue
      *
      * @return void
      */
-    public function handle()
+    public function handle(): void
     {
         // $users = User::get ();
         // $users = User::whereIn('id',[139,135])->get();

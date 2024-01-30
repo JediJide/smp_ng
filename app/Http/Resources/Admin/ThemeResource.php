@@ -19,7 +19,7 @@ class ThemeResource extends JsonResource
      * @OA\Property(format="int64", title="category_id", default="1", description="category_id", property="category_id"),
      * @OA\Property(format="int64", title="therapy_area_id", default="1", description="therapy_area_id", property="therapy_area_id"),
      */
-    public function toArray($request)
+    public function toArray($request): array
     {
         return parent::toArray($request);
     }

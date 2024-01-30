@@ -17,7 +17,7 @@ class ResourceResource extends JsonResource
      * @OA\Property(format="string", title="title", default="File title", description="name", property="title"),
      * @OA\Property(format="string", title="file_name", default="https://awsS3.com", description="file_name", property="file_name")
      */
-    public function toArray($request)
+    public function toArray($request): array
     {
         return parent::toArray($request);
     }

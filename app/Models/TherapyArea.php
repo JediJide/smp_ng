@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use Illuminate\Database\Eloquent\Relations\HasMany;
 use DateTimeInterface;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
@@ -29,17 +30,17 @@ class TherapyArea extends Model
         'deleted_at',
     ];
 
-    public function therapyAreaStatements()
+    public function therapyAreaStatements(): HasMany
     {
         return $this->hasMany(Statement::class, 'therapy_area_id', 'id');
     }
 
-    public function therapyAreaGlossaries()
+    public function therapyAreaGlossaries(): HasMany
     {
         return $this->hasMany(Glossary::class, 'therapy_area_id', 'id');
     }
 
-    public function therapyAreaLexicons()
+    public function therapyAreaLexicons(): HasMany
     {
         return $this->hasMany(Lexicon::class, 'therapy_area_id', 'id');
     }

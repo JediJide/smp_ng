@@ -24,7 +24,7 @@ class AssignRoleForRegisteredUser
      *
      * @param  object  $event
      */
-    public function handle(Registered $event)
+    public function handle(Registered $event): void
     {
         $this->user = $event->user;
 

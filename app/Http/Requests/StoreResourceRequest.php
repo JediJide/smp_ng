@@ -7,12 +7,12 @@ use Illuminate\Foundation\Http\FormRequest;
 
 class StoreResourceRequest extends FormRequest
 {
-    public function authorize()
+    public function authorize(): bool
     {
         return Gate::allows('resource_create');
     }
 
-    public function rules()
+    public function rules(): array
     {
         return [
             'title' => [

@@ -19,12 +19,12 @@ class UpdateGlossaryRequest extends FormRequest
      * @OA\Property(format="string", title="updated_at", default="2022-01-06 15:47:41", description="updated_at", property="updated_at"),
      * @OA\Property(format="string", title="deleted_at", default="2022-01-06 15:47:41", description="deleted_at", property="deleted_at"),
      */
-    public function authorize()
+    public function authorize(): bool
     {
         return Gate::allows('glossary_edit');
     }
 
-    public function rules()
+    public function rules(): array
     {
         return [
             'therapy_area_id' => [

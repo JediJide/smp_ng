@@ -18,12 +18,12 @@ class UpdateUserRequest extends FormRequest
      * @OA\Property(format="string", default="password", description="password", property="password"),
      * @OA\Property(property="roles", type="numeric", format="roles", example={{ "role_id": "1" }}),
      */
-    public function authorize()
+    public function authorize(): bool
     {
         return Gate::allows('user_edit');
     }
 
-    public function rules()
+    public function rules(): array
     {
         return [
             'name' => [

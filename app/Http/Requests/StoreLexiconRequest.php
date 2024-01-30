@@ -7,12 +7,12 @@ use Illuminate\Support\Facades\Gate;
 
 class StoreLexiconRequest extends FormRequest
 {
-    public function authorize()
+    public function authorize(): bool
     {
         return Gate::allows('lexicon_create');
     }
 
-    public function rules()
+    public function rules(): array
     {
         return [
             'preferred_phrase' => 'required',

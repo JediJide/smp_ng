@@ -19,7 +19,7 @@ class UpdateTherapyAreaRequest extends FormRequest
         return Gate::allows('therapy_area_edit');
     }
 
-    public function rules()
+    public function rules(): array
     {
         return [
             'name' => [

@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use App\Support\HasAdvancedFilter;
 use Carbon\Carbon;
 use DateTimeInterface;
@@ -77,7 +78,7 @@ class Resource extends Model implements HasMedia
         return $this->getMedia('filename');
     }
 
-    public function user()
+    public function user(): BelongsTo
     {
         return $this->belongsTo(User::class, 'user_id');
     }

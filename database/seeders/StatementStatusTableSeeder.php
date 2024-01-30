@@ -12,7 +12,7 @@ class StatementStatusTableSeeder extends Seeder
      *
      * @return void
      */
-    public function run()
+    public function run(): void
     {
         $statuses = [
             [

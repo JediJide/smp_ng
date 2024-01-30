@@ -12,7 +12,7 @@ class StatementObserver
      *
      * @return void
      */
-    public function created(Statement $statement)
+    public function created(Statement $statement): void
     {
         Cache::forget('statement_tree');
     }
@@ -22,7 +22,7 @@ class StatementObserver
      *
      * @return void
      */
-    public function updated(Statement $statement)
+    public function updated(Statement $statement): void
     {
         Cache::forget('statement_tree');
     }
@@ -32,7 +32,7 @@ class StatementObserver
      *
      * @return void
      */
-    public function deleted(Statement $statement)
+    public function deleted(Statement $statement): void
     {
         Cache::forget('statement_tree');
     }
@@ -42,7 +42,7 @@ class StatementObserver
      *
      * @return void
      */
-    public function restored(Statement $statement)
+    public function restored(Statement $statement): void
     {
         Cache::forget('statement_tree');
     }
@@ -52,7 +52,7 @@ class StatementObserver
      *
      * @return void
      */
-    public function forceDeleted(Statement $statement)
+    public function forceDeleted(Statement $statement): void
     {
         Cache::forget('statement_tree');
     }

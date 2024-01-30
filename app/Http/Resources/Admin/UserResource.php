@@ -17,7 +17,7 @@ class UserResource extends JsonResource
      * @OA\Property(format="string", title="name", default="firstname", description="name", property="name"),
      * @OA\Property(format="string", title="email", default="admin@synaptikdigital.com", description="email", property="email")
      */
-    public function toArray($request)
+    public function toArray($request): array
     {
         return parent::toArray($request);
     }

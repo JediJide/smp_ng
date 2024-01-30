@@ -7,12 +7,12 @@ use Illuminate\Foundation\Http\FormRequest;
 
 class UpdateAudienceRequest extends FormRequest
 {
-    public function authorize()
+    public function authorize(): bool
     {
         return Gate::allows('audience_edit');
     }
 
-    public function rules()
+    public function rules(): array
     {
         return [
             'name' => [

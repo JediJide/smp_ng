@@ -12,7 +12,7 @@ use Tests\DuskTestCase;
  */
 class ThemeTest extends DuskTestCase
 {
-    public function testIndex()
+    public function testIndex(): void
     {
         $admin = App\Models\User::find(1);
         $this->browse(function (Browser $browser) use ($admin) {

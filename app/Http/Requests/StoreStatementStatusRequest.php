@@ -7,12 +7,12 @@ use Illuminate\Foundation\Http\FormRequest;
 
 class StoreStatementStatusRequest extends FormRequest
 {
-    public function authorize()
+    public function authorize(): bool
     {
         return Gate::allows('statement_status_create');
     }
 
-    public function rules()
+    public function rules(): array
     {
         return [
             'status' => [

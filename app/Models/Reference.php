@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use DateTimeInterface;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
@@ -60,12 +61,12 @@ class Reference extends Model implements HasMedia
         $this->addMediaConversion('preview')->fit('crop', 120, 120);
     }
 
-    public function referenceThemes()
+    public function referenceThemes(): BelongsToMany
     {
         return $this->belongsToMany(Theme::class);
     }
 
-    public function referenceStatements()
+    public function referenceStatements(): BelongsToMany
     {
         return $this->belongsToMany(Statement::class);
     }

@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use DateTimeInterface;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
@@ -33,7 +34,7 @@ class Audience extends Model
 
     protected $hidden = ['pivot'];
 
-    public function audienceStatements()
+    public function audienceStatements(): BelongsToMany
     {
         return $this->belongsToMany(Statement::class);
     }

@@ -7,12 +7,12 @@ use Illuminate\Support\Facades\Gate;
 
 class StoreTherapyAreaRequest extends FormRequest
 {
-    public function authorize()
+    public function authorize(): bool
     {
         return Gate::allows('therapy_area_create');
     }
 
-    public function rules()
+    public function rules(): array
     {
         return [
             'name' => [

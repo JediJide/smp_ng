@@ -7,12 +7,12 @@ use Illuminate\Foundation\Http\FormRequest;
 
 class StoreAudienceRequest extends FormRequest
 {
-    public function authorize()
+    public function authorize(): bool
     {
         return Gate::allows('audience_create');
     }
 
-    public function rules()
+    public function rules(): array
     {
         return [
             'name' => [

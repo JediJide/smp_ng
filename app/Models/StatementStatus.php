@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use Illuminate\Database\Eloquent\Relations\HasMany;
 use DateTimeInterface;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
@@ -21,7 +22,7 @@ class StatementStatus extends Model
         'deleted_at',
     ];
 
-    public function statusStatements()
+    public function statusStatements(): HasMany
     {
         return $this->hasMany(Statement::class, 'status_id', 'id');
     }

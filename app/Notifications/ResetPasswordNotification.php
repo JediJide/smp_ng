@@ -33,7 +33,7 @@ class ResetPasswordNotification extends Notification
      * @param  mixed  $notifiable
      * @return array
      */
-    public function via($notifiable)
+    public function via($notifiable): array
     {
         return ['mail'];
     }
@@ -55,7 +55,7 @@ class ResetPasswordNotification extends Notification
      * @param  mixed  $notifiable
      * @return MailMessage
      */
-    public function toMail($notifiable)
+    public function toMail($notifiable): MailMessage
     {
         //Set confirm link  - directed at SPA UI
         $actionUrl = config('app.app_ui_url').'/forgot-confirm/'.$this->url.'?email='.$notifiable->email;
@@ -73,7 +73,7 @@ class ResetPasswordNotification extends Notification
      * @param  mixed  $notifiable
      * @return array
      */
-    public function toArray($notifiable)
+    public function toArray($notifiable): array
     {
         return [
             //

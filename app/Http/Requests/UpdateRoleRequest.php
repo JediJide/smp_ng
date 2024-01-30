@@ -22,12 +22,12 @@ class UpdateRoleRequest extends FormRequest
      */
 
     //{"AssetId":"5a6ac412-e6a4-45c4-b925-e793df373ce2","SearchTerm":"p","StatementSearch":true,"NarrativeSearch":true}
-    public function authorize()
+    public function authorize(): bool
     {
         return Gate::allows('role_edit');
     }
 
-    public function rules()
+    public function rules(): array
     {
         return [
             'title' => [
