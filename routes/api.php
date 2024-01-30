@@ -1,40 +1,40 @@
 <?php
 
-    use App\Http\Controllers\Api;
-    use App\Http\Controllers\Api\V1\Frontend\AuthController;
-    use App\Http\Controllers\Api\V1\Frontend\CategoryController;
-    use App\Http\Controllers\Api\V1\Frontend\GlossaryController;
-    use App\Http\Controllers\Api\V1\Frontend\GlossaryTherapyAreaController;
-    use App\Http\Controllers\Api\V1\Frontend\ImportController;
-    use App\Http\Controllers\Api\V1\Frontend\InviteController;
-    use App\Http\Controllers\Api\V1\Frontend\LexiconController;
-    use App\Http\Controllers\Api\V1\Frontend\LexiconTherapyAreaController;
-    use App\Http\Controllers\Api\V1\Frontend\MailController;
-    use App\Http\Controllers\Api\V1\Frontend\NotificationController;
-    use App\Http\Controllers\Api\V1\Frontend\PasswordController;
-    use App\Http\Controllers\Api\V1\Frontend\ReferenceController;
-    use App\Http\Controllers\Api\V1\Frontend\ResourceController;
-    use App\Http\Controllers\Api\V1\Frontend\SearchController;
-    use App\Http\Controllers\Api\V1\Frontend\StatementController;
-    use App\Http\Controllers\Api\V1\Frontend\StatementReorderController;
-    use App\Http\Controllers\Api\V1\Frontend\ThemesController;
-    use App\Http\Controllers\Api\V1\Frontend\TherapyAreaController;
-    use App\Http\Controllers\Api\V1\Frontend\UsersController;
-    use App\Http\Controllers\Api\V1\Frontend\AudienceController;
-    use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Api;
+use App\Http\Controllers\Api\V1\Frontend\AudienceController;
+use App\Http\Controllers\Api\V1\Frontend\AuthController;
+use App\Http\Controllers\Api\V1\Frontend\CategoryController;
+use App\Http\Controllers\Api\V1\Frontend\GlossaryController;
+use App\Http\Controllers\Api\V1\Frontend\GlossaryTherapyAreaController;
+use App\Http\Controllers\Api\V1\Frontend\ImportController;
+use App\Http\Controllers\Api\V1\Frontend\InviteController;
+use App\Http\Controllers\Api\V1\Frontend\LexiconController;
+use App\Http\Controllers\Api\V1\Frontend\LexiconTherapyAreaController;
+use App\Http\Controllers\Api\V1\Frontend\MailController;
+use App\Http\Controllers\Api\V1\Frontend\NotificationController;
+use App\Http\Controllers\Api\V1\Frontend\PasswordController;
+use App\Http\Controllers\Api\V1\Frontend\ReferenceController;
+use App\Http\Controllers\Api\V1\Frontend\ResourceController;
+use App\Http\Controllers\Api\V1\Frontend\SearchController;
+use App\Http\Controllers\Api\V1\Frontend\StatementController;
+use App\Http\Controllers\Api\V1\Frontend\StatementReorderController;
+use App\Http\Controllers\Api\V1\Frontend\ThemesController;
+use App\Http\Controllers\Api\V1\Frontend\TherapyAreaController;
+use App\Http\Controllers\Api\V1\Frontend\UsersController;
+use Illuminate\Support\Facades\Route;
 
-    // Auth
-    Route::post('login', [AuthController::class, 'login']);
+// Auth
+Route::post('login', [AuthController::class, 'login']);
 
-    Route::post('/logout', [AuthController::class, 'logout'])->middleware('auth:sanctum');
-    Route::post('register', [AuthController::class, 'register'])->name('registration');
+Route::post('/logout', [AuthController::class, 'logout'])->middleware('auth:sanctum');
+Route::post('register', [AuthController::class, 'register'])->name('registration');
 
-    // Password reset controller
-    Route::post('forgot-password', [PasswordController::class, 'forgotPassword']);
-    Route::post('reset-password', [PasswordController::class, 'reset']);
+// Password reset controller
+Route::post('forgot-password', [PasswordController::class, 'forgotPassword']);
+Route::post('reset-password', [PasswordController::class, 'reset']);
 
-    // home/welcome page
-    Route::view('welcome', 'welcome', ['ui_url'=> config('app.env_app_ui_url')])->name('welcome');
+// home/welcome page
+Route::view('welcome', 'welcome', ['ui_url' => config('app.env_app_ui_url')])->name('welcome');
 
 /*
  |--------------------------------------------------------------------------
@@ -43,12 +43,12 @@
  | Outside of auth:sanctum protection
  |
  */
-    Route::post('invite', [InviteController::class, 'process'])->name('process');
+Route::post('invite', [InviteController::class, 'process'])->name('process');
 
-    Route::get('registration', [InviteController::class, 'invite'])
-        ->name('auth.registration')->middleware('web', 'signed');
+Route::get('registration', [InviteController::class, 'invite'])
+    ->name('auth.registration')->middleware('web', 'signed');
 
-    Route::get('accept/{token}', [InviteController::class, 'accept'])->name('accept');
+Route::get('accept/{token}', [InviteController::class, 'accept'])->name('accept');
 
 /*
 |--------------------------------------------------------------------------
@@ -87,7 +87,7 @@ Route::prefix('v1')->name('api.')->middleware(['auth:sanctum'])->group(function 
     Route::get('/theme/{id}', [ThemesController::class, 'show']);
     Route::put('/theme/{id}', [ThemesController::class, 'update']);
     Route::delete('/theme/{id}', [ThemesController::class, 'destroy']);
-    Route::get ('theme-resource/{id}', [Api\V1\Frontend\GenericController::class, 'themesResources']);
+    Route::get('theme-resource/{id}', [Api\V1\Frontend\GenericController::class, 'themesResources']);
 
     //Statement
     Route::get('/statement/category/{category_id}/', [StatementController::class, 'index']);
@@ -99,8 +99,8 @@ Route::prefix('v1')->name('api.')->middleware(['auth:sanctum'])->group(function 
     //Reorder
     Route::put('/reorder/statement', [StatementReorderController::class, 'StatementsUpdate']);
     Route::put('/reorder/themes', [StatementReorderController::class, 'ThemesUpdate']);
-    Route::put('/reorder/lexicons',[StatementReorderController::class, 'LexiconsUpdate']);
-    Route::put('/reorder/glossaries',[StatementReorderController::class, 'GlossariesUpdate']);
+    Route::put('/reorder/lexicons', [StatementReorderController::class, 'LexiconsUpdate']);
+    Route::put('/reorder/glossaries', [StatementReorderController::class, 'GlossariesUpdate']);
 
     //Resource
     Route::get('/resource', [ResourceController::class, 'index']);
@@ -146,20 +146,20 @@ Route::prefix('v1')->name('api.')->middleware(['auth:sanctum'])->group(function 
     Route::get('/import/glossary', [ImportController::class, 'importGlossary'])
         ->name('import-glossary');
 
-    Route::get('/import/aws-files',[ImportController::class, 'getAwsFiles']);
+    Route::get('/import/aws-files', [ImportController::class, 'getAwsFiles']);
 
     Route::get('/import/themes', [ImportController::class, 'importThemes'])
         ->name('import-themes');
 
-    # Route to run, when removing unlinked Resources.
+    // Route to run, when removing unlinked Resources.
     Route::get('/remove/statement-resources', [ImportController::class, 'removeUnlinkedResources']);
 
-    # Send mass email
+    // Send mass email
     Route::get('send-mail', [MailController::class, 'sendMail'])->name('sendMail');
 
     //clear cache
     Route::get('/import/clear-cache', [ImportController::class, 'clearStatementCache'])
-    ->name('clear-statement-cache');
+        ->name('clear-statement-cache');
 });
 
 /*

@@ -2,19 +2,17 @@
 
 namespace App\Http\Requests;
 
-use App\Models\Glossary;
 use Illuminate\Foundation\Http\FormRequest;
-use Illuminate\Http\Response;
 use Illuminate\Support\Facades\Gate;
 
 class StoreGlossaryRequest extends FormRequest
 {
-    public function authorize()
+    public function authorize(): bool
     {
         return Gate::allows('glossary_create');
     }
 
-    public function rules()
+    public function rules(): array
     {
         return [
             'term' => ['string|required'],

@@ -3,7 +3,6 @@
 namespace App\Services;
 
 use App\Http\Resources\Admin\StatementResource;
-use App\Models\Audience;
 use App\Models\Reference;
 use App\Models\Resource;
 use App\Models\Statement;
@@ -87,7 +86,7 @@ class StatementService
         $statement_id = Statement::find($id);
         if (isset($request->resource_id)) {
             $this->linkResourceToStatement($request->resource_id, $statement_id);
-        }else{
+        } else {
             //if resource_id not set or is set to "" then remove all resource links
             $statement_id->resources()->sync([]);
         }
@@ -121,7 +120,6 @@ class StatementService
         ];
         $this->createNotification('Statement deleted', $notification_message, 2);
 
-
     }
 
     private function createNotification($breadcrumb, $notification_message, $type = 0)
@@ -140,7 +138,6 @@ class StatementService
         ];
         $statement->store_notify_users($notification_data);
     }
-
 
     private function editNotification($request, int $id)
     {
@@ -171,11 +168,11 @@ class StatementService
             $statement->updateNotification($get_messages[0]->id, $data_notification);
         } else {
 
-            $old_description =  (! $get_statement->isEmpty()) ? $get_statement[0]->description : null;
+            $old_description = (! $get_statement->isEmpty()) ? $get_statement[0]->description : null;
 
             //insertion process
             $notification_message = [
-                'old_value' =>  $old_description,
+                'old_value' => $old_description,
                 'new_value' => $request->description,
                 'statement_id' => $id,
                 'created_at' => Carbon::now(),
@@ -204,9 +201,8 @@ class StatementService
 
         $statement_latest->resources()->sync($resourceIDs);
 
-        #update resource link field
-        foreach ($resourceIDs as $resourceID)
-        {
+        //update resource link field
+        foreach ($resourceIDs as $resourceID) {
             Resource::where('id', $resourceID)
                 ->update(['is_linked' => 1]);
         }
@@ -220,9 +216,8 @@ class StatementService
         $referenceIDs = array_map('intval', explode(',', $string_referenceIDs));
         $statement_latest->references()->sync($referenceIDs);
 
-        #updated reference link field
-        foreach ($referenceIDs as $referenceID)
-        {
+        //updated reference link field
+        foreach ($referenceIDs as $referenceID) {
             Reference::where('id', $referenceID)
                 ->update(['is_linked' => 1]);
         }

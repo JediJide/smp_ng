@@ -8,7 +8,6 @@ use App\Http\Requests\StoreStatementRequest;
 use App\Http\Requests\UpdateStatementRequest;
 use App\Http\Resources\Admin\StatementResource;
 use App\Models\Statement;
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Gate;
 use Symfony\Component\HttpFoundation\Response;
 
@@ -52,7 +51,7 @@ class StatementApiController extends Controller
             ->setStatusCode(Response::HTTP_ACCEPTED);
     }
 
-    public function destroy(Statement $statement)
+    public function destroy(Statement $statement): \Illuminate\Http\Response
     {
         abort_if(Gate::denies('statement_delete'), Response::HTTP_FORBIDDEN, '403 Forbidden');
 

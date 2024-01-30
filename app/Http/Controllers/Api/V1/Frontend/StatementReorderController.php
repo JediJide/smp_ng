@@ -14,13 +14,13 @@ class StatementReorderController extends Controller
     {
         $orders = $request->all();
 
-        foreach ($orders as $order=>$value) {
+        foreach ($orders as $order => $value) {
             DB::table('statements')
                 ->where('id', '=', $value['id'])
                 ->update(
                     [
                         'order_by' => $value['reorder'],
-                        'updated_at' =>  Carbon::now(),
+                        'updated_at' => Carbon::now(),
                     ]);
         }
 
@@ -31,13 +31,13 @@ class StatementReorderController extends Controller
     {
         $orders = $request->all();
 
-        foreach ($orders as $order=>$value) {
+        foreach ($orders as $order => $value) {
             DB::table('themes')
                 ->where('id', '=', $value['id'])
                 ->update(
                     [
                         'order_by' => $value['reorder'],
-                        'updated_at' =>  Carbon::now(),
+                        'updated_at' => Carbon::now(),
                     ]);
         }
 
@@ -48,13 +48,13 @@ class StatementReorderController extends Controller
     {
         $orders = $request->all();
 
-        foreach ($orders as $order=>$value) {
+        foreach ($orders as $order => $value) {
             DB::table('lexicons')
                 ->where('id', '=', $value['id'])
                 ->update(
                     [
                         'order_by' => $value['reorder'],
-                        'updated_at' =>  Carbon::now(),
+                        'updated_at' => Carbon::now(),
                     ]);
         }
 
@@ -65,13 +65,13 @@ class StatementReorderController extends Controller
     {
         $orders = $request->all();
 
-        foreach ($orders as $order=>$value) {
+        foreach ($orders as $order => $value) {
             DB::table('glossaries')
                 ->where('id', '=', $value['id'])
                 ->update(
                     [
                         'order_by' => $value['reorder'],
-                        'updated_at' =>  Carbon::now(),
+                        'updated_at' => Carbon::now(),
                     ]);
         }
 

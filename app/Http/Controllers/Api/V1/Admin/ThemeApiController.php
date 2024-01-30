@@ -9,7 +9,6 @@ use App\Http\Requests\UpdateThemeRequest;
 use App\Http\Resources\Admin\ThemeResource;
 use App\Models\Theme;
 use Gate;
-use Illuminate\Http\Request;
 use Symfony\Component\HttpFoundation\Response;
 
 class ThemeApiController extends Controller
@@ -52,7 +51,7 @@ class ThemeApiController extends Controller
             ->setStatusCode(Response::HTTP_ACCEPTED);
     }
 
-    public function destroy(Theme $theme)
+    public function destroy(Theme $theme): \Illuminate\Http\Response
     {
         abort_if(Gate::denies('theme_delete'), Response::HTTP_FORBIDDEN, '403 Forbidden');
 

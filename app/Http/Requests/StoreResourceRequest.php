@@ -2,19 +2,17 @@
 
 namespace App\Http\Requests;
 
-use App\Models\Resource;
 use Gate;
 use Illuminate\Foundation\Http\FormRequest;
-use Illuminate\Http\Response;
 
 class StoreResourceRequest extends FormRequest
 {
-    public function authorize()
+    public function authorize(): bool
     {
         return Gate::allows('resource_create');
     }
 
-    public function rules()
+    public function rules(): array
     {
         return [
             'title' => [

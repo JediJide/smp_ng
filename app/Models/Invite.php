@@ -13,7 +13,7 @@ use Illuminate\Database\Eloquent\Model;
  */
 class Invite extends Model
 {
-   // protected $connection = 'common_database';
+    // protected $connection = 'common_database';
     /**
      * @OA\Property(format="string", default="email@domain.com", description="email", property="email"),
      *@OA\Property(format="int64", default="2", description="role", property="role"),

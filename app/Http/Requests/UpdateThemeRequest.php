@@ -4,7 +4,6 @@ namespace App\Http\Requests;
 
 use App\Models\Theme;
 use Illuminate\Foundation\Http\FormRequest;
-use Illuminate\Http\Response;
 use Illuminate\Support\Facades\Gate;
 
 /**
@@ -20,12 +19,12 @@ class UpdateThemeRequest extends FormRequest
      * @OA\Property(format="int64", title="category_id", default="1", description="category_id", property="category_id"),
      * @OA\Property(format="int64", title="therapy_area_id", default="1", description="therapy_area_id", property="therapy_area_id"),
      */
-    public function authorize()
+    public function authorize(): bool
     {
         return Gate::allows('theme_edit');
     }
 
-    public function rules()
+    public function rules(): array
     {
         return [
             'therapy_area_id' => [

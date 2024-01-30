@@ -4,9 +4,6 @@ use App\Http\Controllers\Admin;
 //use App\Http\Controllers\Auth;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
-use Illuminate\Support\Facades\Http;
-
-use Illuminate\Http\Request;
 
 Route::redirect('/', '/login');
 
@@ -94,7 +91,7 @@ Route::prefix('admin')->name('admin.')->middleware('auth')->group(function () {
     Route::resource('audiences', Admin\AudienceController::class);
 
     // Audit Logs
-    Route::resource('audit-logs', Admin\AuditLogsController::class, ['except' => ['create', 'store', 'edit', 'update', 'destroy']]);
+    Route::resource('audit-logs', Admin\AuditLogsController::class)->except('create', 'store', 'edit', 'update', 'destroy');
 });
 Route::prefix('profile')->name('profile.')->middleware('auth')->group(function () {
     // Change password

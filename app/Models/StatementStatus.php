@@ -5,12 +5,13 @@ namespace App\Models;
 use DateTimeInterface;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
 class StatementStatus extends Model
 {
-    use SoftDeletes;
     use HasFactory;
+    use SoftDeletes;
 
     public $table = 'statement_statuses';
 
@@ -21,7 +22,7 @@ class StatementStatus extends Model
         'deleted_at',
     ];
 
-    public function statusStatements()
+    public function statusStatements(): HasMany
     {
         return $this->hasMany(Statement::class, 'status_id', 'id');
     }

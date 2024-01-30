@@ -7,6 +7,7 @@ use Carbon\Carbon;
 use DateTimeInterface;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Support\Collection;
@@ -21,6 +22,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Media;
  * required={"title","file_name"}
  *
  * Resource Class
+ *
  * @method static where(string $string, $id)
  */
 class Resource extends Model implements HasMedia
@@ -31,9 +33,9 @@ class Resource extends Model implements HasMedia
      */
     use HasAdvancedFilter;
 
-    use SoftDeletes;
-    use InteractsWithMedia;
     use HasFactory;
+    use InteractsWithMedia;
+    use SoftDeletes;
 
     public $table = 'resources';
 
@@ -55,7 +57,7 @@ class Resource extends Model implements HasMedia
 
     protected $hidden = ['pivot'];
 
-    public function registerMediaConversions(Media $media = null): void
+    public function registerMediaConversions(?Media $media = null): void
     {
         $this->addMediaConversion('thumb')->fit('crop', 50, 50);
         $this->addMediaConversion('preview')->fit('crop', 120, 120);
@@ -76,14 +78,14 @@ class Resource extends Model implements HasMedia
         return $this->getMedia('filename');
     }
 
-    public function user()
+    public function user(): BelongsTo
     {
         return $this->belongsTo(User::class, 'user_id');
     }
 
     public function store($resource): int
     {
-        return  DB::table('resources')->insertGetId($resource);
+        return DB::table('resources')->insertGetId($resource);
     }
 
     public function getFileNames(): Collection
@@ -91,7 +93,7 @@ class Resource extends Model implements HasMedia
         return DB::table('resources')
             ->whereNotNull('file_name')
             ->whereNull('deleted_at')
-            ->select('id', 'title', 'url', 'user_id', 'file_name','is_header_resource')
+            ->select('id', 'title', 'url', 'user_id', 'file_name', 'is_header_resource')
             ->get();
     }
 
@@ -108,7 +110,7 @@ class Resource extends Model implements HasMedia
     {
         return DB::table('resources')
             ->where('file_name', $file)
-            ->update(['temporary_url' => $new_url, 'updated_at' =>  Carbon::now()]);
+            ->update(['temporary_url' => $new_url, 'updated_at' => Carbon::now()]);
     }
 
     public function updateTempResourceUrlsById($id, $resource): int
@@ -120,46 +122,38 @@ class Resource extends Model implements HasMedia
 
     public function updateResourceLinkField($id, $is_linked)
     {
-      return  Resource::where('id', $id)
+        return Resource::where('id', $id)
             ->update(['is_linked' => $is_linked]);
     }
 
     public function delete_unlinked_Resources()
     {
-        $file_names = DB::table ('resources')
-            ->select ('resources.id','resources.file_name')
-            ->whereNull ('is_linked')
-             ->get ();
+        $file_names = DB::table('resources')
+            ->select('resources.id', 'resources.file_name')
+            ->whereNull('is_linked')
+            ->get();
 
-       $this->extracted ( $file_names );
+        $this->extracted($file_names);
 
     }
 
-    /**
-     * @param Collection $file_names
-     * @return void
-     */
     public function extracted(Collection $file_names): void
     {
-        $aws_path = config ( 'app.aws_path' );
+        $aws_path = config('app.aws_path');
 
-        if (!$file_names->isEmpty())
-        {
-            foreach ($file_names as $file_name)
-            {
-                $path = $aws_path . '/documents/resources/' . $file_name->file_name;
+        if (! $file_names->isEmpty()) {
+            foreach ($file_names as $file_name) {
+                $path = $aws_path.'/documents/resources/'.$file_name->file_name;
 
-                if (Storage::disk ( 's3' )->exists ( $path ))
-                {
-                    Storage::disk ( 's3' )->delete ( $path );
+                if (Storage::disk('s3')->exists($path)) {
+                    Storage::disk('s3')->delete($path);
                 }
-                 Resource::where ('id', $file_name->id )->forceDelete();
+                Resource::where('id', $file_name->id)->forceDelete();
 
             }
 
         }
     }
-
 
     protected function serializeDate(DateTimeInterface $date): string
     {

@@ -9,22 +9,20 @@ class StatementStatusTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.
-     *
-     * @return void
      */
-    public function run()
+    public function run(): void
     {
         $statuses = [
             [
-                'id'    => 1,
+                'id' => 1,
                 'status' => 'low',
             ],
             [
-                'id'    => 2,
+                'id' => 2,
                 'status' => 'medium',
             ],
             [
-                'id'    => 3,
+                'id' => 3,
                 'status' => 'high',
             ],
 

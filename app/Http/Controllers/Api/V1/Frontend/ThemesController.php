@@ -13,14 +13,11 @@ use Illuminate\Support\Facades\Cache;
 use Staudenmeir\LaravelAdjacencyList\Eloquent\HasRecursiveRelationships;
 use Symfony\Component\HttpFoundation\Response;
 
-
 class ThemesController extends Controller
 {
     use HasRecursiveRelationships;
     /**
      * Display a listing of the resource.
-     *
-     * @return JsonResponse
      */
 
     /**
@@ -31,11 +28,11 @@ class ThemesController extends Controller
      *     description="Get list by category_id and view_type",
      *     security={{ "Bearer":{} }},
      *
-     *
      *      @OA\Parameter(
      *        name="category_id",
      *        in="path",
      *        description="Category Id",
+     *
      *        @OA\Schema(
      *           type="integer",
      *           format="int64"
@@ -43,10 +40,12 @@ class ThemesController extends Controller
      *        required=true,
      *        example=1
      *     ),
+     *
      *     @OA\Parameter(
      *        name="view_type",
      *        in="path",
      *        description="view_type",
+     *
      *        @OA\Schema(
      *           type="integer",
      *           format="int64"
@@ -58,21 +57,22 @@ class ThemesController extends Controller
      *     @OA\Response(
      *          response="200",
      *          description="Returns matching Theme Object",
+     *
      *          @OA\JsonContent(
      *              type="array",
+     *
      *              @OA\Items(ref="#/components/schemas/UpdateThemeRequest")
      *          )
      *     )
      * )
      */
-
-    public function index($therapy_area_id, $category_id, $view,$audience_id, Theme $theme): JsonResponse
+    public function index($therapy_area_id, $category_id, $view, $audience_id, Theme $theme): JsonResponse
     {
         // future-proof to handle themes display types
         $view = intval($view);
         $result = match ($view) {
-            1 => $theme->getThemesTopLevel($therapy_area_id, $category_id,$audience_id),
-            2 => $theme->themeStatementTree($therapy_area_id, $category_id,$audience_id),
+            1 => $theme->getThemesTopLevel($therapy_area_id, $category_id, $audience_id),
+            2 => $theme->themeStatementTree($therapy_area_id, $category_id, $audience_id),
 
             default => 'Theme '.$view.' does not exist.',
         };
@@ -91,15 +91,13 @@ class ThemesController extends Controller
         $str = json_encode($array);
         // colon after the closing quote will ensure only keys are targeted
         $str = str_replace('"'.$old.'":', '"'.$new.'":', $str);
+
         // restore JSON string to array
         return json_decode($str, true);
     }
 
     /**
      * Store a newly created resource in storage.
-     *
-     * @param Request $request
-     * @return \Illuminate\Http\Response
      */
 
     /**
@@ -109,15 +107,19 @@ class ThemesController extends Controller
      *     summary="Add new category",
      *      security={{ "Bearer":{} }},
      *     description="Add new theme",
+     *
      *     @OA\RequestBody(
+     *
      *         @OA\MediaType(
      *             mediaType="application/x-www-form-urlencoded",
+     *
      *             @OA\Schema(
      *                 type="object",
      *                 ref="#/components/schemas/Theme",
      *             )
      *         )
      *     ),
+     *
      *      @OA\Response(response="401", description="fail", @OA\JsonContent(ref="#/components/schemas/ApiRequestException")),
      *     @OA\Response(response="201", description="Message", @OA\JsonContent(type="object", @OA\Property(format="string", default="Category created", description="message", property="message"))),
      * )
@@ -133,13 +135,13 @@ class ThemesController extends Controller
             'description' => $request->description,
             'therapy_area_id' => $request->therapy_area_id,
             'category_id' => $request->category_id,
-            'created_at' =>  Carbon::now(),
+            'created_at' => Carbon::now(),
             'updated_at' => Carbon::now(),
         ];
 
-         //clear themes statement cache from statement
+        //clear themes statement cache from statement
         Cache::forget('themes_statement_tree');
-       //  clear statement cache from statement
+        //  clear statement cache from statement
         Cache::forget('statement_tree');
 
         $theme_model = new Theme();
@@ -152,9 +154,8 @@ class ThemesController extends Controller
             //store data into link table resources
             Theme::find($theme_latest_id)->resources()->sync($resourceIDs);
 
-            #update resource link field
-            foreach ($resourceIDs as $resourceID)
-            {
+            //update resource link field
+            foreach ($resourceIDs as $resourceID) {
                 Resource::where('id', $resourceID)
                     ->update(['is_linked' => 1]);
             }
@@ -167,9 +168,6 @@ class ThemesController extends Controller
 
     /**
      * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return JsonResponse
      */
 
     /**
@@ -178,10 +176,12 @@ class ThemesController extends Controller
      *     path="/api/v1/theme/{id}",
      *     summary="get theme by Id",
      *     security={{ "Bearer":{} }},
+     *
      *     @OA\Parameter(
      *        name="id",
      *        in="path",
      *        description="Get theme by Id",
+     *
      *        @OA\Schema(
      *           type="integer",
      *           format="int64"
@@ -189,6 +189,7 @@ class ThemesController extends Controller
      *        required=true,
      *        example=1
      *     ),
+     *
      *     @OA\Response(response="401", description="fail", @OA\JsonContent(ref="#/components/schemas/ApiRequestException")),
      *     @OA\Response(response="404", description="fail", @OA\JsonContent(ref="#/components/schemas/ApiNotFoundException")),
      *     @OA\Response(response="200", description="success",@OA\JsonContent(ref="#/components/schemas/ThemeResource")))
@@ -202,10 +203,6 @@ class ThemesController extends Controller
 
     /**
      * Update the specified resource in storage.
-     *
-     * @param Request $request
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
      */
 
     /**
@@ -215,10 +212,12 @@ class ThemesController extends Controller
      *     summary="Update theme by Id",
      *     description="Update theme by Id",
      *     security={{ "Bearer":{} }},
+     *
      *     @OA\RequestBody(
      *          request="person",
      *          required=false,
      *          description="Optional Request Parameters for Querying",
+     *
      *          @OA\JsonContent(ref="#/components/schemas/UpdateThemeRequest")
      *      ),
      *
@@ -226,6 +225,7 @@ class ThemesController extends Controller
      *        name="id",
      *        in="path",
      *        description="Theme Id",
+     *
      *        @OA\Schema(
      *           type="integer",
      *           format="int64"
@@ -237,8 +237,10 @@ class ThemesController extends Controller
      *     @OA\Response(
      *          response="200",
      *          description="Returns matching Theme Object",
+     *
      *          @OA\JsonContent(
      *              type="array",
+     *
      *              @OA\Items(ref="#/components/schemas/UpdateThemeRequest")
      *          )
      *     )
@@ -267,13 +269,12 @@ class ThemesController extends Controller
 
             $theme_id->resources()->sync($resourceIDs);
 
-            #update resource link field
-            foreach ($resourceIDs as $resourceID)
-            {
+            //update resource link field
+            foreach ($resourceIDs as $resourceID) {
                 Resource::where('id', $resourceID)
                     ->update(['is_linked' => 1]);
             }
-        }else{
+        } else {
             //if resource_id not set or is set to "" then remove all resource links
             $theme_id->resources()->sync([]);
         }
@@ -286,7 +287,6 @@ class ThemesController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  int  $id
      * @return int
      */
 
@@ -296,10 +296,12 @@ class ThemesController extends Controller
      *     path="/api/v1/theme/{id}",
      *     summary="Delete theme by Id",
      *     security={{ "Bearer":{} }},
+     *
      *     @OA\Parameter(
      *        name="id",
      *        in="path",
      *        description="theme Id",
+     *
      *        @OA\Schema(
      *           type="integer",
      *           format="int64"
@@ -307,6 +309,7 @@ class ThemesController extends Controller
      *        required=true,
      *        example=1
      *     ),
+     *
      *     @OA\Response(response="401", description="fail", @OA\JsonContent(ref="#/components/schemas/ApiRequestException")),
      *     @OA\Response(response="404", description="fail", @OA\JsonContent(ref="#/components/schemas/ApiNotFoundException")),
      *     @OA\Response(response="202", description="success",@OA\JsonContent(ref="#/components/schemas/MassDestroyThemeRequest")))

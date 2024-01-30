@@ -15,9 +15,6 @@ class ReferenceController extends Controller
 {
     /**
      * Display a listing of the resource.
-     *
-     * @param Reference $reference
-     * @return JsonResponse
      */
 
     /**
@@ -40,9 +37,6 @@ class ReferenceController extends Controller
 
     /**
      * Store a newly created resource in storage.
-     *
-     * @param Request $request
-     * @return JsonResponse
      */
 
     /**
@@ -52,20 +46,25 @@ class ReferenceController extends Controller
      *     summary="Upload new file to AWS S3",
      *      security={{ "Bearer":{} }},
      *     description="Update resource",
+     *
      *     @OA\RequestBody(
+     *
      *         @OA\MediaType(
      *             mediaType="multipart/form-data",
+     *
      *             @OA\Schema(
      *                 type="object",
      *                 ref="#/components/schemas/Reference",
      *             )
      *         )
      *     ),
+     *
      *      @OA\Response(response="401", description="fail", @OA\JsonContent(ref="#/components/schemas/ApiRequestException")),
      *     @OA\Response(response="201", description="Message", @OA\JsonContent(type="object", @OA\Property(
      *     format="string", default="You have successfully uploaded the file.", description="message", property="message"), @OA\Property(
      *     format="string", default="https://nucleusglobal-smpdev.s3.eu-west-1.amazonaws.com/cslbehring/documents/resources/vohV25qjsxJ3yvdWOAzvBZrjI9ASJv4k0rMPwMhJ.pdf", description="message", property="temporary_url"))),
      * )
+     *
      * @throws Exception
      */
     public function store(Request $request): JsonResponse
@@ -101,13 +100,13 @@ class ReferenceController extends Controller
         $reference_model = new Reference();
 
         $reference[] = [
-            'user_id'=> auth()->id(),
-            'title'=>$request->title,
+            'user_id' => auth()->id(),
+            'title' => $request->title,
             'url' => $url,
             'file_name' => $fileName,
             'temporary_url' => $temporarySignedUrl,
             'ip_address' => $_SERVER['REMOTE_ADDR'],
-            'created_at' =>  Carbon::now(),
+            'created_at' => Carbon::now(),
             'updated_at' => Carbon::now(),
         ];
         $reference_model->store($reference);
@@ -121,7 +120,6 @@ class ReferenceController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  int  $id
      * @return Response
      */
 
@@ -131,10 +129,12 @@ class ReferenceController extends Controller
      *     path="/api/v1/reference/{id}",
      *     summary="get reference by Id",
      *     security={{ "Bearer":{} }},
+     *
      *     @OA\Parameter(
      *        name="id",
      *        in="path",
      *        description="Get reference by Id",
+     *
      *        @OA\Schema(
      *           type="integer",
      *           format="int64"
@@ -142,6 +142,7 @@ class ReferenceController extends Controller
      *        required=true,
      *        example=1
      *     ),
+     *
      *     @OA\Response(response="401", description="fail", @OA\JsonContent(ref="#/components/schemas/ApiRequestException")),
      *     @OA\Response(response="404", description="fail", @OA\JsonContent(ref="#/components/schemas/ApiNotFoundException")),
      *     @OA\Response(response="200", description="success",@OA\JsonContent(ref="#/components/schemas/ReferenceResource")))
@@ -158,8 +159,6 @@ class ReferenceController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param Request $request
-     * @param int $id
      * @return mixed
      */
 
@@ -175,6 +174,7 @@ class ReferenceController extends Controller
      *        name="id",
      *        in="path",
      *        description="Reference Id",
+     *
      *        @OA\Schema(
      *           type="integer",
      *           format="int64"
@@ -183,21 +183,24 @@ class ReferenceController extends Controller
      *        example=1
      *     ),
      *
-     *
      *     @OA\RequestBody(
+     *
      *         @OA\MediaType(
      *             mediaType="multipart/form-data",
+     *
      *             @OA\Schema(
      *                 type="object",
      *                 ref="#/components/schemas/Reference",
      *             )
      *         )
      *     ),
+     *
      *      @OA\Response(response="401", description="fail", @OA\JsonContent(ref="#/components/schemas/ApiRequestException")),
      *     @OA\Response(response="201", description="Message", @OA\JsonContent(type="object", @OA\Property(
      *     format="string", default="You have successfully uploaded the file.", description="message", property="message"), @OA\Property(
      *     format="string", default="https://nucleusglobal-smpdev.s3.eu-west-1.amazonaws.com/cslbehring/documents/resources/vohV25qjsxJ3yvdWOAzvBZrjI9ASJv4k0rMPwMhJ.pdf", description="message", property="temporary_url"))),
      * )
+     *
      * @throws Exception
      */
     public function update(Request $request, int $id)
@@ -237,7 +240,6 @@ class ReferenceController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param int $id
      * @return int
      */
 
@@ -247,10 +249,12 @@ class ReferenceController extends Controller
      *     path="/api/v1/reference/{id}",
      *     summary="Delete reference by Id",
      *     security={{ "Bearer":{} }},
+     *
      *     @OA\Parameter(
      *        name="id",
      *        in="path",
      *        description="resource Id",
+     *
      *        @OA\Schema(
      *           type="integer",
      *           format="int64"
@@ -258,6 +262,7 @@ class ReferenceController extends Controller
      *        required=true,
      *        example=1
      *     ),
+     *
      *     @OA\Response(response="401", description="fail", @OA\JsonContent(ref="#/components/schemas/ApiRequestException")),
      *     @OA\Response(response="404", description="fail", @OA\JsonContent(ref="#/components/schemas/ApiNotFoundException")),
      *     @OA\Response(response="202", description="success",@OA\JsonContent(ref="#/components/schemas/MassDestroyReferenceRequest")))

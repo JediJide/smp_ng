@@ -13,7 +13,10 @@ use App\Models\Resource;
 use App\Models\Theme;
 use App\Models\TherapyArea;
 use Gate;
+use Illuminate\Http\JsonResponse;
+use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
+use Illuminate\View\View;
 use Spatie\MediaLibrary\MediaCollections\Models\Media;
 use Symfony\Component\HttpFoundation\Response;
 
@@ -21,7 +24,7 @@ class ThemeController extends Controller
 {
     use MediaUploadingTrait;
 
-    public function index()
+    public function index(): View
     {
         abort_if(Gate::denies('theme_access'), Response::HTTP_FORBIDDEN, '403 Forbidden');
 
@@ -38,7 +41,7 @@ class ThemeController extends Controller
         return view('admin.themes.index', compact('categories', 'references', 'resources', 'themes', 'therapy_areas'));
     }
 
-    public function create()
+    public function create(): View
     {
         abort_if(Gate::denies('theme_create'), Response::HTTP_FORBIDDEN, '403 Forbidden');
 
@@ -53,7 +56,7 @@ class ThemeController extends Controller
         return view('admin.themes.create', compact('categories', 'references', 'resources', 'therapy_areas'));
     }
 
-    public function store(StoreThemeRequest $request)
+    public function store(StoreThemeRequest $request): RedirectResponse
     {
         $theme = Theme::create($request->all());
         $theme->resources()->sync($request->input('resources', []));
@@ -65,7 +68,7 @@ class ThemeController extends Controller
         return redirect()->route('admin.themes.index');
     }
 
-    public function edit(Theme $theme)
+    public function edit(Theme $theme): View
     {
         abort_if(Gate::denies('theme_edit'), Response::HTTP_FORBIDDEN, '403 Forbidden');
 
@@ -82,7 +85,7 @@ class ThemeController extends Controller
         return view('admin.themes.edit', compact('categories', 'references', 'resources', 'theme', 'therapy_areas'));
     }
 
-    public function update(UpdateThemeRequest $request, Theme $theme)
+    public function update(UpdateThemeRequest $request, Theme $theme): RedirectResponse
     {
         $theme->update($request->all());
         $theme->resources()->sync($request->input('resources', []));
@@ -91,7 +94,7 @@ class ThemeController extends Controller
         return redirect()->route('admin.themes.index');
     }
 
-    public function show(Theme $theme)
+    public function show(Theme $theme): View
     {
         abort_if(Gate::denies('theme_show'), Response::HTTP_FORBIDDEN, '403 Forbidden');
 
@@ -109,14 +112,14 @@ class ThemeController extends Controller
         return back();
     }
 
-    public function massDestroy(MassDestroyThemeRequest $request)
+    public function massDestroy(MassDestroyThemeRequest $request): \Illuminate\Http\Response
     {
         Theme::whereIn('id', request('ids'))->delete();
 
         return response(null, Response::HTTP_NO_CONTENT);
     }
 
-    public function storeCKEditorImages(Request $request)
+    public function storeCKEditorImages(Request $request): JsonResponse
     {
         abort_if(Gate::denies('theme_create') && Gate::denies('theme_edit'), Response::HTTP_FORBIDDEN, '403 Forbidden');
 

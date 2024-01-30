@@ -38,8 +38,6 @@ class TempAwsUrlCron extends Command
 
     /**
      * Execute the console command.
-     *
-     * @return int
      */
     public function handle(): int
     {
@@ -48,11 +46,10 @@ class TempAwsUrlCron extends Command
         $files_names = $resource_model->getFileNames();
         $aws_path = config('app.aws_path');
 
-
-        # initially remove all unlinked resources for both Themes and Statements system. Delete dormant files from AWS
+        // initially remove all unlinked resources for both Themes and Statements system. Delete dormant files from AWS
 
         $resource_model->delete_unlinked_Resources();
-       Log::info('Unused resources deleted at '. Carbon::now());
+        Log::info('Unused resources deleted at '.Carbon::now());
 
         /*
            Database logic to store temp S3 URLs in resource table;

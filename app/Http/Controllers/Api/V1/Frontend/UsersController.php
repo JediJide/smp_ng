@@ -12,8 +12,6 @@ class UsersController extends Controller
 {
     /**
      * Display a listing of the resource.
-     *
-     * @return UserResource
      */
 
     /**
@@ -22,8 +20,10 @@ class UsersController extends Controller
      *     path="/api/v1/users",
      *     summary="get user list",
      *     security={{ "Bearer":{} }},
+     *
      *     @OA\Parameter(
      *         name="offset",
+     *
      *         @OA\Schema(
      *             type="integer",
      *             format="int64"
@@ -33,8 +33,10 @@ class UsersController extends Controller
      *         example=0,
      *         required=true,
      *     ),
+     *
      *     @OA\Parameter(
      *         name="limit",
+     *
      *         @OA\Schema(
      *             type="integer",
      *             format="int64"
@@ -44,34 +46,29 @@ class UsersController extends Controller
      *         example=10,
      *         required=true,
      *     ),
+     *
      *     @OA\Response(response="401", description="fail", @OA\JsonContent(ref="#/components/schemas/ApiRequestException")),
      *     @OA\Response(response="200", description="success",@OA\JsonContent(type="array", @OA\Items(ref="#/components/schemas/UserResource"))))
      * )
      */
-    public function index(User $user) : UserResource
+    public function index(User $user): UserResource
     {
         // dd ();
         //return new UserResource(User::with(['roles'])->advancedFilter());
-       // $user->getUserByEmail ();
-       //return $user->getUsers ();
+        // $user->getUserByEmail ();
+        //return $user->getUsers ();
     }
 
     /**
      * Store a newly created resource in storage.
-     *
-     * @param Request $request
-     * @return Response
      */
-    public function store(Request $request)
+    public function store(Request $request): Response
     {
         //
     }
 
     /**
      * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return UserResource
      */
 
     /**
@@ -80,10 +77,12 @@ class UsersController extends Controller
      *     path="/api/v1/users/{id}",
      *     summary="get user by Id",
      *     security={{ "Bearer":{} }},
+     *
      *     @OA\Parameter(
      *        name="id",
      *        in="path",
      *        description="user Id",
+     *
      *        @OA\Schema(
      *           type="integer",
      *           format="int64"
@@ -91,12 +90,11 @@ class UsersController extends Controller
      *        required=true,
      *        example=1
      *     ),
+     *
      *     @OA\Response(response="401", description="fail", @OA\JsonContent(ref="#/components/schemas/ApiRequestException")),
      *     @OA\Response(response="404", description="fail", @OA\JsonContent(ref="#/components/schemas/ApiNotFoundException")),
      *     @OA\Response(response="200", description="success",@OA\JsonContent(ref="#/components/schemas/UserResource")))
      * )
-     * @param  int  $id
-     * @return UserResource
      */
     public function show(int $id): UserResource
     {
@@ -106,7 +104,6 @@ class UsersController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param Request $request
      * @param  int  $id
      * @return Response
      */
@@ -118,10 +115,12 @@ class UsersController extends Controller
      *     summary="Update user by Id",
      *     description="Update user by Id",
      *     security={{ "Bearer":{} }},
+     *
      *     @OA\RequestBody(
      *          request="person",
      *          required=false,
      *          description="Optional Request Parameters for Querying",
+     *
      *          @OA\JsonContent(ref="#/components/schemas/UpdateUserRequest")
      *      ),
      *
@@ -129,6 +128,7 @@ class UsersController extends Controller
      *        name="id",
      *        in="path",
      *        description="user Id",
+     *
      *        @OA\Schema(
      *           type="integer",
      *           format="int64"
@@ -140,8 +140,10 @@ class UsersController extends Controller
      *     @OA\Response(
      *          response="200",
      *          description="Returns matching Person Object",
+     *
      *          @OA\JsonContent(
      *              type="array",
+     *
      *              @OA\Items(ref="#/components/schemas/UpdateUserRequest")
      *          )
      *     )
@@ -156,7 +158,6 @@ class UsersController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  int  $id
      * @return Response
      */
 
@@ -166,10 +167,12 @@ class UsersController extends Controller
      *     path="/api/v1/users/{id}",
      *     summary="Delete user by Id",
      *     security={{ "Bearer":{} }},
+     *
      *     @OA\Parameter(
      *        name="id",
      *        in="path",
      *        description="user Id",
+     *
      *        @OA\Schema(
      *           type="integer",
      *           format="int64"
@@ -177,11 +180,12 @@ class UsersController extends Controller
      *        required=true,
      *        example=1
      *     ),
+     *
      *     @OA\Response(response="401", description="fail", @OA\JsonContent(ref="#/components/schemas/ApiRequestException")),
      *     @OA\Response(response="404", description="fail", @OA\JsonContent(ref="#/components/schemas/ApiNotFoundException")),
      *     @OA\Response(response="204", description="success",@OA\JsonContent(ref="#/components/schemas/UserResource")))
      * )
-     * @param  int  $id
+     *
      * @return void
      */
     public function destroy(int $id)

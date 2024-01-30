@@ -9,7 +9,6 @@ use App\Http\Requests\UpdateReferenceRequest;
 use App\Http\Resources\Admin\ReferenceResource;
 use App\Models\Reference;
 use Gate;
-use Illuminate\Http\Request;
 use Symfony\Component\HttpFoundation\Response;
 
 class ReferenceApiController extends Controller
@@ -66,7 +65,7 @@ class ReferenceApiController extends Controller
             ->setStatusCode(Response::HTTP_ACCEPTED);
     }
 
-    public function destroy(Reference $reference)
+    public function destroy(Reference $reference): \Illuminate\Http\Response
     {
         abort_if(Gate::denies('reference_delete'), Response::HTTP_FORBIDDEN, '403 Forbidden');
 

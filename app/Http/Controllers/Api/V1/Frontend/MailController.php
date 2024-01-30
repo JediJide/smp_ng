@@ -9,10 +9,11 @@ use JetBrains\PhpStorm\NoReturn;
 
 class MailController extends Controller
 {
-    #[NoReturn] public function sendMail(Request $request)
+    #[NoReturn]
+    public function sendMail(Request $request)
     {
         $mail_data = [
-            'subject' => 'Site Upgrade. Please change your password.'
+            'subject' => 'Site Upgrade. Please change your password.',
         ];
 
         $job = (new SendEmail($mail_data))
@@ -20,8 +21,8 @@ class MailController extends Controller
 
         dispatch($job);
 
-       // response()->json('Email sent', '202');
-        echo "Mail send successfully !!";
-       // dd("Job dispatched.");
+        // response()->json('Email sent', '202');
+        echo 'Mail send successfully !!';
+        // dd("Job dispatched.");
     }
 }

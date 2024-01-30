@@ -2,19 +2,17 @@
 
 namespace App\Http\Requests;
 
-use App\Models\Theme;
 use Gate;
 use Illuminate\Foundation\Http\FormRequest;
-use Illuminate\Http\Response;
 
 class StoreThemeRequest extends FormRequest
 {
-    public function authorize()
+    public function authorize(): bool
     {
         return Gate::allows('theme_create');
     }
 
-    public function rules()
+    public function rules(): array
     {
         return [
             'therapy_area_id' => [

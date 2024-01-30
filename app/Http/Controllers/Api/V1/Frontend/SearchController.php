@@ -7,8 +7,6 @@ use App\Models\Glossary;
 use App\Models\Lexicon;
 use App\Models\Statement;
 use App\Models\Theme;
-use Illuminate\Contracts\Pagination\LengthAwarePaginator;
-use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Http\Request;
 use ProtoneMedia\LaravelCrossEloquentSearch\Search;
 
@@ -25,14 +23,17 @@ use ProtoneMedia\LaravelCrossEloquentSearch\Search;
  *      in="header",
  *      description="Header values",
  *      required=false,
+ *
  *      @OA\JsonContent(ref="#/components/schemas/UpdateRoleRequest")
  *      ),
  *
  *     @OA\Response(
  *          response="200",
  *          description="Returns matching Person Object",
+ *
  *          @OA\JsonContent(
  *              type="array",
+ *
  *              @OA\Items(ref="#/components/schemas/UpdateRoleRequest")
  *          )
  *     )
@@ -78,7 +79,7 @@ class SearchController extends Controller
                 ->orderByRelevance()
                 ->get($search_term)->toArray();
         } else {
-            return  Search::add(Theme::class, ['name', 'description'])
+            return Search::add(Theme::class, ['name', 'description'])
                 ->add(Statement::class, ['title', 'description'])
                 ->add(Glossary::class, ['term', 'definition'])
                 ->add(Lexicon::class, ['preferred_phrase', 'guidance_for_usage', 'non_preferred_terms'])

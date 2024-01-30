@@ -2,17 +2,17 @@
 
 namespace Tests\Browser;
 
-use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Laravel\Dusk\Browser;
 use Tests\DuskTestCase;
 
 /**
  * @internal
+ *
  * @coversNothing
  */
 class ReferenceTest extends DuskTestCase
 {
-    public function testIndex()
+    public function testIndex(): void
     {
         $admin = App\Models\User::find(1);
         $this->browse(function (Browser $browser) use ($admin) {

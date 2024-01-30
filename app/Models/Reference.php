@@ -3,9 +3,9 @@
 namespace App\Models;
 
 use DateTimeInterface;
-use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\DB;
@@ -18,20 +18,21 @@ use Spatie\MediaLibrary\MediaCollections\Models\Media;
  * required={"title"}
  *
  * Reference Class
+ *
  * @method static where(string $string, mixed $referenceID)
  * @method static create(array $array)
  */
 class Reference extends Model implements HasMedia
 {
+    use HasFactory;
+    use InteractsWithMedia;
+
     /**
      * @OA\Property(format="string", title="title", default="The file title", description="title", property="title"),
      * @OA\Property(format="string", title="title", default="https://www.google.com", description="url", property="url"),
      * @OA\Property(format="binary", type="string", title="file_name", default="", description="File to upload", property="file_name"),
      */
     use SoftDeletes;
-
-    use InteractsWithMedia;
-    use HasFactory;
 
     public $table = 'references';
 
@@ -54,18 +55,18 @@ class Reference extends Model implements HasMedia
 
     protected $hidden = ['pivot'];
 
-    public function registerMediaConversions(Media $media = null): void
+    public function registerMediaConversions(?Media $media = null): void
     {
         $this->addMediaConversion('thumb')->fit('crop', 50, 50);
         $this->addMediaConversion('preview')->fit('crop', 120, 120);
     }
 
-    public function referenceThemes()
+    public function referenceThemes(): BelongsToMany
     {
         return $this->belongsToMany(Theme::class);
     }
 
-    public function referenceStatements()
+    public function referenceStatements(): BelongsToMany
     {
         return $this->belongsToMany(Statement::class);
     }
@@ -86,7 +87,7 @@ class Reference extends Model implements HasMedia
 
     public function store($reference): bool
     {
-        return  DB::table('references')->insert($reference);
+        return DB::table('references')->insert($reference);
     }
 
     public function getFileById($id): \Illuminate\Support\Collection
@@ -102,7 +103,7 @@ class Reference extends Model implements HasMedia
     {
         return DB::table('references')
             ->where('file_name', $file)
-            ->update(['temporary_url' => $new_url, 'updated_at' =>  Carbon::now()]);
+            ->update(['temporary_url' => $new_url, 'updated_at' => Carbon::now()]);
     }
 
     public function updateTempReferenceUrlsById($id, $file_name, $new_url): int
@@ -112,7 +113,7 @@ class Reference extends Model implements HasMedia
             ->update([
                 'temporary_url' => $new_url,
                 'url' => $new_url,
-                'updated_at' =>  Carbon::now(),
+                'updated_at' => Carbon::now(),
                 'file_name' => $file_name,
             ]);
     }

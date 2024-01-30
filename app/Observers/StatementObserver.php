@@ -9,55 +9,40 @@ class StatementObserver
 {
     /**
      * Handle the Statement "created" event.
-     *
-     * @param Statement $statement
-     * @return void
      */
-    public function created(Statement $statement)
+    public function created(Statement $statement): void
     {
         Cache::forget('statement_tree');
     }
 
     /**
      * Handle the Statement "updated" event.
-     *
-     * @param Statement $statement
-     * @return void
      */
-    public function updated(Statement $statement)
+    public function updated(Statement $statement): void
     {
         Cache::forget('statement_tree');
     }
 
     /**
      * Handle the Statement "deleted" event.
-     *
-     * @param Statement $statement
-     * @return void
      */
-    public function deleted(Statement $statement)
+    public function deleted(Statement $statement): void
     {
         Cache::forget('statement_tree');
     }
 
     /**
      * Handle the Statement "restored" event.
-     *
-     * @param Statement $statement
-     * @return void
      */
-    public function restored(Statement $statement)
+    public function restored(Statement $statement): void
     {
         Cache::forget('statement_tree');
     }
 
     /**
      * Handle the Statement "force deleted" event.
-     *
-     * @param Statement $statement
-     * @return void
      */
-    public function forceDeleted(Statement $statement)
+    public function forceDeleted(Statement $statement): void
     {
         Cache::forget('statement_tree');
     }

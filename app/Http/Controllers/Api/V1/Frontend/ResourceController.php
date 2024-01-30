@@ -15,9 +15,6 @@ class ResourceController extends Controller
 {
     /**
      * Display a listing of the resource.
-     *
-     * @param resource $resource
-     * @return JsonResponse
      */
 
     /**
@@ -40,9 +37,6 @@ class ResourceController extends Controller
 
     /**
      * Store a newly created resource in storage.
-     *
-     * @param Request $request
-     * @return JsonResponse
      */
 
     /**
@@ -52,20 +46,25 @@ class ResourceController extends Controller
      *     summary="Upload new file to AWS S3",
      *      security={{ "Bearer":{} }},
      *     description="Update resource",
+     *
      *     @OA\RequestBody(
+     *
      *         @OA\MediaType(
      *             mediaType="multipart/form-data",
+     *
      *             @OA\Schema(
      *                 type="object",
      *                 ref="#/components/schemas/Resource",
      *             )
      *         )
      *     ),
+     *
      *      @OA\Response(response="401", description="fail", @OA\JsonContent(ref="#/components/schemas/ApiRequestException")),
      *     @OA\Response(response="201", description="Message", @OA\JsonContent(type="object", @OA\Property(
      *     format="string", default="You have successfully uploaded the file.", description="message", property="message"), @OA\Property(
      *     format="string", default="https://nucleusglobal-smpdev.s3.eu-west-1.amazonaws.com/cslbehring/documents/resources/vohV25qjsxJ3yvdWOAzvBZrjI9ASJv4k0rMPwMhJ.pdf", description="message", property="temporary_url"))),
      * )
+     *
      * @throws Exception
      */
     /** @noinspection PhpUndefinedFieldInspection */
@@ -116,8 +115,8 @@ class ResourceController extends Controller
         $resource_model = new Resource();
 
         $resource = [
-            'user_id'=> auth()->id(),
-            'title'=>$request->title,
+            'user_id' => auth()->id(),
+            'title' => $request->title,
             'url' => $url,
             'file_name' => $fileName,
             'file_size' => $file_size,
@@ -125,7 +124,7 @@ class ResourceController extends Controller
             'temporary_url' => $temporarySignedUrl,
             'is_header_resource' => $is_header_resource,
             'ip_address' => $_SERVER['REMOTE_ADDR'],
-            'created_at' =>  Carbon::now(),
+            'created_at' => Carbon::now(),
             'updated_at' => Carbon::now(),
         ];
         $last_id = $resource_model->store($resource);
@@ -138,7 +137,6 @@ class ResourceController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  int  $id
      * @return Response
      */
 
@@ -148,10 +146,12 @@ class ResourceController extends Controller
      *     path="/api/v1/resource/{id}",
      *     summary="get resource by Id",
      *     security={{ "Bearer":{} }},
+     *
      *     @OA\Parameter(
      *        name="id",
      *        in="path",
      *        description="Get resource by Id",
+     *
      *        @OA\Schema(
      *           type="integer",
      *           format="int64"
@@ -159,6 +159,7 @@ class ResourceController extends Controller
      *        required=true,
      *        example=1
      *     ),
+     *
      *     @OA\Response(response="401", description="fail", @OA\JsonContent(ref="#/components/schemas/ApiRequestException")),
      *     @OA\Response(response="404", description="fail", @OA\JsonContent(ref="#/components/schemas/ApiNotFoundException")),
      *     @OA\Response(response="200", description="success",@OA\JsonContent(ref="#/components/schemas/ResourceResource")))
@@ -174,10 +175,6 @@ class ResourceController extends Controller
 
     /**
      * Update the specified resource in storage.
-     *
-     * @param Request $request
-     * @param int $id
-     * @return mixed
      */
 
     /**
@@ -192,6 +189,7 @@ class ResourceController extends Controller
      *        name="id",
      *        in="path",
      *        description="Resource Id",
+     *
      *        @OA\Schema(
      *           type="integer",
      *           format="int64"
@@ -200,21 +198,24 @@ class ResourceController extends Controller
      *        example=1
      *     ),
      *
-     *
      *     @OA\RequestBody(
+     *
      *         @OA\MediaType(
      *             mediaType="multipart/form-data",
+     *
      *             @OA\Schema(
      *                 type="object",
      *                 ref="#/components/schemas/Resource",
      *             )
      *         )
      *     ),
+     *
      *      @OA\Response(response="401", description="fail", @OA\JsonContent(ref="#/components/schemas/ApiRequestException")),
      *     @OA\Response(response="201", description="Message", @OA\JsonContent(type="object", @OA\Property(
      *     format="string", default="You have successfully uploaded the file.", description="message", property="message"), @OA\Property(
      *     format="string", default="https://nucleusglobal-smpdev.s3.eu-west-1.amazonaws.com/cslbehring/documents/resources/vohV25qjsxJ3yvdWOAzvBZrjI9ASJv4k0rMPwMhJ.pdf", description="message", property="temporary_url"))),
      * )
+     *
      * @throws Exception
      */
 
@@ -255,8 +256,8 @@ class ResourceController extends Controller
             $file_mime_type = $document->getMimeType();
 
             $resource = [
-                'user_id'=> auth()->id(),
-                'title'=>$request->title,
+                'user_id' => auth()->id(),
+                'title' => $request->title,
                 'url' => null,
                 'file_name' => $fileName,
                 'file_size' => $file_size,
@@ -278,7 +279,6 @@ class ResourceController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param int $id
      * @return int
      */
 
@@ -288,10 +288,12 @@ class ResourceController extends Controller
      *     path="/api/v1/resource/{id}",
      *     summary="Delete resource by Id",
      *     security={{ "Bearer":{} }},
+     *
      *     @OA\Parameter(
      *        name="id",
      *        in="path",
      *        description="resource Id",
+     *
      *        @OA\Schema(
      *           type="integer",
      *           format="int64"
@@ -299,6 +301,7 @@ class ResourceController extends Controller
      *        required=true,
      *        example=1
      *     ),
+     *
      *     @OA\Response(response="401", description="fail", @OA\JsonContent(ref="#/components/schemas/ApiRequestException")),
      *     @OA\Response(response="404", description="fail", @OA\JsonContent(ref="#/components/schemas/ApiNotFoundException")),
      *     @OA\Response(response="202", description="success",@OA\JsonContent(ref="#/components/schemas/MassDestroyResourceRequest")))

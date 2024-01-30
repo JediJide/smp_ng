@@ -2,19 +2,17 @@
 
 namespace App\Http\Requests;
 
-use App\Models\Statement;
 use Gate;
 use Illuminate\Foundation\Http\FormRequest;
-use Illuminate\Http\Response;
 
 class StoreStatementRequest extends FormRequest
 {
-    public function authorize()
+    public function authorize(): bool
     {
         return Gate::allows('statement_create');
     }
 
-    public function rules()
+    public function rules(): array
     {
         return [
             'therapy_area_id' => [

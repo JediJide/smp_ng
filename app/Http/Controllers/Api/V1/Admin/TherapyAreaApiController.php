@@ -7,7 +7,6 @@ use App\Http\Requests\StoreTherapyAreaRequest;
 use App\Http\Requests\UpdateTherapyAreaRequest;
 use App\Http\Resources\Admin\TherapyAreaResource;
 use App\Models\TherapyArea;
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Gate;
 use Symfony\Component\HttpFoundation\Response;
 
@@ -45,7 +44,7 @@ class TherapyAreaApiController extends Controller
             ->setStatusCode(Response::HTTP_ACCEPTED);
     }
 
-    public function destroy(TherapyArea $therapyArea)
+    public function destroy(TherapyArea $therapyArea): \Illuminate\Http\Response
     {
         abort_if(Gate::denies('therapy_area_delete'), Response::HTTP_FORBIDDEN, '403 Forbidden');
 

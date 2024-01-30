@@ -23,9 +23,6 @@ class LexiconController extends Controller
 {
     /**
      * Display a listing of the resource.
-     *
-     * @param Lexicon $lexicon
-     * @return LengthAwarePaginator
      */
 
     /**
@@ -53,9 +50,6 @@ class LexiconController extends Controller
 
     /**
      * Store a newly created resource in storage.
-     *
-     * @param StoreLexiconRequest $request
-     * @return object
      */
     /**
      * @OA\Post  (
@@ -64,15 +58,19 @@ class LexiconController extends Controller
      *     summary="Add new lexicon",
      *      security={{ "Bearer":{} }},
      *     description="Add new lexicon area",
+     *
      *     @OA\RequestBody(
+     *
      *         @OA\MediaType(
      *             mediaType="application/x-www-form-urlencoded",
+     *
      *             @OA\Schema(
      *                 type="object",
      *                 ref="#/components/schemas/Lexicon",
      *             )
      *         )
      *     ),
+     *
      *      @OA\Response(response="401", description="fail", @OA\JsonContent(ref="#/components/schemas/ApiRequestException")),
      *     @OA\Response(response="201", description="Message", @OA\JsonContent(type="object", @OA\Property(format="string", default="Therapy Area created", description="message", property="message"))),
      * )
@@ -101,10 +99,6 @@ class LexiconController extends Controller
 
     /**
      * Display the specified resource.
-     *
-     * @param Lexicon $lexicon
-     * @param int $id
-     * @return JsonResponse
      */
 
     /**
@@ -113,10 +107,12 @@ class LexiconController extends Controller
      *     path="/api/v1/lexicon/{id}",
      *     summary="get lexicon by Id",
      *     security={{ "Bearer":{} }},
+     *
      *     @OA\Parameter(
      *        name="id",
      *        in="path",
      *        description="lexicon",
+     *
      *        @OA\Schema(
      *           type="integer",
      *           format="int64"
@@ -124,6 +120,7 @@ class LexiconController extends Controller
      *        required=true,
      *        example=1
      *     ),
+     *
      *     @OA\Response(response="401", description="fail", @OA\JsonContent(ref="#/components/schemas/ApiRequestException")),
      *     @OA\Response(response="404", description="fail", @OA\JsonContent(ref="#/components/schemas/ApiNotFoundException")),
      *     @OA\Response(response="200", description="success",@OA\JsonContent(ref="#/components/schemas/LexiconResource")))
@@ -137,10 +134,7 @@ class LexiconController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param UpdateLexiconRequest $request
-     * @param int $id
-     * @param Lexicon $lexicon
-     * @return Collection
+     * @param  UpdateLexiconRequest  $request
      */
 
     /**
@@ -150,10 +144,12 @@ class LexiconController extends Controller
      *     summary="Update lexicon by Id",
      *     description="Update lexicon by Id",
      *     security={{ "Bearer":{} }},
+     *
      *     @OA\RequestBody(
      *          request="person",
      *          required=false,
      *          description="Optional Request Parameters for Querying",
+     *
      *          @OA\JsonContent(ref="#/components/schemas/UpdateLexiconRequest")
      *      ),
      *
@@ -161,6 +157,7 @@ class LexiconController extends Controller
      *        name="id",
      *        in="path",
      *        description="TherapyArea Id",
+     *
      *        @OA\Schema(
      *           type="integer",
      *           format="int64"
@@ -172,8 +169,10 @@ class LexiconController extends Controller
      *     @OA\Response(
      *          response="200",
      *          description="Returns matching Person Object",
+     *
      *          @OA\JsonContent(
      *              type="array",
+     *
      *              @OA\Items(ref="#/components/schemas/UpdateTherapyAreaRequest")
      *          )
      *     )
@@ -196,9 +195,6 @@ class LexiconController extends Controller
 
     /**
      * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     * @return JsonResponse
      */
     /**
      * @OA\Delete(
@@ -206,10 +202,12 @@ class LexiconController extends Controller
      *     path="/api/v1/lexicon/{id}",
      *     summary="Delete lexicon by Id",
      *     security={{ "Bearer":{} }},
+     *
      *     @OA\Parameter(
      *        name="id",
      *        in="path",
      *        description="lexicon Id",
+     *
      *        @OA\Schema(
      *           type="integer",
      *           format="int64"
@@ -217,6 +215,7 @@ class LexiconController extends Controller
      *        required=true,
      *        example=1
      *     ),
+     *
      *     @OA\Response(response="401", description="fail", @OA\JsonContent(ref="#/components/schemas/ApiRequestException")),
      *     @OA\Response(response="404", description="fail", @OA\JsonContent(ref="#/components/schemas/ApiNotFoundException")),
      *     @OA\Response(response="202", description="success",@OA\JsonContent(ref="#/components/schemas/MassDestroyLexiconRequest")))

@@ -10,36 +10,35 @@
     "require": {
         "php": "^8.1",
         "ext-pdo": "*",
-        "bugsnag/bugsnag-laravel": "^2.23",
+        "bugsnag/bugsnag-laravel": "^2.26",
         "darkaonline/l5-swagger": "^8.3",
-        "doctrine/dbal": "^3.3",
-        "fruitcake/laravel-cors": "^2.0.5",
+        "doctrine/dbal": "^3.5",
         "guzzlehttp/guzzle": "^7.2",
-        "laravel/dusk": "^6.22",
-        "laravel/framework": "^9.3.1",
-        "laravel/sanctum": "^2.14",
-        "laravel/telescope": "^4.7",
-        "laravel/tinker": "^2.7",
-        "laravel/ui": "^3.4",
+        "laravel/dusk": "^7.4",
+        "laravel/framework": "^10.42",
+        "laravel/sanctum": "^3.2",
+        "laravel/telescope": "^4.12",
+        "laravel/tinker": "^2.8",
+        "laravel/ui": "^4.2",
         "laraveldaily/laravel-charts": "^0.1.29",
         "league/flysystem-aws-s3-v3": "^3.0",
-        "protonemedia/laravel-cross-eloquent-search": "^2.7",
-        "spatie/laravel-medialibrary": "^10.0",
-        "staudenmeir/laravel-adjacency-list": "^1.10",
-        "yajra/laravel-datatables-oracle": "^9.19",
+        "protonemedia/laravel-cross-eloquent-search": "^3.2",
+        "spatie/laravel-medialibrary": "^10.7",
+        "staudenmeir/laravel-adjacency-list": "^1.13",
+        "yajra/laravel-datatables-oracle": "^10.3",
         "zircote/swagger-php": "^4.2",
-      "ext-zlib": "*",
-      "ext-http": "*"
+        "ext-zlib": "*",
+        "ext-http": "*"
     },
     "require-dev": {
-        "barryvdh/laravel-debugbar": "^3.6",
-        "barryvdh/laravel-ide-helper": "^2.12",
+        "barryvdh/laravel-debugbar": "^3.8",
+        "barryvdh/laravel-ide-helper": "^2.13",
         "fakerphp/faker": "^1.9.1",
-        "laravel/sail": "^1.13",
+        "laravel/sail": "^1.18",
         "mockery/mockery": "^1.4.4",
         "nunomaduro/collision": "^6.1",
         "phpunit/phpunit": "^9.5.10",
-        "spatie/laravel-ignition": "^1.0"
+        "spatie/laravel-ignition": "^2.0"
     },
     "config": {
         "optimize-autoloader": true,
@@ -65,7 +64,7 @@
             "Tests\\": "tests/"
         }
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true,
     "scripts": {
         "post-autoload-dump": [

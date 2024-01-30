@@ -1,6 +1,5 @@
 <?php
 
-
 namespace App\Jobs;
 
 use App\Models\User;
@@ -17,7 +16,8 @@ class SendEmail implements ShouldQueue
 {
     use Dispatchable, InteractsWithQueue, Queueable, SerializesModels;
 
-    protected  $mail_data;
+    protected $mail_data;
+
     public int $timeout = 0;
 
     /**
@@ -32,38 +32,36 @@ class SendEmail implements ShouldQueue
 
     /**
      * Execute the job.
-     *
-     * @return void
      */
-    public function handle()
+    public function handle(): void
     {
-       // $users = User::get ();
-       // $users = User::whereIn('id',[139,135])->get();
-       $users = User::query()
-           ->whereNull ('deleted_at')
-           ->orWhereNull ('password_changed_at')
-           ->get();
+        // $users = User::get ();
+        // $users = User::whereIn('id',[139,135])->get();
+        $users = User::query()
+            ->whereNull('deleted_at')
+            ->orWhereNull('password_changed_at')
+            ->get();
         $input['subject'] = $this->mail_data['subject'];
 
         foreach ($users as $key => $value) {
             $input['email'] = $value->email;
             $input['name'] = $value->name;
 
-             $password = Str::random(8);
+            $password = Str::random(8);
 
             $hashed_random_password = Hash::make($password);
-           # update user table with newly generated password
+            // update user table with newly generated password
             User::where('email', $value->email)
                 ->update(
                     ['password' => $hashed_random_password,
-                     'updated_at' => Carbon::now(),
+                        'updated_at' => Carbon::now(),
                     ],
                 );
 
-            \Mail::send ( 'emails.mail', ['password'=> $password, 'email' => $value->email], function ($message) use ($input) {
-                $message->to ( $input['email'], $input['name'] )
-                    ->subject ( $input['subject'] );
-            } );
+            \Mail::send('emails.mail', ['password' => $password, 'email' => $value->email], function ($message) use ($input) {
+                $message->to($input['email'], $input['name'])
+                    ->subject($input['subject']);
+            });
         }
     }
 }

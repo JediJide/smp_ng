@@ -17,17 +17,17 @@ class MassDestroyResourceRequest extends FormRequest
     /**
      * @OA\Property(format="string", title="message", default="Resource has been deleted", property="message"),
      */
-    public function authorize()
+    public function authorize(): bool
     {
         abort_if(Gate::denies('resource_delete'), Response::HTTP_FORBIDDEN, '403 Forbidden');
 
         return true;
     }
 
-    public function rules()
+    public function rules(): array
     {
         return [
-            'ids'   => 'required|array',
+            'ids' => 'required|array',
             'ids.*' => 'exists:resources,id',
         ];
     }

@@ -2,7 +2,6 @@
 
 namespace App\Http\Requests;
 
-use App\Models\TherapyArea;
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Support\Facades\Gate;
 use Symfony\Component\HttpFoundation\Response;
@@ -17,17 +16,17 @@ class MassDestroyTherapyAreaRequest extends FormRequest
     /**
      * @OA\Property(format="string", title="message", default="Resource has been deleted", property="message"),
      */
-    public function authorize()
+    public function authorize(): bool
     {
         abort_if(Gate::denies('therapy_area_delete'), Response::HTTP_FORBIDDEN, '403 Forbidden');
 
         return true;
     }
 
-    public function rules()
+    public function rules(): array
     {
         return [
-            'ids'   => 'required|array',
+            'ids' => 'required|array',
             'ids.*' => 'exists:therapy_areas,id',
         ];
     }

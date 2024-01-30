@@ -5,9 +5,8 @@ namespace App\Models;
 use DateTimeInterface;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\SoftDeletes;
-use Illuminate\Support\Facades\DB;
 
 /**
  * @OA\Schema(),
@@ -17,12 +16,12 @@ use Illuminate\Support\Facades\DB;
  */
 class Audience extends Model
 {
+    use HasFactory;
+
     /**
      * @OA\Property(format="string", title="name", default="Audience Name", description="name", property="name"),
      */
     use SoftDeletes;
-
-    use HasFactory;
 
     public $table = 'audience';
 
@@ -33,10 +32,9 @@ class Audience extends Model
         'deleted_at',
     ];
 
-
     protected $hidden = ['pivot'];
 
-    public function audienceStatements()
+    public function audienceStatements(): BelongsToMany
     {
         return $this->belongsToMany(Statement::class);
     }

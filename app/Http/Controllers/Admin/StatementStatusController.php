@@ -8,12 +8,13 @@ use App\Http\Requests\StoreStatementStatusRequest;
 use App\Http\Requests\UpdateStatementStatusRequest;
 use App\Models\StatementStatus;
 use Gate;
-use Illuminate\Http\Request;
+use Illuminate\Http\RedirectResponse;
+use Illuminate\View\View;
 use Symfony\Component\HttpFoundation\Response;
 
 class StatementStatusController extends Controller
 {
-    public function index()
+    public function index(): View
     {
         abort_if(Gate::denies('statement_status_access'), Response::HTTP_FORBIDDEN, '403 Forbidden');
 
@@ -22,35 +23,35 @@ class StatementStatusController extends Controller
         return view('admin.statementStatuses.index', compact('statementStatuses'));
     }
 
-    public function create()
+    public function create(): View
     {
         abort_if(Gate::denies('statement_status_create'), Response::HTTP_FORBIDDEN, '403 Forbidden');
 
         return view('admin.statementStatuses.create');
     }
 
-    public function store(StoreStatementStatusRequest $request)
+    public function store(StoreStatementStatusRequest $request): RedirectResponse
     {
         $statementStatus = StatementStatus::create($request->all());
 
         return redirect()->route('admin.statement-statuses.index');
     }
 
-    public function edit(StatementStatus $statementStatus)
+    public function edit(StatementStatus $statementStatus): View
     {
         abort_if(Gate::denies('statement_status_edit'), Response::HTTP_FORBIDDEN, '403 Forbidden');
 
         return view('admin.statementStatuses.edit', compact('statementStatus'));
     }
 
-    public function update(UpdateStatementStatusRequest $request, StatementStatus $statementStatus)
+    public function update(UpdateStatementStatusRequest $request, StatementStatus $statementStatus): RedirectResponse
     {
         $statementStatus->update($request->all());
 
         return redirect()->route('admin.statement-statuses.index');
     }
 
-    public function show(StatementStatus $statementStatus)
+    public function show(StatementStatus $statementStatus): View
     {
         abort_if(Gate::denies('statement_status_show'), Response::HTTP_FORBIDDEN, '403 Forbidden');
 
@@ -68,7 +69,7 @@ class StatementStatusController extends Controller
         return back();
     }
 
-    public function massDestroy(MassDestroyStatementStatusRequest $request)
+    public function massDestroy(MassDestroyStatementStatusRequest $request): \Illuminate\Http\Response
     {
         StatementStatus::whereIn('id', request('ids'))->delete();
 

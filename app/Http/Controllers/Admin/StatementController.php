@@ -17,6 +17,7 @@ use App\Models\TherapyArea;
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Contracts\View\Factory;
 use Illuminate\Contracts\View\View;
+use Illuminate\Http\JsonResponse;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Gate;
@@ -66,7 +67,7 @@ class StatementController extends Controller
 
         $statuses = StatementStatus::pluck('status', 'id')->prepend(trans('global.pleaseSelect'), '');
 
-        return view('admin.statements.create', compact('parents', 'references', 'resources', 'statuses', 'themes', 'therapy_areas','audiences'));
+        return view('admin.statements.create', compact('parents', 'references', 'resources', 'statuses', 'themes', 'therapy_areas', 'audiences'));
     }
 
     public function store(StoreStatementRequest $request): RedirectResponse
@@ -101,10 +102,10 @@ class StatementController extends Controller
 
         $statement->load('therapy_area', 'parent', 'theme', 'resources', 'references', 'status');
 
-        return view('admin.statements.edit', compact('parents', 'references', 'resources', 'statement', 'statuses', 'themes', 'therapy_areas','audiences'));
+        return view('admin.statements.edit', compact('parents', 'references', 'resources', 'statement', 'statuses', 'themes', 'therapy_areas', 'audiences'));
     }
 
-    public function update(UpdateStatementRequest $request, Statement $statement)
+    public function update(UpdateStatementRequest $request, Statement $statement): RedirectResponse
     {
         $statement->update($request->all());
         $statement->resources()->sync($request->input('resources', []));
@@ -114,7 +115,7 @@ class StatementController extends Controller
         return redirect()->route('admin.statements.index');
     }
 
-    public function show(Statement $statement)
+    public function show(Statement $statement): \Illuminate\View\View
     {
         abort_if(Gate::denies('statement_show'), Response::HTTP_FORBIDDEN, '403 Forbidden');
 
@@ -132,14 +133,14 @@ class StatementController extends Controller
         return back();
     }
 
-    public function massDestroy(MassDestroyStatementRequest $request)
+    public function massDestroy(MassDestroyStatementRequest $request): \Illuminate\Http\Response
     {
         Statement::whereIn('id', request('ids'))->delete();
 
         return response(null, Response::HTTP_NO_CONTENT);
     }
 
-    public function storeCKEditorImages(Request $request)
+    public function storeCKEditorImages(Request $request): JsonResponse
     {
         abort_if(Gate::denies('statement_create') && Gate::denies('statement_edit'), Response::HTTP_FORBIDDEN, '403 Forbidden');
 

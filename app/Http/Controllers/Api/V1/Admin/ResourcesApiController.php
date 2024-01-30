@@ -9,7 +9,6 @@ use App\Http\Requests\UpdateResourceRequest;
 use App\Http\Resources\Admin\ResourceResource;
 use App\Models\Resource;
 use Gate;
-use Illuminate\Http\Request;
 use Symfony\Component\HttpFoundation\Response;
 
 class ResourcesApiController extends Controller
@@ -66,7 +65,7 @@ class ResourcesApiController extends Controller
             ->setStatusCode(Response::HTTP_ACCEPTED);
     }
 
-    public function destroy(Resource $resource)
+    public function destroy(Resource $resource): \Illuminate\Http\Response
     {
         abort_if(Gate::denies('resource_delete'), Response::HTTP_FORBIDDEN, '403 Forbidden');
 

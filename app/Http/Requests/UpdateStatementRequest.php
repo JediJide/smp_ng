@@ -4,7 +4,6 @@ namespace App\Http\Requests;
 
 use App\Models\Statement;
 use Illuminate\Foundation\Http\FormRequest;
-use Illuminate\Http\Response;
 use Illuminate\Support\Facades\Gate;
 
 /**
@@ -21,12 +20,12 @@ class UpdateStatementRequest extends FormRequest
      * @OA\Property(format="int64", default="4,5", description="integer list of resources Id(s)", property="resource_id"),
      * @OA\Property(format="string", default="1,2,3", description="integer list of references Id(s)", property="reference_id"),
      */
-    public function authorize()
+    public function authorize(): bool
     {
         return Gate::allows('statement_edit');
     }
 
-    public function rules()
+    public function rules(): array
     {
         return [
             'therapy_area_id' => [

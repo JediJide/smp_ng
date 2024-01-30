@@ -6,6 +6,7 @@ use Illuminate\Http\Resources\Json\JsonResource;
 
 /**
  * Class CategoryResource
+ *
  * @OA\Schema(
  * )
  */
@@ -19,7 +20,7 @@ class NotificationResource extends JsonResource
      * @OA\Property(format="string", title="deleted_at", default="2022-01-06 15:47:41", description="deleted_at", property="deleted_at"),
      * @OA\Property(format="int64", title="therapy_area_id", default="1", description="therapy_area_id", property="therapy_area_id"),
      */
-    public function toArray($request)
+    public function toArray($request): array
     {
         return parent::toArray($request);
     }

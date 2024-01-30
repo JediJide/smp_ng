@@ -2,19 +2,17 @@
 
 namespace App\Http\Requests;
 
-use App\Models\Reference;
 use Gate;
 use Illuminate\Foundation\Http\FormRequest;
-use Illuminate\Http\Response;
 
 class StoreReferenceRequest extends FormRequest
 {
-    public function authorize()
+    public function authorize(): bool
     {
         return Gate::allows('reference_create');
     }
 
-    public function rules()
+    public function rules(): array
     {
         return [
             'url' => [

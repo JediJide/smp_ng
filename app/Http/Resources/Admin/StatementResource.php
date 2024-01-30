@@ -6,6 +6,7 @@ use Illuminate\Http\Resources\Json\JsonResource;
 
 /**
  * Class StatementResource
+ *
  * @OA\Schema(
  * )
  */
@@ -19,7 +20,7 @@ class StatementResource extends JsonResource
      * @OA\Property(format="int64", title="parent_id", default="12", description="parent_id", property="parent_id"),
      * @OA\Property(format="int64", title="therapy_area_id", default="1", description="therapy_area_id", property="therapy_area_id"),
      */
-    public function toArray($request)
+    public function toArray($request): array
     {
         return parent::toArray($request);
     }

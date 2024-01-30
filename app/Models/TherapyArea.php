@@ -5,6 +5,7 @@ namespace App\Models;
 use DateTimeInterface;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
 /**
@@ -12,12 +13,13 @@ use Illuminate\Database\Eloquent\SoftDeletes;
  * required={"name"}
  *
  * Statement Class
+ *
  * @method static create(array $validated)
  */
 class TherapyArea extends Model
 {
-    use SoftDeletes;
     use HasFactory;
+    use SoftDeletes;
 
     public $table = 'therapy_areas';
 
@@ -28,17 +30,17 @@ class TherapyArea extends Model
         'deleted_at',
     ];
 
-    public function therapyAreaStatements()
+    public function therapyAreaStatements(): HasMany
     {
         return $this->hasMany(Statement::class, 'therapy_area_id', 'id');
     }
 
-    public function therapyAreaGlossaries()
+    public function therapyAreaGlossaries(): HasMany
     {
         return $this->hasMany(Glossary::class, 'therapy_area_id', 'id');
     }
 
-    public function therapyAreaLexicons()
+    public function therapyAreaLexicons(): HasMany
     {
         return $this->hasMany(Lexicon::class, 'therapy_area_id', 'id');
     }

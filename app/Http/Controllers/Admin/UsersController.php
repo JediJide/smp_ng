@@ -14,7 +14,6 @@ use Illuminate\Contracts\Routing\ResponseFactory;
 use Illuminate\Contracts\View\Factory;
 use Illuminate\Contracts\View\View;
 use Illuminate\Http\RedirectResponse;
-use Illuminate\Http\Request;
 use Symfony\Component\HttpFoundation\Response;
 
 class UsersController extends Controller
@@ -41,7 +40,7 @@ class UsersController extends Controller
 
     public function store(StoreUserRequest $request): RedirectResponse
     {
-        $user = User::query ()->create($request->all());
+        $user = User::query()->create($request->all());
         $user->roles()->sync($request->input('roles', []));
 
         return redirect()->route('admin.users.index');
@@ -51,7 +50,7 @@ class UsersController extends Controller
     {
         abort_if(Gate::denies('user_edit'), Response::HTTP_FORBIDDEN, '403 Forbidden');
 
-        $roles = Role::query ()->pluck('title', 'id');
+        $roles = Role::query()->pluck('title', 'id');
 
         $user->load('roles');
 
@@ -86,7 +85,7 @@ class UsersController extends Controller
 
     public function massDestroy(MassDestroyUserRequest $request): \Illuminate\Http\Response|Application|ResponseFactory
     {
-        User::query ()->whereIn('id', request('ids'))->delete();
+        User::query()->whereIn('id', request('ids'))->delete();
 
         return response(null, Response::HTTP_NO_CONTENT);
     }

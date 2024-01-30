@@ -2,9 +2,7 @@
 
 namespace App\Http\Requests;
 
-use App\Models\TherapyArea;
 use Illuminate\Foundation\Http\FormRequest;
-use Illuminate\Http\Response;
 use Illuminate\Support\Facades\Gate;
 
 /**
@@ -21,7 +19,7 @@ class UpdateTherapyAreaRequest extends FormRequest
         return Gate::allows('therapy_area_edit');
     }
 
-    public function rules()
+    public function rules(): array
     {
         return [
             'name' => [

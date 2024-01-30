@@ -9,14 +9,12 @@ class TherapyAreaTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.
-     *
-     * @return void
      */
-    public function run()
+    public function run(): void
     {
         $therapy_areas = [
             [
-                'id'    => 1,
+                'id' => 1,
                 'name' => 'EtranaDez',
             ],
         ];

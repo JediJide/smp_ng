@@ -4,8 +4,6 @@ namespace App\Listeners;
 
 use App\Models\Role;
 use Illuminate\Auth\Events\Registered;
-use Illuminate\Contracts\Queue\ShouldQueue;
-use Illuminate\Queue\InteractsWithQueue;
 
 class AssignRoleForRegisteredUser
 {
@@ -23,10 +21,8 @@ class AssignRoleForRegisteredUser
 
     /**
      * Handle the event.
-     *
-     * @param object $event
      */
-    public function handle(Registered $event)
+    public function handle(Registered $event): void
     {
         $this->user = $event->user;
 
